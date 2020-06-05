@@ -1,0 +1,609 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">信息</string>
+
+    <string name="january">一月</string>
+    <string name="february">二月</string>
+    <string name="march">三月</string>
+    <string name="april">四月</string>
+    <string name="may">五月</string>
+    <string name="june">六月</string>
+    <string name="july">七月</string>
+    <string name="august">八月</string>
+    <string name="september">九月</string>
+    <string name="october">十月</string>
+    <string name="november">十一月</string>
+    <string name="december">十二月</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">登录</string>
+    <string name="log_in">登录</string>
+    <string name="login_msg">登录享受所有功能</string>
+    <string name="training">训练</string>
+    <string name="heart_rate_control">心率控制</string>
+    <string name="hiit">HIIT</string>
+    <string name="physical_test">体格测试</string>
+    <string name="target_train">目标训练</string>
+    <string name="my_performance">我的表现</string>
+    <string name="body_manager">体能管理</string>
+    <string name="my_gym">我的健身房</string>
+    <string name="my_workout">我的运动</string>
+    <string name="quick_start">立即体验</string>
+    <string name="you_have_a_message">您有讯息</string>
+    <string name="settings">设定</string>
+    <string name="logout">注销</string>
+    <string name="log_out">注销</string>
+    <!-- Login -->
+    <string name="sign_up">注册</string>
+    <string name="forgot_password">忘记密码</string>
+    <string name="quick_log_in_with">以CircleFit应用程序快速登录</string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">启用移动设备中的蓝牙。</string>
+    <string name="login_expand_2">打开CircleFit应用程序。</string>
+    <string name="login_expand_3">将移动设备靠近控制台的右下角。配对会自动开始。</string>
+    <string name="note">註:</string>
+    <string name="note_contents">必须注册CircleFit APP才能启动快速登录。CircleFit是Circle Fitness的健身应用程序。可在应用商店/谷歌Play或扫描下方的二维码来免费下载。</string>
+    <string name="email">电子邮件</string>
+    <string name="password">密码</string>
+    <string name="enter_your_account">输入您注册时使用的邮箱，我们会发送密码到您的电子邮件信箱。</string>
+    <string name="send">发送</string>
+    <string name="email_sent">电子邮件已发送</string>
+    <string name="ok">OK</string>
+    <string name="incorrect_email">不正确的电子邮件</string>
+    <string name="not_a_valid_email_address">不是有效的电子邮件地址。</string>
+    <string name="password_erroe">密码或电子邮件无法识别。请重新输入。</string>
+    <string name="connect_problem">互联网联机问题。请重试。</string>
+    <string name="no_account_matches">找不到与相符的账户</string>
+    <string name="please_try_again">请重试。</string>
+    <string name="user_id_exist_1">此电子邮件的账户已存在</string>
+    <string name="user_id_exist_2">请改用另外的电子邮件地址。</string>
+
+    <!-- Reg -->
+    <string name="registration">注册</string>
+    <string name="circlecloud_go_sign_up">CIRCLECLOUD GO注册</string>
+    <string name="account_exist">此电子邮件的账户已存在。请改用另外的电子邮件地址。</string>
+    <string name="confirm_password">确认密码</string>
+    <string name="username">用户名</string>
+    <string name="user_name">用户名</string>
+    <string name="units">单位</string>
+    <string name="metric">公制</string>
+    <string name="imperial">英制</string>
+    <string name="gender">性别</string>
+    <string name="female">女性</string>
+    <string name="male">男性</string>
+    <string name="height">身高</string>
+    <string name="height_required">若要身体成分分析仪测量精确，必须填入身高</string>
+    <string name="height_metric_error_msg">请输入130到220 cm之间的数值</string>
+    <string name="height_imperial_error_msg">请输入 4 ' 3"-7 ' 3"之间的数值</string>
+    <string name="date_of_birth">出生年月日</string>
+    <string name="date_of_birth_required">若要身体成分分析仪测量精确，必须填入出生年月日</string>
+    <string name="privacy_policy">隐私政策</string>
+    <string name="i_agree">我同意隐私政策</string>
+    <string name="view_privacy_policy">查看隐私政策</string>
+    <string name="privacy_policy_contents">隐私权
+
+Circle Fitness 是一间位于台湾的公司，以 Circle Fitness之名称进行健身器材推广相关的业务，当您注册成我们的会员您即成为我们的产品用户，在本声明中将详细说明我们会向您收集哪些信息。本声明并未涵盖我们收集的任何其他信息，包括但不限于，我们脱机收集的数据，或透过行动装置应用程序和健身房从我们健身器材设备所接收到的数据。
+服务器位置。
+我们的总部位于台湾。我们的服务器存放在美国和其他国家/地区，并在这些地点处理信息。当您造访我们的网站时，您会将数据传输至美国和其他国家/地区。
+
+我们收集的信息。
+您主动提供的信息：当您注册账户或向我们传送请求时，我们可能会要求您提供姓名(不需真实姓名, 欢迎使用昵称) 、身高、生日、电子邮件地址、和密码。
+
+我们被动收集的信息：我们也会追踪你登入后所使用的机台，来收集关于您造访的时间与日期信息，机台类型，使用的程序等等。收集此类型的信息是为了提供更有用的产品与服务给您。
+
+
+综合资料：我们可能会结合透过健身器材所接收的信息和我们从其他来源所接收有关于您的信息，例如: 穿戴装置或第三方健身软件。
+
+信息的共享。
+收集数据的目地是为您创造更好，更个性化的健身体验, 我们不会出租、出售或以其他方式与第三方共享您的个人信息，除非：
+- 事先征得您的同意。
+- 我们会利用世界各地的附属和独立服务提供商，在保密协议的规范下协助我们提供服务并进行业务。
+- 我们会共享汇整的使用统计数据，且该数据并不会用于识别您的个人信息。
+信息的安全性。
+我们应用了各种组织性和技术性措施，以确保仅限定有知情必要的人员可存取您的信息。尽管我们已采取了相关的措施来保护您的个人信息，但您应该知晓，我们或任何其他公司均无法完全消除安全风险。
+
+联络我们。
+若您对于本隐私权政策有任何问题或顾虑，请透过电子邮件 info @circlefitness.com 或网站www.circlefitness.com 与我们联络。
+隐私声明更新。
+我们可能会不时更新本声明。当我们更新声明时，将会一并变更上述最新更新时间，以让您知道我们进行了变更。
+生效日期：2018 年 5 月 22 日</string>
+    <string name="exit">离开</string>
+    <string name="please_make_sure_your_passwords_match">请确定您的密码匹配。</string>
+    <string name="congratulations_lower">祝贺</string>
+    <string name="registration_done">注册完成！</string>
+    <string name="exit_description">注册不完整，您确定要退出吗？</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">这是一个CIRCLECLOUD GO APP</string>
+    <string name="login_dialog_info_line_2">请登录继续</string>
+    <string name="initializing_quick_login">初始化快速登录</string>
+    <string name="unable_to_connect">无法连接！</string>
+    <string name="please_try_again_later">请重试。</string>
+
+
+    <!-- Home -->
+    <string name="welcome">欢迎</string>
+    <string name="my_class_reminder">我的课程排程</string>
+    <string name="schedule_change">时程表变动</string>
+    <string name="first_login_welcome">欢迎使用CircleCloud Go！在这里，我们希望你能找到帮助自己训练的功能。尽情享受，愉悦的运动健身！</string>
+    <string name="there_is_a">有</string>
+    <string name="today_at">在今天的</string>
+    <string name="tomorrow_at">在明天的</string>
+    <string name="hi">你好</string>
+    <string name="target_update">目标更新</string>
+    <string name="home_msg_times_up_1">你已经到了目标的目标天数结束日</string>
+    <string name="home_msg_times_up_2">可在“目标训练”中检查进度！</string>
+    <string name="home_msg_half_way_through_1">祝贺你已经达到目标的一半！</string>
+    <string name="home_msg_half_way_through_2">可在“目标训练”中查看进度！</string>
+    <string name="home_msg_reached_1">祝贺你已经达到目标！</string>
+    <string name="home_msg_reached_2">可在“目标训练”中查看结果！</string>
+    <string name="this_schedule_of">时程表</string>
+    <string name="has_been_changed_from">已从变动</string>
+    <string name="to">为</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">公告栏</string>
+    <string name="class_str">课程</string>
+    <string name="my_class">我的课程</string>
+    <string name="hot">热门</string>
+    <string name="add_to_my_class">添加到我的课程</string>
+    <string name="added">已添加</string>
+    <string name="remove_from_my_class">从我的课程中去除</string>
+    <string name="removed">已去除</string>
+    <string name="mygym_dialog_info">我的健身房可随时提供你最新消息、课程以及各种优惠。</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">创建你的健身目标</string>
+    <string name="targer_dialog_info">目标训练是云计算程序，和CircleFit健身应用程序实时连接，便可设置健身目标以及追踪最新进展。</string>
+    <string name="distance">距离</string>
+    <string name="distance_60_rpm">距离@60 RPM</string>
+    <string name="distance_80_rpm">距离@80 RPM</string>
+    <string name="calories">卡路里</string>
+    <string name="calories_60_rpm">卡路里@60 RPM</string>
+    <string name="calories_80_rpm">卡路里@80 RPM</string>
+    <string name="exercise_frequency">运动频率</string>
+    <string name="weight">体重</string>
+    <string name="weight_upper">体重</string>
+    <string name="bodyfat_percent">体脂肪</string>
+    <string name="days_left">剩下天</string>
+    <string name="weeks_left">还剩几周</string>
+    <string name="view_details">查看详情</string>
+    <string name="target">目标</string>
+    <string name="start">开始</string>
+    <string name="create_a_new_target">创建一个新的目标</string>
+    <string name="target_distance">目标距离    </string>
+    <string name="current_distance">当前距离     </string>
+    <string name="target_days">目标天数   </string>
+    <string name="current_days">当前天数 </string>
+    <string name="target_weight">目标体重  </string>
+    <string name="current_weight">当前体重   </string>
+    <string name="input_weight">输入体重</string>
+    <string name="input_body_fat">输入体脂肪%</string>
+    <string name="target_body_fat">目标体脂肪%    </string>
+    <string name="current_body_fat">当前体脂肪%     </string>
+    <string name="current">当前</string>
+    <string name="target_days_weeks">目标天/周     </string>
+    <string name="target_weeks">目标周   </string>
+    <string name="current_week">当前周    </string>
+    <string name="achievement">成就</string>
+    <string name="this_week">本周</string>
+    <string name="target_calories">目标卡路里  </string>
+    <string name="current_calories">当前卡路里</string>
+    <string name="days">天</string>
+    <string name="day">天</string>
+    <string name="week">周</string>
+    <string name="weeks">周</string>
+    <string name="choose_your_fitness_target">选择你的健身目标</string>
+    <string name="how_many_days_per_week">每周有几天？</string>
+    <string name="dates">日期</string>
+    <string name="end_date">结束日期</string>
+    <string name="running">跑步</string>
+    <string name="biking">骑自行车</string>
+    <string name="elliptical">椭圆机</string>
+    <string name="all">全部</string>
+    <string name="select_exercise_type">选择运动类型</string>
+    <string name="history_upper">历史</string>
+    <string name="edit">编辑</string>
+    <string name="done">完成</string>
+    <string name="percent_loss">％ 消耗</string>
+    <string name="percent_gain">% 获得</string>
+    <string name="lb_loss">lb 消耗</string>
+    <string name="lb_gain">lb 获得</string>
+    <string name="kg_loss">kg 消耗</string>
+    <string name="kg_gain">kg 获得</string>
+    <string name="delete_description">你确定要删除这个目标吗？</string>
+    <string name="delete">删除</string>
+    <string name="cancel">取消</string>
+    <string name="deleted">删除</string>
+    <string name="close_description">你确定要结束这个目标吗？</string>
+    <string name="end_now">现在结束</string>
+    <string name="target_ended">目标已结束</string>
+    <string name="try_again_next_time">下次再试一下！</string>
+    <string name="super_str">非常好</string>
+    <string name="great">很好</string>
+    <string name="good_try">很好的尝试！</string>
+    <string name="congratulations">祝贺！</string>
+    <string name="you_reached_your_target_in_time">你已经及时的达到目标并</string>
+    <string name="you_reached_your_target">你已经达到目标并</string>
+    <string name="half_way_through">你已经过一半了！</string>
+    <string name="you_are_almost_there">几乎到了！</string>
+    <string name="continue_exclamation_mark">继续!</string>
+    <string name="continue_str">继续</string>
+    <string name="week_achieved">周实现</string>
+    <string name="target_end_title">你已经没有时间达到目标了！</string>
+    <string name="target_end_description">你想继续尝试赢得一颗银星吗？</string>
+    <string name="end">结束</string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">创建你的运动</string>
+    <string name="create_a_new_workout">创建新的运动</string>
+    <string name="workout_name">运动名称</string>
+    <string name="preview">预览</string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">储存</string>
+    <string name="details">细节</string>
+    <string name="avg_speed">平均速度</string>
+    <string name="delete_interval_description">您确定要删除此间隔吗？</string>
+    <string name="delete_item_description">你确定要删除吗？</string>
+    <string name="yes_str">是</string>
+    <string name="no_str">否</string>
+    <string name="workout_has_not_been_saved">运动并未保存</string>
+    <string name="are_you_sure_you_want_to_leave">你确定要离开吗？</string>
+    <string name="workout_info">我的运动接受每个间隔阻力等级的设置，从而创建你自己的健身计划。点击“创建你的运动”即开始定制。可创建多达3个健身计划。</string>
+    <string name="workout_info_bk">我的运动接受每个间隔阻力等级的设置，从而创建你自己的健身计划。点击“创建你的运动”即开始定制。可创建多达3个健身计划。</string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">正常</string>
+    <string name="high">高</string>
+    <string name="advanced">最高级</string>
+    <string name="personal">个人</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">名称</string>
+    <string name="edit_name">编辑名称</string>
+    <string name="sprint">短跑冲刺</string>
+    <string name="recovery">复位</string>
+    <string name="sec">sec</string>
+    <string name="view">视图</string>
+    <string name="skip">跳过</string>
+    <string name="total_intervals">总的间隔时间</string>
+    <string name="intervals">间隔</string>
+    <string name="duration_upper">持续时间</string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">HIIT (高强度间歇性训练)提供短时间内高强度与低强度复原期的交替运动，可增进您的运动表现，尽量燃烧脂肪。</string>
+    <string name="hiit_normal_info">低强度的速度和上斜。建议初学者使用。</string>
+    <string name="hiit_high_info">高强度的速度和上斜。建议有经验的教练使用。</string>
+    <string name="hiit_advanced_info">极高强度的速度和上斜。只适合高级教练使用。</string>
+    <string name="hiit_personal_info">建立您个人化的HIIT。最多可建立3组个人化 HIIT。</string>
+    <string name="create_your_hiit_workout">创建你的HIIT运动</string>
+    <string name="hiit_delete_item_description">确定要删除吗？</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">身体管理是通过Circle Fitness IBA/InBody 570和CircleFit健身应用程序，测量和追踪你的运动而设计的身体管理程序。</string>
+    <string name="last_updated">最后一次更新</string>
+    <string name="no_data">无数据</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">身体总水量</string>
+    <string name="total_body_water_two">身体总水量</string>
+    <string name="visceral_fat_rating">内脏脂肪含量</string>
+    <string name="visceral_fat_rating_two">内脏脂肪含量</string>
+    <string name="bone_mass">骨量</string>
+    <string name="muscle_mass">肌肉量</string>
+    <string name="body_fat">体脂肪%</string>
+    <string name="intracellular_water">细胞内水分</string>
+    <string name="extracellular_water">细胞外水分</string>
+    <string name="protein">蛋白质</string>
+    <string name="mineral">矿物质</string>
+    <string name="waist_hip_ratio">腰臀比</string>
+    <string name="obesity_degree">肥胖程度</string>
+    <string name="input">输入</string>
+    <string name="view_history">查看历史</string>
+    <string name="history">历史</string>
+    <string name="date">日期</string>
+    <string name="info_weight_subtitle">体重</string>
+    <string name="info_bodyfat_percent_subtitle">体脂率是脂肪相对于全身体重的比率。</string>
+    <string name="info_bmi_subtitle">体重对比于身高的标准化比率，用来当作一般的健康指标。</string>
+    <string name="info_bmr_subtitle">为了使身体有效运作，您每天在休息（包括睡眠）时所需的最低能量或卡路里水平</string>
+    <string name="info_total_body_water_subtitle">「身体总含水量」是人体中的液体总量，以相对于全身体重的比率来表示。</string>
+    <string name="info_visceral_fat_rating_subtitle">内脏脂肪位于腹部核心区域，包围和保护着重要器官。</string>
+    <string name="info_bone_mass_subtitle">骨量</string>
+    <string name="info_intracellular_water_subtitle">细胞内水分</string>
+    <string name="info_extracellular_water_subtitle">细胞外水分</string>
+    <string name="info_protein_subtitle">蛋白质</string>
+    <string name="info_mineral_subtitle">矿物质</string>
+    <string name="info_waist_hip_ratio_subtitle">腰臀比</string>
+    <string name="info_obesity_degree_subtitle">肥胖程度</string>
+
+    <string name="info_weight">体重</string>
+    <string name="info_bodyfat_percent">体脂肪对于维持体温、软化关节与保护体内器官而言是不可或缺的。脂肪过多会破坏您长期的健康。已证实减少过量的体脂肪可直接降低某些病症的风险，例如高血压、心脏病、第二型糖尿病和某些癌症。体脂肪过少可能导致晚年骨质疏松，女性经期异常，可能会不孕。对照您的体脂肪结果，是否在健康体脂肪范围内，相当重要。</string>
+    <string name="info_bmi">体重对比于身高的标准化比率，用来当作一般的健康指标。</string>
+    <string name="info_bmr">基础代谢率（BMR）是您的身体在休息时每天所需的最低能量或卡路里含量，以使呼吸和循环器官，神经系统，肝脏，肾脏和其他器官有效发挥作用</string>
+    <string name="info_total_body_water">水份对于许多身体程序而言，扮演着重要的角色，每个细胞、组织和器官中都有水份。维持健康的身体总含水率，可确保身体功能有效运作，降低发展成相关健康问题的风险。</string>
+    <string name="info_visceral_fat_rating">内脏脂肪（腹部脂肪）是包围身体躯干/胃部重要器官的脂肪。内脏脂肪含量高会增加高血压、心脏病和2型糖尿病的风险。降低内脏脂肪量可以稳定胰岛素作用，从而降低糖尿病和其它相关疾病风险。</string>
+    <string name="info_bone_mass">骨量</string>
+    <string name="info_intracellular_water">细胞内水分</string>
+    <string name="info_extracellular_water">细胞外水分</string>
+    <string name="info_protein">蛋白质</string>
+    <string name="info_mineral">矿物质</string>
+    <string name="info_waist_hip_ratio">腰臀比</string>
+    <string name="info_obesity_degree">肥胖程度</string>
+    <string name="trunk">躯干</string>
+    <string name="left_arm">左手臂</string>
+    <string name="right_arm">右手臂</string>
+    <string name="left_leg">左腿</string>
+    <string name="right_leg">右腿</string>
+    <string name="underfat">偏瘦</string>
+    <string name="healthy">健康</string>
+    <string name="overfat">过重</string>
+    <string name="obese">肥胖</string>
+    <string name="your_healthy_bone_mass">你的健康骨量是</string>
+    <string name="your_ideal_weight">你理想的体重</string>
+    <string name="your_health_waist_hip_ratio">你的健康腰臀比</string>
+    <string name="bd_infomation_title">身体管理同步于Circle Fitness IBA或InBody 570。</string>
+    <string name="bd_infomation_content">请检查你的设备之可用性。</string>
+    <string name="circle_fitness_iba">Circle Fitness IBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">心率控制可通过控制运动速度和心肺运动设备的强度级别，从而保持你选择的每分钟心跳值，使之最优化的运动。</string>
+    <string name="fatburn">燃烧脂肪</string>
+    <string name="aerobic">有氧</string>
+    <string name="performance">表现</string>
+    <string name="customize">自定义</string>
+    <string name="years">岁</string>
+    <string name="heart_rate">心率</string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">把你的最大心率设置为65%。这个程序将适当地调整强度，帮助你达到目标心率。</string>
+    <string name="hrc_info_aerobic">把你的最大心率设置为75%。这个程序将适当地调整强度，帮助你达到目标心率。</string>
+    <string name="hrc_info_performance">把你的最大心率设置为85%。这个程序将适当地调整强度，帮助你达到目标心率。</string>
+    <string name="hrc_info_customize">设置目标心率。这个程序会适当地调整强度级别，帮助你达到目标。</string>
+    <string name="age">年龄</string>
+
+    <string name="age_range_error_msg">请输入之间的数值</string>
+    <string name="duration">持续时间</string>
+    <string name="profile">个人档案</string>
+    <string name="change_password">更改密码</string>
+    <string name="data_syncing">数据同步</string>
+    <string name="unit">单位</string>
+    <string name="old_password">旧密码</string>
+    <string name="new_password">新密码</string>
+    <string name="confirm_new_password">确认新密码</string>
+    <string name="password_changed">密码已更改</string>
+    <string name="old_password_incorrect">旧密码不正确</string>
+    <string name="new_password_incorrect">请确定您的密码匹配。</string>
+    <string name="month">月</string>
+    <string name="year">年</string>
+    <string name="fitness_apps">健身应用程序</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">可穿戴式应用程序</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">Garmin连接</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">体能测试是美军用来评估包含各种标准的运动员的有氧能力和耐力的健身应用。</string>
+    <string name="phy_gerkin_protocol_info">这个程序起初是为了消防员设计的，用来监测心率和检测VO2级别。一旦当你的最大心率达到85%时，程序便会自动停止。</string>
+    <string name="phy_cooper_test_info">库珀测试是为美国军方设计的运动距离的体能测试。目标是想知道一个人在12分钟之内能跑的远距。你可以跑多远呢？</string>
+    <string name="phy_usmc_ptf_info">海军陆战队体能测试是一项3英里的定时跑步。面对挑战，尝试尽全力快速完成这项跑步任务！</string>
+    <string name="phy_army_prt_info">陆军体能战备训练测试是一项2英里的定时跑步。尝试尽全力快速地完成它。</string>
+    <string name="phy_navy_prt_info">海军体能训练测试是一项1.5英里的定时跑步。尝试尽全力快速地完成它！</string>
+    <string name="phy_usaf_ptf_info">空军体能测试是一项1.5英里的定时跑步。尝试尽全力快速地完成它！</string>
+    <string name="phy_federal_law_info">这是一项1.5英里的定时跑步。尝试尽全力快速地完成它！</string>
+    <string name="phy_vo2_info">VO2最大量，即为最大摄氧量，是运动员在进行耐力运动时决定耐力的因素之一。</string>
+
+    <string name="manual">手动</string>
+    <string name="hill">登山</string>
+    <string name="cardio">心肺功能</string>
+    <string name="interval">间歇</string>
+    <string name="strenght">强度</string>
+    <string name="rolling_hill">罗灵丘陵</string>
+    <string name="incline">上斜</string>
+    <string name="mountain_peak">山峰</string>
+    <string name="constant_watt">恒定瓦</string>
+    <string name="set_a_goal">设定一个目标</string>
+    <string name="select_goal">选择目标</string>
+    <string name="tr_dialog_info">我们提供全面的心肺功能运动课程，有助于提高有氧运动及训练身体耐力，具备更高挑战的运动！</string>
+    <string name="tr_manual_info">以适合你的跑速和强度进行运动。</string>
+    <string name="tr_hill_info">让这个登山程序挑战自己。我们山顶再见！</string>
+    <string name="tr_fatburn_info">低强度运动，身体输送足够氧气给肌肉，燃烧更多囤积的脂肪。</string>
+    <string name="tr_cardio_info">燃烧更多的卡路里，通过该程序调节心肺功能。</string>
+    <string name="tr_strenght_info">用这个高强度运动来挑战自己。</string>
+    <string name="tr_interval_info">想增加你的耐力吗？这个间歇训练程序会帮助您！</string>
+    <string name="tr_target_info">选择一个特定目标，争取达到。您能做到！</string>
+    <string name="tr_rolling_hill_info">以不同的长度及高度的间歇运动来挑战自己。</string>
+    <string name="tr_mountains_peak_info">在模拟的户外车道恒定上斜坡度骑单车。</string>
+    <string name="tr_incline_info">运用这个模拟的户外车道，在稳定而激烈的上斜坡段骑单车。</string>
+    <string name="tr_constant_watt_info">您的目标瓦数输出是多少？这个程序会根据您骑行踩踏板的速度来调整强度级别，以帮助您达到目标。</string>
+    <string name="level">级别</string>
+    <string name="easy">容易</string>
+    <string name="medium">中等</string>
+    <string name="hard">困难</string>
+    <string name="time">时间</string>
+    <string name="stop">停止</string>
+    <string name="emergency">紧急停止</string>
+    <string name="emergency_note">再次按下紧急停止按钮重新设置</string>
+    <string name="error">错误</string>
+    <string name="error_codes">错误代码：</string>
+    <string name="resume">恢复</string>
+    <string name="pause">暂停</string>
+    <string name="no_heart_rate_detect">没有检测到心率。 请戴上你的胸带。</string>
+    <string name="workout_will_stop_in">运动在%1$d:%2$02d停止</string>
+    <string name="heart_">运动在%1$d:%2$02d停止</string>
+    <string name="reset">重置</string>
+    <string name="system_will_be_auto_reset">系统将自动重置</string>
+    <string name="press_continue">按恢复键继续</string>
+    <string name="continue01">继续</string>
+    <string name="current_heart_rate">目前的心率</string>
+    <string name="maximum_heart_rate">最大心率85%</string>
+    <string name="warm_up">热身</string>
+    <string name="stage">阶段</string>
+    <string name="next">下一步</string>
+    <string name="cool_donw">冷却放松</string>
+    <string name="time_required_60">需要通过的时间(评分60)：x:xx</string>
+    <string name="remaining_time">剩余时间</string>
+    <string name="cardio_type">心肺功能类型</string>
+    <string name="pace">跑速</string>
+    <string name="avg_pace">平均跑速</string>
+    <string name="best_pace">最佳跑速</string>
+    <string name="total_distance">总的距离</string>
+    <string name="total_calories">总的卡路里</string>
+    <string name="avg_heart_rate">平均心率</string>
+    <string name="max_heart_rate">最大心律</string>
+    <string name="please_remember">请在离开前先注销。</string>
+    <string name="complete">完成</string>
+    <string name="imcomplete"> 不完全</string>
+    <string name="treadmill">跑步机</string>
+    <string name="summary">概要</string>
+    <string name="very_good">非常好</string>
+    <string name="good">良好</string>
+    <string name="average">及格</string>
+    <string name="bad">不及格</string>
+    <string name="very_bad">很差</string>
+    <string name="normal">正常</string>
+    <string name="score">评分</string>
+    <string name="low_risk">低等风险</string>
+    <string name="moderate_risk">中等风险</string>
+    <string name="high_risk">高风险</string>
+    <string name="speed_decreases_to">速度减慢</string>
+    <string name="speed_increases_to">速度提高到</string>
+    <string name="incline_decreases_to">倾斜度减少到</string>
+    <string name="incline_increases_to">倾斜度增加至</string>
+    <string name="level_decreases_to">阻力位降至</string>
+    <string name="level_increases_to">阻力水平提高到</string>
+    <string name="resistance_level_decreases">阻力等级将在3秒内下降到%1$.1f</string>
+    <string name="resistance_level_increases">阻力等级将在3秒内增加到%1$.1f</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">简易</string>
+    <string name="lap">圈</string>
+    <string name="speed">SPEED</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">时间</string>
+    <string name="target_time">目标时间</string>
+    <string name="target_hr">目标心率</string>
+    <string name="mets">METS</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>
+
+    <!-- Performance -->
+    <string name="session1">阶段</string>
+    <string name="performance_dialog_info">从心肺运动设备、运动应用程序和运动可穿戴式设备上查看你的运动表现。比较结果，进一步的挑战自己！</string>
+    <string name="other">其它</string>
+    <string name="avg_watt">平均瓦(瓦)</string>
+    <string name="share">分享</string>
+    <string name="add">添加</string>
+    <string name="select_date">选择日期</string>
+    <string name="select_time">选择时间</string>
+    <string name="h">時</string>
+    <string name="m">分</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">强度</string>
+    <string name="vo2_faster_to_keep">踩踏快一点使瓦特值保持在</string>
+    <string name="vo2_slowly_to_keep">踩踏慢一点使瓦特值保持在</string>
+    <string name="target_watt">目标瓦特值</string>
+    <string name="connection_lost">連結異常</string>
+    <string name="data_upload_unsuccessful">资料传输不成功</string>
+    <string name="data_not_uploaded_to_circlecloudgo">由于连接或服务器问题，数据未上传到circlecloudgo！</string>
+    <string name="no_heart_rate_detected">没有检测到心率。 请戴上胸带或将手放在心率传感器上</string>
+    <string name="auto_speed_cool_down_disabled">自动速度冷却放松关闭</string>
+    <string name="auto_resistance_level_down_disabled">自动阻力冷却放松关闭</string>
+    <string name="show_history_data">显示历史数据</string>
+    <string name="show_monthly_total">显示每月的数据</string>
+    <string name="show_yearly_total">显示年度数据</string>
+    <string name="close">关闭</string>
+    <string name="account">账户</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">欢迎使用CircleCloud Go，功能最全面的健康管理师！</string>
+    <string name="tutorial_first_2st">这里有些提示可以帮助你开始。</string>
+    <string name="tutorial_target_1st">利用"icon%s"设置健身目标!</string>
+    <string name="tutorial_target_2st">目标训练</string>
+    <string name="tutorial_gym_1st">利用"icon%s"随时了解设施供应情况的通知!</string>
+    <string name="tutorial_gym_2st">我的健身房</string>
+    <string name="tutorial_performance_1st">利用"icon%s"来测量你的运动结果!</string>
+    <string name="tutorial_performance_2st">我的表现</string>
+    <string name="tutorial_workout_1st">通过使用"icon%s"创建个性化的锻炼!</string>
+    <string name="tutorial_workout_2st">我的运动</string>
+    <string name="tutorial_body_1st">利用"icon%s"检查你的健身指标数据!</string>
+    <string name="tutorial_body_2st">体能管理</string>
+    <string name="tutorial_last_str">免费下载CircleFit应用程序访问其所有内容。使用CircleFit应用程序执行快速登录心肺运动设备。</string>
+
+    <!-- Fan -->
+    <string name="fan_title">风扇</string>
+    <string name="fan_info_off">关闭</string>
+    <string name="fan_info_50">低</string>
+    <string name="fan_info_100">高</string>
+
+    <!-- New Add -->
+    <string name="select_language">选择语言</string>
+    <string name="birthday_day">日</string>
+    <string name="emergency_note_FOR_M6">放回紧急停止开关夹将重新启动</string>
+    <string name="Logout_confirm">是否退出？</string>
+
+    <string name="WeekStr_1">周一</string>
+    <string name="WeekStr_2">周二</string>
+    <string name="WeekStr_3">周三</string>
+    <string name="WeekStr_4">周四</string>
+    <string name="WeekStr_5">周五</string>
+    <string name="WeekStr_6">周六</string>
+    <string name="WeekStr_7">周日</string>
+
+    <string name="month_1">1月</string>
+    <string name="month_2">2月</string>
+    <string name="month_3">3月</string>
+    <string name="month_4">4月</string>
+    <string name="month_5">5月</string>
+    <string name="month_6">6月</string>
+    <string name="month_7">7月</string>
+    <string name="month_8">8月</string>
+    <string name="month_9">9月</string>
+    <string name="month_10">10月</string>
+    <string name="month_11">11月</string>
+    <string name="month_12">12月</string>
+
+</resources>

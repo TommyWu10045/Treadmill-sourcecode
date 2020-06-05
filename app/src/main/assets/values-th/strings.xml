@@ -1,0 +1,608 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">ข้อมูลเกี่ยวกับบัญชี</string>
+
+    <string name="january">มกราคม</string>
+    <string name="february">กุมภาพันธ์</string>
+    <string name="march">มีนาคม</string>
+    <string name="april">เมษายน</string>
+    <string name="may">พฤษภาคม</string>
+    <string name="june">มิถุนายน</string>
+    <string name="july">กรกฎาคม</string>
+    <string name="august">สิงหาคม</string>
+    <string name="september">กันยายน</string>
+    <string name="october">ตุลาคม</string>
+    <string name="november">พฤศจิกายน</string>
+    <string name="december">December</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">ล็อกอิน</string>
+    <string name="log_in">ล็อกอิน</string>
+    <string name="login_msg">ล็อกอินเพื่อใช้งานทุกฟังก์ชั่น</string>
+    <string name="training">เทรนนิ่ง</string>
+    <string name="heart_rate_control">ควบคุมการเต้นหัวใจ</string>
+    <string name="hiit">HIIT</string>
+    <string name="physical_test">ทดสอบกายภาพ</string>
+    <string name="target_train">เป้าหมายการออกกำลังกาย</string>
+    <string name="my_performance">ความสามารถของฉัน</string>
+    <string name="body_manager">ตัวจัดการสมรรถภาพ</string>
+    <string name="my_gym">ยิมของฉัน</string>
+    <string name="my_workout">การออกกำลังกายของฉัน</string>
+    <string name="quick_start">เริ่มทันที</string>
+    <string name="you_have_a_message">คุณมีข้อความ</string>
+    <string name="settings">ตั้งค่า</string>
+    <string name="logout">ออก</string>
+    <string name="log_out">ออก</string>
+    <!-- Login -->
+    <string name="sign_up">ลงทะเบียน</string>
+    <string name="forgot_password">ลืมรหัสผ่าน</string>
+    <string name="quick_log_in_with">ล็อกอินด้วย CircleFit</string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">เปิดใช้งานบลูทูธในมือถือ</string>
+    <string name="login_expand_2">เปิดแอฟ CircleFit</string>
+    <string name="login_expand_3">กรุณาวางมือถือของท่านไว้ตรงที่วางด้านขวาล่าง โดยจะทำการเชื่อมต่อโดยอัตโนมัติ</string>
+    <string name="note">บันทึก:</string>
+    <string name="note_contents">ต้องลงทะเบียนในแอฟ CircleFit ก่อนจึงจะเริ่ม ล็อกอินใช้งาน CircleFit คือแอพลิเคชั่นออกกำลังกายของCircle Fitness ดาวน์โหลดฟรีได้ที่ App Store/Google Play หรือสแกน QR Code ด้านล่างนี้</string>
+    <string name="email">อีเมลล์</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="enter_your_account">กรุณากรอกอีเมลที่คุณใช้ลงทะเบียน เราจะส่งรหัสผ่านใหม่ไปให้ท่านทางอีเมล</string>
+    <string name="send">ส่ง</string>
+    <string name="email_sent">ส่งอีเมลแล้ว</string>
+    <string name="ok">ตกลง</string>
+    <string name="incorrect_email">ที่อยู่อีเมลไม่ถูกต้อง</string>
+    <string name="not_a_valid_email_address">ไม่สามารถใช้งานอีเมลนี้ได้</string>
+    <string name="password_erroe">อีเมลหรือรหัสผ่านผิดพลาด กรุณากรอกใหม่</string>
+    <string name="connect_problem">การเชื่อมต่อมีปัญหา กรุณาลองอีกครั้ง</string>
+    <string name="no_account_matches">ไม่มีบัญชีที่ตรงกัน</string>
+    <string name="please_try_again">กรุณาลองอีกครั้ง</string>
+    <string name="user_id_exist_1">มีผู้ใช้อีเมลนี้แล้ว </string>
+    <string name="user_id_exist_2"> กรุณาใช้อีเมลอื่น</string>
+
+    <!-- Reg -->
+    <string name="registration">ลงทะเบียน</string>
+    <string name="circlecloud_go_sign_up">ลงทะเบียน CIRCLECLOUD GO</string>
+    <string name="account_exist">มีผู้ใช้อีเมลนี้แล้ว กรุณาใช้อีเมลอื่น</string>
+    <string name="confirm_password">ยืนยันรหัสผ่าน</string>
+    <string name="username">ชื่อผู้ใช้</string>
+    <string name="user_name">ชื่อผู้ใช้</string>
+    <string name="units">หน่วย</string>
+    <string name="metric">เมตริก</string>
+    <string name="imperial">อังกฤษ</string>
+    <string name="gender">เพศ</string>
+    <string name="female">หญิง</string>
+    <string name="male">ชาย</string>
+    <string name="height">ส่วนสูง</string>
+    <string name="height_required">ต้องกรอกส่วนสูง เพื่อคำนวณผลการวิเคราะห์มวลไขมันในร่างกาย</string>
+    <string name="height_metric_error_msg">กรุณากรอกตัวเลขระหว่าง130-220 cm</string>
+    <string name="height_imperial_error_msg">กรุณากรอกตัวเลขระหว่าง 4 ' 3"-7 ' 3"</string>
+    <string name="date_of_birth">วันเกิด</string>
+    <string name="date_of_birth_required">ต้องกรอกวันเกิดเพื่อคำนวณผลการวิเคราะห์มวลไขมันในร่างกาย</string>
+    <string name="privacy_policy">นโยบายส่วนบุคคล</string>
+    <string name="i_agree">ฉันเห็นด้วยกับนโยบายความเป็นส่วนตัว</string>
+    <string name="view_privacy_policy">ดูนโยบายความเป็นส่วนตัว</string>
+    <string name="privacy_policy_contents">ความเป็นส่วนตัว
+Circle Fitness ซึ่งเป็นบริษัทที่ตั้งอยู่ที่ประเทศไต้หวัน R.O.C ที่มุ่งเน้นในการออกแบบและผลิตอุปกรณ์ออกกำลังกายภายใต้ชื่อ Circle Fitness™ เมื่อคุณลงทะเบียนเป็นสมาชิกของเราและเป็นผู้ใช้ผลิตภัณฑ์ของเรา คำแถลงนี้ไม่ครอบคลุมถึงข้อมูลอื่น ๆ ที่เราเก็บรวบรวมมา ซึ่งรวมถึงแต่ไม่จำกัดแค่เพียงข้อมูลที่เราเก็บรวบรวมแบบออฟไลน์ หรือที่เราได้รับผ่านอุปกรณ์ออกกำลังกาย หรือทางแอปพลิเคชั่นโทรศัพท์มือถือของเรา
+สถานที่ตั้งเซิร์ฟเวอร์
+เรามีสำนักงานใหญ่ตั้งอยู่ที่เมืองไทจง ประเทศไต้หวัน R.O.C. เราเป็นโฮสต์ของเซิร์ฟเวอร์และประมวลผลข้อมูลของเราในประเทศสหรัฐอเมริกาและในประเทศอื่น ๆ เมื่อคุณเข้าใช้งานเว็บไซต์ของเรา คุณจะส่งข้อมูลไปยังประเทศสหรัฐอเมริกาและประเทศอื่น ๆ
+
+ข้อมูลที่เราเก็บรวบรวม
+ข้อมูลที่คุณมอบให้โดยตรง: เมื่อคุณลงทะเบียนบัญชีหรือส่งคำขอผ่านอุปกรณ์ออกกำลังกายหรือแอปมือถือ เราอาจขอให้คุณแจ้งชื่อ (คุณไม่จำเป็นต้องใช้ชื่อจริง คุณสามารถใช้ชื่อเล่นได้) ความสูง วันเกิด ที่อยู่อีเมล และรหัสผ่านของคุณ
+
+ข้อมูลที่เราเก็บรวบรวมทางอ้อม: นอกจากนี้ เรายังรวบรวมข้อมูลเกี่ยวกับวันที่และเวลาในการเข้าใช้งานของคุณ รวมถึงอุปกรณ์ออกกำลังกายตลอดจนโปรแกรมและฟังก์ชั่นต่าง ๆ ที่คุณใช้งาน เราจะรวบรวมข้อมูลประเภทนี้ไว้เพื่อนำไปปรับปรุงให้ผลิตภัณฑ์และบริการต่าง ๆ ของเราเป็นประโยชน์แก่คุณมากขึ้น
+
+การใช้งานร่วมกัน: เราอาจใช้งานข้อมูลที่เราได้รับจากอุปกรณ์ออกกำลังกายร่วมกับข้อมูลเกี่ยวกับคุณที่เราได้รับจากแหล่งอื่น เช่น สรุปการออกกำลังกายจากอุปกรณ์สวมใส่อัจฉริยะหรือแบบฟอร์มแอปออกกำลังกายของบุคคลภายนอก
+
+การใช้งานข้อมูล
+ข้อมูลที่ Circle Fitness รวบรวมไว้จะนำไปใช้เพื่อสร้างประสบการณ์การออกกำลังกายที่ดีขึ้นและเป็นการเฉพาะบุคคลมากขึ้น เราไม่มีการให้เช่า ขาย หรือแบ่งปันข้อมูลส่วนบุคคลกับบุคคลภายนอกใด ๆ ยกเว้นกรณีดังต่อไปนี้:
+
+- คุณให้ความยินยอม
+- เราใช้ผู้ให้บริการที่อยู่ในเครือและอยู่นอกเครือทั่วโลกที่มีหน้าที่ช่วยในการให้บริการและดำเนินธุรกิจของเราซึ่งจะอยู่ภายใต้ข้อตกลงในการรักษาความลับ
+- เราแบ่งปันสถิติการใช้งานแบบรวมซึ่งไม่สามารถใช้เพื่อระบุตัวตนของคุณเป็นรายบุคคลได้
+ความปลอดภัยของข้อมูลของคุณ
+เราใช้มาตรการทางองค์กรและทางเทคนิค เพื่อให้มั่นใจว่าเราได้จำกัดการเข้าถึงข้อมูลของคุณไว้เฉพาะบุคคลที่มีความจำเป็นต้องทราบเท่านั้น แม้ว่าเราจะมีขั้นตอนต่าง ๆ ในการปกป้องข้อมูลส่วนบุคคลของคุณแล้วก็ตาม คุณควรทราบว่าไม่ว่าเราหรือบริษัทใด ๆ ก็ไม่สามารถกำจัดความเสี่ยงด้านความปลอดภัยได้อย่างสมบูรณ์
+
+ติดต่อเรา
+หากคุณมีคำถามหรือข้อสงสัยเกี่ยวกับนโยบายความเป็นส่วนตัวนี้ โปรดติดต่อเราทางอีเมลที่ info@circlefitness.com หรือทางอินเทอร์เน็ตที่ https: www.circlefitness.com
+การปรับปรุงคำชี้แจงสิทธิส่วนบุคคล
+เราอาจปรับปรุงแถลงการณ์นี้เป็นครั้งคราว ซึ่งเมื่อเรามีการปรับปรุง เราจะเปลี่ยนวันที่ปรับปรุงครั้งล่าสุดด้านบนเพื่อแจ้งให้คุณทราบว่าเราได้ทำการเปลี่ยนแปลงแล้ว
+วันที่มีผลบังคับใช้: 30 พฤษภาคม 2018</string>
+    <string name="exit">ออก</string>
+    <string name="please_make_sure_your_passwords_match">กรุณาตรวจสอบรหัสให้ตรงกัน</string>
+    <string name="congratulations_lower">ยินดีด้วย</string>
+    <string name="registration_done">ลงทะเบียนแล้ว!</string>
+    <string name="exit_description">การลงทะเบียนไม่สมบูรณ์คุณรู้ไหมว่าคุณต้องการออก?</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">นี่เป็น CIRCLECLOUD GO APP</string>
+    <string name="login_dialog_info_line_2">โปรดเข้าสู่ระบบเพื่อจะดำเนินการต่อ</string>
+    <string name="initializing_quick_login">เริ่มต้นใช้งาน QUICK LOGIN</string>
+    <string name="unable_to_connect">ไม่สามารถเชื่อมต่อ!</string>
+    <string name="please_try_again_later">กรุณาลองอีกครั้ง</string>
+
+
+    <!-- Home -->
+    <string name="welcome">ยินดีต้อนรับ</string>
+    <string name="my_class_reminder">แจ้งเตือนคลาสของฉัน</string>
+    <string name="schedule_change">แก้ไขรายการ</string>
+    <string name="first_login_welcome"> ขอต้อนรับเข้าสู่ CircleCloud Go! เราหวังว่าคุณจะได้พบกับฟังก์ชั่นการฝึกซ้อมที่จะช่วยคุณได้ ขอให้คุณมีความสุขกับการออกกำลังกายนะ!</string>
+    <string name="there_is_a">มี</string>
+    <string name="today_at">วันนี้ที่</string>
+    <string name="tomorrow_at">พรุ่งนี้ที่</string>
+    <string name="hi">สวัสดี</string>
+    <string name="target_update">อัพเดทเป้าหมาย</string>
+    <string name="home_msg_times_up_1">คุณถึงจุดหมายเป้าหมายแล้ว</string>
+    <string name="home_msg_times_up_2">ตรวจสอบความคืบหน้าของคุณในรถไฟเป้าหมาย!</string>
+    <string name="home_msg_half_way_through_1">ขอแสดงความยินดีที่คุณผ่านเป้าหมายไปครึ่งทาง</string>
+    <string name="home_msg_half_way_through_2">ดูความคืบหน้าของคุณในรถไฟเป้าหมาย!</string>
+    <string name="home_msg_reached_1">แสดงความยินดีที่คุณได้บรรลุเป้าหมาย</string>
+    <string name="home_msg_reached_2">ดูผลลัพธ์ของคุณในรถไฟเป้าหมาย!</string>
+    <string name="this_schedule_of">ตารางเวลาของ</string>
+    <string name="has_been_changed_from">ได้เปลี่ยนจาก</string>
+    <string name="to">ไปยัง</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">ประกาศ</string>
+    <string name="class_str">คลาส</string>
+    <string name="my_class">คลาสของฉัน</string>
+    <string name="hot">เป็นที่นิยม</string>
+    <string name="add_to_my_class">เพิ่มไปยังคลาสของฉัน</string>
+    <string name="added">เพิ่มแล้ว</string>
+    <string name="remove_from_my_class">ลบออกจากคลาสของฉัน</string>
+    <string name="removed">ลบแล้ว</string>
+    <string name="mygym_dialog_info">ยิมของฉัน จะช่วยให้คุณรับรู้ข่าวสาร คลาส และโปรโมชั่นล่าสุดของยิม</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">สร้างเป้าหมายออกกำลังกายของคุณ</string>
+    <string name="targer_dialog_info">เป้าหมายออกกำลังกาย โปรแกรมบนคลาวด์ ใช้ร่วมกับแอพ ฟิตเนส CircleFit ได้ ที่จะคอยอัพเดทและติดตามความความก้าวหน้า และช่วยให้คุณตั้งค่าเป้าหมายออกกำลังกายได้เอง</string>
+    <string name="distance">ระยะทาง</string>
+    <string name="distance_60_rpm">ระยะทาง@60 RPM</string>
+    <string name="distance_80_rpm">ระยะทาง@80 RPM</string>
+    <string name="calories">แคลอรี่</string>
+    <string name="calories_60_rpm">แคลอรี่@60 RPM</string>
+    <string name="calories_80_rpm">แคลอรี่@80 RPM</string>
+    <string name="exercise_frequency">ความถี่ออกกำลังกาย</string>
+    <string name="weight">น้ำหนัก</string>
+    <string name="weight_upper">น้ำหนัก</string>
+    <string name="bodyfat_percent">มวลไขมัน</string>
+    <string name="days_left">เหลืออีกวัน         </string>
+    <string name="weeks_left">สัปดาห์ที่เหลือ</string>
+    <string name="view_details">ดูรายละเอียด</string>
+    <string name="target">เป้า</string>
+    <string name="start">เริ่ม</string>
+    <string name="create_a_new_target">สร้างเป้าหมายใหม่</string>
+    <string name="target_distance">ระยะทางเป้าหมาย    </string>
+    <string name="current_distance">ระยะทางปัจจบัน    </string>
+    <string name="target_days">จำนวนวันเป้าหมาย    </string>
+    <string name="current_days">จำนวนวันปัจจุบัน   </string>
+    <string name="target_weight">น้ำหนักเป้าหมาย    </string>
+    <string name="current_weight">น้ำหนักปัจจุบัน    </string>
+    <string name="input_weight">กรอกน้ำหนัก</string>
+    <string name="input_body_fat">กรอกมวลไขมันในร่างกาย%</string>
+    <string name="target_body_fat">มวลไขมันเป้าหมาย%    </string>
+    <string name="current_body_fat">มวลไขมันปัจจุบัน%    </string>
+    <string name="current">ปัจจุบัน</string>
+    <string name="target_days_weeks">วันเป้าหมาย/จำนวนสัปดาห์     </string>
+    <string name="target_weeks">จำนวนสัปดาห์เป้าหมาย    </string>
+    <string name="current_week">สัปดาห์ปัจจุบัน     </string>
+    <string name="achievement">ความสำเร็จ</string>
+    <string name="this_week">สัปดาห์นี้</string>
+    <string name="target_calories">แคลอรี่เป้าหมาย</string>
+    <string name="current_calories">แคลอรี่ปัจจุบัน</string>
+    <string name="days">วัน</string>
+    <string name="day">วัน</string>
+    <string name="week">สัปดาห์</string>
+    <string name="weeks">สัปดาห์ที่ผ่านมา</string>
+    <string name="choose_your_fitness_target">เลือกเป้าหมายออกกำลังกาย</string>
+    <string name="how_many_days_per_week">กี่วันต่อสัปดาห์?</string>
+    <string name="dates">วันที่</string>
+    <string name="end_date">วันที่สิ้นสุด</string>
+    <string name="running">วิ่ง</string>
+    <string name="biking">ขี่จักรยาน</string>
+    <string name="elliptical">เครื่องรูปไข่</string>
+    <string name="all">ทั้งหมด</string>
+    <string name="select_exercise_type">เลือกประเภทออกกำลังกาย</string>
+    <string name="history_upper">ประวัติ</string>
+    <string name="edit">แก้ไข</string>
+    <string name="done">เสร็จแล้ว</string>
+    <string name="percent_loss">ขาดทุน</string>
+    <string name="percent_gain">กำไร</string>
+    <string name="lb_loss">lb การลด</string>
+    <string name="lb_gain">lb ได้รับ</string>
+    <string name="kg_loss">กก. สูญหาย</string>
+    <string name="kg_gain">กก</string>
+    <string name="delete_description">คุณยืนยันจะลบเป้าหมายนี้ทิ้งหรือไม่?</string>
+    <string name="delete">ลบ</string>
+    <string name="cancel">ยกเลิก</string>
+    <string name="deleted">ลบ</string>
+    <string name="close_description">คุณยืนยันต้องการที่จะยุติเป้าหมายหรือไม่?</string>
+    <string name="end_now">ยุติทันที</string>
+    <string name="target_ended">เป้าหมายสิ้นสุดลง</string>
+    <string name="try_again_next_time">ลองใหม่คราวหน้านะ!</string>
+    <string name="super_str">ซุปเปอร์!</string>
+    <string name="great">ยิ่งใหญ่</string>
+    <string name="good_try">ทำได้ดี!</string>
+    <string name="congratulations">ยินดีด้วย!</string>
+    <string name="you_reached_your_target_in_time"> คุณบรรลุเป้าหมายได้ทันเวลา </string>
+    <string name="you_reached_your_target"> คุณบรรลุเป้าหมายได้ทันเวลา </string>
+    <string name="half_way_through">อีกครึ่งทางจึงจะสำเร็จ!</string>
+    <string name="you_are_almost_there">ใกล้ถึงแล้ว!</string>
+    <string name="continue_exclamation_mark">ต่อ!</string>
+    <string name="continue_str">ต่อ</string>
+    <string name="week_achieved">บรรลุผลใน  สัปดาห์</string>
+    <string name="target_end_title">คุณบรรลุเป้าหมายไม่ทันเวลา! </string>
+    <string name="target_end_description">คุณต้องการลองอีกครั้งเพื่อรับดาวสีเงิน หรือไม่?</string>
+    <string name="end">เสร็จสิ้น</string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">สร้างการออกกำลังกายของฉัน</string>
+    <string name="create_a_new_workout">สร้างการออกกำลังกายของฉัน</string>
+    <string name="workout_name">ชื่อการออกกำลังกาย</string>
+    <string name="preview">พรีวิว</string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">ประหยัด</string>
+    <string name="details">รายละเอียด</string>
+    <string name="avg_speed">ความเร็วเฉลี่ย</string>
+    <string name="delete_interval_description">คุณแน่ใจหรือไม่ว่าต้องการลบช่วงเวลานี้</string>
+    <string name="delete_item_description">คุณยืนยันจะลบหรือไม่?</string>
+    <string name="yes_str">ใช่</string>
+    <string name="no_str">ไม่</string>
+    <string name="workout_has_not_been_saved">โปรแกรมการออกกำลังกายยังไม่ได้บันทึก</string>
+    <string name="are_you_sure_you_want_to_leave"> คุณต้องการจะออกเลยหรือไม่?</string>
+    <string name="workout_info">การออกกำลังกายของฉัน ให้คุณตั้งค่าระดับความต้านทานในแต่ละช่วงและออกแบบโปรแกรมออกกำลังกายของตัวเองได้ กดที่"สร้างการออกกำลังกายของคุณ" เพื่อเริ่มตั้งค่า สามารถสร้างได้มากที่สุด 3 ชุดโปรแกรมออกกำลังกาย</string>
+    <string name="workout_info_bk">การออกกำลังกายของฉัน ให้คุณตั้งค่าระดับความต้านทานในแต่ละช่วงและออกแบบโปรแกรมออกกำลังกายของตัวเองได้ กดที่"สร้างการออกกำลังกายของคุณ" เพื่อเริ่มตั้งค่า สามารถสร้างได้มากที่สุด 3 ชุดโปรแกรมออกกำลังกาย</string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">ทั่วไป</string>
+    <string name="high">สูง</string>
+    <string name="advanced">แอดวานซ์</string>
+    <string name="personal">ส่วนบุคคล</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">ชื่อ</string>
+    <string name="edit_name">แก้ไขชื่อ</string>
+    <string name="sprint">วิ่งเร็ว</string>
+    <string name="recovery">พัก</string>
+    <string name="sec">วินาที</string>
+    <string name="view">ดู</string>
+    <string name="skip">ข้าม</string>
+    <string name="total_intervals">ระยะเวลาทั้งหมด</string>
+    <string name="intervals">ช่วง </string>
+    <string name="duration_upper">ระยะเวลา</string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">HIIT (การฝึกอบรมอินเทอร์วอลที่มีความเข้มข้นสูง) จะเพิ่มและลดระดับความเข้มข้นสลับไปมาในช่วงเวลาสั้นๆ เพื่อเพิ่มประสิทธิภาพในการออกกำลังของคุณ และเผาผลาญไขมันให้ได้มากที่สุด</string>
+    <string name="hiit_normal_info">ความเร็วและความชันของโปรแกรมจะมีความหนักระดับปานกลาง เหมาะสำหรับผู้เริ่มต้น</string>
+    <string name="hiit_high_info">ความเร็วและความชันของโปรแกรมจะมีความหนักระดับสูง เหมาะสำหรับครูฝึกที่มีประสบการณ์</string>
+    <string name="hiit_advanced_info">ความเร็วและความชันของโปรแกรมจะมีความหนักระดับสูงมาก เหมาะสำหรับเฉพาะครูฝึกขั้นแอดวานซ์</string>
+    <string name="hiit_personal_info">สร้างHIITส่วนบุคลของคุณเอง สามารถสร้างได้สูงสุด 3 ผู้ใช้งาน</string>
+    <string name="create_your_hiit_workout">สร้างโปรแกรมHIITของคุณ</string>
+    <string name="hiit_delete_item_description">คุณยืนยันจะลบ"ชื่อ</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">ตัวจัดการสมรรถภาพ คือ โปรแกรมจัดการสมรรถภาพที่ออกแบบมาเพื่อวัดและติดตามการออกกำลังกายผ่านแอพ Circle Fitness IBA/InBody 570 และฟิตเนส CircleFit</string>
+    <string name="last_updated">อัพเดทครั้งล่าสุด</string>
+    <string name="no_data">ไม่มีข้อมูล</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">ปริมาณน้ำในร่างกาย</string>
+    <string name="total_body_water_two">ปริมาณน้ำในร่างกาย</string>
+    <string name="visceral_fat_rating">ค่าไขมันในช่องท้อง</string>
+    <string name="visceral_fat_rating_two">ค่าไขมันในช่องท้อง</string>
+    <string name="bone_mass">มวลกระดูก</string>
+    <string name="muscle_mass">มวลกล้ามเนื้อ</string>
+    <string name="body_fat">มวลไขมัน%</string>
+    <string name="intracellular_water">น้ำหนักน้ำในเซลล์</string>
+    <string name="extracellular_water">น้ำหนักน้ำนอกเซลล์</string>
+    <string name="protein">โปรตีน</string>
+    <string name="mineral">แร่ธาตุ</string>
+    <string name="waist_hip_ratio">รอบเอว</string>
+    <string name="obesity_degree">ระดับความอ้วน</string>
+    <string name="input">อินพุต</string>
+    <string name="view_history">ดูประวัติ</string>
+    <string name="history">ประวัติ</string>
+    <string name="date">วันที่</string>
+    <string name="info_weight_subtitle">น้ำหนัก</string>
+    <string name="info_bodyfat_percent_subtitle"> คือ สัดส่วนของไขมันในน้ำหนักของร่างกาย</string>
+    <string name="info_bmi_subtitle">เปรียบเทียบอัตราส่วนระหว่างน้ำหนักกับส่วนสูงที่เป็นมาตรฐาน ใช้สำหรับเป็นตัวชี้วัดสุขภาพโดยทั่วไป</string>
+    <string name="info_bmr_subtitle">Basal Metabolic Rate (BMR) เป็นระดับพลังงานขั้นต่ำหรือแคลอรี่ต่ำสุดที่ร่างกายต้องการเมื่อพักผ่อนเพื่อให้ระบบทางเดินหายใจและระบบไหลเวียนเลือดระบบประสาทตับไตและอวัยวะอื่น ๆ ทำงานได้อย่างมีประสิทธิภาพ</string>
+    <string name="info_total_body_water_subtitle">น้ำหนักน้ำในร่างกาย คือ น้ำหนักรวมของของเหลวในร่างกาย โดยจะแสดงออกมาเป็นอัตราส่วนต่อน้ำหนักตัว</string>
+    <string name="info_visceral_fat_rating_subtitle">ไขมันในช่องท้องจะอยู่ในตำแหน่งใจกลางด้านในของท้อง ล้อมรอบและป้องกันอวัยวะภายในที่สำคัญ</string>
+    <string name="info_bone_mass_subtitle">มวลกระดูก</string>
+    <string name="info_intracellular_water_subtitle">น้ำหนักน้ำในเซลล์</string>
+    <string name="info_extracellular_water_subtitle">น้ำหนักน้ำนอกเซลล์</string>
+    <string name="info_protein_subtitle">โปรตีน</string>
+    <string name="info_mineral_subtitle">แร่ธาตุ</string>
+    <string name="info_waist_hip_ratio_subtitle">รอบเอว</string>
+    <string name="info_obesity_degree_subtitle">ระดับความอ้วน</string>
+
+    <string name="info_weight">น้ำหนัก</string>
+    <string name="info_bodyfat_percent">ไขมันในร่างกายนั้นมีความสำคัญในการทำให้ร่างกายอบอุ่น รองรับข้อต่อ และปกป้องอวัยวะภายในหากมีไขมันมากเกินไปจะทำลายสุขภาพในระยะยาว มีการพิสูจน์แล้วว่าหากลดประมาณไขมันที่เกินลง จะช่วยลดความเสี่ยงในการเจ็บป่วยเป็นโรคต่างๆ ได้ เช่น โรคความดัน หัวใจ เบาหวานและมะเร็งบางชนิดหากไขมันน้อยเกินไปก็อาจนำไปสู่การเป็นโรคกระดูกพรุนได้เมื่อสูงอายุ ในผู้หญิงจะมีประจำเดือนผิดปกติ อาจทำให้ไม่สามารถตั้งครรภ์ได้เป็นเรื่องสำคัญที่ต้องเอาผลไขมันในร่างกายของท่านมาเทียบกันดูว่ายังอยู่ในเกณฑ์ที่พอดีหรือไม่</string>
+    <string name="info_bmi">เปรียบเทียบอัตราส่วนระหว่างน้ำหนักกับส่วนสูงที่เป็นมาตรฐาน ใช้สำหรับเป็นตัวชี้วัดสุขภาพโดยทั่วไป</string>
+    <string name="info_bmr">ระดับพลังงานขั้นต่ำหรือแคลอรี่ที่ร่างกายต้องการในแต่ละวันเมื่อพัก (รวมถึงการนอนหลับ) เพื่อให้ทำงานได้อย่างมีประสิทธิภาพ</string>
+    <string name="info_total_body_water">ในกระบวนการต่างๆ ภายในร่างกาย ล้วนแต่มีน้ำเป็นตัวละครหลัก ทุกเซลล์ ทุกระบบและทุกอวัยวะภายในล้วนมีน้ำเป็นองค์ประกอบ การรักษาระดับน้ำในร่างกายให้คงอยู่ในระดับที่ดี สามารถรับรองได้ว่าฟังก์ชั่นในร่างกายยังคงทำงานได้อย่างมีประสิทธิภาพ และลดความเสี่ยงที่จะเกิดปัญหาสุขภาพที่เกี่ยวข้องตามมา</string>
+    <string name="info_visceral_fat_rating">ไขมันในช่องท้อง (ไขมันหน้าท้อง) คือไขมันที่อยู่ล้อมรอบอวัยวะสำคัญบริเวณลำตัว/ช่วงท้องหากค่าไขมันในช่องท้องสูงจะยิ่งเพิ่มความเสี่ยงในการเป็นโรคความดัน หัวใจ และเบาหวาน การลดไขมันในช่องท้องลงจะช่วยให้การทำงานของอินซูลินคงที่ยิ่งขึ้น และยังช่วยลดโอกาสการเกิดเบาหวานและโรคอื่นๆ ที่เกี่ยวข้องอีกด้วย</string>
+    <string name="info_bone_mass">มวลกระดูก</string>
+    <string name="info_intracellular_water">น้ำหนักน้ำในเซลล์</string>
+    <string name="info_extracellular_water">น้ำหนักน้ำนอกเซลล์</string>
+    <string name="info_protein">โปรตีน</string>
+    <string name="info_mineral">แร่ธาตุ</string>
+    <string name="info_waist_hip_ratio">รอบเอว</string>
+    <string name="info_obesity_degree">ระดับความอ้วน</string>
+    <string name="trunk">ลำตัว</string>
+    <string name="left_arm">แขนซ้าย</string>
+    <string name="right_arm">ขาขวา</string>
+    <string name="left_leg">ขาซ้าย</string>
+    <string name="right_leg">แขนขวา</string>
+    <string name="underfat">ต่ำกว่าเกณฑ์</string>
+    <string name="healthy">สุขภาพ</string>
+    <string name="overfat">สูงกว่าเกณฑ์</string>
+    <string name="obese">อ้วน</string>
+    <string name="your_healthy_bone_mass">ค่ามวลกระดูกที่เหมาะสมกับคุณคือ </string>
+    <string name="your_ideal_weight">น้ำหนักที่เหมาะที่สุดของคุณ</string>
+    <string name="your_health_waist_hip_ratio">รอบเอวที่เหมาะสมของคุณ</string>
+    <string name="bd_infomation_title">ตัวจัดการสมรรถภาพ จะเชื่อมต่อกับ Circle Fitness IBAหรือ InBody 570</string>
+    <string name="bd_infomation_content">กรุณาตรวจสอบอุปกรณ์ของคุณว่าใช้งานได้หรือไม่</string>
+    <string name="circle_fitness_iba">Circle Fitness IBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">การควบคุมการเต้นของหัวใจโดยจะรักษาอัตราการเต้นของหัวใจต่อนาทีที่คุณเลือกโดยจะควบคุมความเร็วในการออกกำลังกายและความหนักของอุปกรณ์คาร์ดิโอ้ที่เล่น เพื่อเพิ่มประสิทธิภาพการออกกำลังกายของคุณ</string>
+    <string name="fatburn">ไขมันที่เผาผลาญ</string>
+    <string name="aerobic">แอโรบิค</string>
+    <string name="performance">ประสิทธิภาพ</string>
+    <string name="customize">กำหนดเอง</string>
+    <string name="years">ปี</string>
+    <string name="heart_rate">การเต้นของหัวใจ</string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">กำหนดค่าอัตราเต้นของหัวใจสูงสุดของคุณที่65% โปรแกรมนี้จะปรับระดับความหนักให้สอดคล้องเพื่อช่วยให้คุณบรรลุเป้าหมายที่ตั้งไว้</string>
+    <string name="hrc_info_aerobic">กำหนดค่าอัตราเต้นของหัวใจสูงสุดของคุณที่75% โปรแกรมนี้จะปรับระดับความหนักให้สอดคล้องเพื่อช่วยให้คุณบรรลุเป้าหมายที่ตั้งไว้</string>
+    <string name="hrc_info_performance">กำหนดค่าอัตราเต้นของหัวใจสูงสุดของคุณที่85% โปรแกรมนี้จะปรับระดับความหนักให้สอดคล้องเพื่อช่วยให้คุณบรรลุเป้าหมายที่ตั้งไว้</string>
+    <string name="hrc_info_customize">ตั้งค่าอัตราการเต้นของหัวใจโปรแกรมนี้จะปรับระดับความหนักให้สอดคล้อง เพื่อช่วยให้คุณบรรลุเป้าหมายที่ตั้งไว้</string>
+    <string name="age">อายุ</string>
+
+    <string name="age_range_error_msg">กรุณากรอกเลข </string>
+    <string name="duration">ระยะเวลา</string>
+    <string name="profile">ประวัติส่วนตัว</string>
+    <string name="change_password">เปลี่ยนรหัสผ่าน</string>
+    <string name="data_syncing">อัพเดทข้อมูล</string>
+    <string name="unit">หน่วย</string>
+    <string name="old_password">รหัสเก่า</string>
+    <string name="new_password">รหัสใหม่</string>
+    <string name="confirm_new_password">ยืนยันรหัสผ่านใหม่</string>
+    <string name="password_changed">เปลี่ยนรหัสผ่านเรียบร้อย</string>
+    <string name="old_password_incorrect">รหัสเก่าไม่ถูกต้อง</string>
+    <string name="new_password_incorrect">กรุณาตรวจสอบรหัสให้ตรงกัน</string>
+    <string name="month">เดือน</string>
+    <string name="year">ปี</string>
+    <string name="fitness_apps">แอพออกกำลังกาย</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">แอพอุปกรณ์ที่สวมใส่</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">Garmin เชื่อมต่อ</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">การทดสอบสมรรถภาพประกอบไปด้วยโปรแกรมออกกำลังกายมาตรฐานหลาหลายรูปแบบ ประยุกต์ใช้โดยทหารสหรัฐอเมริกา เพื่อใช้วัดความสามารถการใช้ออกซิเจนและความอึดของนักกีฬา</string>
+    <string name="phy_gerkin_protocol_info">โปรแกรมชุดนี้ เดิมออกแบบมาสำหรับนักดับเพลิง ใช้สำหรับตรวจจับการเต้นของหัวใจ รวมถึงตรวจจับระดับVO2ด้วย เมื่ออัตราการเต้นของหัวใจคุณเพิ่มขึ้นถึง85% โปรแกรมนี้จะหยุดอัตโนมัติ</string>
+    <string name="phy_cooper_test_info">การทดสอบคูเปอร์ คือการทดสอบสมรรถภาพร่างกายโดยใช้ระยะทางการวิ่งของกองทัพสหรัฐอเมริกา โดยมีเป้าหมายคือ ดูว่าภายใน 12 นาทีคนคนหนึ่งจะสามารถวิ่งได้ไกลแค่ไหน แล้วคุณล่ะวิ่งได้ไกลแค่ไหน?</string>
+    <string name="phy_usmc_ptf_info">คือการจับเวลาวิ่งในระยะทาง 3 ไมล์ ก้าวเข้าสู่ความท้าทาย ลองวิ่งครั้งนี้ให้สำเร็จ ยิ่งเร็วยิ่งดี!</string>
+    <string name="phy_army_prt_info"> คือการจับเวลาวิ่งในระยะทาง 2 ไมล์ ลองวิ่งและทำให้สำเร็จให้เร็วที่สุด</string>
+    <string name="phy_navy_prt_info"> คือการวิ่งจับเวลา 1.5 ไมล์ ลองวิ่งครั้งนี้ให้สำเร็จ ยิ่งเร็วยิ่งดี!</string>
+    <string name="phy_usaf_ptf_info"> คือการวิ่งจับเวลา 1.5 ไมล์  ลองวิ่งและทำให้สำเร็จให้เร็วที่สุด</string>
+    <string name="phy_federal_law_info">นี่คือการวิ่งจับเวลา 1.5 ไมล์  ลองวิ่งและทำให้สำเร็จให้เร็วที่สุด</string>
+    <string name="phy_vo2_info">ค่าสูงสุด VO2 หรือระดับออกซิเจนที่หายใจเข้าสูงสุด เป็นปัจจัยหนึ่งที่ใช้ชี้วัดความอึดของนักกีฬาขณะออกกำลังกาย</string>
+
+    <string name="manual">แมนนวล</string>
+    <string name="hill">ปีนเขา</string>
+    <string name="cardio">ฟังก์ชั่นคาร์ดิโอ</string>
+    <string name="interval">ระยะห่าง</string>
+    <string name="strenght">ความแข็งแกร่ง</string>
+    <string name="rolling_hill">โรลลิ่งฮิลส์</string>
+    <string name="incline">ความชัน</string>
+    <string name="mountain_peak">ยอดเขา</string>
+    <string name="constant_watt">ใชัพลังงานวัตต์คงที่</string>
+    <string name="set_a_goal">กำหนดเป้าหมาย</string>
+    <string name="select_goal">เลือกเป้าหมาย</string>
+    <string name="tr_dialog_info">เรามีคอร์สฟังก์ชั่นคาร์ดิโอครบครันเพื่อส่งเสริมการออกกำลังกายแบบแอโรบิก และฝึกฝนให้ร่างกายทนต่อการออกกำลังกายที่ท้าทายยิ่งขึ้นได้!</string>
+    <string name="tr_manual_info">ออกกำลังกายด้วยความเร็วและความหนักที่เหมาะสมกับคุณ</string>
+    <string name="tr_hill_info">ท้าทายตัวเองด้วยโปรแกรมปีนเขา เจอกันบนยอดเขานะ!</string>
+    <string name="tr_fatburn_info">ออกกำลังกายด้วยความหนักระดับต่ำ โดยร่างกายจะลำเลียงออกซิเจนไปยังกล้ามเนื้อ เพื่อเผาผลาญไขมันที่มีอยู่</string>
+    <string name="tr_cardio_info">เผาผลาญแคลอรี่มากขึ้น และใช้โปรแกรมนี้เพื่อส่งเสริมฟังก์ชั่นคาร์ดิโอ</string>
+    <string name="tr_strenght_info">ท้าทายตัวเองด้วยการออกกำลังกายความเข้มข้นสูงนี้</string>
+    <string name="tr_interval_info">อยากเพิ่มความอึดรึเปล่า? โปรแกรมฝึกอินเทอร์วอลนี้ช่วยคุณได้!</string>
+    <string name="tr_target_info">เลือกเป้าหมายที่ต้องการและทำตาม คุณทำได้!</string>
+    <string name="tr_rolling_hill_info">ท้าทายตัวเองด้วยการออกกำลังกายแบบ หนักสลับเบาในระยะทางและความชันที่หลากหลาย</string>
+    <string name="tr_mountains_peak_info">ปั่นจักรยานบนความชันคงที่ผ่านเส้นทางกลางแจ้งเสมือนจริง</string>
+    <string name="tr_incline_info">ปั่นจักรยานคงที่แต่เพิ่มความชันผ่านเส้นทางกลางแจ้งเสมือนจริงนี้</string>
+    <string name="tr_constant_watt_info">ตัวค่าวัตต์ของคุณคือเท่าไหร่? โปรแกรมนี้จะปรับระดับความหนักตามความเร็วในการปั่น เพื่อช่วยให้คุณบรรลุเป้าหมาย</string>
+    <string name="level">ความหนัก</string>
+    <string name="easy">ต่ำ</string>
+    <string name="medium">กลาง</string>
+    <string name="hard">สูง</string>
+    <string name="time">เวลา</string>
+    <string name="stop">หยุด</string>
+    <string name="emergency">หยุดทันที</string>
+    <string name="emergency_note">กดที่ปุ่มหยุดทันที อีกครั้งเพื่อรีเซ็ต</string>
+    <string name="error">ผิดพลาด</string>
+    <string name="error_codes">รหัสความผิดพลาด:</string>
+    <string name="resume">ใช้งานต่อ</string>
+    <string name="pause">หยุดพัก</string>
+    <string name="no_heart_rate_detect">ไม่พบอัตราการเต้นของหัวใจ กรุณาใส่เข็มขัดในอก</string>
+    <string name="workout_will_stop_in">การออกกำลังกายจะยุติเวลา %1$d:%2$02d</string>
+    <string name="heart_">การออกกำลังกายจะยุติเวลา %1$d:%2$02d</string>
+    <string name="reset">รีเซ็ตเวลา </string>
+    <string name="system_will_be_auto_reset">เนื่องจาก 2 นาทีก่อนไม่มีการตอบสนอง ระบบจะรีเซ็ตอัตโนมัติ </string>
+    <string name="press_continue"> กดที่ต่อไป เพื่อดำเนินการต่อ</string>
+    <string name="continue01">ต่อ</string>
+    <string name="current_heart_rate">อัตราการเต้นของหัวใจในปัจจุบัน</string>
+    <string name="maximum_heart_rate">การเต้นหัวใจสูงสุด85%</string>
+    <string name="warm_up">วอร์มอัพ</string>
+    <string name="stage">ขั้นที่</string>
+    <string name="next">ต่อไป</string>
+    <string name="cool_donw">ช้าลง</string>
+    <string name="time_required_60">เวลาที่ถูกกำนดเพื่อ ใช้ผ่าน(คะแนน60): x:xx</string>
+    <string name="remaining_time">เวลาที่เหลือ</string>
+    <string name="cardio_type">หมวดคาร์ดิโอ</string>
+    <string name="pace">ก้าว</string>
+    <string name="avg_pace">ความเร็ววิ่งเฉลี่ย</string>
+    <string name="best_pace">ความเร็ววิ่งดีที่สุด</string>
+    <string name="total_distance">ระยะเวลาทั้งหมด</string>
+    <string name="total_calories">แคลอรี่รวม</string>
+    <string name="avg_heart_rate">การเต้นหัวใจเฉลี่ย</string>
+    <string name="max_heart_rate">การเต้นหัวใจสูงสุด</string>
+    <string name="please_remember">กรุณาออกจากโปรแกรมก่อนไป</string>
+    <string name="complete">เสร็จสิ้น</string>
+    <string name="imcomplete">ยังไม่เสร็จสิ้น</string>
+    <string name="treadmill">ลู่วิ่งไฟฟ้า</string>
+    <string name="summary">สรุป</string>
+    <string name="very_good">ดีมาก</string>
+    <string name="good">ดี</string>
+    <string name="average">ปานกลาง</string>
+    <string name="bad">แย่</string>
+    <string name="very_bad">แย่มาก</string>
+    <string name="normal">ทั่วไป</string>
+    <string name="score">คะแนน</string>
+    <string name="low_risk">ความเสี่ยงต่ำ</string>
+    <string name="moderate_risk">ความเสี่ยงปานกลาง</string>
+    <string name="high_risk">มีความเสี่ยงสูง</string>
+    <string name="speed_decreases_to">ลดความเร็วลง</string>
+    <string name="speed_increases_to">เพิ่มความเร็วไปที่</string>
+    <string name="incline_decreases_to">ลดระดับเอียงลงไป</string>
+    <string name="incline_increases_to">เพิ่มระดับเอียงลงไป</string>
+    <string name="level_decreases_to">ระดับความต้านทานลดลง</string>
+    <string name="level_increases_to">ระดับความต้านทานเพิ่มขึ้น</string>
+    <string name="resistance_level_decreases">ความต้านทานจะลดเป็น %1$.1f ภายใน 3 วินาที</string>
+    <string name="resistance_level_increases">ความต้านทานจะเพิ่มเป็น %1$.1f ภายใน 3 วินาที</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">ง่าย</string>
+    <string name="lap">ตัก</string>
+    <string name="speed">SPEED</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">เวลา</string>
+    <string name="target_time">เวลาเป้าหมาย</string>
+    <string name="target_hr">อัตราการเต้นหัวใจเป้าหมาย</string>
+    <string name="mets">เม็ตส์</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>
+
+    <!-- Performance -->
+    <string name="session1">ช่วง</string>
+    <string name="performance_dialog_info">ดูความสามารถของคุณผ่านอุปกรณ์คาร์ดิโอ แอพออกกำลังกายและอุปกรณ์ที่สวมใส่อื่นๆ เปรียบเทียบการออกผลลัพธ์การออกกำลังกายเพื่อ เพิ่มความท้าท้ายตัวเองอีกขั้น!</string>
+    <string name="other">อื่น</string>
+    <string name="avg_watt">วัตต์เฉลี่ย(W)</string>
+    <string name="share">หุ้น</string>
+    <string name="add">เพิ่ม</string>
+    <string name="select_date">เลือกวันที่</string>
+    <string name="select_time">เลือกเวลา</string>
+    <string name="h">ชั่วโมง</string>
+    <string name="m">นาที</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">ความเข้มข้น</string>
+    <string name="vo2_faster_to_keep">พายเรือเร็วขึ้นเพื่อรักษาระดับกำลังไฟที่</string>
+    <string name="vo2_slowly_to_keep">พายเรือช้าๆเพื่อรักษาระดับกำลังไฟไว้ที่</string>
+    <string name="target_watt">เป้าหมายวัตต์</string>
+    <string name="connection_lost">การเชื่อมต่อสูญหาย!</string>
+    <string name="data_upload_unsuccessful">อัปโหลดข้อมูลไม่สำเร็จ!</string>
+    <string name="data_not_uploaded_to_circlecloudgo">ข้อมูลไม่ได้อัปโหลดไปยัง circlecloudgo เนื่องจากปัญหาการเชื่อมต่อหรือเซิร์ฟเวอร์!</string>
+    <string name="no_heart_rate_detected">ไม่พบอัตราการเต้นของหัวใจ กรุณาใส่เข็มขัดในอกหรือวางมือลงบนเซ็นเซอร์วัดอัตราการเต้นของหัวใจ</string>
+    <string name="auto_speed_cool_down_disabled">เลิกใช้งานลดความเร็วอัตโนมัติ</string>
+    <string name="auto_resistance_level_down_disabled">เลิกใช้งานลดความเร็วอัตโนมัติ</string>
+    <string name="show_history_data">แสดงข้อมูลประวัติ</string>
+    <string name="show_monthly_total">แสดงข้อมูลรายเดือน</string>
+    <string name="show_yearly_total">แสดงข้อมูลรายปี</string>
+    <string name="close">ปิด</string>
+    <string name="account">บัญชี</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">ยินดีต้อนรับสู่ CircleCloud Go ตัวช่วยจัดการการออกกำลังกายที่สมบูรณ์ที่สุด!</string>
+    <string name="tutorial_first_2st">ที่นี่มีเทคนิคเล็กๆ น้อยๆ ช่วยให้คุณเริ่มต้นได้</string>
+    <string name="tutorial_target_1st">ใช้เทรนนิ่งเป้าหมาย "icon%s"</string>
+    <string name="tutorial_target_2st">เป้าหมายการออกกำลังกาย</string>
+    <string name="tutorial_gym_1st">ใช้"icon%s" เพื่อรับแจ้งโปรโมชั่นยิม</string>
+    <string name="tutorial_gym_2st">ยิมของฉัน</string>
+    <string name="tutorial_performance_1st">ใช้"icon%s" เพื่อวัดผลสำเร็จ</string>
+    <string name="tutorial_performance_2st">ความสามารถของฉัน</string>
+    <string name="tutorial_workout_1st">สร้าง"icon%s"บุคคลโดยใช้</string>
+    <string name="tutorial_workout_2st">การออกกำลังกายของฉัน</string>
+    <string name="tutorial_body_1st">ใช้ตัวจัดการสมรรถภาพ เพื่อทดสอบค่าความแข็งแรงของคุณ"icon%s"</string>
+    <string name="tutorial_body_2st">ตัวจัดการสมรรถภาพ</string>
+    <string name="tutorial_last_str">ดาวน์โหลดแอพ CircleFit ฟรี เพื่อเข้าถึงเนื้อหาทั้งหมดใช้แอพ CircleFit เพื่อล็อกอินเข้าสู่อุปกรณ์คาร์ดิโอทันที</string>
+
+    <!-- Fan -->
+    <string name="fan_title">พัดลม</string>
+    <string name="fan_info_off">ปิดการตอบสนอง</string>
+    <string name="fan_info_50">ต่ำ</string>
+    <string name="fan_info_100">สูง</string>
+
+    <!-- New Add -->
+    <string name="select_language">เลือกภาษา</string>
+    <string name="birthday_day">วันที่</string>
+    <string name="emergency_note_FOR_M6">การใส่แคลมป์สวิตช์หยุดฉุกเฉินกลับมา</string>
+    <string name="Logout_confirm">มันเลิกแล้วใช่ไหม</string>
+
+    <string name="WeekStr_1">จ.</string>
+    <string name="WeekStr_2">อ.</string>
+    <string name="WeekStr_3">พ.</string>
+    <string name="WeekStr_4">พฤ.</string>
+    <string name="WeekStr_5">ศ.</string>
+    <string name="WeekStr_6">ส.</string>
+    <string name="WeekStr_7">อา.</string>
+
+    <string name="month_1">ม.ค.</string>
+    <string name="month_2">ก.พ.</string>
+    <string name="month_3">มี.ค.</string>
+    <string name="month_4">เม.ย.</string>
+    <string name="month_5">พ.ค.</string>
+    <string name="month_6">มิ.ย.</string>
+    <string name="month_7">ก.ค.</string>
+    <string name="month_8">สิ.ค.</string>
+    <string name="month_9">กั.ย.</string>
+    <string name="month_10">ตุ.ค.</string>
+    <string name="month_11">พ.ย.</string>
+    <string name="month_12">ธั.ค.</string>
+
+</resources>

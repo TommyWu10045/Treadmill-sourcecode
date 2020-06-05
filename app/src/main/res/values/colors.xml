@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="black_overlay">#66000000</color>
+
+    <!-- Base -->
+    <color name="activity_background">#181429</color>
+
+    <!-- NumberScroll -->
+    <color name="colornpsel">#FF4FECBE</color>
+    <color name="word_blue">#277FFF</color>
+
+
+    <color name="colorgray">#FF939393</color>
+    <color name="colorgray_1">#FF8B8994</color>
+    <color name="colorlightgray">#FFc3c3c3</color>
+
+
+</resources>

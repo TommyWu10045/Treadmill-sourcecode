@@ -1,0 +1,607 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">Informatie</string>
+
+    <string name="january">januari</string>
+    <string name="february">februari</string>
+    <string name="march">maart</string>
+    <string name="april">april</string>
+    <string name="may">mei</string>
+    <string name="june">juni</string>
+    <string name="july">juli-</string>
+    <string name="august">augustus</string>
+    <string name="september">september</string>
+    <string name="october">oktober</string>
+    <string name="november">november</string>
+    <string name="december">december</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">Inloggen</string>
+    <string name="log_in">Inloggen</string>
+    <string name="login_msg">Log in om gebruik te maken van alle functies</string>
+    <string name="training">Training</string>
+    <string name="heart_rate_control">Hartslagcontrole</string>
+    <string name="hiit">HIIT</string>
+    <string name="physical_test">Fysieke Test</string>
+    <string name="target_train">Doelstelling Training</string>
+    <string name="my_performance">Mijn Prestaties</string>
+    <string name="body_manager">Body Manager</string>
+    <string name="my_gym">Mijn Gym</string>
+    <string name="my_workout">Mijn Training</string>
+    <string name="quick_start">Snelstart</string>
+    <string name="you_have_a_message">Je hebt een bericht</string>
+    <string name="settings">Instelling</string>
+    <string name="logout">Uitloggen</string>
+    <string name="log_out">Uitloggen</string>
+    <!-- Login -->
+    <string name="sign_up">Aanmelden</string>
+    <string name="forgot_password">Wachtwoord vergeten</string>
+    <string name="quick_log_in_with">Snel inloggen met de CircleFit app</string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">Activeer Bluetooth op uw mobiele apparaat.</string>
+    <string name="login_expand_2">Open de CircleFit app.</string>
+    <string name="login_expand_3">Plaats uw mobiele apparaat vlakbij de rechteronderkant van het console. Koppeling begint automatisch.</string>
+    <string name="note">Notitie:</string>
+    <string name="note_contents">Voordat u begint met Snel Inloggen dient u zich bij CircleFit app te registreren. CircleFit is een app voor gezonde Cirkel Fitness. Download deze gratis via App Store/Google play of scan onderstaande QR-code.</string>
+    <string name="email">E-MAIL</string>
+    <string name="password">WACHTWOORD</string>
+    <string name="enter_your_account">Voer de e-mail in die u gebruikte bij aanmelding en we e-mailen u uw wachtwoord</string>
+    <string name="send">Verzenden</string>
+    <string name="email_sent">E-mail verzonden</string>
+    <string name="ok">OK</string>
+    <string name="incorrect_email">Onjuiste e-mail</string>
+    <string name="not_a_valid_email_address">Ongeldig e-mailadres</string>
+    <string name="password_erroe">Wachtwoord of e-mailadres onbekend. Voer opnieuw in.</string>
+    <string name="connect_problem">Probleem met internetverbinding. Probeer opnieuw.</string>
+    <string name="no_account_matches">Geen account komt overeen</string>
+    <string name="please_try_again">Probeer opnieuw.</string>
+    <string name="user_id_exist_1">Er bestaat reeds een account met dit e-mailadres</string>
+    <string name="user_id_exist_2">Gebruik een ander e-mailadres.</string>
+
+    <!-- Reg -->
+    <string name="registration">Aanmelding</string>
+    <string name="circlecloud_go_sign_up">CIRCLECLOUD GO AANMELDEN</string>
+    <string name="account_exist">Er bestaat reeds een account met dit e-mailadres,  gebruik een ander e-mailadres.</string>
+    <string name="confirm_password">Bevestig wachtwoord</string>
+    <string name="username">Gebruikersnaam</string>
+    <string name="user_name">Gebruikersnaam</string>
+    <string name="units">Eenheid</string>
+    <string name="metric">Metrisch</string>
+    <string name="imperial">Brits-Amerikaans</string>
+    <string name="gender">Geslacht</string>
+    <string name="female">Vrouw</string>
+    <string name="male">Man</string>
+    <string name="height">Lengte</string>
+    <string name="height_required">Lengte nodig voor accurate meting en analyse van uw lichaamssamenstelling</string>
+    <string name="height_metric_error_msg">Voer een getal tussen 130-220cm in</string>
+    <string name="height_imperial_error_msg">Voer een getal tussen 4 ' 3"-7 ' 3" in</string>
+    <string name="date_of_birth">Geboortedatum</string>
+    <string name="date_of_birth_required">Geboortedatum nodig voor accurate meting en analyse van uw lichaamssamenstelling</string>
+    <string name="privacy_policy">Privacybeleid</string>
+    <string name="i_agree">Ik ga akkoord met het privacybeleid</string>
+    <string name="view_privacy_policy">BEKIJK PRIVACYBELEID</string>
+    <string name="privacy_policy_contents">Privacy
+Circle Fitness, een bedrijf gevestigd in Taiwan R.O.C, richt zich op ontwerp en productie van fitnessapparatuur onder de naam Circle Fitness™. Wanneer u zich registreert als ons lid en gebruiker van ons product wordt. Deze verklaring betreft geen andere informatie die wij verzamelen, inclusief en zonder beperking gegevens die wij offline verzamelen of die wij ontvangen via onze fitnessapparatuur of mobiele apparaat-apps.
+Serverlocaties.
+Ons hoofdkantoor is gevestigd in Taichung, Taiwan, R.O.C. Wij hosten onze servers en verwerken informatie in de Verenigde Staten en andere landen. Wanneer u onze sites opent, verzendt u informatie naar de Verenigde Staten en andere landen.
+
+Informatie die wij verzamelen.
+Informatie die u actief verstrekt: Wanneer u zich registreert voor een account of ons verzoeken stuurt via fitnessapparatuur of mobiele APP, kunnen wij u vragen om uw naam, (geen echte naam vereist, bijnaam heeft de voorkeur), lengte, geboortedatum, e-mailadres en wachtwoord.
+
+Informatie die wij passief verzamelen: Wij verzamelen tevens informatie met betrekking tot de datum en tijd van uw bezoek, en fitnessapparatuur die u hebt gebruikt, alsook programma’s en functies. Dit type informatie wordt verzameld om onze producten en diensten nuttiger te maken voor u.
+
+Combinaties: Wij kunnen informatie die wij ontvangen via de fitnessapparatuur, combineren met informatie die wij over u ontvangen van andere bronnen, bijvoorbeeld trainingssamenvatting van uw draagbare apparaat of Fitness APP-formulier van derden.
+
+Gebruik van informatie.
+De gegevens die worden verzameld door Circle Fitness, worden gebruikt om voor u een betere en meer gepersonaliseerde fitnesservaring te creëren. Wij verhuren, verkopen of delen uw individuele, persoonlijke informatie niet anderszins met derden, behalve als volgt:
+
+- Met uw instemming.
+- Wij gebruiken aangesloten en niet-aangesloten dienstverleners over de hele wereld die ons helpen bij het leveren van onze service en het voeren van ons bedrijf onderhevig aan vertrouwelijkheidsovereenkomsten.
+- Wij delen geaggregeerde gebruiksstatistieken die niet kunnen worden gebruikt om u individueel te identificeren.
+Beveiliging van uw informatie.
+Wij passen organisatorische en technische maatregelen toe om ervoor te zorgen dat toegang tot uw informatie beperkt is tot personen die hiervan op de hoogte moeten zijn. Hoewel wij maatregelen hebben genomen om uw persoonlijke informatie te beschermen, moet u weten dat niet wij of geen enkel ander bedrijf de beveiligingsrisico’s volledig weg kunnen nemen.
+
+Neem contact met ons op.
+In geval van enige vragen of zorgen met betrekking tot dit privacybeleid, neemt u via e-mail contact met ons op via info@circlefitness.com of via het internet via https:www.circlefitness.com
+Updates privacyverklaring.
+Wij kunnen deze verklaring van tijd tot tijd bijwerken. Wanneer wij dat doen, wijzigen wij de datum van de laatste update hierboven om u te laten weten dat wij een wijziging hebben aangebracht.
+Van kracht: 30 mei 2018</string>
+    <string name="exit">Vertrekken</string>
+    <string name="please_make_sure_your_passwords_match">Zorg dat uw wachtwoorden overeenkomen.</string>
+    <string name="congratulations_lower">Gefeliciteerd</string>
+    <string name="registration_done">REGISTRATIE GEDAAN!</string>
+    <string name="exit_description">REGISTRATIE IS NIET VOLLEDIG, WILT U ZEKER UITGAAN?</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">DIT IS EEN CIRCLECLOUD GO APP</string>
+    <string name="login_dialog_info_line_2">AUB inloggen om door te gaan</string>
+    <string name="initializing_quick_login">SNEL AANMELDEN INITIALISEREN</string>
+    <string name="unable_to_connect">NIET IN STAAT TE VERBINDEN!</string>
+    <string name="please_try_again_later">Probeer opnieuw.</string>
+
+
+    <!-- Home -->
+    <string name="welcome">WELKOM</string>
+    <string name="my_class_reminder">HERINNERING AAN MIJN KLAS</string>
+    <string name="schedule_change">SCHEMAWIJZIGING</string>
+    <string name="first_login_welcome">Welkom bij CircleCloud Go! We hopen dat u deze functies nuttig vindt voor uw training. Veel plezier en prettige training!</string>
+    <string name="there_is_a">Er is een</string>
+    <string name="today_at">vandaag bij</string>
+    <string name="tomorrow_at">morgen om</string>
+    <string name="hi">Hoi</string>
+    <string name="target_update">DOELSTELLING UPDATE</string>
+    <string name="home_msg_times_up_1">Je hebt het einde van de streeftijd bereikt voor het doelwit</string>
+    <string name="home_msg_times_up_2">Controleer je voortgang in de doeltrein!</string>
+    <string name="home_msg_half_way_through_1">Gefeliciteerd, je bent halverwege het doelwit</string>
+    <string name="home_msg_half_way_through_2">Zie je voortgang in de doeltrein!</string>
+    <string name="home_msg_reached_1">Gefeliciteerd, je hebt het doel bereikt</string>
+    <string name="home_msg_reached_2">Zie je resultaat in de treintrein!</string>
+    <string name="this_schedule_of">Het schema van</string>
+    <string name="has_been_changed_from">is veranderd van</string>
+    <string name="to">naar</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">BULLETIN</string>
+    <string name="class_str">KLAS</string>
+    <string name="my_class">MIJN KLAS</string>
+    <string name="hot">heet</string>
+    <string name="add_to_my_class">VOEG TOE AAN MIJN KLAS</string>
+    <string name="added">TOEGEVOEGD</string>
+    <string name="remove_from_my_class">Verwijder uit Mijn Klas</string>
+    <string name="removed">Verwijderd</string>
+    <string name="mygym_dialog_info">Mijn Gym houdt u op de hoogte van het laatste nieuws, klassen en aanbiedingen op uw locatie.</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">Creëer uw fitnessdoel</string>
+    <string name="targer_dialog_info">Doelstelling Training is een programma in de cloud waarmee u fitnessdoelen kunt stellen en uw actuele voortgang kunt bijhouden via real-time verbinding met de CircleFit wellness app.</string>
+    <string name="distance">Afstand</string>
+    <string name="distance_60_rpm">Afstand@60 RPM</string>
+    <string name="distance_80_rpm">Afstand@80 RPM</string>
+    <string name="calories">Calorieën</string>
+    <string name="calories_60_rpm">Calorieën@60 RPM</string>
+    <string name="calories_80_rpm">Calorieën@80 RPM</string>
+    <string name="exercise_frequency">Frequentie van de oefening</string>
+    <string name="weight">Gewicht</string>
+    <string name="weight_upper">Gewicht</string>
+    <string name="bodyfat_percent">Lichaamsvet</string>
+    <string name="days_left">Nog dagen</string>
+    <string name="weeks_left">nog weken</string>
+    <string name="view_details">bekijk details</string>
+    <string name="target">doelwit</string>
+    <string name="start">Start</string>
+    <string name="create_a_new_target">maak een nieuw doelwit</string>
+    <string name="target_distance">Doelstelling Afstand     </string>
+    <string name="current_distance">Huidige Afstand     </string>
+    <string name="target_days">Doelstelling Dagen   </string>
+    <string name="current_days">Huidige Dagen    </string>
+    <string name="target_weight">Streefgewicht         </string>
+    <string name="current_weight">Huidige Gewicht         </string>
+    <string name="input_weight">Invoer gewicht</string>
+    <string name="input_body_fat">Invoer Lichaamsvet %</string>
+    <string name="target_body_fat">Streefpercentage Lichaamsvet %     </string>
+    <string name="current_body_fat">Huidige Lichaamsvet %     </string>
+    <string name="current">Huidige</string>
+    <string name="target_days_weeks">Doelstelling Dag/Week     </string>
+    <string name="target_weeks">Doelstelling Weken     </string>
+    <string name="current_week">Huidige Week     </string>
+    <string name="achievement">prestatie</string>
+    <string name="this_week">Deze week</string>
+    <string name="target_calories">Doelstelling Calorieën</string>
+    <string name="current_calories">Huidige Calorieën</string>
+    <string name="days">dagen</string>
+    <string name="day">dagen</string>
+    <string name="week">week</string>
+    <string name="weeks">weken</string>
+    <string name="choose_your_fitness_target">Kies uw fitnessdoel</string>
+    <string name="how_many_days_per_week">HOEVEEL DAGEN PER WEEK?</string>
+    <string name="dates">data</string>
+    <string name="end_date">Einddatum</string>
+    <string name="running">RENNEN</string>
+    <string name="biking">FIETSEN</string>
+    <string name="elliptical">ELLIPTISCH</string>
+    <string name="all">ALLE</string>
+    <string name="select_exercise_type">SELECTEER SOORT OEFENING</string>
+    <string name="history_upper">Geschiedenis</string>
+    <string name="edit">Bewerken</string>
+    <string name="done">gedaan</string>
+    <string name="percent_loss">% verlies</string>
+    <string name="percent_gain">% winst</string>
+    <string name="lb_loss">lb verlies</string>
+    <string name="lb_gain">lb winst</string>
+    <string name="kg_loss">kg verlies</string>
+    <string name="kg_gain">kg winst</string>
+    <string name="delete_description">WEET U ZEKER DAT U DEZE DOELSTELLING WILT VERWIJDEREN?</string>
+    <string name="delete">Verwijderen</string>
+    <string name="cancel">ANNULEREN</string>
+    <string name="deleted">Verwijderen</string>
+    <string name="close_description">WEET U ZEKER DAT U DEZE DOELSTELLING WILT BEËINDIGEN?</string>
+    <string name="end_now">NU BEËINDIGEN</string>
+    <string name="target_ended">doel is geëindigd</string>
+    <string name="try_again_next_time">Laten we het volgende keer opnieuw proberen!</string>
+    <string name="super_str">Super!</string>
+    <string name="great">Super goed!</string>
+    <string name="good_try">Goed geprobeerd!</string>
+    <string name="congratulations">Gefeliciteerd!</string>
+    <string name="you_reached_your_target_in_time">U heeft uw doelstelling op tijd behaald</string>
+    <string name="you_reached_your_target">U heeft uw doelstelling op tijd behaald</string>
+    <string name="half_way_through">U bent halverwege!</string>
+    <string name="you_are_almost_there">U bent er bijna!</string>
+    <string name="continue_exclamation_mark">Doorgaan!</string>
+    <string name="continue_str">Doorgaan</string>
+    <string name="week_achieved"> eken behaald</string>
+    <string name="target_end_title">U komt tijd te kort om uw doelstelling te behalen. </string>
+    <string name="target_end_description">Wilt u doorgaan voor een Zilveren Ster?</string>
+    <string name="end">Eind</string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">Creëer uw training</string>
+    <string name="create_a_new_workout">Creëer uw training</string>
+    <string name="workout_name">Naam Training</string>
+    <string name="preview">Preview</string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">opslaan</string>
+    <string name="details">gegevens</string>
+    <string name="avg_speed">Gemiddelde Snelheid</string>
+    <string name="delete_interval_description">Weet je zeker dat je dit interval wilt verwijderen?</string>
+    <string name="delete_item_description">Weet u zeker dat u wilt verwijderen?</string>
+    <string name="yes_str">Ja</string>
+    <string name="no_str">Nee</string>
+    <string name="workout_has_not_been_saved">Training is niet opgeslagen. </string>
+    <string name="are_you_sure_you_want_to_leave">Weet u zeker dat u wilt vertrekken?</string>
+    <string name="workout_info">Via Mijn Training kunt u een weerstandsniveau voor elke interval instellen en zo uw eigen trainingsprogramma creëren. Tik op "Creëer uw Training" om de aanpassing te starten. Er kunnen maximaal 3 programma's gecreëerd worden.</string>
+    <string name="workout_info_bk">Via Mijn Training kunt u een weerstandsniveau voor elke interval instellen en zo uw eigen trainingsprogramma creëren. Tik op "Creëer uw Training" om de aanpassing te starten. Er kunnen maximaal 3 programma's gecreëerd worden.</string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">Normaal</string>
+    <string name="high">Hoog</string>
+    <string name="advanced">Gevorderd</string>
+    <string name="personal">Persoonlijk</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">Naam</string>
+    <string name="edit_name">Bewerk Naam</string>
+    <string name="sprint">Sprint</string>
+    <string name="recovery">Herstel</string>
+    <string name="sec">sec</string>
+    <string name="view">Bekijken</string>
+    <string name="skip">Overslaan</string>
+    <string name="total_intervals">Totaal Intervallen</string>
+    <string name="intervals">Interval</string>
+    <string name="duration_upper">Duur</string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">HIIT (Hoge Intensiteit Interval Training) biedt korte periodes met hoge intensiteitsinspanning afgewisseld met herstelperiodes van lagere intensiteit om uw trainingsprestaties te stimuleren en zoveel mogelijk calorieën te verbranden.</string>
+    <string name="hiit_normal_info">Snelheid en Helling geprogrammeerd op matig intensiviteitsniveau. Aanbevolen voor beginners.</string>
+    <string name="hiit_high_info">Snelheid en Helling geprogrammeerd op hoog intensiviteitsniveau. Aanbevolen voor ervaren sporter.</string>
+    <string name="hiit_advanced_info">Snelheid en Helling geprogrammeerd op extreem intensiviteitsniveau. Uitsluitend voor gevorderde sporter.</string>
+    <string name="hiit_personal_info">Creëer uw persoonlijke HIIT. U kunt maximaal 3 persoonlijke HIIT creëren.</string>
+    <string name="create_your_hiit_workout">Creëer uw HIIT-training</string>
+    <string name="hiit_delete_item_description">Weet u zeker dat u  wilt verwijderen?</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">Body Manager is een programma waarmee u uw lichaam kunt managen en is ontworpen om de fitness van uw lichaam te meten en bij te houden via Circle Fitness IBA/InBody 570 en de CircleFit wellness app.</string>
+    <string name="last_updated">Laatst bijgewerkt</string>
+    <string name="no_data">Geen gegevens</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">Totale Percentage Llichaamswater</string>
+    <string name="total_body_water_two">Totale Percentage Llichaamswater</string>
+    <string name="visceral_fat_rating">VISCERALE VETWAARDE</string>
+    <string name="visceral_fat_rating_two">VISCERALE VETWAARDE</string>
+    <string name="bone_mass">Botmassa</string>
+    <string name="muscle_mass">Spiermassa</string>
+    <string name="body_fat">Lichaamsvet %</string>
+    <string name="intracellular_water">Intracellulair Water</string>
+    <string name="extracellular_water">Extracellulair Water</string>
+    <string name="protein">Proteïne</string>
+    <string name="mineral">Mineralen</string>
+    <string name="waist_hip_ratio">Taille-heupverhouding</string>
+    <string name="obesity_degree">Mate van Obesitas</string>
+    <string name="input">invoer</string>
+    <string name="view_history">BEKIJK GESCHIEDENIS</string>
+    <string name="history">Geschiedenis</string>
+    <string name="date">data</string>
+    <string name="info_weight_subtitle">Gewicht</string>
+    <string name="info_bodyfat_percent_subtitle">Lichaamsvetpercentage is het deel vet van het totale lichaamsgewicht.</string>
+    <string name="info_bmi_subtitle">Een gestandaardiseerde ratio van gewicht ten opzichte van lengte, gebruikt als algemene indicatie voor gezondheid.</string>
+    <string name="info_bmr_subtitle">Het dagelijkse minimale niveau van energie of calorieën dat uw lichaam nodig heeft in rust (inclusief slapen) om effectief te kunnen functioneren.</string>
+    <string name="info_total_body_water_subtitle">Totale Percentage Llichaamswater is de totale hoeveelheid vocht in iemands lichaam uitgedrukt als percentage van zijn totale gewicht.</string>
+    <string name="info_visceral_fat_rating_subtitle">Visceraal vet bevindt zich diep in de buikholte en omringt en beschermt de vitale organen.</string>
+    <string name="info_bone_mass_subtitle">Botmassa</string>
+    <string name="info_intracellular_water_subtitle">Intracellulair Water</string>
+    <string name="info_extracellular_water_subtitle">Extracellulair Water</string>
+    <string name="info_protein_subtitle">Proteïne</string>
+    <string name="info_mineral_subtitle">Mineralen</string>
+    <string name="info_waist_hip_ratio_subtitle">Taille-heupverhouding</string>
+    <string name="info_obesity_degree_subtitle">Mate van Obesitas</string>
+
+    <string name="info_weight">Gewicht</string>
+    <string name="info_bodyfat_percent">Lichaamsvetpercentage is het deel vet van het totale lichaamsgewicht.Lichaamsvet is essentieel voor het op temperatuur houden van het lichaam, als stootkussen voor de gewrichten en het beschermen van de interne organen.Te veel vet kan op de lange termijn schadelijk zijn voor uw gezondheid. Er is aangetoond dat het verminderen van overmatige lichaamsvetwaardes direct het risico op bepaalde aandoeningen verminderd, zoals hoge bloeddruk, hartaandoeningen, diabetes type 2 en bepaalde vormen van kanker.Te weinig lichaamsvet kan op latere leeftijd leiden tot osteoporose, onregelmatige menstruaties bij vrouwen en mogelijk onvruchtbaarheid.Het is belangrijk dat u uw lichaamsvetresultaten vergelijkt met de gezonde lichaamsvetwaardes.</string>
+    <string name="info_bmi">Een gestandaardiseerde ratio van gewicht ten opzichte van lengte, gebruikt als algemene indicatie voor gezondheid.</string>
+    <string name="info_bmr">Basal Metabolic Rate (BMR) is het dagelijkse minimale niveau van energie of calorieën dat uw lichaam nodig heeft om te rusten, zodat uw ademhalings- en bloedsomlooporganen, neuraal systeem, lever, nieren en andere organen effectief kunnen functioneren.</string>
+    <string name="info_total_body_water">Water speelt een vitale rol bij veel lichaamsprocessen en komt voor in alle cellen, weefsels en organen. Het behouden van een gezonde totale percentage lichaamswater zorgt ervoor dat het lichaam efficiënt kan functioneren en vermindert het risico op het ontwikkelen van bijkomende gezondheidsproblemen.</string>
+    <string name="info_visceral_fat_rating">Visceraal vet (buikvet) is het vet dat om de vitale organen zit in het romp-/maaggebied van het lichaam.Hoge viscerale vetwaardes verhogen het risico op hoge bloeddruk, hartaandoeningen en  diabetes type 2. Het verlagen van viscerale vetwaardes kan de werking van insuline substantieel stabiliseren en het risico op diabetes en daarmee samenhangende ziektes verminderen.</string>
+    <string name="info_bone_mass">Botmassa</string>
+    <string name="info_intracellular_water">Intracellulair Water</string>
+    <string name="info_extracellular_water">Extracellulair Water</string>
+    <string name="info_protein">Proteïne</string>
+    <string name="info_mineral">Mineralen</string>
+    <string name="info_waist_hip_ratio">Taille-heupverhouding</string>
+    <string name="info_obesity_degree">Mate van Obesitas</string>
+    <string name="trunk">Romp</string>
+    <string name="left_arm">Linkerarm</string>
+    <string name="right_arm">Rechterarm</string>
+    <string name="left_leg">Linkerbeen</string>
+    <string name="right_leg">Rechterbeen</string>
+    <string name="underfat">Onder</string>
+    <string name="healthy">Gezond</string>
+    <string name="overfat">Boven</string>
+    <string name="obese">Obees</string>
+    <string name="your_healthy_bone_mass">Uw gezonde botmassa </string>
+    <string name="your_ideal_weight">Uw ideale gewicht</string>
+    <string name="your_health_waist_hip_ratio">Uw gezonde taille-heupverhouding</string>
+    <string name="bd_infomation_title">Body Manager werkt synchroon met Circle Fitness IBA of InBody 570.</string>
+    <string name="bd_infomation_content">Check de beschikbaarheid op uw locatie.</string>
+    <string name="circle_fitness_iba">Circle Fitness IBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">Hartslagcontrole zorgt ervoor dat het door u geselecteerde hartritme per minuut aangehouden wordt door de inspanningssnelheid en intensiteit van uw cardioapparaat zodanig te beheersen dat uw training geoptimaliseerd wordt.</string>
+    <string name="fatburn">Vetverbranding</string>
+    <string name="aerobic">Aerobe</string>
+    <string name="performance">Prestaties</string>
+    <string name="customize">Aanpassen</string>
+    <string name="years">Jaar</string>
+    <string name="heart_rate">Hartslag</string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">Stel uw maximale hartslag in op 65%. Dit programma past de intensiteit zo aan dat u uw Doelhartslag bereikt.</string>
+    <string name="hrc_info_aerobic">Stel uw maximale hartslag in op 75%. Dit programma past de intensiteit zo aan dat u uw Doelhartslag bereikt.</string>
+    <string name="hrc_info_performance">Stel uw maximale hartslag in op 85%. Dit programma past de intensiteit zo aan dat u uw Doelhartslag bereikt.</string>
+    <string name="hrc_info_customize">Stel een Doelhartslag in. Dit programma past het intensiteitsniveau zo aan dat u uw doelstelling kunt bereiken.</string>
+    <string name="age">Leeftijd</string>
+
+    <string name="age_range_error_msg">Voer een getal in tussen </string>
+    <string name="duration">Duur</string>
+    <string name="profile">Profiel</string>
+    <string name="change_password">Wijzig Wachtwoord</string>
+    <string name="data_syncing">Gegevenssynchronisatie</string>
+    <string name="unit">Eenheid</string>
+    <string name="old_password">Oude Wachtwoord</string>
+    <string name="new_password">Nieuwe Wachtwoord</string>
+    <string name="confirm_new_password">Bevestig nieuw wachtwoord</string>
+    <string name="password_changed">Wachtwoord gewijzigd</string>
+    <string name="old_password_incorrect">Oude Wachtwoord onjuist</string>
+    <string name="new_password_incorrect">Zorg dat uw wachtwoorden overeenkomen.</string>
+    <string name="month">MAAND</string>
+    <string name="year">JAAR</string>
+    <string name="fitness_apps">FITNESS APP</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">DRAAGBARE APPS</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">Garmin connect</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">Fysieke Test bevat verschillende standaard fitnessprogramma’s die door het Amerikaanse leger toegepast worden om de aerobe capaciteit en uithoudingsvermogen van de atleet te beoordelen.</string>
+    <string name="phy_gerkin_protocol_info">Dit programma, oorspronkelijk ontworpen voor brandweerlieden, wordt gebruikt om de hartslag te monitoren en VO2-niveaus te meten. Het programma stopt automatisch als u 85% van uw maximum hartslag bereikt hebt.</string>
+    <string name="phy_cooper_test_info">De Coopertest is een afstandstest van fysieke fitheid ontworpen voor het Amerikaanse leger. Het doel is te zien hoe ver iemand kan rennen in 12 minuten. Hoe ver komt u?</string>
+    <string name="phy_usmc_ptf_info">De fysieke fitnesstest van het Amerikaanse korps mariniers (USMC PFT) is een getimede race van 3 mijl. Ga de uitdaging aan en probeer zo snel mogelijk te finishen!</string>
+    <string name="phy_army_prt_info">De fysieke paraatheidstraining van het Amerikaanse leger is een getimede race van 2 mijl. Probeer dit parcours zo snel mogelijk af te leggen.</string>
+    <string name="phy_navy_prt_info">Fysieke trainingstest van de Amerikaanse marine is een getimede race van 1,5 mijl. Probeer dit parcours zo snel mogelijk af te leggen!</string>
+    <string name="phy_usaf_ptf_info">Fysieke fitnesstest van de Amerikaanse luchtmacht is een getimede race van 1,5 mijl. Probeer dit parcours zo snel mogelijk af te leggen!</string>
+    <string name="phy_federal_law_info">Dit is een getimede race van 1,5 mijl. Probeer dit parcours zo snel mogelijk af te leggen!</string>
+    <string name="phy_vo2_info">VO2 max, ofwel de maximale zuurstofopname, is een van de factoren waarmee het vermogen van een atleet om een duurtraining uit te voeren bepaald wordt.</string>
+
+    <string name="manual">Handleiding</string>
+    <string name="hill">Heuvel</string>
+    <string name="cardio">Cardio</string>
+    <string name="interval">Interval</string>
+    <string name="strenght">Kracht</string>
+    <string name="rolling_hill">Glooiende heuvels</string>
+    <string name="incline">Helling</string>
+    <string name="mountain_peak">Bergtoppen</string>
+    <string name="constant_watt">Constante Weerstand</string>
+    <string name="set_a_goal">EEN DOEL STELLEN</string>
+    <string name="select_goal">Selecteer doel</string>
+    <string name="tr_dialog_info">Wij bieden uitgebreide cardio- conditioneringscursussen om uw aerobe fitheid te stimuleren en uw lichaam te trainen om nog uitdagender trainingen aan te kunnen!</string>
+    <string name="tr_manual_info">Train met een tempo en intensiteit die bij u past.</string>
+    <string name="tr_hill_info">Daag uzelf uit met dit programma waarbij u heuvels kunt beklimmen. Tot ziens op de top!</string>
+    <string name="tr_fatburn_info">Lage-intensiteitstraining, waarbij uw lichaam veel zuurstof levert aan uw spieren zodat u meer vet verbrandt.</string>
+    <string name="tr_cardio_info">Verbrand meer calorieën en stimuleer conditionering met dit cardioprogramma.</string>
+    <string name="tr_strenght_info">Daag uzelf uit met deze hoge-intensiteitstraining.</string>
+    <string name="tr_interval_info">Wilt u uw uithoudingsvermogen verbeteren? Dat lukt met dit interval trainingsprogramma!</string>
+    <string name="tr_target_info">Kies een specifieke doelstelling die u wilt halen en ga ervoor. U kunt het!</string>
+    <string name="tr_rolling_hill_info">Daag uzelf uit met intervallen van verschillende duur en hoogte.</string>
+    <string name="tr_mountains_peak_info">Fiets met een constante hellingsgraad over dit gesimuleerde buitenparcours.</string>
+    <string name="tr_incline_info">Fiets met een gestage maar intensieve hellingsgraad over dit gesimuleerde buitenparcours.</string>
+    <string name="tr_constant_watt_info">Naar hoeveel Watt streeft u? Dit programma past het intensiteitsniveau aan uw traptempo aan, zodat u uw doel kunt bereiken.</string>
+    <string name="level">Niveau</string>
+    <string name="easy">MAKKELIJK</string>
+    <string name="medium">MIDDELZWAAR</string>
+    <string name="hard">ZWAAR</string>
+    <string name="time">Tijd</string>
+    <string name="stop">Stoppen</string>
+    <string name="emergency">NOODSTOP</string>
+    <string name="emergency_note">Druk de Noodstopknop nogmaals in om te resetten</string>
+    <string name="error">Fout</string>
+    <string name="error_codes">Foutcode:</string>
+    <string name="resume">Hervatten</string>
+    <string name="pause">Pauzeren</string>
+    <string name="no_heart_rate_detect">Geen hartslag gedetecteerd. Doe alsjeblieft je borstriem om.</string>
+    <string name="workout_will_stop_in">Training stopt over %1$d:%2$02d</string>
+    <string name="heart_">Training stopt over %1$d:%2$02d</string>
+    <string name="reset">Resetten over </string>
+    <string name="system_will_be_auto_reset">Systeem reset automatisch wegens inactiviteit tijdens de afgelopen 2 minuten.</string>
+    <string name="press_continue"> Druk op Hervatten om verder te gaan.</string>
+    <string name="continue01">Doorgaan</string>
+    <string name="current_heart_rate">huidige hartslag</string>
+    <string name="maximum_heart_rate">85% Max. UUR</string>
+    <string name="warm_up">Opwarmen</string>
+    <string name="stage">Fase </string>
+    <string name="next">Volgende</string>
+    <string name="cool_donw">Afkoelen</string>
+    <string name="time_required_60">Benodigde tijd om te slagen (Score 60): x:xx</string>
+    <string name="remaining_time">Resterende Tijd</string>
+    <string name="cardio_type">Soort Cardio</string>
+    <string name="pace">Tempo</string>
+    <string name="avg_pace">Gemiddeld Tempo</string>
+    <string name="best_pace">Beste Tempo</string>
+    <string name="total_distance">Totale Afstand</string>
+    <string name="total_calories">Totale Calorieën</string>
+    <string name="avg_heart_rate">Gemiddelde Hartslag</string>
+    <string name="max_heart_rate">Max. Hartslag</string>
+    <string name="please_remember">Vergeet niet uit te loggen voordat u vertrekt.</string>
+    <string name="complete">VOLLEDIG</string>
+    <string name="imcomplete">ONVOLLEDIG</string>
+    <string name="treadmill">Loopband</string>
+    <string name="summary">overzicht</string>
+    <string name="very_good">Zeer Goed</string>
+    <string name="good">Goed</string>
+    <string name="average">Middelmatig</string>
+    <string name="bad">Slecht</string>
+    <string name="very_bad">Zeer Slecht</string>
+    <string name="normal">Normaal</string>
+    <string name="score">Score</string>
+    <string name="low_risk">laag risico</string>
+    <string name="moderate_risk">matig risico</string>
+    <string name="high_risk">hoog risico</string>
+    <string name="speed_decreases_to">snelheidsafname naar</string>
+    <string name="speed_increases_to">snelheidsverhoging naar</string>
+    <string name="incline_decreases_to">hellingsniveau afname naar</string>
+    <string name="incline_increases_to">stijging van het hellingsniveau tot</string>
+    <string name="level_decreases_to">weerstandsniveau afnemen tot</string>
+    <string name="level_increases_to">weerstandsniveau verhogen tot</string>
+    <string name="resistance_level_decreases">Weerstandsniveau neemt af naar %1$.1f over 3 seconden</string>
+    <string name="resistance_level_increases">Weerstandsniveau neemt toe naar %1$.1f over 3 seconden</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">eenvoudig</string>
+    <string name="lap">schoot</string>
+    <string name="speed">SPEED</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">tijd</string>
+    <string name="target_time">doel tijd</string>
+    <string name="target_hr">doelhartslag</string>
+    <string name="mets">METS</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>
+
+    <!-- Performance -->
+    <string name="session1">SESSIE</string>
+    <string name="performance_dialog_info">Bekijk uw trainingsprestaties op cardio- apparaten, trainingsapps en draagbare fitnessapparatuur. Vergelijk uw trainingsresultaten en daag uzelf nog meer uit!</string>
+    <string name="other">OVERIGE</string>
+    <string name="avg_watt">Gemiddelde Watt(W)</string>
+    <string name="share">delen</string>
+    <string name="add">Toevoegen</string>
+    <string name="select_date">Selecteer een datum</string>
+    <string name="select_time">selecteer tijd</string>
+    <string name="h">uur</string>
+    <string name="m">notulen</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">Niveau</string>
+    <string name="vo2_faster_to_keep">sneller peddelen om het wattage op peil te houden</string>
+    <string name="vo2_slowly_to_keep">langzaam peddelen om het wattage op peil te houden</string>
+    <string name="target_watt">richt watt</string>
+    <string name="connection_lost">verbinding verbroken!</string>
+    <string name="data_upload_unsuccessful">data upload niet succesvol!</string>
+    <string name="data_not_uploaded_to_circlecloudgo">Gegevens niet geüpload naar circlecloudgo vanwege connectiviteit of serverprobleem!</string>
+    <string name="no_heart_rate_detected">Geen hartslag gedetecteerd. Doe uw borstriem om of plaats uw handen op de hartslagsensor.</string>
+    <string name="auto_speed_cool_down_disabled">Automatische afkoelsnelheid uitgeschakeld</string>
+    <string name="auto_resistance_level_down_disabled">Automatische afkoelsnelheid uitgeschakeld</string>
+    <string name="show_history_data">geschiedenisgegevens tonen</string>
+    <string name="show_monthly_total">toon maandelijkse gegevens</string>
+    <string name="show_yearly_total">toon jaarlijkse gegevens</string>
+    <string name="close">dichtbij</string>
+    <string name="account">Account</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">Welkom bij CircleCloud Go, de welzijnsmanager met de meeste functionaliteiten!</string>
+    <string name="tutorial_first_2st">Hier zijn wat tips om u op weg te helpen.</string>
+    <string name="tutorial_target_1st">Stel fitnessdoelstellingen in met "icon%s".</string>
+    <string name="tutorial_target_2st">Doelstelling Training</string>
+    <string name="tutorial_gym_1st">Blijf op de hoogte van alles wat op deze locatie aangeboden wordt met "icon%s".</string>
+    <string name="tutorial_gym_2st">Mijn Gym</string>
+    <string name="tutorial_performance_1st">Meet uw resultaten met "icon%s".</string>
+    <string name="tutorial_performance_2st">Mijn Prestaties</string>
+    <string name="tutorial_workout_1st">maak gepersonaliseerde training door te gebruiken "icon%s"</string>
+    <string name="tutorial_workout_2st">Mijn Training</string>
+    <string name="tutorial_body_1st">Meet uw fitnessmetingen met "icon%s".</string>
+    <string name="tutorial_body_2st">Body Manager</string>
+    <string name="tutorial_last_str">Download de gratis CircleFit app om toegang te hebben tot alle content.Gebruik de CircleFit app om snel in te loggen op de cardio-apparaten.</string>
+
+    <!-- Fan -->
+    <string name="fan_title">Ventilator</string>
+    <string name="fan_info_off">Uit</string>
+    <string name="fan_info_50">Laag</string>
+    <string name="fan_info_100">Hoog</string>
+
+    <!-- New Add -->
+    <string name="select_language">Selecteer taal</string>
+    <string name="birthday_day">data</string>
+    <string name="emergency_note_FOR_M6">Het terugplaatsen van de noodstopschakelaarklem zal herstarten</string>
+    <string name="Logout_confirm">Is het stoppen?</string>
+
+    <string name="WeekStr_1">Ma</string>
+    <string name="WeekStr_2">Di</string>
+    <string name="WeekStr_3">Wo</string>
+    <string name="WeekStr_4">Do</string>
+    <string name="WeekStr_5">Vr</string>
+    <string name="WeekStr_6">Za</string>
+    <string name="WeekStr_7">Zo</string>
+
+    <string name="month_1">Jan.</string>
+    <string name="month_2">Feb.</string>
+    <string name="month_3">Mrt.</string>
+    <string name="month_4">Apr.</string>
+    <string name="month_5">Mei</string>
+    <string name="month_6">Jun.</string>
+    <string name="month_7">Jul.</string>
+    <string name="month_8">Aug.</string>
+    <string name="month_9">Sep.</string>
+    <string name="month_10">Okt.</string>
+    <string name="month_11">Nov.</string>
+    <string name="month_12">Dec.</string>
+</resources>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent" >  
+  
+    <com.rtx.treadmill.RtxView.RtxTextView
+        android:id="@+id/textDate"  
+        android:layout_width="300px"
+        android:layout_height="70px"
+        android:layout_marginLeft="0px"
+        android:text=""
+        android:gravity="left"
+        android:textSize="50px"/>
+
+    <com.rtx.treadmill.RtxView.RtxImageView
+        android:id="@+id/textSplit"
+        android:layout_width="290px"
+        android:layout_height="3px"
+        android:layout_marginLeft="320px"
+        android:layout_marginTop="30px"
+        android:background="@drawable/bodymanage_split"
+    />
+
+    <com.rtx.treadmill.RtxView.RtxTextView
+        android:id="@+id/textVal"
+        android:layout_width="300px"
+        android:layout_height="70px"
+        android:layout_marginLeft="600px"
+        android:text=""
+        android:gravity="center"
+        android:textSize="50px"/>
+
+</FrameLayout>

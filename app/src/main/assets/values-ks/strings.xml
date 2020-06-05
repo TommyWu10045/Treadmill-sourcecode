@@ -1,0 +1,607 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">الحساب</string>
+
+    <string name="january">كانون الثاني</string>
+    <string name="february">فبراير</string>
+    <string name="march">مارس</string>
+    <string name="april">أبريل</string>
+    <string name="may">مايو</string>
+    <string name="june">يونيو</string>
+    <string name="july">يوليو</string>
+    <string name="august">أغسطس</string>
+    <string name="september">سبتمبر</string>
+    <string name="october">شهر اكتوبر</string>
+    <string name="november">شهر نوفمبر</string>
+    <string name="december">ديسمبر</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">الدخول </string>
+    <string name="log_in">الدخول </string>
+    <string name="login_msg">تسجيل الدخول للتمتع بجميع المميزات</string>
+    <string name="training">التدريبات </string>
+    <string name="heart_rate_control">التحكم في ضربات القلب</string>
+    <string name="hiit">HIIT</string>
+    <string name="physical_test">اختبار اللياقة البدنية</string>
+    <string name="target_train">هدف التدريب</string>
+    <string name="my_performance">أدائي </string>
+    <string name="body_manager">المستكشف العام لجسدي </string>
+    <string name="my_gym">غرفة لياقتي البدنية </string>
+    <string name="my_workout">تمريني</string>
+    <string name="quick_start">الدخول السريع </string>
+    <string name="you_have_a_message">لديك رسالة</string>
+    <string name="settings">تثبيت </string>
+    <string name="logout">الخروج </string>
+    <string name="log_out">الخروج </string>
+    <!-- Login -->
+    <string name="sign_up">تسجيل</string>
+    <string name="forgot_password">نسيت كلمة السر </string>
+    <string name="quick_log_in_with">استخدم CircleFit APP للدخول السريع </string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">تفعيل نظام البلوتوث </string>
+    <string name="login_expand_2">فتح CircleFit APP</string>
+    <string name="login_expand_3">استعمال النظام المتحرك الذي أسفل نظام التحكم في الجهة السفلية الأيمن . سوف يقوم تلقائيا بالتناسق .</string>
+    <string name="note">ملحوظة:</string>
+    <string name="note_contents">ينبغي التسجيل لدى CircleFit APP لكي يتم تشغيل ( الدخول السريع ) .إن CircleFit هو APP لنظام اللياقة Circle Fitness . يمكنك الدخول إلى أسواق App /Google Play أو القيام بمسح QR للحصول على التنزيل مجانا .</string>
+    <string name="email">البريد الإلكتروني </string>
+    <string name="password">كلمة السر </string>
+    <string name="enter_your_account">أدخل البريد الإلكترني الذي استعملته في التسجيل ، سوف نقوم بإرسال كلمة السر إلى بريدك الإلكتروني . </string>
+    <string name="send">إرسال </string>
+    <string name="email_sent">لقد تم أرسال الرسالة </string>
+    <string name="ok">حسنا</string>
+    <string name="incorrect_email">البريد الإلكتروني غير صحيح .</string>
+    <string name="not_a_valid_email_address">هذا البريد الإلكتروني لا يعمل . </string>
+    <string name="password_erroe">لم تيم التعرف على كلمة المرور أو البريد الإلكتروني الرجاء إعادة الإدخال . </string>
+    <string name="connect_problem">خلل في اتصال الانترنت ، حاول مرة أخرى .</string>
+    <string name="no_account_matches">لا يطابق حساب</string>
+    <string name="please_try_again"> حاول مرة أخرى .</string>
+    <string name="user_id_exist_1">هذا البريد الإلكتروني مستعمل .</string>
+    <string name="user_id_exist_2">الرجاء استخدام بريد إلكرتوني آخر .</string>
+
+    <!-- Reg -->
+    <string name="registration">تسجيل </string>
+    <string name="circlecloud_go_sign_up">الاشتراك في CIRCLECLOUD GO</string>
+    <string name="account_exist">هذا البريد الإلكتروني مستعمل ، الرجاء استخدام بريد إلكرتوني آخر .</string>
+    <string name="confirm_password">التأكد من كلمة السر </string>
+    <string name="username">اسم المستخدم </string>
+    <string name="user_name">اسم المستخدم </string>
+    <string name="units">المقياس </string>
+    <string name="metric">القياس المتري  </string>
+    <string name="imperial">القياس الإجليزي </string>
+    <string name="gender">الجنس </string>
+    <string name="female">أنثى </string>
+    <string name="male">ذكر </string>
+    <string name="height">الطول </string>
+    <string name="height_required">الطول مطلوب للتدقيق في تكوين الجسم المحلل</string>
+    <string name="height_metric_error_msg">الرجاء إدخال الرقم ما بين 130 – 220 سم </string>
+    <string name="height_imperial_error_msg">الرجاء إدخال الرقم ما بين 4 ' 3" – 7 ' 3" سم </string>
+    <string name="date_of_birth">تاريخ الميلاد </string>
+    <string name="date_of_birth_required">عليك إدخال تاريخ الميلاد كي يتمكن ( جهاز قياس دهون الجسم ) من دقة التحليل </string>
+    <string name="privacy_policy">سياسة الخصوصية</string>
+    <string name="i_agree">أوافق على سياسة الخصوصية </string>
+    <string name="view_privacy_policy">عرض سياسة الخصوصية</string>
+    <string name="privacy_policy_contents">سيركل فيتنس "Circle Fitness" شركة مقرها في تايوان بجمهورية الصين، وتعمل أساسًا في مجال تصميم أجهزة اللياقة البدنية وتصنيعها تحت الاسم التجاري ™Circle Fitness. عندما تسجِّل عضويتك لدينا وتصبح مستخدمًا لمنتجاتنا، لا يغطي هذا البيان أي معلومات أخرى نجمعها بما في ذلك، تمثيلاً لا حصرًا، البيانات التي نجمعها دون اتصال بالإنترنت أو التي نتلقاها عبر أجهزة اللياقة البدنية أو تطبيقات أجهزة الجوال.
+مواقع الخوادم.
+يقع مقرنا الرئيسي في مدينة تاي شانغ في تايوان، جمهورية الصين. ونستضيف خوادمنا ونعالج المعلومات في الولايات المتحدة وبلدان أخرى. عندما تصل إلى مواقعنا على الويب، فإنك تنقل معلومات إلى الولايات وبلدان أخرى.
+
+المعلومات التي نجمعها.
+المعلومات التي تقدِّمها بشكل مباشر: عندما تسجِّل لإنشاء حساب أو ترسل إلينا طلبات عبر أجهزة اللياقة البدنية أو تطبيقات الجوال، يجوز أن نطلب منك تقديم معلومات، مثل اسمك (لا يُشترط تقديم الاسم الحقيقي، ويُفضل الاسم المستعار), وطولك وتاريخ ميلادك وعنوان بريدك الإلكتروني وكلمة المرور.
+
+المعلومات التي نجمعها بشكل غير مباشر: نجمع أيضًا معلومات بشأن تاريخ زيارتك لموقعنا ووقتها، وأجهزة اللياقة البدنية التي استخدمتها، وكذلك البرامج والوظائف. ويتم جمع هذا النوع من المعلومات لنجعل منتجاتنا وخدماتنا أكثر فائدة لك.
+
+الدمج: يجوز أن ندمج المعلومات التي نتلقاها عبر أجهزة اللياقة البدنية مع المعلومات التي نتلقاها عنك من مصادر أخرى، على سبيل المثال: ملخص جلسات تمارين اللياقة من جهازك القابل للارتداء أو من تطبيق لياقة بدنية تابع لأطراف ثالثة.
+
+استخدام المعلومات.
+تُستخدم البيانات التي تجمعها Circle Fitness في تزويدك بتجربة لياقة بدنية أفضل وأكثر خصوصية لك. ولا نؤجر معلوماتك الشخصية الفردية أو نبيعها أو نتيحها للمشاركة بطريقة أخرى مع أطراف ثالثة، إلا في الحالات التالية:
+
+- بموافقتك.
+- نستعين بموفري خدمات تابعين لنا أو غير تابعين لنا في جميع أنحاء العالم لمساعدتنا على تقديم خدماتنا وتسيير أعمالنا وفقًا لاتفاقيات سرية البيانات.
+- نفصح عن إحصاءات الاستخدام الجماعية التي لا يمكن استخدامها لتحديد هويتك بالذات.
+أمن معلوماتك.
+نطبِّق تدابير تنظيمية وتقنية لضمان حصر الوصول إلى معلوماتك في الأشخاص الذين بحاجة إلى معرفتها. وحتى إذا اتخذنا خطوات لحماية معلوماتك الشخصية، يتعين عليك العلم بأنه لا نحن ولا أي شركة أخرى يمكنها القضاء على المخاطر الأمنية بشكل كامل.
+
+الاتصال بنا.
+إذا كانت لديك أي استفسارات أو تحفظات بشأن سياسة الخصوصية هذه، فالرجاء الاتصال بنا عبر عنوان البريد الإلكتروني info@circlefitness.com أو عبر موقع الويب https:www.circlefitness.com
+تحديثات بيان الخصوصية.
+يجوز أن نحدِّث هذا البيان من وقت لآخر. وعندما نفعل ذلك، سنغيِّر تاريخ آخر تحديث أعلاه لإحاطتك علمًا بأننا قد أجرينا تغيرًا.
+تاريخ سريان المفعول: 30 مايو/أيار 2018</string>
+    <string name="exit">المغادرة </string>
+    <string name="please_make_sure_your_passwords_match">يرجى التاكد من تطابق كلمة السر الخاصة بك . </string>
+    <string name="congratulations_lower">مبروك </string>
+    <string name="registration_done">التسجيل تم!</string>
+    <string name="exit_description">التسجيل غير مكتمل ، هل أنت متأكد من أنك تريد الخروج؟</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">هذا هو CIRCLECLOUD GO APP</string>
+    <string name="login_dialog_info_line_2">الرجاء تسجيل الدخول للمتابعة</string>
+    <string name="initializing_quick_login">بدء تسجيل الدخول السريع</string>
+    <string name="unable_to_connect">غير قادر على الاتصال!</string>
+    <string name="please_try_again_later">حاول مرة أخرى .</string>
+
+
+    <!-- Home -->
+    <string name="welcome">مرحبا </string>
+    <string name="my_class_reminder"> تنبيهات بالدروس </string>
+    <string name="schedule_change">تغيير الجدول </string>
+    <string name="first_login_welcome">    مرحبا لاستعمال CircleCloud Go ! نتمنى أن تحصل على الوظائف التي تساعدك للتدريب . نتمى لك السعادة والسرور ، والاستمتاع بالرياضة !</string>
+    <string name="there_is_a">هناك</string>
+    <string name="today_at">اليوم في</string>
+    <string name="tomorrow_at">غدا في</string>
+    <string name="hi">مرحبا</string>
+    <string name="target_update">تجديد الهدف </string>
+    <string name="home_msg_times_up_1">لقد وصلت إلى نهاية الأيام المستهدفة للهدف</string>
+    <string name="home_msg_times_up_2">تحقق من تقدمك في القطار المستهدف!</string>
+    <string name="home_msg_half_way_through_1">مبروك أنك في منتصف الطريق من خلال الهدف</string>
+    <string name="home_msg_half_way_through_2">شاهد تقدمك في القطار المستهدف!</string>
+    <string name="home_msg_reached_1">مبروك لقد وصلت إلى الهدف</string>
+    <string name="home_msg_reached_2">شاهد النتيجة في القطار المستهدف!</string>
+    <string name="this_schedule_of">الجدول الزمني ل</string>
+    <string name="has_been_changed_from">تم تغييره من</string>
+    <string name="to">إلى</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">لوحة الإعلانات </string>
+    <string name="class_str">الدرس </string>
+    <string name="my_class">دروسي </string>
+    <string name="hot">جديد</string>
+    <string name="add_to_my_class">الإضافة إلى ( دروسي ) </string>
+    <string name="added">تمت  الإضافة </string>
+    <string name="remove_from_my_class">الإزالة من ( دروسي )</string>
+    <string name="removed">تمت الإزالة </string>
+    <string name="mygym_dialog_info">يمكنك الحصول على الأخبار الجديدة في اللياقة البدنية ، و الدروس والعروض على صفحة ( لياقتي ) .</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">انشاء هدفك في اللياقة البدنية </string>
+    <string name="targer_dialog_info">(التدريبات المستهدفة ) من برنامج cloud-based و يمكنك الاتصال مباشرة ببرنامج  CircleFit من أجل تحقيق أهداف اللياقة البدنية وتتبع التقدم المحرز لك .</string>
+    <string name="distance">المسافة </string>
+    <string name="distance_60_rpm">المسافة عند 60 RPM</string>
+    <string name="distance_80_rpm">المسافة عند 80 RPM</string>
+    <string name="calories">السعرات الحرارية </string>
+    <string name="calories_60_rpm">السعرات الحرارية عند 60 RPM</string>
+    <string name="calories_80_rpm">السعرات الحرارية عند 80 RPM</string>
+    <string name="exercise_frequency">معدل الرياضة </string>
+    <string name="weight">الوزن </string>
+    <string name="weight_upper">الوزن </string>
+    <string name="bodyfat_percent">دهون الجسم </string>
+    <string name="days_left">بقي  يوم     </string>
+    <string name="weeks_left">الأسابيع المتبقية</string>
+    <string name="view_details">عرض التفاصيل</string>
+    <string name="target">استهداف</string>
+    <string name="start">البداية </string>
+    <string name="create_a_new_target">خلق هدف جديد</string>
+    <string name="target_distance">البعد المستهدف   </string>
+    <string name="current_distance">المسافة الحالية      </string>
+    <string name="target_days">الأيام المستهدفة    </string>
+    <string name="current_days">الأيام الحالية      </string>
+    <string name="target_weight">الوزن المستهدف        </string>
+    <string name="current_weight">الوزن الحالي       </string>
+    <string name="input_weight">إدخال الوزن </string>
+    <string name="input_body_fat">ادخال نسبة دهون الجسم ٪</string>
+    <string name="target_body_fat">نسبة دهون الجسم المستهدفة ٪</string>
+    <string name="current_body_fat">ادخال نسبة دهون الجسم الحالية ٪</string>
+    <string name="current">الآن </string>
+    <string name="target_days_weeks">الأيام المستهدفة / عدد الأسابيع      </string>
+    <string name="target_weeks">عدد الأسابيع المستهدفة      </string>
+    <string name="current_week">الأسبوع الحالي      </string>
+    <string name="achievement">موهلات</string>
+    <string name="this_week">هذا الأسبوع </string>
+    <string name="target_calories">السعرات الحرارية المستهدفة    </string>
+    <string name="current_calories">السعرة الحرارية حاليا </string>
+    <string name="days">أيام</string>
+    <string name="day">أيام</string>
+    <string name="week">أسبوع</string>
+    <string name="weeks">أسابيع</string>
+    <string name="choose_your_fitness_target">اختار هدف الرياضة </string>
+    <string name="how_many_days_per_week">كم يوم في الأسبوع ؟ </string>
+    <string name="dates">تواريخ</string>
+    <string name="end_date">يوم النهاية </string>
+    <string name="running">الركض </string>
+    <string name="biking">ركوب الدراجة </string>
+    <string name="elliptical">بيضاوي الشكل </string>
+    <string name="all">الكل </string>
+    <string name="select_exercise_type">اختار نوع الرياضة </string>
+    <string name="history_upper">التاريخ </string>
+    <string name="edit">تحرير </string>
+    <string name="done">منجز</string>
+    <string name="percent_loss">٪ خسارة</string>
+    <string name="percent_gain">٪ ربح</string>
+    <string name="lb_loss"> خسارة lb</string>
+    <string name="lb_gain">lb ربح </string>
+    <string name="kg_loss">kg خسارة</string>
+    <string name="kg_gain">kg ربح</string>
+    <string name="delete_description">هل أنت متأكد من حذف الهدف ؟</string>
+    <string name="delete">حذف</string>
+    <string name="cancel">إلغاء </string>
+    <string name="deleted">حذف</string>
+    <string name="close_description">هل تريد إنهاء هذا الهدف ؟</string>
+    <string name="end_now">الانتهاء فورا </string>
+    <string name="target_ended">الهدف المنتهي</string>
+    <string name="try_again_next_time">لمحاولة في المرة القادمة !</string>
+    <string name="super_str">ممتاز!</string>
+    <string name="great">عظيم!</string>
+    <string name="good_try">محاولة جيدة !</string>
+    <string name="congratulations">مبروك !</string>
+    <string name="you_reached_your_target_in_time">لقد وصلت إلى هدفك</string>
+    <string name="you_reached_your_target">لقد وصلت إلى هدفك</string>
+    <string name="half_way_through">لقد وصلت منتصف الطريق !</string>
+    <string name="you_are_almost_there">لقد اقتربت !</string>
+    <string name="continue_exclamation_mark">الاستمرار!</string>
+    <string name="continue_str">الاستمرار</string>
+    <string name="week_achieved">حقق الاسبوع</string>
+    <string name="target_end_title">لم يعد هناك وقت لوصول الهدف ! </string>
+    <string name="target_end_description">هل تريد تكرار المحاولة ، هل حصلت على ( نجمة فضية ) واحدة ؟</string>
+    <string name="end">النهاية </string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">إنشاء التمرين الخاص بك </string>
+    <string name="create_a_new_workout">إنشاء التمرين الخاص بك</string>
+    <string name="workout_name">اسم التمرين </string>
+    <string name="preview">عرض </string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">حفظ</string>
+    <string name="details">تفاصيل</string>
+    <string name="avg_speed">معدل السرعة</string>
+    <string name="delete_interval_description">هل أنت متأكد من أنك تريد حذف هذا الفاصل الزمني؟</string>
+    <string name="delete_item_description">هل أنت متأكد من الحذف ؟ </string>
+    <string name="yes_str">نعم </string>
+    <string name="no_str">لا </string>
+    <string name="workout_has_not_been_saved">لم يتم تخزين الرياضة بعد .  </string>
+    <string name="are_you_sure_you_want_to_leave">هل  تريد الخروج ؟</string>
+    <string name="workout_info">( تماريني ) يمكنك إنشاء قوة المقاومة لكل نوع من الفواصل ، وإنشاء خطة اللياقة البدنية الخاص بك . اضغط على ( إنشاء تماريني ) للبدء . يمكنك إنشاء 3 مجموعات من خطط اللياقة البدنية . </string>
+    <string name="workout_info_bk">( تماريني ) يمكنك إنشاء قوة المقاومة لكل نوع من الفواصل ، وإنشاء خطة اللياقة البدنية الخاص بك . اضغط على ( إنشاء تماريني ) للبدء . يمكنك إنشاء 3 مجموعات من خطط اللياقة البدنية . </string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">عادي </string>
+    <string name="high">عالي</string>
+    <string name="advanced">لمتقدم</string>
+    <string name="personal">شخصي</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">الاسم </string>
+    <string name="edit_name">تعديل الاسم  </string>
+    <string name="sprint">الجري لمسافات قصيرة </string>
+    <string name="recovery">استراحة </string>
+    <string name="sec">sec</string>
+    <string name="view">عرض</string>
+    <string name="skip">تخطي </string>
+    <string name="total_intervals">إجمالي الفواصل الزمنية </string>
+    <string name="intervals">الفاصل  </string>
+    <string name="duration_upper">المدة الزمنية </string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">HIIT ( تدريبات عالية الكثافة ذات فاصل زمني ) يوفر لك فترات قصيرة من الممارسة المكثفة ، ثم بالتناوب مع فترات الانتعاش ، لتعزيز أداء التمرين وحرق أكبر قدر من السعرات الحرارية . </string>
+    <string name="hiit_normal_info">( السرعة ) و ( المنحدر ) للمستوى المنخفض . يفضل لاستخدام المبتدئين .</string>
+    <string name="hiit_high_info">( السرعة ) و ( المنحدر ) للمستوى العالي . يفضل لاستخدام المدربين .</string>
+    <string name="hiit_advanced_info">( السرعة ) و ( المنحدر ) لاستعمال المستوى العالي . فقط لاستخدام المدربين . </string>
+    <string name="hiit_personal_info">انشاء HIIT الشخاص بك . يمكنك انشاء 3 HIIT كحد أقصى . </string>
+    <string name="create_your_hiit_workout">انشاء HIIT للرياضة الخاص بك </string>
+    <string name="hiit_delete_item_description">هل تريد حذف  ؟</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">برنامج ( إدارة الجسم ) هو برنامج مصمم لقياس وتتبع اللياقة البدنية عن طريق دائرة اللياقة ،Circle Fitness IBA/InBody 570 ، و  CircleFit APP .</string>
+    <string name="last_updated">التغيير السابق </string>
+    <string name="no_data">لا يوجد معلومات </string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">نسبة الماء في الجسم </string>
+    <string name="total_body_water_two">نسبة الماء في الجسم </string>
+    <string name="visceral_fat_rating">معدل دهون الأعضاء الداخلية </string>
+    <string name="visceral_fat_rating_two">معدل دهون الأعضاء الداخلية </string>
+    <string name="bone_mass">كثافة العظام </string>
+    <string name="muscle_mass">كتلة العضلات </string>
+    <string name="body_fat">دهون الجسم ٪</string>
+    <string name="intracellular_water">السائل داخل الخلية </string>
+    <string name="extracellular_water">السائل خارج الخلية </string>
+    <string name="protein">البروتين</string>
+    <string name="mineral">المعادن </string>
+    <string name="waist_hip_ratio">نسبة الخصر والورك </string>
+    <string name="obesity_degree">درجة البدانة </string>
+    <string name="input">إدخال</string>
+    <string name="view_history">عرض التاريخ </string>
+    <string name="history">التاريخ </string>
+    <string name="date">تواريخ</string>
+    <string name="info_weight_subtitle">الوزن </string>
+    <string name="info_bodyfat_percent_subtitle">نسبة دهون الجسم هي نسبة دهون الجسم بالنسبة إلى وزن الجسم .</string>
+    <string name="info_bmi_subtitle">"نسبة الوزن إلى الطول ، مؤشر عام للصحة .
+"</string>
+    <string name="info_bmr_subtitle">يتطلب الحد الأدنى اليومي من الطاقة أو السعرات الحرارية التي يحتاجها جسمك عند الراحة (بما في ذلك النوم) حتى يعمل بفعالية.</string>
+    <string name="info_total_body_water_subtitle">مجموع محتوى الماء في الجسم هو مجموع السوائل داخل الجسم ، يمكن أن يعبر عن نسبة وزن الجسم الإجمالي .</string>
+    <string name="info_visceral_fat_rating_subtitle">دهون الأعضاء الداخلية التي تكون في أعماق البطن ، هي التي تحيط وتحمي الأعضاء الحيوية .</string>
+    <string name="info_bone_mass_subtitle">كثافة العظام </string>
+    <string name="info_intracellular_water_subtitle">السائل داخل الخلية </string>
+    <string name="info_extracellular_water_subtitle">السائل خارج الخلية </string>
+    <string name="info_protein_subtitle">البروتين</string>
+    <string name="info_mineral_subtitle">المعادن </string>
+    <string name="info_waist_hip_ratio_subtitle">نسبة الخصر والورك </string>
+    <string name="info_obesity_degree_subtitle">درجة البدانة </string>
+
+    <string name="info_weight">الوزن </string>
+    <string name="info_bodyfat_percent">نسبة دهون الجسم هي نسبة دهون الجسم بالنسبة إلى وزن الجسم .لا غنى عن تواجد الدهون في الجسم كي تساعد على الحفاظ بدرجة حرارة الجسم ، وتليين المفاصل وحماية الأجهزة .الدهون الزائدة يمكن أن تدمر الصحة على المدى الطويل ، كما ثبت أن الحد من الدهون الزائدة يمكن أن تقلل مباشرة من مخاطر أمراض معينة مثل : ارتفاع ضغط الدم وأمراض القلب والسكري من النوع الثاني وأنواع من مرض السرطان . انخفاض الدهون في الجسم قد يؤدي إلى هشاشة العظام عند فترة الشيخوخة ، وعدم تواضب وقت الحيض عن النساء ، وقد يؤدي إلى العقم .من الضروري مقارنة نتائج الدهون في الجسم ، إذا كانت في المقدار الصحي لدهون الجسم أم لا .</string>
+    <string name="info_bmi">نسبة الوزن إلى الطول ، مؤشر عام للصحة . </string>
+    <string name="info_bmr">معدل الأيض الأساسي (BMR) هو الحد الأدنى من الطاقة اليومية أو السعرات الحرارية التي يحتاجها جسمك عند الراحة ، حتى تعمل أعضاء الجهاز التنفسي والدورة الدموية والجهاز العصبي والكبد والكلى والأعضاء الأخرى بفعالية.</string>
+    <string name="info_total_body_water">الماء يلعب دورا هاما في العديد من عمليات الجسم ، فهو موجود في كل الخلايا والأنسجة والأعضاء . الحفاظ على المقدار الصحي للماء في الجسم ، كي يساعد الجسم على القيام بالوظائف بشكل فعال ، ويقلل من خطورة تطوير المشاكل الصحية . </string>
+    <string name="info_visceral_fat_rating">دهون الأعضاء الداخلية ( دهون البطن ) هي الدهون التي تحيط بالأعضاء الحيوية كالجذع / والمعدة .ارتفاع معدل دهون الاعضاء الداخلية يؤدي إلى ارتفاع مخاطر ضغط الدم ، وأمراض القلب و النوع الثاني من مرض السكري . انخفاض معدل دهون الأعضاء الداخلية يساعد على استقرار تأثيرات الأنسولين ، والانخفاض من مرض السكري والأمراض ذات الصلة . </string>
+    <string name="info_bone_mass">كثافة العظام </string>
+    <string name="info_intracellular_water">السائل داخل الخلية </string>
+    <string name="info_extracellular_water">السائل خارج الخلية </string>
+    <string name="info_protein">البروتين</string>
+    <string name="info_mineral">المعادن </string>
+    <string name="info_waist_hip_ratio">نسبة الخصر والورك </string>
+    <string name="info_obesity_degree">درجة البدانة </string>
+    <string name="trunk">الجذع </string>
+    <string name="left_arm">الذراع الأيسر </string>
+    <string name="right_arm">الذراد الأيمن </string>
+    <string name="left_leg">الرجل الأيسر </string>
+    <string name="right_leg">الرجل الأيمن </string>
+    <string name="underfat">تحت المستوى </string>
+    <string name="healthy">الصحة </string>
+    <string name="overfat">الفائض </string>
+    <string name="obese">البدانة </string>
+    <string name="your_healthy_bone_mass">كثافة العظام السليمة لديك ينبغي أن تكون</string>
+    <string name="your_ideal_weight">وزنك المثالي</string>
+    <string name="your_health_waist_hip_ratio">النسبة الصحية للخصر والورك لديك</string>
+    <string name="bd_infomation_title">يعمل ( مدير الجسم ) في التزامن مع دائرة اللياقة البدنية Circle Fitness IBA أو InBody 570 .</string>
+    <string name="bd_infomation_content">يرجى التحقق من المرفقات الخاص بك عند توافرها . </string>
+    <string name="circle_fitness_iba">Circle Fitness IBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">يمكن من خلال استخدام ( التحكم ف معدل نبضات القلب ) التحكم في سرعة التمارين والحفاظ على سرعة نبضات القلب في الدقيقة . </string>
+    <string name="fatburn">حرق الدهون </string>
+    <string name="aerobic">الهوائي </string>
+    <string name="performance">الأداء </string>
+    <string name="customize">التعديل </string>
+    <string name="years">عام</string>
+    <string name="heart_rate">معدل نبضات القلب </string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">تثبيت الحد الأقصى لمعدل نبضات القلب إلى %65 . يعمل هذا البرنامج على ضبط كثافة المناسبة ، من أجل مساعدتك في الوصول إلى معدل نبضات القلب المستهدفة .</string>
+    <string name="hrc_info_aerobic">تثبيت الحد الأقصى لمعدل نبضات القلب إلى %75 . يعمل هذا البرنامج على ضبط كثافة المناسبة ، من أجل مساعدتك في الوصول إلى معدل نبضات القلب المستهدفة .</string>
+    <string name="hrc_info_performance">تثبيت الحد الأقصى لمعدل نبضات القلب إلى %85 . يعمل هذا البرنامج على ضبط كثافة المناسبة ، من أجل مساعدتك في الوصول إلى معدل نبضات القلب المستهدفة .</string>
+    <string name="hrc_info_customize">تثبيت نعدل نبضات القلب المستهدفة . هذا البرنامج سيضبط مستوى الكثافة المناسبة لمساعدتك في الوصول إلى هدفك . </string>
+    <string name="age">السن </string>
+
+    <string name="age_range_error_msg">الرجاء إدخال الرقم بين </string>
+    <string name="duration">المدة الزمنية </string>
+    <string name="profile">المعلومات الشخصية </string>
+    <string name="change_password">تغيير كلمة السر </string>
+    <string name="data_syncing">مزامنة المعلومات </string>
+    <string name="unit">وحدة القياس</string>
+    <string name="old_password">كلمة السر القديمة </string>
+    <string name="new_password">كلمة السر الجديدة </string>
+    <string name="confirm_new_password">تأكيد كلمة المرور الجديدة</string>
+    <string name="password_changed">تم تغيير كلمة السر </string>
+    <string name="old_password_incorrect">كلمة السر القديمة غير صحيحة</string>
+    <string name="new_password_incorrect"> يرجى التاكد من تطابق كلمة السر الخاصة بك . </string>
+    <string name="month">شهر</string>
+    <string name="year">عام</string>
+    <string name="fitness_apps">APP اللياقة البدنية</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">تطبيقات APPS قابلة للتبديل </string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">غارمين الاتصال</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">الاختبار البدني يحتوي على مختلف برامج اللياقة البدنية القياسية التي يطبقها الجيش الأمريكي لتقييم القدرة الراياضية وقدرة التحمل . </string>
+    <string name="phy_gerkin_protocol_info">هذا البرنامج صمم من أجل رجال الإطفاء ، ويستخدم لرصد معدل نبضات القلب وكشف مستويات VO2 . سيتوقف البرنامج تلقائيا بمجرد الوصول إلى 85% من الحد الأقصى لمعدل نبضات القلب . </string>
+    <string name="phy_cooper_test_info">اختبار COOPER هو اختبار للياقة البدنية ، صمم للجيش الأمريكي ، لاختبار  لياقة الجسم خلال التمارين . والهدف من ذلك هو قياس مدى المسافة التي يمكن للمرء أن يركضه خلال 12 دقيقة ، فما مدى مستوى الركض لديك ؟ </string>
+    <string name="phy_usmc_ptf_info">اختبار اللياقة البدنية للبحرية الامركية هو على بعد 3 ميل مع التوقيت . اتحدى نفسك وحاول انهاء المسافة بقدر استطاعتك !</string>
+    <string name="phy_army_prt_info">اختبار اللياقة البدنية لجيش البر الأمريكي هو على بعد 2 ميل مع التوقيت ، اتحدى نفسك وحاول انهاء المسافة بقدر استطاعتك !</string>
+    <string name="phy_navy_prt_info"> اختبار اللياقة البدنية للجيش البحري الأمريكي هو اختبار على بعد 1.5 ميل مع التوقيت . حاول انهاء المسافة بقدر استطاعتك !</string>
+    <string name="phy_usaf_ptf_info">اختبار اللياقة البدنية للجيش الجوي الأمريكي هو اختبار على بعد 1.5 ميل مع التوقيت . حاول انهاء المسافة بقدر استطاعتك !</string>
+    <string name="phy_federal_law_info">هو اختبار على بعد 1.5 ميل مع التوقيت . حاول انهاء المسافة بقدر استطاعتك !</string>
+    <string name="phy_vo2_info">أقصى معدل VO2 أو ما يسمى بأقصى معدل لامتصاص الاوكسجين ، هو واحد من العوامل التي يمكن أن تحدد قدرة اللاعب على تحمله للأداء القائم به .</string>
+
+    <string name="manual">يدوي </string>
+    <string name="hill">سلق الجبال</string>
+    <string name="cardio">وظيفة القلب والرئة </string>
+    <string name="interval">فواصل زمنية </string>
+    <string name="strenght">درجة القوة </string>
+    <string name="rolling_hill">تلال متداولة </string>
+    <string name="incline">منحدر </string>
+    <string name="mountain_peak">قمم الجبال </string>
+    <string name="constant_watt">القوة الكهربائية الثابتة </string>
+    <string name="set_a_goal">ضع هدف</string>
+    <string name="select_goal">حدد الهدف</string>
+    <string name="tr_dialog_info">نقدم دورات شاملة لوظائف القلب والرئة لتعزيز اللياقة البدنية الهوائية وتدريب جسمك لتحمل التدريبات الأكثر صعوبة . </string>
+    <string name="tr_manual_info">مارس الرياضة على السرعة والقوة المناسبة لك .</string>
+    <string name="tr_hill_info">تحدي نفسك مع هذا البرنامج لتسلق الجبال . سنراك فوق القمة ! </string>
+    <string name="tr_fatburn_info">لكثافة المنخفضة للرياضة ، يتيح لجسمك توفير الكثير من الأوكسجين لعضلاتك لحرق المزيد من احتياطات الدهون . </string>
+    <string name="tr_cardio_info">حرق المزيد من السعرات الحرارية واستخدام هذا البرنامج لتعزيز وظائف القلب والرئة .</string>
+    <string name="tr_strenght_info">اتحدى نفسك مع هذا التمرين المكثف .</string>
+    <string name="tr_interval_info">فل تريد زيادة قدرة التحمل الخاص بك ؟ سياعدك برنامج التدريب مع الفاصل الزمني إلى الوصول !</string>
+    <string name="tr_target_info">حدد هدفا معينا للوصول إليه . ستحقق ذلك !</string>
+    <string name="tr_rolling_hill_info">اتحدى نفسك لفترات أطول ومرتفعات مختلفة . </string>
+    <string name="tr_mountains_peak_info">ركوب الدراجة على انحدار ثابت من خلال هذا البرنامج الخيالي لمنظر الركوب في الهواء الطلق .</string>
+    <string name="tr_incline_info">ركوب الدراجة على انحدار ثابت ومكثف من خلال البرنامج الخيالي لمنظر الركوب في الهواء الطلق .</string>
+    <string name="tr_constant_watt_info">ماهي كمية الوات المستهدفة لديك ؟ سيضبط البرنامج مستوى الكثافة وفقا لسرعة الدعس على الدراجة ، لمساعدتك في الوصول ألى الهدف . </string>
+    <string name="level">قوي </string>
+    <string name="easy">منخفض </string>
+    <string name="medium">متوسط </string>
+    <string name="hard">مرتفع </string>
+    <string name="time">الوقت </string>
+    <string name="stop">توقف </string>
+    <string name="emergency">توقيف الطوارئ </string>
+    <string name="emergency_note">اضغط على زر إيقاف الطوارئ مرة أخرى لإعادة التعيين </string>
+    <string name="error">خطأ </string>
+    <string name="error_codes">رمز الخطأ :</string>
+    <string name="resume">استمرار</string>
+    <string name="pause">إيقاف مؤقت </string>
+    <string name="no_heart_rate_detect">لم يتم اكتشاف معدل ضربات القلب. يرجى وضع على حزام الصدر.</string>
+    <string name="workout_will_stop_in">عملية الرياضة تتوقف عند %1$d:%2$02d </string>
+    <string name="heart_">عملية الرياضة تتوقف عند %1$d:%2$02d </string>
+    <string name="reset">إعادة التعيين عند </string>
+    <string name="system_will_be_auto_reset">نظرا لعدم وجود تفاعل خلال دقيقتين </string>
+    <string name="press_continue">سيتم تلقائيا   إعادة تعيين النظام ، اضغط على ( متابعة ) للمتابعة .</string>
+    <string name="continue01">الاستمرار</string>
+    <string name="current_heart_rate">معدل ضربات القلب الحالي</string>
+    <string name="maximum_heart_rate">نبضات القلب القصوى%85</string>
+    <string name="warm_up">التسخين </string>
+    <string name="stage">المرحلة  </string>
+    <string name="next">التالي </string>
+    <string name="cool_donw">خفض السرعة </string>
+    <string name="time_required_60">الوقت المطلوب ( 60 دقيقة ) : x:xx</string>
+    <string name="remaining_time"> الوقت المتبقي </string>
+    <string name="cardio_type">نوعية وظائف القلب والرئة </string>
+    <string name="pace">عة الركض </string>
+    <string name="avg_pace">معدل سرعة الركض </string>
+    <string name="best_pace">أفضل سوعة للركض </string>
+    <string name="total_distance">المسافة الإجمالية</string>
+    <string name="total_calories">مجموع السعرات الحرارية</string>
+    <string name="avg_heart_rate">متوسط معدل ضربات القلب</string>
+    <string name="max_heart_rate">أعلى معدل لضربات القلب </string>
+    <string name="please_remember">يرجى تسجيل الخروج قبل المغادرة </string>
+    <string name="complete">اكتمل</string>
+    <string name="imcomplete">لم يتم</string>
+    <string name="treadmill">جهاز المشي</string>
+    <string name="summary">ملخص</string>
+    <string name="very_good">جيد جدا </string>
+    <string name="good">جيد </string>
+    <string name="average">مقبول </string>
+    <string name="bad">ضعيف</string>
+    <string name="very_bad">ضعيف جدا </string>
+    <string name="normal">عادي </string>
+    <string name="score">الدرجة </string>
+    <string name="low_risk">خطر قليل</string>
+    <string name="moderate_risk">مجازفة معقولة الى حد ما</string>
+    <string name="high_risk">مخاطرة عالية</string>
+    <string name="speed_decreases_to">انخفاض السرعة ل</string>
+    <string name="speed_increases_to">زيادة السرعة ل</string>
+    <string name="incline_decreases_to">انخفاض مستوى انحدار ل</string>
+    <string name="incline_increases_to">زيادة مستوى المنحدر إلى</string>
+    <string name="level_decreases_to">انخفاض مستوى المقاومة ل</string>
+    <string name="level_increases_to">مستوى المقاومة لزيادة</string>
+    <string name="resistance_level_decreases">قوة المقاومة ستنخفض إلى %1$.1f خلال 3 ثوان</string>
+    <string name="resistance_level_increases">قوة المقاومة ستزيد إلى %1$.1f خلال 3 ثوان</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">بسيط</string>
+    <string name="lap">حضن</string>
+    <string name="speed">SPEED</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">زمن</string>
+    <string name="target_time">زمن الهدف</string>
+    <string name="target_hr">معدل ضربات القلب المستهدف</string>
+    <string name="mets">ميتس</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>
+
+    <!-- Performance -->
+    <string name="session1">المرحلة </string>
+    <string name="performance_dialog_info">لاحظ أداءك من خلال معدات القلب والرئة ، وAPP التمارين ، ومن خلال الملابس القابلة للارتداء في اللياقة البدنية ، قارن نتائج التمارين  واتحدى نفسك !</string>
+    <string name="other">أخرى </string>
+    <string name="avg_watt">متوسط وات(وات )</string>
+    <string name="share">شارك</string>
+    <string name="add">إضافة </string>
+    <string name="select_date">حدد تاريخ</string>
+    <string name="select_time">اختر الوقت</string>
+    <string name="h">ساعة</string>
+    <string name="m">الدقائق</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">قوي</string>
+    <string name="vo2_faster_to_keep">التجديف أسرع للحفاظ على القوة الكهربائية في</string>
+    <string name="vo2_slowly_to_keep">التجديف ببطء للحفاظ على القوة الكهربائية في</string>
+    <string name="target_watt">الهدف واط</string>
+    <string name="connection_lost">اتصال فقدت!</string>
+    <string name="data_upload_unsuccessful">تحميل البيانات غير ناجح!</string>
+    <string name="data_not_uploaded_to_circlecloudgo">لم يتم تحميل البيانات إلى circlecloudgo بسبب الاتصال أو مشكلة الخادم!</string>
+    <string name="no_heart_rate_detected">لم يتم اكتشاف معدل ضربات القلب. يرجى وضع حزام الصدر أو وضع يديك على جهاز استشعار معدل ضربات القلب.</string>
+    <string name="auto_speed_cool_down_disabled">تم تعطيل سرعة البطئ التلقائي</string>
+    <string name="auto_resistance_level_down_disabled">تم تعطيل سرعة البطئ التلقائي</string>
+    <string name="show_history_data">عرض بيانات السجل</string>
+    <string name="show_monthly_total">عرض البيانات الشهرية</string>
+    <string name="show_yearly_total">عرض البيانات السنوية</string>
+    <string name="close">أغلق</string>
+    <string name="account">الحساب</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">مرحبا بكم في CircleCloud Go ، مستكشف اللياقة الأكثر كمالا !</string>
+    <string name="tutorial_first_2st">هناك بعض الخطوات لمساعدتك على البدء .</string>
+    <string name="tutorial_target_1st">استخدام "icon%s" لتحديد أهداف اللياقة البدنية .</string>
+    <string name="tutorial_target_2st">هدف التدريب</string>
+    <string name="tutorial_gym_1st">استخدام "icon%s" لتلقي عروض خاصة لصالات الرياضة .</string>
+    <string name="tutorial_gym_2st">غرفة لياقتي البدنية </string>
+    <string name="tutorial_performance_1st">استخدام "icon%s" لقياس النتائج .</string>
+    <string name="tutorial_performance_2st">أدائي </string>
+    <string name="tutorial_workout_1st">إنشاء تجريب شخصية"icon%s" باستخدام</string>
+    <string name="tutorial_workout_2st">تمريني</string>
+    <string name="tutorial_body_1st">استخدام "icon%s"لقياس مؤشرات اللياقة البدنية .</string>
+    <string name="tutorial_body_2st">المستكشف العام لجسدي </string>
+    <string name="tutorial_last_str">التحميل مجانا ل CircleFit APP للتخزين أو الحصول على جميع المعلومات .استخدام CircleFit APP لسرعة الوصول إلى معدات القلب والرئة .</string>
+
+    <!-- Fan -->
+    <string name="fan_title">مروحة</string>
+    <string name="fan_info_off">إيقاف</string>
+    <string name="fan_info_50">منخفض</string>
+    <string name="fan_info_100">مرتفع</string>
+
+    <!-- New Add -->
+    <string name="select_language">اختر اللغة</string>
+    <string name="birthday_day">تواريخ</string>
+    <string name="emergency_note_FOR_M6">سيتم إعادة تشغيل مشبك مفتاح إيقاف الطوارئ</string>
+    <string name="Logout_confirm">هل هو استقال؟</string>
+
+    <string name="WeekStr_1">الإثنين</string>
+    <string name="WeekStr_2">الثلاثاء</string>
+    <string name="WeekStr_3">أربعاء</string>
+    <string name="WeekStr_4">الخميس</string>
+    <string name="WeekStr_5">الجمعة</string>
+    <string name="WeekStr_6">السبت</string>
+    <string name="WeekStr_7">الأحد</string>
+
+    <string name="month_1">يناير</string>
+    <string name="month_2">فبراير</string>
+    <string name="month_3">مارس</string>
+    <string name="month_4">أبريل</string>
+    <string name="month_5">مايو</string>
+    <string name="month_6">يونيو</string>
+    <string name="month_7">يوليو</string>
+    <string name="month_8">أغسطس</string>
+    <string name="month_9">سبتمبر</string>
+    <string name="month_10">أكتوبر</string>
+    <string name="month_11">نوفمبر</string>
+    <string name="month_12">ديسمبر</string>
+</resources>

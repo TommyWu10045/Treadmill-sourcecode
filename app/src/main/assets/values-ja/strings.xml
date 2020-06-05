@@ -1,0 +1,607 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">情報</string>
+
+    <string name="january">1月</string>
+    <string name="february">2月</string>
+    <string name="march">3月</string>
+    <string name="april">4月</string>
+    <string name="may">5月</string>
+    <string name="june">6月</string>
+    <string name="july">7月</string>
+    <string name="august">8月</string>
+    <string name="september">9月</string>
+    <string name="october">10月</string>
+    <string name="november">ธันวาคม</string>
+    <string name="december">12月</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">ログイン</string>
+    <string name="log_in">ログイン</string>
+    <string name="login_msg">ログインしてすべての機能をお楽しみください</string>
+    <string name="training">トレーニング</string>
+    <string name="heart_rate_control">心拍数コントロール</string>
+    <string name="hiit">HIIT</string>
+    <string name="physical_test">体力テスト</string>
+    <string name="target_train">ターゲットトレイン</string>
+    <string name="my_performance">マイパフォーマンス</string>
+    <string name="body_manager">ボディマネージャー</string>
+    <string name="my_gym">マイジム</string>
+    <string name="my_workout">マイワークアウト</string>
+    <string name="quick_start">クイックスタート</string>
+    <string name="you_have_a_message">あなたはメッセージを持っています</string>
+    <string name="settings">設定</string>
+    <string name="logout">ログアウト</string>
+    <string name="log_out">ログアウト</string>
+    <!-- Login -->
+    <string name="sign_up">サインアップ</string>
+    <string name="forgot_password">パスワードを忘れた場合</string>
+    <string name="quick_log_in_with">CircleFitアプリでクイックログイン</string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">モバイルデバイスでBluetoothを有効にします。</string>
+    <string name="login_expand_2">CircleFitアプリを開きます。</string>
+    <string name="login_expand_3">モバイルデバイスをコンソールの右下に配置すると、ペアリングが自動的に開始されます。</string>
+    <string name="note">ノート:</string>
+    <string name="note_contents">クイックログインを開始する前にCircleFitアプリへの登録が必要です。CircleFitはサークルフィットネスアプリです。App Store / Google Playより無料でダウンロード、または以下のQRコードをスキャンしてください。</string>
+    <string name="email">メールアドレス</string>
+    <string name="password">パスワード</string>
+    <string name="enter_your_account">登録時に使用したメールアドレスを入力すると、パスワードがメールで送信されます。</string>
+    <string name="send">送信</string>
+    <string name="email_sent">メールを送信します</string>
+    <string name="ok">OK</string>
+    <string name="incorrect_email">Eメールが違う</string>
+    <string name="not_a_valid_email_address">有効なメールアドレスではありません。</string>
+    <string name="password_erroe">パスワードまたはメールアドレスが違います。再び入力してください。</string>
+    <string name="connect_problem">インターネット接続の問題です。もう一度お試しください。</string>
+    <string name="no_account_matches">アカウントは一致しません</string>
+    <string name="please_try_again">もう一度お試しください。</string>
+    <string name="user_id_exist_1">このメールには既にアカウントが存在します</string>
+    <string name="user_id_exist_2">別のメールアドレスを使用してください。</string>
+
+    <!-- Reg -->
+    <string name="registration">登録する</string>
+    <string name="circlecloud_go_sign_up">CIRCLECLOUD GOにサインアップ</string>
+    <string name="account_exist">このメールには既にアカウントが存在します。別のメールアドレスを使用してください。</string>
+    <string name="confirm_password">パスワードをお確認ください</string>
+    <string name="username">ユーザー名</string>
+    <string name="user_name">ユーザー名</string>
+    <string name="units">ユニット</string>
+    <string name="metric">メートル法</string>
+    <string name="imperial">英単位</string>
+    <string name="gender">性別</string>
+    <string name="female">女性</string>
+    <string name="male">男性</string>
+    <string name="height">身長</string>
+    <string name="height_required">体組成計測定の正確な測定に必要な身長</string>
+    <string name="height_metric_error_msg">130～220 cmの間の数字を入力してください</string>
+    <string name="height_imperial_error_msg"> 4 ' 3"-7 ' 3"の間の数字を入力してください</string>
+    <string name="date_of_birth">生年月日</string>
+    <string name="date_of_birth_required">正確な体組成計測定に必要な生年月日</string>
+    <string name="privacy_policy">プライバシーポリシー</string>
+    <string name="i_agree">私はプライバシーポリシーに同意します</string>
+    <string name="view_privacy_policy">プライバシーポリシーを表示</string>
+    <string name="privacy_policy_contents">プライバシー
+台湾に拠点を置く企業であるCircle Fitnessは、Circle Fitness™の名称でフィットネス機器の設計や製造を手がけています。お客様が弊社のメンバーとして登録し、弊社の製品の利用者になった時。本声明には、弊社がオフラインで収集したデータ、または弊社のフィットネス機器やモバイルデバイスのアプリを通して受信したデータなどが含まれるがこれらに限定されない弊社が収集するその他の情報は含まれません。
+サーバーの設置場所。
+弊社の本社は台湾の台中にあります。弊社では、サーバーのホストと情報の処理を米国およびその他の国でおこなっています。お客様が弊社のサイトにアクセスした場合、お客様は情報を米国およびその他の国に転送することになります。
+
+収集される情報。
+お客様から能動的に提供される情報：お客様がアカウントを登録された時、または、フィットネス機器あるいはモバイルアプリから弊社にご要望を送信された時に、弊社からお客様に名前（実名は不要。ニックネームが望ましい）、身長、生年月日、電子メールアドレス、パスワードの提供を求める場合があります。
+
+弊社が受動的に収集する情報：弊社では、お客様が訪問された日時や、使用したフィットネス機器、プログラムおよび機能に関する情報も収集します。このタイプの情報は、弊社の製品やサービスをお客様にとってより役立つするものにするために収集されます。
+
+情報の組み合わせ：弊社では、フィットネス機器を通して受信した情報を、例えばウェアラブルデバイスや第三者のフィットネスアプリなどの、他の情報源から得たお客様に関する情報と組み合わせることがあります。
+
+情報の使用。
+Circle Fitnessが収集したデータは、お客様により適した、より優れたフィットネス体験を形成するために使用されます。以下の場合を除き、弊社がお客様の個人情報を第三者に貸し出し、売却または共有することはありません。
+
+- お客様の同意がある場合。
+- 弊社では、秘密保持契約を遵守しながら、弊社のサービスの提供と弊社の事業を支援する世界中の提携サービスプロバイダーおよび独立したサービスプロバイダーを使用しています。
+- 弊社では、お客様個人を識別することができない集計された使用統計情報を共有しています。
+お客様の情報に対するセキュリティ。
+弊社では、お客様の情報へのアクセスが、確実に知る必要がある人物のみに限定されるように、組織的および技術的な手段を講じています。弊社はお客様の個人情報を保護するための対策を講じていますが、弊社もいかなる企業も、セキュリティリスクを完全に排除することはできません。
+
+お問い合わせ。
+本プライバシーポリシーに関するご質問や懸念事項がある場合は、info@circlefitness.comまでメールで弊社にお問い合わせいただくか、インターネットでhttps:www.circlefitness.comをご覧ください。
+プライバシーに関する声明の更新情報。
+弊社は本声明を随時更新することがあります。変更があった場合は、上記に記載されている最終更新日を更新して、変更の実施をお知らせします。
+有効日：2018年5月30日</string>
+    <string name="exit">終了する</string>
+    <string name="please_make_sure_your_passwords_match">パスワードが一致しているか、確認してください。</string>
+    <string name="congratulations_lower">おめでとうございます</string>
+    <string name="registration_done">登録完了！</string>
+    <string name="exit_description">登録は完全ではありません、あなたが出たいと思っていますか？</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">これはCIRCLECLOUD GO APPです</string>
+    <string name="login_dialog_info_line_2">続行するにはログインしてください</string>
+    <string name="initializing_quick_login">QUICK LOGINの初期化</string>
+    <string name="unable_to_connect">つなげられない！</string>
+    <string name="please_try_again_later">もう一度お試しください。</string>
+
+
+    <!-- Home -->
+    <string name="welcome">ようこそ</string>
+    <string name="my_class_reminder">マイクラスのリマインダー</string>
+    <string name="schedule_change">スケジュールの変更</string>
+    <string name="first_login_welcome">CircleCloud Goへようこそ！ここで、ご自身のトレーニングに役立つ機能を見つけてください。楽しみながら、素晴らしいトレーニングを！</string>
+    <string name="there_is_a">には</string>
+    <string name="today_at">今日</string>
+    <string name="tomorrow_at">明日</string>
+    <string name="hi">こんにちは</string>
+    <string name="target_update">ターゲット更新</string>
+    <string name="home_msg_times_up_1">ターゲット「」のターゲット最終日となりました</string>
+    <string name="home_msg_times_up_2">ターゲットトレインでご自身の進歩をチェックしてください！</string>
+    <string name="home_msg_half_way_through_1">おめでとうございます。あなたはターゲット「」の半分にきています！</string>
+    <string name="home_msg_half_way_through_2">ターゲットトレインでご自身の進歩を見てください！</string>
+    <string name="home_msg_reached_1">おめでとうございます、ターゲット「」を達成しました！</string>
+    <string name="home_msg_reached_2">ターゲットトレインでご自身の結果を見てください！</string>
+    <string name="this_schedule_of">に変更されました</string>
+    <string name="has_been_changed_from">のスケジュールが</string>
+    <string name="to">から</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">掲示板</string>
+    <string name="class_str">クラス</string>
+    <string name="my_class">マイクラス</string>
+    <string name="hot">人気</string>
+    <string name="add_to_my_class">マイクラスに追加</string>
+    <string name="added">追加済み</string>
+    <string name="remove_from_my_class">マイクラスから削除</string>
+    <string name="removed">削除済み</string>
+    <string name="mygym_dialog_info">マイジムには、施設から最新のニュース、クラス、オファーが掲示されます。</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">フィットネス目標を作成する</string>
+    <string name="targer_dialog_info">ターゲットトレインは、フィットネス目標を設定し、サークルフィットネスアプリとのリアルタイム接続により、分単位まで進行状況を追跡することができるクラウドベースのプログラムです。</string>
+    <string name="distance">距離</string>
+    <string name="distance_60_rpm">距離@60 RPM</string>
+    <string name="distance_80_rpm">距離@80 RPM</string>
+    <string name="calories">カロリー</string>
+    <string name="calories_60_rpm">カロリー@60 RPM</string>
+    <string name="calories_80_rpm">カロリー@80 RPM</string>
+    <string name="exercise_frequency">運動頻度</string>
+    <string name="weight">体重</string>
+    <string name="weight_upper">体重</string>
+    <string name="bodyfat_percent">体脂肪</string>
+    <string name="days_left">残り日</string>
+    <string name="weeks_left">数週間前</string>
+    <string name="view_details">詳細を見る</string>
+    <string name="target">ターゲット</string>
+    <string name="start">スタート</string>
+    <string name="create_a_new_target">新しいターゲットを作成する</string>
+    <string name="target_distance">目標距離    </string>
+    <string name="current_distance">現在の距離    </string>
+    <string name="target_days">目標日   </string>
+    <string name="current_days">現在の日数    </string>
+    <string name="target_weight">目標体重   </string>
+    <string name="current_weight">現在の体重    </string>
+    <string name="input_weight">入力の体重</string>
+    <string name="input_body_fat">入力の体脂肪％</string>
+    <string name="target_body_fat">目標体脂肪％    </string>
+    <string name="current_body_fat">現在の体脂肪％   </string>
+    <string name="current">現在</string>
+    <string name="target_days_weeks">目標日/週     </string>
+    <string name="target_weeks">目標週     </string>
+    <string name="current_week">現在の週    </string>
+    <string name="achievement">成果</string>
+    <string name="this_week">今週</string>
+    <string name="target_calories">目標カロリー</string>
+    <string name="current_calories">現在のカロリー</string>
+    <string name="days">日</string>
+    <string name="day">日</string>
+    <string name="week">週 </string>
+    <string name="weeks">週 </string>
+    <string name="choose_your_fitness_target">フィットネスターゲットを選択する</string>
+    <string name="how_many_days_per_week">毎週何回ですか？</string>
+    <string name="dates">日付</string>
+    <string name="end_date">終了日</string>
+    <string name="running">ランニング</string>
+    <string name="biking">バイク</string>
+    <string name="elliptical">楕円形機</string>
+    <string name="all">すべて</string>
+    <string name="select_exercise_type">エクササイズタイプを選択</string>
+    <string name="history_upper">履歴</string>
+    <string name="edit">編集</string>
+    <string name="done">終わった</string>
+    <string name="percent_loss">％損失</string>
+    <string name="percent_gain">％ 利得</string>
+    <string name="lb_loss">lb 損失</string>
+    <string name="lb_gain">lb 利得</string>
+    <string name="kg_loss">kg 損失</string>
+    <string name="kg_gain">kg 利得</string>
+    <string name="delete_description">このターゲットを削除してもよろしいですか？</string>
+    <string name="delete">削除</string>
+    <string name="cancel">取り消す</string>
+    <string name="deleted">削除</string>
+    <string name="close_description">この目標を終了つもりですか？</string>
+    <string name="end_now">終了する</string>
+    <string name="target_ended">目標終了</string>
+    <string name="try_again_next_time">今度ももう一度お试しください。</string>
+    <string name="super_str">スーパー！</string>
+    <string name="great">すばらしいです</string>
+    <string name="good_try">頑張りましたね！</string>
+    <string name="congratulations">おめでとうございます！</string>
+    <string name="you_reached_your_target_in_time">目標を達成し</string>
+    <string name="you_reached_your_target">目標を達成し</string>
+    <string name="half_way_through">半分まできました！</string>
+    <string name="you_are_almost_there">あとちょっとです！</string>
+    <string name="continue_exclamation_mark">続行する!</string>
+    <string name="continue_str">続行する</string>
+    <string name="week_achieved">週間で達成</string>
+    <string name="target_end_title">目標達成前に時間切れとなりました。</string>
+    <string name="target_end_description">続行してシルバースター獲得にトライしますか？</string>
+    <string name="end">終了する</string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">マイトレーニングを作成する</string>
+    <string name="create_a_new_workout">マイトレーニングを作成する</string>
+    <string name="workout_name">ワークアウト名</string>
+    <string name="preview">プレビュー</string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">セーブ</string>
+    <string name="details">詳細</string>
+    <string name="avg_speed">平均速度</string>
+    <string name="delete_interval_description">この間隔を削除してもよろしいですか？</string>
+    <string name="delete_item_description">消去してもよろしいですか？</string>
+    <string name="yes_str">はい</string>
+    <string name="no_str">いいえ</string>
+    <string name="workout_has_not_been_saved">ワークアウトが保存されていません。</string>
+    <string name="are_you_sure_you_want_to_leave">終了しますか？</string>
+    <string name="workout_info">マイワークアウトでは、各インターバルの抵抗レベルを設定して、独自のトレーニングプログラムを作成できます。「マイワークアウトを作成」をタップして、カスタマイズを開始します。最大3つのワークアウトプログラムが作成できます。</string>
+    <string name="workout_info_bk">マイワークアウトでは、各インターバルの抵抗レベルを設定して、独自のトレーニングプログラムを作成できます。「マイワークアウトを作成」をタップして、カスタマイズを開始します。最大3つのワークアウトプログラムが作成できます。</string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">ノーマル</string>
+    <string name="high">高レベル</string>
+    <string name="advanced">上級</string>
+    <string name="personal">パーソナル</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">名前</string>
+    <string name="edit_name">名前の編集</string>
+    <string name="sprint">スプリント</string>
+    <string name="recovery">元に戻る</string>
+    <string name="sec">sec</string>
+    <string name="view">ビュー</string>
+    <string name="skip">スキップ</string>
+    <string name="total_intervals">合計インターバル</string>
+    <string name="intervals">インターバル</string>
+    <string name="duration_upper">期間</string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">HIIT（高強度インターバルトレーニング）は、短期間で高強度の運動を交互に行い、回復時間を短縮し、運動能力を高め、可能な限り多くのカロリーを燃焼させます。</string>
+    <string name="hiit_normal_info">スピードと傾斜は中レベルのインテンシブレベルでプログラムされています。初心者にお勧めです。</string>
+    <string name="hiit_high_info">スピードと傾斜は高レベルでプログラムされています。経験豊富なトレーナーにお勧めです。</string>
+    <string name="hiit_advanced_info">スピードと傾斜は超高レベルでプログラムされています。上級トレーナー限定です。</string>
+    <string name="hiit_personal_info">パーソナルHIITを作成してください。最大3つのパーソナルHIITを作成できます。</string>
+    <string name="create_your_hiit_workout">HIITトレーニングを作成する</string>
+    <string name="hiit_delete_item_description">を削除してもよろしいですか？</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">ボディマネージャーは、サークルフィットネスIBA / InBody 570とCircleFitウェルネスアプリにより、体力を測定して追跡するように設計されたボディ管理プログラムです。</string>
+    <string name="last_updated">最終更新</string>
+    <string name="no_data">データなし</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">体内水分合計</string>
+    <string name="total_body_water_two">体内水分合計</string>
+    <string name="visceral_fat_rating">内臓脂肪率</string>
+    <string name="visceral_fat_rating_two">内臓脂肪率</string>
+    <string name="bone_mass">骨質量</string>
+    <string name="muscle_mass">筋肉量</string>
+    <string name="body_fat">体脂肪％</string>
+    <string name="intracellular_water">細胞内水</string>
+    <string name="extracellular_water">細胞外水</string>
+    <string name="protein">蛋白質</string>
+    <string name="mineral">ミネラル</string>
+    <string name="waist_hip_ratio">ウエスト・ヒップ比</string>
+    <string name="obesity_degree">肥満度</string>
+    <string name="input">入力</string>
+    <string name="view_history">履歴を見る</string>
+    <string name="history">履歴</string>
+    <string name="date">日付</string>
+    <string name="info_weight_subtitle">体重</string>
+    <string name="info_bodyfat_percent_subtitle">体脂肪率は、全体重に対する脂肪の割合です。</string>
+    <string name="info_bmi_subtitle">一般的な健康指標として使用されている、体重と身長の標準化された比率です。</string>
+    <string name="info_bmr_subtitle">安静時（睡眠を含む）に効果的に機能するために必要なエネルギーまたはカロリーの1日の最低レベル</string>
+    <string name="info_total_body_water_subtitle">体内水分量合計の割合は、人の総体重に対して割合で表示される人体の体液の総量です。</string>
+    <string name="info_visceral_fat_rating_subtitle">内臓脂肪は、重要な器官を取り囲んで保護する中枢腹部の深部に位置します。</string>
+    <string name="info_bone_mass_subtitle">骨質量</string>
+    <string name="info_intracellular_water_subtitle">細胞内水</string>
+    <string name="info_extracellular_water_subtitle">細胞外水</string>
+    <string name="info_protein_subtitle">蛋白質</string>
+    <string name="info_mineral_subtitle">ミネラル</string>
+    <string name="info_waist_hip_ratio_subtitle">ウエスト・ヒップ比</string>
+    <string name="info_obesity_degree_subtitle">肥満度</string>
+
+    <string name="info_weight">体重</string>
+    <string name="info_bodyfat_percent">体脂肪は、体温を維持し、関節を緩衝させ、内臓を保護するために不可欠な物です。脂肪が多すぎると、長期的な健康を損なう可能性があります。体脂肪の過剰量を減らすことは、高血圧、心臓病、2型糖尿病および特定の癌などの特定の状態のリスクを直接低減することが示されています。体脂肪が少なすぎると、高年期の骨粗鬆症、女性の生理不順や不妊となる可能性があります。健康な体脂肪の範囲と自身の体脂肪の結果を確認することが重要です。</string>
+    <string name="info_bmi">一般的な健康指標として使用されている、体重と身長の標準化された比率です。</string>
+    <string name="info_bmr">基礎代謝率（BMR）は、安静時に呼吸器や循環器、神経系、肝臓、腎臓、その他の臓器が効果的に機能するために必要なエネルギーまたはカロリーの1日の最低レベルです</string>
+    <string name="info_total_body_water">水は身体の多くのプロセスにおいて重要な役割を果たし、あらゆる細胞、組織、器官内に存在します。健康な全身の水分率を維持することで、身体機能を効率的に機能させ、関連する健康問題を発症するリスクが減らせます。</string>
+    <string name="info_visceral_fat_rating">内臓脂肪（腹部脂肪）は、身体の胴/胃の領域の重要な器官を囲む脂肪です。高脂肪血圧は、高血圧、心臓病、2型糖尿病のリスクを増加させます。内臓脂肪量の低下は、インスリン作用を実質的に安定させ、糖尿病および他の関連疾患のリスクを減らすことができます。</string>
+    <string name="info_bone_mass">骨質量</string>
+    <string name="info_intracellular_water">細胞内水</string>
+    <string name="info_extracellular_water">細胞外水</string>
+    <string name="info_protein">蛋白質</string>
+    <string name="info_mineral">ミネラル</string>
+    <string name="info_waist_hip_ratio">ウエスト・ヒップ比</string>
+    <string name="info_obesity_degree">肥満度</string>
+    <string name="trunk">トランク</string>
+    <string name="left_arm">左腕</string>
+    <string name="right_arm">右腕</string>
+    <string name="left_leg">左脚</string>
+    <string name="right_leg">右脚</string>
+    <string name="underfat">アンダー</string>
+    <string name="healthy">健康</string>
+    <string name="overfat">オーバー</string>
+    <string name="obese">肥満</string>
+    <string name="your_healthy_bone_mass">あなたの健康な骨量</string>
+    <string name="your_ideal_weight">あなたの理想的な体重</string>
+    <string name="your_health_waist_hip_ratio">あなたの健康ウエスト・ヒップ比</string>
+    <string name="bd_infomation_title">ボディマネージャーは、サークルフィットネスIBAまたはInBody 570と同期して動作します。</string>
+    <string name="bd_infomation_content">利用可能状況については、施設に確認してください。</string>
+    <string name="circle_fitness_iba">サークルフィットネスIBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">心拍数コントロールは、運動を最適化するために心拍装置の運動速度と強度を制御することによって、選択した1分あたりの心拍数を維持します。</string>
+    <string name="fatburn">脂肪燃焼</string>
+    <string name="aerobic">エアロバイク</string>
+    <string name="performance">パフォーマンス</string>
+    <string name="customize">カスタマイズ</string>
+    <string name="years">才</string>
+    <string name="heart_rate">心拍数</string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">最大心拍数を65％に設定してください。このプログラムは目標心拍数に到達のを助けるために、それに応じて強度を調整します。</string>
+    <string name="hrc_info_aerobic">最大心拍数を75％に設定してください。このプログラムは目標心拍数に達するのを助けるために、それに応じて強度を調整します。</string>
+    <string name="hrc_info_performance">最大心拍数を85％に設定してください。このプログラムは目標心拍数に達するのを助けるために、それに応じて強度を調整します。</string>
+    <string name="hrc_info_customize">目標心拍数を設定します。このプログラムは、目標に達するのに役立つように強度レベルを調整します。</string>
+    <string name="age">年齢</string>
+
+    <string name="age_range_error_msg">の数字を入力してください</string>
+    <string name="duration">期間</string>
+    <string name="profile">プロフィール</string>
+    <string name="change_password">パスワードを変更する</string>
+    <string name="data_syncing">データの同期</string>
+    <string name="unit">ユニット</string>
+    <string name="old_password">前のパスワード</string>
+    <string name="new_password">新しいパスワード</string>
+    <string name="confirm_new_password">新しいパスワードを確認</string>
+    <string name="password_changed">パスワードは変更済みです</string>
+    <string name="old_password_incorrect">前のパスワードと違っています</string>
+    <string name="new_password_incorrect">パスワードが一致しているか、確認してください。</string>
+    <string name="month">月</string>
+    <string name="year">年</string>
+    <string name="fitness_apps">フィットネスアプリ</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">ウエアブルアプリ</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">ガーミンコネクト</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">体力テストには、ランナーの有酸素能力と持久力を評価するために米軍が適用している様々な標準フィットネスプログラムが含まれています。</string>
+    <string name="phy_gerkin_protocol_info">元々消防士用に設計されたこのプログラムは、心拍数を監視し、VO2レベルを検出するよう設計されています。最大心拍数の85％に達すると、プログラムは自動的に停止します。</string>
+    <string name="phy_cooper_test_info">クーパーテストは、米国軍人のために設計された距離ベースの体力テストです。ゴールは12分でどのくらい走れるですか。どこまで行くことができるでしょうか。</string>
+    <string name="phy_usmc_ptf_info">海兵隊の体力テストは、3マイルのタイム測定です。できるだけ早くこの挑戦を完了させてください！</string>
+    <string name="phy_army_prt_info">陸軍の身体準備トレーニングテストは、2マイル走のタイム測定です。できるだけ早くこのコースを完了させてください。</string>
+    <string name="phy_navy_prt_info">海軍の身体訓練テストは、1.5マイル走のタイム測定です。できるだけ早くこのコースを完了させください！</string>
+    <string name="phy_usaf_ptf_info">空軍の体力テストは、1.5マイル走のタイム測定です。できるだけ早くこのコースを完了させください！</string>
+    <string name="phy_federal_law_info">これは1.5マイル走のタイム測定です。できるだけ早くこのコースを完了させください！</string>
+    <string name="phy_vo2_info">VO2最大値、または最大酸素摂取量は、耐久性ベースの運動を行う能力の決定要因の１つです。</string>
+
+    <string name="manual">マニュアル</string>
+    <string name="hill">丘</string>
+    <string name="cardio">カーディオ</string>
+    <string name="interval">インターバル</string>
+    <string name="strenght">強さ</string>
+    <string name="rolling_hill">ローリングヒルズ</string>
+    <string name="incline">傾斜</string>
+    <string name="mountain_peak">マウンテンピーク</string>
+    <string name="constant_watt">一定のワット数</string>
+    <string name="set_a_goal">目標を設定します</string>
+    <string name="select_goal">目標を選択</string>
+    <string name="tr_dialog_info">有酸素運動を強化し、身体を訓練してさらに挑戦的なトレーニングに耐えられるよう、総合的な心肺調整コースカーディオコンディショニングコースを提供しています。</string>
+    <string name="tr_manual_info">ご自身に合ったペースと強さでワークアウトしてください。</string>
+    <string name="tr_hill_info">この山登りプログラムに挑戦してください。頂上でお会いしましょう！</string>
+    <string name="tr_fatburn_info">低強度で運動し、筋肉に多くの酸素を送り込み、より多くの脂肪を燃焼します。</string>
+    <string name="tr_cardio_info">このカーディオプログラムで、より多くのカロリーを燃焼し、コンディショニングを強化します。</string>
+    <string name="tr_strenght_info">この高強度のトレーニングに挑戦してください。</string>
+    <string name="tr_interval_info">スタミナを増やしたいですか？このインターバルトレーニングプログラムにより、達成できます！</string>
+    <string name="tr_target_info">到達したい特定のターゲットを選択して移動します。ゴールにたどりつきましょう！</string>
+    <string name="tr_rolling_hill_info">様々な長さと高さのインターバルに挑戦してください。</string>
+    <string name="tr_mountains_peak_info">この模擬された屋外の道を通って一定の傾斜を挑戦しましょう。</string>
+    <string name="tr_incline_info">この模擬されたアウトドアトレイルでは、安定しているものの高傾斜の道を挑戦しましょう。</string>
+    <string name="tr_constant_watt_info">目標ワット出力はどれくらいですか？このプログラムは、目標達成を助けるために、ペダルの速度に応じて強度レベルを調整します。</string>
+    <string name="level">レベル</string>
+    <string name="easy">簡単</string>
+    <string name="medium">普通</string>
+    <string name="hard">困難</string>
+    <string name="time">時間</string>
+    <string name="stop">ストップ</string>
+    <string name="emergency">緊急停止</string>
+    <string name="emergency_note">再び緊急停止ボタンを押してリセットしてください</string>
+    <string name="error">エラー</string>
+    <string name="error_codes">エラーコード：</string>
+    <string name="resume">戻る</string>
+    <string name="pause">一時停止</string>
+    <string name="no_heart_rate_detect">心拍数は検出されませんでした。 胸のベルトに付けてください。</string>
+    <string name="workout_will_stop_in">%1$d:%2$02dにワークアウトが停止</string>
+    <string name="heart_">%1$d:%2$02dにワークアウトが停止</string>
+    <string name="reset">リセット</string>
+    <string name="system_will_be_auto_reset">最後の2分間にシステムを動作しないため自動的にリセットされます</string>
+    <string name="press_continue">続行するには、再開を押します。</string>
+    <string name="continue01">続行する</string>
+    <string name="current_heart_rate">現在の心拍数</string>
+    <string name="maximum_heart_rate">85％最大HR</string>
+    <string name="warm_up">ワームアップ</string>
+    <string name="stage">ステージ</string>
+    <string name="next">次</string>
+    <string name="cool_donw">クールダウン</string>
+    <string name="time_required_60">合格するまでの時間（スコア60）：x：xx</string>
+    <string name="remaining_time">残り時間</string>
+    <string name="cardio_type">有酸素のタイプ</string>
+    <string name="pace">ペース</string>
+    <string name="avg_pace">平均ペース</string>
+    <string name="best_pace">ベストペース</string>
+    <string name="total_distance">総距离</string>
+    <string name="total_calories">カロリー合计</string>
+    <string name="avg_heart_rate">平均心拍数</string>
+    <string name="max_heart_rate">最大心拍数</string>
+    <string name="please_remember">終了前にログアウトすることを忘れないでください。</string>
+    <string name="complete">達成</string>
+    <string name="imcomplete">達成ならず</string>
+    <string name="treadmill">トレッドミル</string>
+    <string name="summary">概要</string>
+    <string name="very_good">とても良い</string>
+    <string name="good">良い</string>
+    <string name="average">平均的</string>
+    <string name="bad">悪い</string>
+    <string name="very_bad">とても悪い</string>
+    <string name="normal">ノーマル</string>
+    <string name="score">スコア</string>
+    <string name="low_risk">リスクが低い</string>
+    <string name="moderate_risk">中程度のリスク</string>
+    <string name="high_risk">リスクが高い</string>
+    <string name="speed_decreases_to">スピードは減少する</string>
+    <string name="speed_increases_to">スピードアップ</string>
+    <string name="incline_decreases_to">傾斜レベルを</string>
+    <string name="incline_increases_to">傾斜レベルを</string>
+    <string name="level_decreases_to">抵抗レベルが</string>
+    <string name="level_increases_to">抵抗レベルが</string>
+    <string name="resistance_level_decreases">抵抗レベルは3秒で%1$.1fに減少する</string>
+    <string name="resistance_level_increases">3秒後に抵抗レベルが%1$.1fに上昇する</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">シンプル</string>
+    <string name="lap">圈</string>
+    <string name="speed">SPEED</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">時間</string>
+    <string name="target_time">目標時間</string>
+    <string name="target_hr">目標心拍数</string>
+    <string name="mets">METS</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>
+
+    <!-- Performance -->
+    <string name="session1">セッション</string>
+    <string name="performance_dialog_info">心拍計、エクササイズアプリ、フットネスウエアブルデバイスからウォークアウトのパフォーマンスを確認してください。結果を比較して、自分自身に挑戦してください！</string>
+    <string name="other">その他</string>
+    <string name="avg_watt">平均ワットW）</string>
+    <string name="share">シェア</string>
+    <string name="add">追加</string>
+    <string name="select_date">日付を選択</string>
+    <string name="select_time">時間を選択する</string>
+    <string name="h">時</string>
+    <string name="m">分</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">レベル</string>
+    <string name="vo2_faster_to_keep">ワット数を保つために速くパドリング</string>
+    <string name="vo2_slowly_to_keep">ゆっくりとパドリングしてワット数を維持する</string>
+    <string name="target_watt">目標ワット</string>
+    <string name="connection_lost">接続切断！</string>
+    <string name="data_upload_unsuccessful">データのアップロードに失敗しました！</string>
+    <string name="data_not_uploaded_to_circlecloudgo">接続やサーバに問題があるため、データがcirclecloudgoにアップロードされていません！</string>
+    <string name="no_heart_rate_detected">心拍数は検出されませんでした。 あなたの胸のベルトをかけるか、または心拍センサーの上に手を置いてください。</string>
+    <string name="auto_speed_cool_down_disabled">自動速度クールダウン無効</string>
+    <string name="auto_resistance_level_down_disabled">自動クールダウン無効</string>
+    <string name="show_history_data">履歴データを表示する</string>
+    <string name="show_monthly_total">毎月のデータを表示する</string>
+    <string name="show_yearly_total">年間データを表示する</string>
+    <string name="close">閉じる</string>
+    <string name="account">アカウント</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">最もフル機能を備えたウェルネスマネージャーであるCircleCloud Goへようこそ！</string>
+    <string name="tutorial_first_2st">ここでは、始めるためのヒントをいくつか紹介します。</string>
+    <string name="tutorial_target_1st">"icon%s"でフィットネスターゲットを設定します。</string>
+    <string name="tutorial_target_2st">ターゲットトレイン</string>
+    <string name="tutorial_gym_1st">"icon%s"で施設の提供を知らせます。</string>
+    <string name="tutorial_gym_2st">マイジム</string>
+    <string name="tutorial_performance_1st">"icon%s"で結果を測定します。</string>
+    <string name="tutorial_performance_2st">マイパフォーマンス</string>
+    <string name="tutorial_workout_1st">"icon%s"を使用してパーソナライズされたトレーニングを作成する</string>
+    <string name="tutorial_workout_2st">マイワークアウト</string>
+    <string name="tutorial_body_1st">"icon%s"でフィットネスマトリクスをテストします。</string>
+    <string name="tutorial_body_2st">ボディマネージャー</string>
+    <string name="tutorial_last_str">すべてのコンテンツにアクセスするには、無料のCircleFitアプリをダウンロードしてください。心拍計を装着し、CircleFitアプリでクイックログインを実行します。</string>
+
+    <!-- Fan -->
+    <string name="fan_title">ファン</string>
+    <string name="fan_info_off">オフ</string>
+    <string name="fan_info_50">低い</string>
+    <string name="fan_info_100">高い</string>
+
+    <!-- New Add -->
+    <string name="select_language">言語を選択</string>
+    <string name="birthday_day">日</string>
+    <string name="emergency_note_FOR_M6">非常停止スイッチクランプを元に戻すと再起動します</string>
+    <string name="Logout_confirm">やめましたか。</string>
+
+    <string name="WeekStr_1">月</string>
+    <string name="WeekStr_2">火</string>
+    <string name="WeekStr_3">水</string>
+    <string name="WeekStr_4">目</string>
+    <string name="WeekStr_5">金</string>
+    <string name="WeekStr_6">土</string>
+    <string name="WeekStr_7">日</string>
+
+    <string name="month_1">1月</string>
+    <string name="month_2">2月</string>
+    <string name="month_3">3月</string>
+    <string name="month_4">4月</string>
+    <string name="month_5">5月</string>
+    <string name="month_6">6月</string>
+    <string name="month_7">7月</string>
+    <string name="month_8">8月</string>
+    <string name="month_9">9月</string>
+    <string name="month_10">10月</string>
+    <string name="month_11">11月</string>
+    <string name="month_12">12月</string>
+</resources>

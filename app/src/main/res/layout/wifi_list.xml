@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>  
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"  
+    android:layout_height="match_parent" >  
+  
+    <TextView
+        android:id="@+id/textView"  
+        android:layout_width="850px"
+        android:layout_height="100px"
+        android:layout_marginLeft="20px"
+        android:text="null"
+        android:textColor="@color/colorgray"
+        android:textSize="32px"/>
+
+    <TextView
+        android:id="@+id/textsummary"
+        android:layout_width="400px"
+        android:layout_height="30px"
+        android:layout_marginLeft="20px"
+        android:layout_marginTop="50px"
+        android:text="Connected"
+        android:textColor="@color/colorlightgray"
+        android:textSize="24px"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="100px"
+        android:layout_height="100px"
+        android:layout_marginLeft="850px"
+        android:scaleType="centerInside"
+        android:src="@drawable/eng_wifi03" />
+
+</FrameLayout>

@@ -1,0 +1,608 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">Информация об аккаунте</string>
+
+    <string name="january">январь</string>
+    <string name="february">февраль</string>
+    <string name="march">марш</string>
+    <string name="april">апрель</string>
+    <string name="may">может</string>
+    <string name="june">июнь</string>
+    <string name="july">июль</string>
+    <string name="august">августейший</string>
+    <string name="september">сентябрь</string>
+    <string name="october">октября</string>
+    <string name="november">ноябрь</string>
+    <string name="december">Декабрь</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">Регистрация</string>
+    <string name="log_in">Регистрация</string>
+    <string name="login_msg">Зарегистрируйтесь, чтобы получить доступ ко всем функциям</string>
+    <string name="training">Тренировка</string>
+    <string name="heart_rate_control">Контроль Пульса</string>
+    <string name="hiit">Интервальная тренировка</string>
+    <string name="physical_test">Тест физического состояния</string>
+    <string name="target_train">Цели Тренировок</string>
+    <string name="my_performance">Мои Успехи</string>
+    <string name="body_manager">Анализ состава тела</string>
+    <string name="my_gym">Мой Зал</string>
+    <string name="my_workout">Моя Тренировка</string>
+    <string name="quick_start">Быстрое Начало</string>
+    <string name="you_have_a_message">У вас есть сообщение</string>
+    <string name="settings">Установки</string>
+    <string name="logout">Выход</string>
+    <string name="log_out">Выход</string>
+    <!-- Login -->
+    <string name="sign_up">Зарегистрируйтесь</string>
+    <string name="forgot_password">Забыли пароль</string>
+    <string name="quick_log_in_with">Быстрая авторизация в приложение CircleFit</string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">Включите Bluetooth на своём мобильном устройстве</string>
+    <string name="login_expand_2">Открыть приложение CircleFit</string>
+    <string name="login_expand_3">Приложите мобильное устройсто справа, к основанию консоли. Сопряжение начнется автоматически.</string>
+    <string name="note">Заметка:</string>
+    <string name="note_contents">Регистрация в приложении CircleFit требуется до начала быстрого входа в систему. CircleFit это приложение для фитнеса от Circle Fitness. Загрузите его бесплатно в магазинах App Store / Google или отсканируйте QR-код ниже.</string>
+    <string name="email">ЭЛ. АДРЕС</string>
+    <string name="password">ПАРОЛЬ</string>
+    <string name="enter_your_account">Введите адрес электронной почты, который Вы использовали при регистрации, и мы отправим вам пароль.</string>
+    <string name="send">Отправить</string>
+    <string name="email_sent">Письмо отправлено</string>
+    <string name="ok">ОК</string>
+    <string name="incorrect_email">Неверный адрес</string>
+    <string name="not_a_valid_email_address">Этот адрес электронной почты недействителен.</string>
+    <string name="password_erroe">Неверный пароль или адрес электронной почты. Введите еще раз.</string>
+    <string name="connect_problem">Возникла проблема с Интернет соединением. Попробуйте еще раз! </string>
+    <string name="no_account_matches">Нет совпадений аккаунтов</string>
+    <string name="please_try_again">Попробуйте еще раз! </string>
+    <string name="user_id_exist_1">Учетная запись с этим адресом электронной почты уже существует. </string>
+    <string name="user_id_exist_2">Выберите другой адрес.</string>
+
+    <!-- Reg -->
+    <string name="registration">Регистрация</string>
+    <string name="circlecloud_go_sign_up">ЗАРЕГИСТРИРОВАТЬ НА CIRCLECLOUD GO</string>
+    <string name="account_exist">Учетная запись с этим адресом электронной почты уже существует. Выберите другой адрес.</string>
+    <string name="confirm_password">Подтвердите пароль</string>
+    <string name="username">Имя пользователя</string>
+    <string name="user_name">Имя пользователя</string>
+    <string name="units">Ед. измерения</string>
+    <string name="metric">Метрический</string>
+    <string name="imperial">Дюймовый</string>
+    <string name="gender">Пол</string>
+    <string name="female">Женщина</string>
+    <string name="male">Мужчина</string>
+    <string name="height">Рост</string>
+    <string name="height_required">Рост необходим для точного анализа композиционного состава тела</string>
+    <string name="height_metric_error_msg">Введите значение от 130 до 220 см.</string>
+    <string name="height_imperial_error_msg">Введите значение от 4 ' 3" до 7 ' 3".</string>
+    <string name="date_of_birth">Дата Рождения</string>
+    <string name="date_of_birth_required">Дата рождения необходима для точного анализа композиционного состава тела</string>
+    <string name="privacy_policy">Политика конфиденциальности</string>
+    <string name="i_agree">Я согласен с Политикой конфиденциальности</string>
+    <string name="view_privacy_policy">ПРОСМОТРЕТЬ ПОЛИТИКУ КОНФИДЕНЦИАЛЬНОСТИ</string>
+    <string name="privacy_policy_contents">Конфиденциальность
+Основной деятельностью компании Circle Fitness, расположенной в Тайване, Китайская Республика, является разработка и производство оборудования для фитнеса под брендом Circle Fitness™. Когда Вы регистрируетесь в качестве участника и становитесь пользователем нашей продукции. Данное Положение не распространяется на любую другую собираемую нами информацию, включая, без ограничений, данные, получаемые нами в автономном режиме или с помощью оборудования для фитнеса или приложений для мобильных устройств.
+Местоположения серверов
+Штаб-квартира нашей компании расположена в Тайчжун, Тайвань, Китайская Республика. Мы размещаем наши серверы и обрабатываем информацию в США и других странах. Когда Вы посещаете наши Веб-сайты, Вы передаете информацию в США и другие страны.
+
+Собираемая нами информация
+Информация, предоставляемая Вами активно. Когда Вы регистрируете учетную запись или отправляете нам запросы с помощью Оборудования для фитнеса или Приложения для мобильных устройств, мы можем попросить Вас указать свое имя, (указание фактического имени не требуется; желательно указывать псевдоним), рост, дату рождения, адрес электронной почты и пароль.
+
+Информация, собираемая нами пассивно. Мы также собираем информацию о дате и времени Вашего посещения, а также используемом Вами оборудовании для фитнеса, программах и функциях. Мы собираем данную информацию для оптимизации наших продуктов и услуг.
+
+Объединение. Мы можем объединять информацию, получаемую с помощью оборудования для фитнеса, с информацией, получаемой из других источников, например, сводной информацией о тренировках из носимого Вами устройства или стороннего Приложения для фитнеса.
+
+Использование информации
+Компания Circle Fitness использует полученные данные для улучшения впечатлений от использования и расширения возможностей персонализации при занятиях фитнесом. Мы не предоставляем в аренду, не продаем и не делимся Вашими личными, конфиденциальными данными с третьими лицами иным способом, за исключением следующих случаев.
+
+- Предоставление Вами согласия.
+- Мы используем аффилированных и неаффилированных поставщиков услуг в различных странах мира, которые оказывают нам помощь в предоставлении услуг и ведении бизнеса и с которыми мы заключаем соглашения о неразглашении.
+- Мы предоставляем доступ к агрегированной статистике использования, которая не позволяет идентифицировать Вашу личность.
+Защита информации
+Мы принимаем организационные и технические меры, чтобы предоставлять доступ к Вашей информации только лицам, имеющим служебную необходимость. Несмотря на предпринимаемые нами меры по защите Ваших конфиденциальных данных, примите во внимание, что ни одна компания не может полностью исключить угрозы безопасности.
+
+Контакты
+При возникновении вопросов или сомнений, касающихся данной политики конфиденциальности, обратитесь к нам по адресу эл. почты: info@circlefitness.com или с помощью веб-сайта https:www.circlefitness.com
+Обновления Положения о конфиденциальности
+Мы можем время от времени обновлять данное Положение. В этом случае мы изменим дату последнего обновления, указанную выше, чтобы уведомить Вас о внесении изменений.
+Дата вступления в силу: 30 мая 2018 г.</string>
+    <string name="exit">Выйти</string>
+    <string name="please_make_sure_your_passwords_match">что Ваш пароль совпадает.</string>
+    <string name="congratulations_lower">Поздравляем</string>
+    <string name="registration_done">РЕГИСТРАЦИЯ СОВЕРШЕННО!</string>
+    <string name="exit_description">РЕГИСТРАЦИЯ НЕ ПОЛНАЯ, ВЫ УВЕРЕНЫ, ЧТО ВЫ ХОТИТЕ ВЫЙТИ?</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">ЭТО ТАКОЕ CIRCLECLOUD GO APP</string>
+    <string name="login_dialog_info_line_2">ПОЖАЛУЙСТА, ВОЙДИТЕ, ЧТОБЫ ПРОДОЛЖИТЬ</string>
+    <string name="initializing_quick_login">ИНИЦИАЛИЗАЦИЯ БЫСТРОГО ВХОДА</string>
+    <string name="unable_to_connect">НЕВОЗМОЖНО ПОДКЛЮЧИТЬСЯ!</string>
+    <string name="please_try_again_later">ВозниклПопробуйте еще раз! </string>
+
+
+    <!-- Home -->
+    <string name="welcome">ДОБРО ПОЖАЛОВАТЬ</string>
+    <string name="my_class_reminder">НАПОМИНАНИЕ О КЛАССЕ</string>
+    <string name="schedule_change">ИЗМЕНЕНИЕ В РАСПИСАНИИ</string>
+    <string name="first_login_welcome">Добро пожаловать в CircleCloud Go! Надеемся, Вы найдете здесь полезную информацию для ваших тренировок. Наслаждайтесь и отличной Вам тренировки!</string>
+    <string name="there_is_a">Eсть</string>
+    <string name="today_at">сегодня в</string>
+    <string name="tomorrow_at">завтра в</string>
+    <string name="hi">Здравствуй</string>
+    <string name="target_update">ДОПОЛНИТЕЛЬНОЕ ОБНОВЛЕНИЕ</string>
+    <string name="home_msg_times_up_1">Вы достигли конца целевых дней для цели</string>
+    <string name="home_msg_times_up_2">Проверьте свой прогресс в целевом поезде!</string>
+    <string name="home_msg_half_way_through_1">Поздравляем вас на полпути через цель</string>
+    <string name="home_msg_half_way_through_2">Посмотрите на ваш прогресс в целевом поезде!</string>
+    <string name="home_msg_reached_1">Поздравляем, что вы достигли цели</string>
+    <string name="home_msg_reached_2">Посмотрите на свой результат в целевом поезде!</string>
+    <string name="this_schedule_of">График</string>
+    <string name="has_been_changed_from">был изменен с</string>
+    <string name="to">в</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">СВОДКА</string>
+    <string name="class_str">КЛАСС</string>
+    <string name="my_class">МОЙ КЛАСС</string>
+    <string name="hot">горячий</string>
+    <string name="add_to_my_class">ДОБАВИТЬ В «МОИ КЛАССЫ»</string>
+    <string name="added">ДОБАВЛЕНО</string>
+    <string name="remove_from_my_class">Удалить из «Мои Классы»</string>
+    <string name="removed">Удалено</string>
+    <string name="mygym_dialog_info">Мой зал держит вас в курсе последних новостей, занятий и предложений от ваших программ.</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">Поставьте свою цель</string>
+    <string name="targer_dialog_info">Целевая тренировка- это облачная программа, которая позволяет Вам устанавливать цели для фитнеса и отслеживать свой прогресс с помощью соединения с приложением CircleFit в реальном времени.</string>
+    <string name="distance">Расстояние</string>
+    <string name="distance_60_rpm">Дистанция при 60 ударах/минуту</string>
+    <string name="distance_80_rpm">Дистанция при 80 ударах/минуту</string>
+    <string name="calories">Калории</string>
+    <string name="calories_60_rpm">Калории при 60 ударах/минуту</string>
+    <string name="calories_80_rpm">Калории при 80 ударах/минуту</string>
+    <string name="exercise_frequency">Частота упражнений</string>
+    <string name="weight">Вес</string>
+    <string name="weight_upper">Вес</string>
+    <string name="bodyfat_percent">Показатель жира в организме</string>
+    <string name="days_left">Осталось дней</string>
+    <string name="weeks_left">недель осталось</string>
+    <string name="view_details">посмотреть детали</string>
+    <string name="target">цель</string>
+    <string name="start">Старт</string>
+    <string name="create_a_new_target">создать новую цель</string>
+    <string name="target_distance">Целевое расстояние   </string>
+    <string name="current_distance">Текущая Дистанция     </string>
+    <string name="target_days">Целевой срок   </string>
+    <string name="current_days">Текущее Количество Дней   </string>
+    <string name="target_weight">Целевой Вес     </string>
+    <string name="current_weight">Текущий Вес     </string>
+    <string name="input_weight">Ввести вес</string>
+    <string name="input_body_fat">Ввести процент жира   %</string>
+    <string name="target_body_fat">Целевой процент жира %     </string>
+    <string name="current_body_fat">Текущий процент жира %   </string>
+    <string name="current">Текущее</string>
+    <string name="target_days_weeks">Цель Дней / Недель     </string>
+    <string name="target_weeks">Цель Недель     </string>
+    <string name="current_week">Текущая Неделя    </string>
+    <string name="achievement">достижение</string>
+    <string name="this_week">На этой неделе</string>
+    <string name="target_calories">Цель Калории</string>
+    <string name="current_calories">Текущие Калории</string>
+    <string name="days">дней</string>
+    <string name="day">дней</string>
+    <string name="week">неделю</string>
+    <string name="weeks">недель</string>
+    <string name="choose_your_fitness_target">Выберите Вашу фитнес цель</string>
+    <string name="how_many_days_per_week">КАК МНОГО ДНЕЙ В НЕДЕЛЮ?</string>
+    <string name="dates">даты</string>
+    <string name="end_date">Дата Окончания</string>
+    <string name="running">БЕЖАТЬ</string>
+    <string name="biking">ВЕЛОСИПЕДЫ</string>
+    <string name="elliptical">ЭЛЛИПСОИД</string>
+    <string name="all">ВСЕ</string>
+    <string name="select_exercise_type">ВЫБЕРИТЕ ТИП УПРАЖНЕНИЯ</string>
+    <string name="history_upper">История</string>
+    <string name="edit">Изменить</string>
+    <string name="done">сделанный</string>
+    <string name="percent_loss">% убытков</string>
+    <string name="percent_gain">% усиление</string>
+    <string name="lb_loss">lb убытков</string>
+    <string name="lb_gain">lb усиление</string>
+    <string name="kg_loss">kg убытков</string>
+    <string name="kg_gain">kg усиление</string>
+    <string name="delete_description">ВЫ УВЕРЕНЫ, ЧТО ХОТИТЕ УДАЛИТЬ ЭТУ ЦЕЛЬ?</string>
+    <string name="delete">Удалить</string>
+    <string name="cancel">ОТМЕНА</string>
+    <string name="deleted">Удалить</string>
+    <string name="close_description">ВЫ УВЕРЕНЫ, ЧТО ХОТИТЕ ЗАВЕРШИТЬ ЭТУ ЦЕЛЬ?</string>
+    <string name="end_now">ЗАКОНЧИТЬ СЕЙЧАС?</string>
+    <string name="target_ended">цель завершена</string>
+    <string name="try_again_next_time">Попробуем в следующий раз!</string>
+    <string name="super_str">Супер!</string>
+    <string name="great">Великий!</string>
+    <string name="good_try">Хорошая попытка!</string>
+    <string name="congratulations">Поздравляем!</string>
+    <string name="you_reached_your_target_in_time">Вы достигли свою цель </string>
+    <string name="you_reached_your_target">Вы достигли свою цель </string>
+    <string name="half_way_through">Вы уже на половине пути!</string>
+    <string name="you_are_almost_there">Вы почти справились!</string>
+    <string name="continue_exclamation_mark">Продолжить!</string>
+    <string name="continue_str">Продолжить</string>
+    <string name="week_achieved"> недели достигнуты</string>
+    <string name="target_end_title">У Вас не хватило времени, чтобы достичь своей цели! </string>
+    <string name="target_end_description">Хотели бы вы продолжить и попробовать получить Серебряную Звезду?</string>
+    <string name="end">Конец</string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">Создать тренировку</string>
+    <string name="create_a_new_workout">Создать тренировку</string>
+    <string name="workout_name">Название Тренировки</string>
+    <string name="preview">Предпросмотр</string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">спасти</string>
+    <string name="details">Детали</string>
+    <string name="avg_speed">Средняя скорость</string>
+    <string name="delete_interval_description">Вы действительно хотите удалить этот интервал?</string>
+    <string name="delete_item_description">Вы уверены, что хотите удалить?</string>
+    <string name="yes_str">Да</string>
+    <string name="no_str">Нет</string>
+    <string name="workout_has_not_been_saved">Тренировка не была сохранена. </string>
+    <string name="are_you_sure_you_want_to_leave">Вы уверены, что хотите выйти?</string>
+    <string name="workout_info">«Моя тренировка» позволяет Вам установить уровень сопротивления для каждого интервала при создания вашей собственной программы тренировок. Нажмите «Создать тренировку», чтобы начать настройку. Можно создать до 3 программ тренировок.</string>
+    <string name="workout_info_bk">«Моя тренировка» позволяет Вам установить уровень сопротивления для каждого интервала при создания вашей собственной программы тренировок. Нажмите «Создать тренировку», чтобы начать настройку. Можно создать до 3 программ тренировок.</string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">Нормальный</string>
+    <string name="high">Высокий</string>
+    <string name="advanced">Продвинутый</string>
+    <string name="personal">Персональный</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">Имя</string>
+    <string name="edit_name">Изменить имя</string>
+    <string name="sprint">Спринт</string>
+    <string name="recovery">Восстановление</string>
+    <string name="sec">sec</string>
+    <string name="view">Просмотреть</string>
+    <string name="skip">Пропустить</string>
+    <string name="total_intervals">Всего интервалов</string>
+    <string name="intervals">Интервал</string>
+    <string name="duration_upper">Продолжительность</string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">Интервальная тренировка состоит из коротких периодических упражнений, чередующихся с менее интенсивными периодами восстановления, чтобы повысить результаты тренировки и сжечь как можно больше калорий.</string>
+    <string name="hiit_normal_info">Скорость и наклон установлены на умеренный уровень интенсивности. Рекомендуется для начинающих.</string>
+    <string name="hiit_high_info">Скорость и наклон установлены на высокий уровень интенсивности. Рекомендуется опытным спортсменам.</string>
+    <string name="hiit_advanced_info">Скорость и наклон установлены на экстремальный уровень интенсивности. Только для продвинутых спортсменов.</string>
+    <string name="hiit_personal_info">Создайте свою интервальную тренировку. Можно создать до 3 персональных Интервальная тренировка</string>
+    <string name="create_your_hiit_workout">Создайте свою персональную интервальную тренировку</string>
+    <string name="hiit_delete_item_description">Вы уверены, что хотите удалить ?</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">Личный Тренер - это программа, предназначенная для измерения и отслеживания Вашей физической формы с помощью приложений Circle Fitness IBA/InBody 570 и CircleFit Wellness.</string>
+    <string name="last_updated">Последнее обновление</string>
+    <string name="no_data">Нет данных</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">Содержание воды в Организме</string>
+    <string name="total_body_water_two">Содержание воды в Организме</string>
+    <string name="visceral_fat_rating">УРОВЕНЬ ЖИРА ВНУТРЕННИХ ОРГАНОВ</string>
+    <string name="visceral_fat_rating_two">УРОВЕНЬ ЖИРА ВНУТРЕННИХ ОРГАНОВ</string>
+    <string name="bone_mass">Костная Масса</string>
+    <string name="muscle_mass">Мышечная Масса</string>
+    <string name="body_fat">Процент жира  в организме %</string>
+    <string name="intracellular_water">Внутриклеточная Вода</string>
+    <string name="extracellular_water">Внеклеточная Вода</string>
+    <string name="protein">Белок</string>
+    <string name="mineral">Полезные Минералы</string>
+    <string name="waist_hip_ratio">Индекс Соотношения Окружности Талии и Бедер</string>
+    <string name="obesity_degree">Уровень Ожирения</string>
+    <string name="input">вход</string>
+    <string name="view_history">ПОСМОТРЕТЬ ИСТОРИЮ</string>
+    <string name="history">История</string>
+    <string name="date">даты</string>
+    <string name="info_weight_subtitle">Вес</string>
+    <string name="info_bodyfat_percent_subtitle">Процент жира в организме - это доля жира от общей массы тела.</string>
+    <string name="info_bmi_subtitle">Стандартное отношение веса к росту, используемое как общий показатель здоровья.</string>
+    <string name="info_bmr_subtitle">Ежедневный минимальный уровень энергии или калорий, необходимых вашему телу в состоянии покоя (включая сон), чтобы эффективно функционировать.</string>
+    <string name="info_total_body_water_subtitle">Общее количество воды в теле - это общее количество жидкости в теле человека, выраженное в процентах от общего веса.</string>
+    <string name="info_visceral_fat_rating_subtitle">Висцеральный жир расположен глубоко в области брюшной полости, он окружает и защищает жизненно важные органы.</string>
+    <string name="info_bone_mass_subtitle">Костная Масса</string>
+    <string name="info_intracellular_water_subtitle">Внутриклеточная Вода</string>
+    <string name="info_extracellular_water_subtitle">Внеклеточная Вода</string>
+    <string name="info_protein_subtitle">Белок</string>
+    <string name="info_mineral_subtitle">Полезные Минералы</string>
+    <string name="info_waist_hip_ratio_subtitle">Индекс Соотношения Окружности Талии и Бедер</string>
+    <string name="info_obesity_degree_subtitle">Уровень Ожирения</string>
+
+    <string name="info_weight">Вес</string>
+    <string name="info_bodyfat_percent">Процент жира в организме - это доля жира от общей массы тела.Жир необходим для поддержания температуры тела, смягчения суставов и защиты внутренних органов.Слишком много жира может повредить Вашему здоровью в долгосрочной перспективе. Было показано, что снижение избыточного уровня жира в организме снижает риск появления определенных заболеваний, Недостаток жира в организме может привести к остеопорозу, нарушению цикла у женщин и возможному бесплодию.Важно проверить укладываются ли Ваши показатели в норму.таких как высокое давление, сердечные заболевания, диабет типа 2 и некоторые виды рака.</string>
+    <string name="info_bmi">Стандартное отношение веса к росту, используемое как общий показатель здоровья.</string>
+    <string name="info_bmr">Базальный уровень метаболизма (BMR) - это минимальный ежедневный уровень энергии или калорий, необходимых вашему телу во время отдыха, для эффективной работы органов дыхания и кровообращения, нервной системы, печени, почек и других органов.</string>
+    <string name="info_total_body_water">Вода играет жизненно важную роль во многих процессах организма и присутствует в каждой клетке, ткани и органе. Поддержание рекомендованного количества воды в организме обеспечит эффективное функционирование организма и уменьшит риск развития проблем, связанных со здоровьем.</string>
+    <string name="info_visceral_fat_rating">Висцеральный жир (брюшной жир) - это жир, который окружает жизненно важные органы в области торса/желудка.Высокие уровни висцерального жира повышают риск высокого давления, сердечных заболеваний и диабета типа 2. Снижение уровня висцерального жира может существенно стабилизировать действие инсулина и снизить риск развития диабета и других, связанных с ним заболеваний.</string>
+    <string name="info_bone_mass">Костная Масса</string>
+    <string name="info_intracellular_water">Внутриклеточная Вода</string>
+    <string name="info_extracellular_water">Внеклеточная Вода</string>
+    <string name="info_protein">Белок</string>
+    <string name="info_mineral">Полезные Минералы</string>
+    <string name="info_waist_hip_ratio">Индекс Соотношения Окружности Талии и Бедер</string>
+    <string name="info_obesity_degree">Уровень Ожирения</string>
+    <string name="trunk">Торс</string>
+    <string name="left_arm">Левая Рука</string>
+    <string name="right_arm">Правая Рука</string>
+    <string name="left_leg">Левая Нога</string>
+    <string name="right_leg">Правая Нога</string>
+    <string name="underfat">Недостаток веса</string>
+    <string name="healthy">Норма</string>
+    <string name="overfat">Чрезмерный</string>
+    <string name="obese">Тучный</string>
+    <string name="your_healthy_bone_mass">Ваша Здоровая Костная Масса </string>
+    <string name="your_ideal_weight">Ваш идеальный вес</string>
+    <string name="your_health_waist_hip_ratio">Ваш здоровый индекс соотношения окружности талии и бедер</string>
+    <string name="bd_infomation_title">Личный Тренер работает синхронно с Circle Fitness IBA или InBody 570.</string>
+    <string name="bd_infomation_content">Проверьте доступность Вашего устройства.</string>
+    <string name="circle_fitness_iba">Circle Fitness IBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">Контроль сердечного ритма поддерживает пульс, выбранный Вами, контролируя скорость и интенсивность Вашей кардио тренировки для достижения оптимального результата.</string>
+    <string name="fatburn">Жиросжигание</string>
+    <string name="aerobic">Аэробика</string>
+    <string name="performance">Результат</string>
+    <string name="customize">Пользовательский режим</string>
+    <string name="years">Год</string>
+    <string name="heart_rate">Частота Пульса</string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">Установите Ваш максимальный пульс на 65%. Эта программа будет регулировать интенсивность таким образом, чтобы помочь Вам достичь целевого сердечного ритма.</string>
+    <string name="hrc_info_aerobic">Установите Ваш максимальный пульс на 75%. Эта программа будет регулировать интенсивность таким образом, чтобы помочь Вам достичь целевого сердечного ритма.</string>
+    <string name="hrc_info_performance">Установите Ваш максимальный пульс на 85%. Эта программа будет регулировать интенсивность таким образом, чтобы помочь Вам достичь целевого сердечного ритма.</string>
+    <string name="hrc_info_customize">Установите целевой сердечный ритм. Эта программа будет регулировать уровень интенсивности таким образом, чтобы помочь Вам достичь своей цели.</string>
+    <string name="age">Возраст</string>
+
+    <string name="age_range_error_msg">Введите значение от </string>
+    <string name="duration">Продолжительность</string>
+    <string name="profile">Профиль</string>
+    <string name="change_password">Изменить Пароль</string>
+    <string name="data_syncing">Синхронизация Данных</string>
+    <string name="unit">Ед. Измерения</string>
+    <string name="old_password">Старый Пароль</string>
+    <string name="new_password">Новый Пароль</string>
+    <string name="confirm_new_password">Подтвердите новый пароль</string>
+    <string name="password_changed">Пароль изменен</string>
+    <string name="old_password_incorrect">Старый пароль введен неверно</string>
+    <string name="new_password_incorrect">что Ваш пароль совпадает.</string>
+    <string name="month">МЕСЯЦ</string>
+    <string name="year">ГОД</string>
+    <string name="fitness_apps">ФИТНЕС ПРИЛОЖЕНИЕ</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">приложение для смарт устройства</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">Garmin connect</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">В тесты физического состояния входят различные стандартные фитнес программы, применяемые военными силами США для оценки аэробных способностей и выносливости спортсмена.</string>
+    <string name="phy_gerkin_protocol_info">Эта программа, первоначально разработанная для пожарных, используется для контроля частоты сердечных сокращений и субмаксимального объема кислорода (VO2). Программа автоматически остановится, когда вы достигнете 85% от максимальной частоты пульса.</string>
+    <string name="phy_cooper_test_info">Тест Купера - это дистанционный тест на физическую форму, разработанный для американских военных. Цель состоит в том, чтобы увидеть, как далеко вы можете убежать за 12 минут. А как далеко убежите Вы?</string>
+    <string name="phy_usmc_ptf_info">Тест физической подготовки морской пехоты:  3х-мильный пробег. Примите вызов и постарайтесь выполнить забег как можно быстрее!</string>
+    <string name="phy_army_prt_info">Тренировочный тест физической подготовки армии США: 2х-мильный пробег. Попытайтесь завершить этот тест как можно быстрее!</string>
+    <string name="phy_navy_prt_info">Тест физической подготовки военно-морского флота - это пробег в 1,5 мили. Постарайтесь выполнить это испытание как можно быстрее!</string>
+    <string name="phy_usaf_ptf_info">Тест на физическую пригодность военно-воздушных сил: забег на 1,5 мили. Постарайтесь выполнить это испытание как можно быстрее!</string>
+    <string name="phy_federal_law_info">Это забег на 1,5 мили на время. Постарайтесь выполнить это испытание как можно быстрее!</string>
+    <string name="phy_vo2_info">Субмаксимальный объем кислорода (VO2) – это один из факторов, который может определить выносливость спортсмена.</string>
+
+    <string name="manual">Инструкция</string>
+    <string name="hill">Склон</string>
+    <string name="cardio">Кардио тренировка</string>
+    <string name="interval">Интервальная тренировка</string>
+    <string name="strenght">Силовая тренировка</string>
+    <string name="rolling_hill">Череда склонов</string>
+    <string name="incline">Склон</string>
+    <string name="mountain_peak">Вершины гор</string>
+    <string name="constant_watt">Тренировка на мощность</string>
+    <string name="set_a_goal">ПОСТАВИТЬ ЦЕЛЬ</string>
+    <string name="select_goal">Выберите цель</string>
+    <string name="tr_dialog_info">Мы предлагаем комплексные курсы кардио тренировок, которые помогут повысить уровень Ваших занятий фитнесом и подготовить ваше тело к  более сложным тренировкам!</string>
+    <string name="tr_manual_info">Тренируйтесь в темпе, который Вам подходит.</string>
+    <string name="tr_hill_info">Испытайте себя в этой программе восхождения на склон. Увидимся на вершине!</string>
+    <string name="tr_fatburn_info">Тренировка с низкой интенсивностью позволяет вашему телу доставлять в мышцы больше кислорода, чтобы сжигать больше жировых отложений.</string>
+    <string name="tr_cardio_info">Сжигайте больше калорий и улучшайте самочувствие с помощью этой программы.</string>
+    <string name="tr_strenght_info">Испытайте себя с помощю этой высокоинтенсивной тренировкой.</string>
+    <string name="tr_interval_info">Хотите развить Вашу выносливость? Интервальная программа позволит Вам добиться этого!</string>
+    <string name="tr_target_info">Выберите цель, к которой будете стремиться. У Вас все получится!</string>
+    <string name="tr_rolling_hill_info">Испытайте себя в интервальной тренировоке с отрезками различной длины и интенсивности.</string>
+    <string name="tr_mountains_peak_info">Езда по смоделированной уличной трассе с постояннм склоном.</string>
+    <string name="tr_incline_info">Проедьте по ровному, но крутому склону на смоделированной уличной трассе.</string>
+    <string name="tr_constant_watt_info">Какова Ваша цель в Ваттах? Эта программа регулирует уровень интенсивности в соответствии с Вашей скоростью вращения педалей, чтобы помочь Вам достичь свою цель.</string>
+    <string name="level">Уровень</string>
+    <string name="easy">Легкий</string>
+    <string name="medium">СРЕДНИЙ</string>
+    <string name="hard">Трудный</string>
+    <string name="time">Время</string>
+    <string name="stop">Стоп</string>
+    <string name="emergency">АВАРИЙНАЯ ОСТАНОВКА</string>
+    <string name="emergency_note">Нажмите кнопку Аварийной Остановки еще раз для перезагрузки</string>
+    <string name="error">Ошибка</string>
+    <string name="error_codes">Код Ошибки:</string>
+    <string name="resume">Возобновить</string>
+    <string name="pause">Пауза</string>
+    <string name="no_heart_rate_detect">Не обнаружено сердечного ритма. Пожалуйста, положите на пояс груди.</string>
+    <string name="workout_will_stop_in">Тренировка закончится в %1$d:%2$02d</string>
+    <string name="heart_">Тренировка закончится в %1$d:%2$02d</string>
+    <string name="reset">Перезагрузка в </string>
+    <string name="system_will_be_auto_reset">Система автоматически перезагрузится из-за отсутствия активности за последние 2 минуты. </string>
+    <string name="press_continue">Нажмите Возобновить, чтобы продолжить.</string>
+    <string name="continue01">Продолжить</string>
+    <string name="current_heart_rate">текущий сердечный ритм</string>
+    <string name="maximum_heart_rate">85% Максимального Пульса</string>
+    <string name="warm_up">Разминка </string>
+    <string name="stage">Этап </string>
+    <string name="next">Следующий</string>
+    <string name="cool_donw">Отдых</string>
+    <string name="time_required_60">Время на прохождение (Счет 60): х:хх</string>
+    <string name="remaining_time">Оставшееся Время</string>
+    <string name="cardio_type">Тип кардио</string>
+    <string name="pace">темп</string>
+    <string name="avg_pace">Средний темп</string>
+    <string name="best_pace">Лучший темп</string>
+    <string name="total_distance">Общая Протяженность</string>
+    <string name="total_calories">Общее Число Калорий</string>
+    <string name="avg_heart_rate">Средний Пульс</string>
+    <string name="max_heart_rate">Максимальный Пульс</string>
+    <string name="please_remember">Не забывайте выйти из системы перед уходом.</string>
+    <string name="complete">ВЫПОЛНЕНО</string>
+    <string name="imcomplete">НЕВЫПОЛНЕНО </string>
+    <string name="treadmill">Беговая дорожка</string>
+    <string name="summary">резюме</string>
+    <string name="very_good">Отлично</string>
+    <string name="good">Хорошо</string>
+    <string name="average">Средне</string>
+    <string name="bad">Плохо</string>
+    <string name="very_bad">Очень Плохо</string>
+    <string name="normal">Нормальный</string>
+    <string name="score">Счет</string>
+    <string name="low_risk">низкий риск</string>
+    <string name="moderate_risk">умеренный риск</string>
+    <string name="high_risk">высокий риск</string>
+    <string name="speed_decreases_to">снижение скорости до</string>
+    <string name="speed_increases_to">увеличение скорости до</string>
+    <string name="incline_decreases_to">снижение уровня наклона до</string>
+    <string name="incline_increases_to">повышение уровня наклона до</string>
+    <string name="level_decreases_to">уровень сопротивления снижается до</string>
+    <string name="level_increases_to">повышение уровня сопротивления до</string>
+    <string name="resistance_level_decreases">Уровень сопротивления уменьшается до %1$.1f за 3 секунды</string>
+    <string name="resistance_level_increases">Уровень сопротивления увеличивается до %1$.1f за 3 секунды</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">просто</string>
+    <string name="lap">круг</string>
+    <string name="speed">SPEED</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">время</string>
+    <string name="target_time">целевое время</string>
+    <string name="target_hr">целевой сердечный ритм</string>
+    <string name="mets">Метс</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>
+
+    <!-- Performance -->
+    <string name="session1">ТРЕНИРОВОЧНАЯ СЕССИЯ</string>
+    <string name="performance_dialog_info">Посмотрите свои успехи тренировок при помощи кардио оборудования, упражнений и фитнес аксессуаров. Сравните результаты и продолжайте бросать себе вызов!</string>
+    <string name="other">ДРУГОЕ</string>
+    <string name="avg_watt">Средняя мощность(Ватт)</string>
+    <string name="share">доля</string>
+    <string name="add">Добавить</string>
+    <string name="select_date">выбрать дату</string>
+    <string name="select_time">выбрать время</string>
+    <string name="h">час</string>
+    <string name="m">минут</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">Уровень</string>
+    <string name="vo2_faster_to_keep">быстрее набирать вес, чтобы</string>
+    <string name="vo2_slowly_to_keep">медленно, медленно, чтобы сохранить мощность в</string>
+    <string name="target_watt">целевой ватт</string>
+    <string name="connection_lost">соединение потеряно!</string>
+    <string name="data_upload_unsuccessful">загрузка данных не увенчалась успехом!</string>
+    <string name="data_not_uploaded_to_circlecloudgo">Данные не загружены в circlecloudgo из-за проблем подключения или сервера!</string>
+    <string name="no_heart_rate_detected">Не обнаружено сердечного ритма. Пожалуйста, наденьте грудной пояс или положите руки на датчик сердечного ритма.</string>
+    <string name="auto_speed_cool_down_disabled">Автоматическая заминка отключена</string>
+    <string name="auto_resistance_level_down_disabled">Автоматический быстрый отдых отключен</string>
+    <string name="show_history_data">показать данные истории</string>
+    <string name="show_monthly_total">показывать ежемесячные данные</string>
+    <string name="show_yearly_total">показывать годовые данные</string>
+    <string name="close">Закрыть</string>
+    <string name="account">Аккаунт</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">Добро пожаловать в CircleCloud Go, самый полнофункциональный менеджер по оздоровлению!</string>
+    <string name="tutorial_first_2st">Вот несколько советов, которые помогут Вам начать работу.</string>
+    <string name="tutorial_target_1st">Установите фитнес цели в "icon%s".</string>
+    <string name="tutorial_target_2st">Цели Тренировок</string>
+    <string name="tutorial_gym_1st">Будьте в курсе предложений с помощью Мой Тренажерный "icon%s".</string>
+    <string name="tutorial_gym_2st">Мой Зал</string>
+    <string name="tutorial_performance_1st">Измерьте результаты с помощью "icon%s".</string>
+    <string name="tutorial_performance_2st">Мои Успехи</string>
+    <string name="tutorial_workout_1st">создать индивидуальную тренировку, используя "icon%s"</string>
+    <string name="tutorial_workout_2st">Моя Тренировка</string>
+    <string name="tutorial_body_1st">Проверьте свои физические показатели с помощью "icon%s".</string>
+    <string name="tutorial_body_2st">Анализ состава тела</string>
+    <string name="tutorial_last_str">Загрузите бесплатное приложение CircleFit для доступа ко всему контенту.Используйте приложение CircleFit для быстрого входа в систему с кардио аксессуарами.</string>
+
+    <!-- Fan -->
+    <string name="fan_title">Вентилятор</string>
+    <string name="fan_info_off">Выкл</string>
+    <string name="fan_info_50">Низкий</string>
+    <string name="fan_info_100">Высокий</string>
+
+    <!-- New Add -->
+    <string name="select_language">Выберите язык</string>
+    <string name="birthday_day">даты</string>
+    <string name="emergency_note_FOR_M6">Установка на место зажима аварийного выключателя перезапустит</string>
+    <string name="Logout_confirm">Это уходит?</string>
+
+    <string name="WeekStr_1">Пн</string>
+    <string name="WeekStr_2">Вт</string>
+    <string name="WeekStr_3">Сp</string>
+    <string name="WeekStr_4">Чт</string>
+    <string name="WeekStr_5">Пт</string>
+    <string name="WeekStr_6">Сб</string>
+    <string name="WeekStr_7">Вс</string>
+
+    <string name="month_1">Янв.</string>
+    <string name="month_2">Февр.</string>
+    <string name="month_3">Марта</string>
+    <string name="month_4">Апр.</string>
+    <string name="month_5">Мая</string>
+    <string name="month_6">Июня</string>
+    <string name="month_7">Июля</string>
+    <string name="month_8">Авг.</string>
+    <string name="month_9">Сент.</string>
+    <string name="month_10">Окт.</string>
+    <string name="month_11">Нояб.</string>
+    <string name="month_12">Дек.</string>
+
+</resources>

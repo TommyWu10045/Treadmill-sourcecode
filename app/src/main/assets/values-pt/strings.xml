@@ -1,0 +1,608 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">Informação</string>
+
+    <string name="january">janeiro</string>
+    <string name="february">fevereiro</string>
+    <string name="march">De março</string>
+    <string name="april">abril</string>
+    <string name="may">Maio</string>
+    <string name="june">Junho</string>
+    <string name="july">Julho</string>
+    <string name="august">agosto</string>
+    <string name="september">setembro</string>
+    <string name="october">Outubro</string>
+    <string name="november">novembro</string>
+    <string name="december">dezembro</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">Entrar</string>
+    <string name="log_in">Entrar</string>
+    <string name="login_msg">Inicie a seção aproveitar todas as funções</string>
+    <string name="training">Treinamento</string>
+    <string name="heart_rate_control">Controle de Ritmo Cardíaco</string>
+    <string name="hiit">HIIT</string>
+    <string name="physical_test">Exame Físico</string>
+    <string name="target_train">Objetivo do Treinamento</string>
+    <string name="my_performance">Meu Rendimento</string>
+    <string name="body_manager">Dados do corpo</string>
+    <string name="my_gym">Meu Ginásio</string>
+    <string name="my_workout">Meu Treinamento</string>
+    <string name="quick_start">Treinamento rápido</string>
+    <string name="you_have_a_message">Você tem mensagem</string>
+    <string name="settings">Configuração</string>
+    <string name="logout">Sair</string>
+    <string name="log_out">Sair</string>
+    <!-- Login -->
+    <string name="sign_up">Inscrever-se</string>
+    <string name="forgot_password">Esqueci a senha</string>
+    <string name="quick_log_in_with">Início Rápido com a aplicação CircleFit</string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">Ative o Bluetooth em seu smartphone</string>
+    <string name="login_expand_2">Abre o app CircleFit</string>
+    <string name="login_expand_3">Coloque seu smartphone perto da parte inferior direita da tela. A sincronização iniciará automaticamente.</string>
+    <string name="note">Nota:</string>
+    <string name="note_contents">É necessário cadastar-se no app CircleFit antes de entrar em Treinamento Rápido. CircleFit é um aplicativo de bem-estar Circle Fitness. O download do aplicativo é grátis no App Store/Google play ou ative a leitura do código QR abaixo.</string>
+    <string name="email">Email</string>
+    <string name="password">Senha</string>
+    <string name="enter_your_account">Coloque o e-mail utilizado para o cadastro, e lhe enviaremos uma senha.</string>
+    <string name="send">Enviar</string>
+    <string name="email_sent">Email enviado</string>
+    <string name="ok">OK</string>
+    <string name="incorrect_email">Email incorreto</string>
+    <string name="not_a_valid_email_address">O e-mail é inválido!</string>
+    <string name="password_erroe">Senha e e-mail não encontrados. Por favor, tente novamente.</string>
+    <string name="connect_problem">Problemas na ligação à Internet. Por favor tente novamente.</string>
+    <string name="no_account_matches">A conta não existe</string>
+    <string name="please_try_again">Tente novamente.</string>
+    <string name="user_id_exist_1">Já existe uma conta com este e-mail.</string>
+    <string name="user_id_exist_2">Por favor utilize outro endereço de e-mail.</string>
+
+    <!-- Reg -->
+    <string name="registration">Registo</string>
+    <string name="circlecloud_go_sign_up">CADASTRAR-SE EM CIRCLECLOUD GO</string>
+    <string name="account_exist">Já existe uma conta com esse Email. Por favor utilize uma outra conta.</string>
+    <string name="confirm_password">Confirme a Senha</string>
+    <string name="username">Nome do usuário</string>
+    <string name="user_name">Nome do usuário</string>
+    <string name="units">Unidades</string>
+    <string name="metric">Métrico</string>
+    <string name="imperial">Sistema Imperial</string>
+    <string name="gender">Gênero</string>
+    <string name="female">Mulher</string>
+    <string name="male">Homem</string>
+    <string name="height">Altura</string>
+    <string name="height_required">A altura e a data de nascimento são necessárias para uma medição precisa da Análise de Composição Corporal</string>
+    <string name="height_metric_error_msg">Por favor entrar um número entre 130-220 cm</string>
+    <string name="height_imperial_error_msg">Por favor entrar um número entre 4 ' 3"-7 ' 3"</string>
+    <string name="date_of_birth">Data de nascimento</string>
+    <string name="date_of_birth_required">Data de Nascimento necessária para medida acurado da análise de composição corporal</string>
+    <string name="privacy_policy">Política de Privacidade</string>
+    <string name="i_agree">Aceitar a Política de Privacidade</string>
+    <string name="view_privacy_policy">VER A POLÍTICA DE PRIVACIDADE</string>
+    <string name="privacy_policy_contents">Privacidade
+A Circle Fitness é uma empresa sedeada em Taiwan, R.C. focada na criação e produção de equipamento de fitness sob o nome de Circle Fitness™. Quando se regista como nosso membro e se torna utilizador dos nossos produtos. Esta declaração não cobre quaisquer outras informações que recolhemos, incluindo, sem limitação, dados que recolhemos offline ou que recebemos através do nosso equipamento de fitness ou de aplicações de dispositivos móveis.
+Localizações dos servidores.
+Estamos sedeados em Taichung, Taiwan, R.C. Alojamos os nossos servidores e processamos as informações nos Estados Unidos e noutros países. Quando acede aos nossos Sites, transmite informações para os Estados Unidos e outros países.
+
+Informações de recolhemos.
+Informações que fornece ativamente: ao registar-se numa conta ou ao enviar-nos pedidos através de equipamento de fitness ou da aplicação móvel, podemos solicitar que nos forneça o seu nome, (não necessita de fornecer-nos o seu nome real, apenas o seu nick), altura, data de nascimento, endereço de e-mail e palavra-passe.
+
+Informações que recolhemos passivamente: recolhemos também informações relacionadas com a data e hora da sua visita e o equipamento de fitness que utilizou e também com programas e funções. Este tipo de informações é recolhido para tornar os nossos produtos e serviços mais úteis para si.
+
+Combinações: podemos combinar as informações que recebemos através do equipamento de fitness com informações que recebemos acerca de si de outras fontes como, por exemplo, do resumo de exercícios do seu dispositivo portátil ou de aplicações de fitness de terceiros.
+
+Utilização de informações.
+Os dados recolhidos pela Circle Fitness são utilizados para criar uma experiência de fitness melhor e mais personalizada para si. Não alugamos, vendemos ou partilhamos as suas informações individuais e pessoais com terceiros, exceto nas seguintes situações:
+
+- Com o seu consentimento.
+- Recorremos a fornecedores de serviços afiliados e não afiliados em todo o mundo que nos ajudam a disponibilizar o nosso serviço e a gerir a nossa atividade, sujeitos a acordos de confidencialidade.
+- Partilhamos estatísticas de utilização agregadas que não podem ser utilizadas para identificá-lo individualmente.
+Segurança das suas informações.
+Aplicamos medidas organizacionais e técnicas para assegurar que o acesso às suas informações está limitado a pessoas com uma necessidade estrita de conhecimento. Apesar de tomarmos medidas para proteger as suas informações pessoais, é importante que saiba que nem nós nem qualquer empresa pode eliminar totalmente os riscos de segurança.
+
+Contacte-nos.
+Se tiver questões ou comentários relativamente a esta politica de privacidade, contacte-nos através do endereço de e-mail info@circlefitness.com ou através da Internet em https:www.circlefitness.com
+Atualizações à declaração de privacidade.
+Podemos atualizar esta declaração periodicamente. Ao fazê-lo, alteraremos a data da última atualização acima para informá-lo de que procedemos a uma alteração.
+Data efetiva: 30 de maio de 2018</string>
+    <string name="exit">Sair</string>
+    <string name="please_make_sure_your_passwords_match"> Por favor certifique-se que as senhas se correspondem.</string>
+    <string name="congratulations_lower">Parabéns</string>
+    <string name="registration_done">REGISTRO FEITO!</string>
+    <string name="exit_description">INSCRIÇÃO NÃO É COMPLETA, TEM CERTEZA QUE QUER SAIR?</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">ESTE É UMA APLICACIÓN CIRCLECLOUD GO</string>
+    <string name="login_dialog_info_line_2">POR FAVOR ENTRE PARA CONTINUAR</string>
+    <string name="initializing_quick_login">INICIALIZANDO LOGIN RÁPIDO</string>
+    <string name="unable_to_connect">INCAPAZ DE CONECTAR!</string>
+    <string name="please_try_again_later">Por favor tente novamente.</string>
+
+
+    <!-- Home -->
+    <string name="welcome">BEM-VINDO</string>
+    <string name="my_class_reminder">MEU LEMBRETE DE AULA</string>
+    <string name="schedule_change"> MUDANÇA DE CALENDÁRIO</string>
+    <string name="first_login_welcome">Bem-Vindo ao CircleCloud Go! Nós esperamos que você encontre as características que lhe ajudem no seu treino. Tenha um bom treino!</string>
+    <string name="there_is_a">Existe um</string>
+    <string name="today_at">Hoje às</string>
+    <string name="tomorrow_at">amanhã no</string>
+    <string name="hi">Oi</string>
+    <string name="target_update">ATUALIZAÇÃO O OBJETIVO</string>
+    <string name="home_msg_times_up_1">Você atingiu o final dos dias de destino para o alvo</string>
+    <string name="home_msg_times_up_2">Verifique seu progresso no trem de destino!</string>
+    <string name="home_msg_half_way_through_1">Bom trabalho! Você se encontra na metade de seus dias de objetivos. Continue assim!</string>
+    <string name="home_msg_half_way_through_2">Veja seu progresso no trem alvo!</string>
+    <string name="home_msg_reached_1">Parabéns você alcançou o alvo</string>
+    <string name="home_msg_reached_2">Veja o seu resultado no trem alvo!</string>
+    <string name="this_schedule_of">O agendamento de</string>
+    <string name="has_been_changed_from">foi alterado de</string>
+    <string name="to">para</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">BOLETIM</string>
+    <string name="class_str">AULA</string>
+    <string name="my_class">MINHA AULA</string>
+    <string name="hot">QUENTE</string>
+    <string name="add_to_my_class">ADICIONAR A MINHA AULA</string>
+    <string name="added">ADICIONADO</string>
+    <string name="remove_from_my_class">Apagar de Minha Aula</string>
+    <string name="removed">Apagado</string>
+    <string name="mygym_dialog_info">"Minha Academia" mantém você informado sobre as últimas notícias, aulas e ofertas de suas instalações</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">Crie sua meta de estado físico</string>
+    <string name="targer_dialog_info">Target Train é um programa baseado na nuvem que permite estabelecer objetivos e seguir o progresso cada minuto, através da conexão em tempo real com o app CircleFit.</string>
+    <string name="distance">Distância</string>
+    <string name="distance_60_rpm">Distância em 60 RPM</string>
+    <string name="distance_80_rpm">Distância em 80 RPM</string>
+    <string name="calories">Calorias</string>
+    <string name="calories_60_rpm">Calorias em 60 RPM</string>
+    <string name="calories_80_rpm">Calorias em 80 RPM</string>
+    <string name="exercise_frequency">Frequência de Exercícios</string>
+    <string name="weight">Peso</string>
+    <string name="weight_upper">Peso</string>
+    <string name="bodyfat_percent">Gordura Corporal</string>
+    <string name="days_left">dias restantes</string>
+    <string name="weeks_left">semanas restantes</string>
+    <string name="view_details">ver detalhes</string>
+    <string name="target">alvo</string>
+    <string name="start">Iniciar</string>
+    <string name="create_a_new_target">criar um novo alvo</string>
+    <string name="target_distance">Distância por objetivo</string>
+    <string name="current_distance">Distância Atual</string>
+    <string name="target_days">Dias totais</string>
+    <string name="current_days">Dia Atual</string>
+    <string name="target_weight">Peso objetivo</string>
+    <string name="current_weight">Peso Atual</string>
+    <string name="input_weight">Insira o peso</string>
+    <string name="input_body_fat">Insira sua Gordura Corporal %</string>
+    <string name="target_body_fat">Objetivo de Gordura Corporal %</string>
+    <string name="current_body_fat">Gordura Corporal Atual %</string>
+    <string name="current">Atual</string>
+    <string name="target_days_weeks">Dias/Semanas objetivo</string>
+    <string name="target_weeks">Semanas objetivo</string>
+    <string name="current_week">Semana Atual</string>
+    <string name="achievement">Conquistas</string>
+    <string name="this_week">Esta semana</string>
+    <string name="target_calories">Calorías por objetivo</string>
+    <string name="current_calories">Calorias Atuais</string>
+    <string name="days">dias</string>
+    <string name="day">dias</string>
+    <string name="week">semana</string>
+    <string name="weeks">semanas</string>
+    <string name="choose_your_fitness_target">Escolha o seu alvo fitness</string>
+    <string name="how_many_days_per_week">QUANTOS DIAS POR SEMANA?</string>
+    <string name="dates">datas</string>
+    <string name="end_date">Data de terminar</string>
+    <string name="running">CorridaCORRIDA</string>
+    <string name="biking">PEDALADA</string>
+    <string name="elliptical">ELIPTICO</string>
+    <string name="all">TODOS</string>
+    <string name="select_exercise_type">SELECIONE O TIPO DE EXERCÍCIO</string>
+    <string name="history_upper">História</string>
+    <string name="edit">Editar</string>
+    <string name="done">Termino</string>
+    <string name="percent_loss">% perda</string>
+    <string name="percent_gain">% ganho</string>
+    <string name="lb_loss">lb perda</string>
+    <string name="lb_gain">lb ganho</string>
+    <string name="kg_loss">kg perda</string>
+    <string name="kg_gain">kg ganho</string>
+    <string name="delete_description">TEM CERTEZA QUE DESEJA ELIMINAR ESTA META??</string>
+    <string name="delete">Apagar</string>
+    <string name="cancel">CANCELAR</string>
+    <string name="deleted">Apagar</string>
+    <string name="close_description">TEM CERTEZA QUE DESEJA TERMINAR ESTA META?</string>
+    <string name="end_now">TERMINAR AGORA</string>
+    <string name="target_ended">alvo terminado</string>
+    <string name="try_again_next_time">Vamos ternar novamente!</string>
+    <string name="super_str">Super!</string>
+    <string name="great">ótimo!</string>
+    <string name="good_try">Boa tentative!</string>
+    <string name="congratulations">Parabéns!</string>
+    <string name="you_reached_your_target_in_time">Você alcançou seu objetiu a tempo</string>
+    <string name="you_reached_your_target">Você alcançou seu objetiu a tempo</string>
+    <string name="half_way_through">Você está na metade do caminho</string>
+    <string name="you_are_almost_there">Quase lá!</string>
+    <string name="continue_exclamation_mark">Continuar!</string>
+    <string name="continue_str">Continuar</string>
+    <string name="week_achieved"> semanas alcançadas</string>
+    <string name="target_end_title">O seu tempo de alcaçar o seu alvo acabou! </string>
+    <string name="target_end_description">Gostaria de continuar e ternar uma Estrela de Prata?</string>
+    <string name="end">Finalizar</string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">Crie seu treino</string>
+    <string name="create_a_new_workout">Crie seu treino</string>
+    <string name="workout_name">Nome do Treino</string>
+    <string name="preview">Vista prévia</string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">Salve </string>
+    <string name="details">detalhes</string>
+    <string name="avg_speed">Velocidade média</string>
+    <string name="delete_interval_description">Tem certeza de que deseja excluir este intervalo?</string>
+    <string name="delete_item_description">Tem certeza que quer apagar?</string>
+    <string name="yes_str">Sim</string>
+    <string name="no_str">Não</string>
+    <string name="workout_has_not_been_saved">O treino não foi salvo. </string>
+    <string name="are_you_sure_you_want_to_leave">Tem certeza que deseja sair?</string>
+    <string name="workout_info">Meus Treinos permite com que você configure seu nível de resistência para cada intervalo para criar seu próprio programa de treinos. Pressione "Crie Seu Treino" para começar. Até três programas de treinos podem ser criados.</string>
+    <string name="workout_info_bk">Meus Treinos permite com que você configure seu nível de resistência para cada intervalo para criar seu próprio programa de treinos. Pressione "Crie Seu Treino" para começar. Até três programas de treinos podem ser criados.</string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">Normal</string>
+    <string name="high">Alto</string>
+    <string name="advanced">Avançado</string>
+    <string name="personal">Pessoal</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">Nome</string>
+    <string name="edit_name">Editar Nome</string>
+    <string name="sprint">Largada</string>
+    <string name="recovery">Recuperação</string>
+    <string name="sec">sec</string>
+    <string name="view">Ver</string>
+    <string name="skip">Pular</string>
+    <string name="total_intervals">Intervalos totais</string>
+    <string name="intervals">Intervalo</string>
+    <string name="duration_upper">Duração</string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">Intervalo de Treinamento de Alta Intensidade (HIIT) providencia períodos curtos de alta intensidade alternando com períodos de recuperação de menor intensidade para melhorar sua performance de treino e queimar a maior quantidade possível de caloria.</string>
+    <string name="hiit_normal_info">A velocidade e inclinação estão programadas para atingir um nível moderado de intensidade. Recomendado para iniciantes.</string>
+    <string name="hiit_high_info">A velocidade e inclinação estão programadas para atingir um nível de alta intensidade. Recomendado para esportistas experientes.</string>
+    <string name="hiit_advanced_info">A velocidade e inclinação estão programados para conseguir um nível de intensidade extrema. Recomendado somente para esportistas avançados.</string>
+    <string name="hiit_personal_info">Crie seu HIIT pessoal. Podem ser criados até três HIIT's pessoais.</string>
+    <string name="create_your_hiit_workout">Crie seu treinamento HIIT</string>
+    <string name="hiit_delete_item_description">Tem certeza que quer deletar o ?</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">"Dados do corpo" é um programa de administração do corpo desenhado para medir e seguir seu estado físico via o app Circle Fitness IBA/InBody 570 y CircleFit.</string>
+    <string name="last_updated">Última atualização</string>
+    <string name="no_data">Nenhum dado</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">Água Corporal Total</string>
+    <string name="total_body_water_two">Água Corporal Total</string>
+    <string name="visceral_fat_rating">CLASSIFICAÇÃO DA GORDURA VISCERAL</string>
+    <string name="visceral_fat_rating_two">CLASSIFICAÇÃO DA GORDURA VISCERAL</string>
+    <string name="bone_mass">Massa do Osso</string>
+    <string name="muscle_mass">Massa Muscular</string>
+    <string name="body_fat">Gordura Coporal %</string>
+    <string name="intracellular_water">Água Intracelular</string>
+    <string name="extracellular_water">Água Extracelular</string>
+    <string name="protein">Proteínas</string>
+    <string name="mineral">Minerais</string>
+    <string name="waist_hip_ratio">Razão da Cintura</string>
+    <string name="obesity_degree">Grau de Obesidade</string>
+    <string name="input">entrada</string>
+    <string name="view_history">VER HISTÓRICO</string>
+    <string name="history">História</string>
+    <string name="date">datas</string>
+    <string name="info_weight_subtitle">Peso</string>
+    <string name="info_bodyfat_percent_subtitle">A porcentagem de Gordura Corporal é a proporção de gordura com o peso total do corpo.</string>
+    <string name="info_bmi_subtitle">Uma razão padrão do peso das Alturas, usado como indicador geral de saúde.</string>
+    <string name="info_bmr_subtitle">O nível mínimo diário de energia ou calorias que seu corpo necessita quando está em repouso (incluindo o sono) para funcionar de maneira eficaz.</string>
+    <string name="info_total_body_water_subtitle">Percentagem de Água total no corpo é a quantidade total de fluídos no corpo de uma pessoa expressado como a percentagem do peso total.</string>
+    <string name="info_visceral_fat_rating_subtitle">Gordura visceral esta localizada na parte funda dá área do núcleo abdominal, ao redor e protegendo os orgãos principais.</string>
+    <string name="info_bone_mass_subtitle">Massa do Osso</string>
+    <string name="info_intracellular_water_subtitle">Água Intracelular</string>
+    <string name="info_extracellular_water_subtitle">Água Extracelular</string>
+    <string name="info_protein_subtitle">Proteínas</string>
+    <string name="info_mineral_subtitle">Minerais</string>
+    <string name="info_waist_hip_ratio_subtitle">Razão da Cintura</string>
+    <string name="info_obesity_degree_subtitle">Grau de Obesidade</string>
+
+    <string name="info_weight">Peso</string>
+    <string name="info_bodyfat_percent">A gordura corporal é essencial para manter a temperatura corporal, o amortecimento das articulações e proteção dos órgãos internos. Muita gordura pode causar danos à saúde a longo prazo. Foi demostrado que reduzir os níveis de gordura no corpo reduz diretamente o risco sofrer por certas doenças como pressão alta, problemas do coração, diabetes tipo 2 e alguns tipos de câncer. Pouca gordura corporal pode levar a osteoporose nos anos seguintes, menstruação irregular nas mulheres e uma possível infertilidade. É importante verificar os resultados da sua gordura corporal em comparação com os intervalos de gordura corporal saudável.</string>
+    <string name="info_bmi">Uma razão padrão do peso das Alturas, usado como indicador geral de saúde.</string>
+    <string name="info_bmr">A taxa metabólica basal (TMB) é o nível mínimo diário de energia ou calorias que seu corpo necessita para descansar, para que seus órgãos respiratórios e circulatórios, sistema neural, fígado, rins e outros órgãos funcionem efetivamente.</string>
+    <string name="info_total_body_water">Água tem um função vital em muitos processos corporais e é encontrada em todas as células, tecidos e órgãos. Mantendo a quantidade certa de água para um corpo saudável garante as funções eficientes do corpo e reduz o risco de desenvolver problemas de sáude.</string>
+    <string name="info_visceral_fat_rating">Gordura visceral (Gordura Abdominal) é a gordura que fica em volta dos órgãos no tronco e na área do corpo.Alto nível de gordura visceral aumenta o risco de pressão alta, doença no coração e tipo 2 de diabetes. Diminuindo o nível da Gordura visceral pode estabilizar as ações da insulina e reduzir os ricos de diabetes e outras doenças relacionadas.</string>
+    <string name="info_bone_mass">Massa do Osso</string>
+    <string name="info_intracellular_water">Água Intracelular</string>
+    <string name="info_extracellular_water">Água Extracelular</string>
+    <string name="info_protein">Proteínas</string>
+    <string name="info_mineral">Minerais</string>
+    <string name="info_waist_hip_ratio">Razão da Cintura</string>
+    <string name="info_obesity_degree">Grau de Obesidade</string>
+    <string name="trunk">Tronco</string>
+    <string name="left_arm">Braço Esquerdo</string>
+    <string name="right_arm">Braço Direito</string>
+    <string name="left_leg">Perna Esquerda</string>
+    <string name="right_leg">Perna Direita</string>
+    <string name="underfat">Abaixo</string>
+    <string name="healthy">Saudável</string>
+    <string name="overfat">Sobrepeso</string>
+    <string name="obese">Obeso</string>
+    <string name="your_healthy_bone_mass">A massa do seu Osso Saudável é </string>
+    <string name="your_ideal_weight">Seu peso saudável</string>
+    <string name="your_health_waist_hip_ratio">A razão saudável da sua cintura</string>
+    <string name="bd_infomation_title">"Dados do corpo" trabalha em sincronia com Circle Fitness IBA o IbBody 570.</string>
+    <string name="bd_infomation_content">Por favor verifique sua instalação, se há disponibilidade.</string>
+    <string name="circle_fitness_iba">Círculo fitness IBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">O sistema de Controle de Ritmo Cardíaco mantém as pulsações por minuto que você selecionou, a partir do controle de velocidade e intensidade do exercício de seu equipamento cardiovascular para otimizar seu treinamento.</string>
+    <string name="fatburn">Queima de gordura</string>
+    <string name="aerobic">Aeróbico</string>
+    <string name="performance">Rendimento</string>
+    <string name="customize">Personalizar</string>
+    <string name="years">Ano</string>
+    <string name="heart_rate">Ritmo Cardíaco</string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">Selecione 65% de seu ritmo cardíaco máximo. Este programa ajustará a intensidade devidamente, com o fim de alcançar sua meta de ritmo cardíaco.</string>
+    <string name="hrc_info_aerobic">Selecione 75% de seu ritmo cardíaco máximo. Este programa ajustará a intensidade devidamente, com o fim de alcançar sua meta de ritmo cardíaco.</string>
+    <string name="hrc_info_performance">Selecione 85% de seu ritmo cardíaco máximo. Este programa ajustará a intensidade devidamente, com o fim de alcançar sua meta de ritmo cardíaco</string>
+    <string name="hrc_info_customize">Selecione uma meta de ritmo cardíaco. Este programa ajustará o nível de intensidade devidamente, para te ajudar a alcançar a sua meta.</string>
+    <string name="age">Idade</string>
+
+    <string name="age_range_error_msg">Por favor insira um número de </string>
+    <string name="duration">Duração</string>
+    <string name="profile">Perfil</string>
+    <string name="change_password">Mudar a senha</string>
+    <string name="data_syncing">Sicronização de dados</string>
+    <string name="unit">Unidade</string>
+    <string name="old_password">Senha antiga</string>
+    <string name="new_password">Nova senha</string>
+    <string name="confirm_new_password">Confirme a nova senha</string>
+    <string name="password_changed">Senha alterada</string>
+    <string name="old_password_incorrect">Senha antiga incorreta</string>
+    <string name="new_password_incorrect">Por favor digite a mesma senha.</string>
+    <string name="month">MÊS</string>
+    <string name="year">ANO</string>
+    <string name="fitness_apps">APLICATIVO FITNESS</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">APLICATIVOS DE VESTIR</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">Garmin connect</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">O teste físico contém vários programas de treinamento padrão utilizados por militares dos EUA para avaliar a capacidade aeróbica e resistência do atleta.</string>
+    <string name="phy_gerkin_protocol_info">Este programa, originalmente desenhado para os bomberos, é utilizado para monitorar o ritmo cardíaco e detectar níveis de VO2. O programa irá finalizar automaticamente quando você alcançar os 85% de seu ritmo cardíaco máximo.</string>
+    <string name="phy_cooper_test_info">O teste Cooper é um teste de resistência física da distância desenhada para militares dos EUA. O objetivo é ver a distância que você pode correr em 12 minutos. Que distância você alcançará?</string>
+    <string name="phy_usmc_ptf_info">O teste de resistência física dos marinheiros é uma corrida cronometrada em 4,8 km. Ponha-se no teste e tente terminar esta corrida o mais rápido que conseguir.</string>
+    <string name="phy_army_prt_info">O teste de treino de agilidade física do exército é uma corrida cronometrada em 3,2 km. Tente completar a corrida o mais rápido possível.</string>
+    <string name="phy_navy_prt_info">O teste de Treinamento físico é uma corrida de 2,4km cronometrada. Tente completar esta corrida o mais rápido que você puder.</string>
+    <string name="phy_usaf_ptf_info">O teste de Rendimento físico das Forças aéreas é uma corrida de 2,4 km cronometrada. Tente completar esta corrida o mais rápido que você puder.</string>
+    <string name="phy_federal_law_info">Esta é uma corrida de 2,4km cronometrada. Tente completar esta corrida o mais rápido que você puder.</string>
+    <string name="phy_vo2_info">VO2 Máximo, o máximo oxigênio absorvido, é um fator que pode determinar a capacidade de um atleta para fazer um treinamento de resistência.</string>
+
+    <string name="manual">Manual</string>
+    <string name="hill">Subida</string>
+    <string name="cardio">Cardiovascular</string>
+    <string name="interval">Intervalo</string>
+    <string name="strenght">Força</string>
+    <string name="rolling_hill">Colinas suaves</string>
+    <string name="incline">Inclinar</string>
+    <string name="mountain_peak">Picos de Montanhas</string>
+    <string name="constant_watt">Potência constante</string>
+    <string name="set_a_goal">ESTABELEÇA UMA META</string>
+    <string name="select_goal">Selecione o objetivo</string>
+    <string name="tr_dialog_info">Oferecemos programas completos cardiovasculares para melhorar seu estado físico e treinar seu corpo para alcançar muitos mais suas metas.</string>
+    <string name="tr_manual_info">Faça exercício ao ritmo e intesentidade desejado</string>
+    <string name="tr_hill_info">Coloque -se em prova com este programa de escalada. Nos vemos em cima!</string>
+    <string name="tr_fatburn_info">Treine em intensidade baixa, deixando que o corpo libere oxigênio suficiente para os músculos queimando mais reservas de gordura.</string>
+    <string name="tr_cardio_info">Queime mais calorias e melhore sua condição com este programa cardiovascular.</string>
+    <string name="tr_strenght_info">Coloque-se à prova com este treinamento de alta insentidade.</string>
+    <string name="tr_interval_info">Quer aumentar sua resistência? Este programa de treinamentos por intervalos fará com que você consiga!</string>
+    <string name="tr_target_info">Seleciona um objetivo específico a ser alcançado e o alcance. Você pode!</string>
+    <string name="tr_rolling_hill_info">Coloque-se à prova com vários intervalos de distâncias e elevações.</string>
+    <string name="tr_mountains_peak_info">Vá em bicicleta com uma inclinação constante através deste simulador de caminhos exteriores.</string>
+    <string name="tr_incline_info">Vá em bicicleta com uma inclinação constante através deste simulador de caminhos exteriores.</string>
+    <string name="tr_constant_watt_info">Qual é o seu objetivo de potência de pedelada? Este programa ajusta o nível de intensidade segundo sua velocidade de pedalada, para ajudar-te a alcançar sua meta.</string>
+    <string name="level">Nível</string>
+    <string name="easy">FÁCIL</string>
+    <string name="medium">MÉDIO</string>
+    <string name="hard">DIFÍCIL</string>
+    <string name="time">Tempo</string>
+    <string name="stop">Parar</string>
+    <string name="emergency">PARADA DE EMERGÊNCIA</string>
+    <string name="emergency_note">Pressione o botão de emergência novamente para resetar</string>
+    <string name="error">Erro</string>
+    <string name="error_codes">Código do Erro:</string>
+    <string name="resume">Retomar</string>
+    <string name="pause">Pausar</string>
+    <string name="no_heart_rate_detect">Nenhuma frequência cardíaca detectada. Por favor coloque o seu cinto peitoral.</string>
+    <string name="workout_will_stop_in">Treino acaba as %1$d:%2$02d</string>
+    <string name="heart_">Treino acaba as %1$d:%2$02d</string>
+    <string name="reset">Resetar as </string>
+    <string name="system_will_be_auto_reset">Sistema irá automaticamente resetar em 2 minutos. </string>
+    <string name="press_continue">Pressione resumir para continuar.</string>
+    <string name="continue01">Continuar</string>
+    <string name="current_heart_rate">frequência cardíaca atual</string>
+    <string name="maximum_heart_rate">Ritmo cardíaco máx. de 85%</string>
+    <string name="warm_up">Aquecer</string>
+    <string name="stage">Etapa</string>
+    <string name="next">Seguinte</string>
+    <string name="cool_donw">Esfriar</string>
+    <string name="time_required_60">Tempo requerido para aprovar (Qualificação 60):xxx</string>
+    <string name="remaining_time">Tempo Restante</string>
+    <string name="cardio_type">Typo de cardio</string>
+    <string name="pace">Ritmo</string>
+    <string name="avg_pace">Ritmo Médio</string>
+    <string name="best_pace">Melhor Ritmo</string>
+    <string name="total_distance">Duranção Total</string>
+    <string name="total_calories">Calorias Total</string>
+    <string name="avg_heart_rate">Ritmo cardíaco médio</string>
+    <string name="max_heart_rate">Batimento cardíaco máximo</string>
+    <string name="please_remember">Por favor, lembre-se de desconectar antes de sair.</string>
+    <string name="complete">COMPLETO</string>
+    <string name="imcomplete">INCOMPLETO</string>
+    <string name="treadmill">Esteira</string>
+    <string name="summary">resumo</string>
+    <string name="very_good">Muito Bom</string>
+    <string name="good">Bom</string>
+    <string name="average">Média</string>
+    <string name="bad">Ruim</string>
+    <string name="very_bad">Muito Ruim</string>
+    <string name="normal">Normal</string>
+    <string name="score">Pontos</string>
+    <string name="low_risk">baixo risco</string>
+    <string name="moderate_risk">risco moderado</string>
+    <string name="high_risk">alto risco</string>
+    <string name="speed_decreases_to">diminuição de velocidade para</string>
+    <string name="speed_increases_to">aumento de velocidade para</string>
+    <string name="incline_decreases_to">diminuição do nível inclinado para</string>
+    <string name="incline_increases_to">aumento do nível inclinado para</string>
+    <string name="level_decreases_to">diminuição do nível de resistência para</string>
+    <string name="level_increases_to">aumento do nível de resistência para</string>
+    <string name="resistance_level_decreases">Nível de resistência diminui de %1$.1f para 3 segundos</string>
+    <string name="resistance_level_increases">Nível de resistência aumenta de %1$.1f para 3 segundos</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">simples</string>
+    <string name="lap">colo</string>
+    <string name="speed">SPEED</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">Tempo</string>
+    <string name="target_time">Tempo por objetivo</string>
+    <string name="target_hr">frequência cardíaca alvo</string>
+    <string name="mets">METS</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>
+
+    <!-- Performance -->
+    <string name="session1">SESSÃO</string>
+    <string name="performance_dialog_info">Verifique seu rendimento através da tecnologia cardiovascular, app de exercícios e dispositivos portáteis. Compare seus resultados de treinamentos e desafie-se.</string>
+    <string name="other">OUTRO</string>
+    <string name="avg_watt">Potência média</string>
+    <string name="share">compartilhar</string>
+    <string name="add">Adicionar</string>
+    <string name="select_date">Selecione a data</string>
+    <string name="select_time">selecione o tempo</string>
+    <string name="h">hora</string>
+    <string name="m">minutos</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">Nível</string>
+    <string name="vo2_faster_to_keep">remando mais rápido para manter a potência em</string>
+    <string name="vo2_slowly_to_keep">remando lentamente para manter a potência em</string>
+    <string name="target_watt">Meta de Potência</string>
+    <string name="connection_lost">conexão perdida!</string>
+    <string name="data_upload_unsuccessful">upload de dados sem sucesso!</string>
+    <string name="data_not_uploaded_to_circlecloudgo">Dados não enviados para circlecloudgo devido a conectividade ou problema no servidor!</string>
+    <string name="no_heart_rate_detected">Nenhuma frequência cardíaca detectada. Por favor, coloque o seu cinto peitoral ou coloque as mãos no sensor de frequência cardíaca.</string>
+    <string name="auto_speed_cool_down_disabled">Controle de velocidade automática desativado</string>
+    <string name="auto_resistance_level_down_disabled">Controle de velocidade automática desativado</string>
+    <string name="show_history_data">mostrar dados do histórico</string>
+    <string name="show_monthly_total">mostrar dados mensais</string>
+    <string name="show_yearly_total">mostrar dados anuais</string>
+    <string name="close">fechar</string>
+    <string name="account">Conta</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">Bem-vindo ao CircleCloud Go, o mais completo gerenciador de bem-estar!</string>
+    <string name="tutorial_first_2st">Algumas dicas para ter ajudar no início.</string>
+    <string name="tutorial_target_1st">Selecione os seus alvos no "icon%s".</string>
+    <string name="tutorial_target_2st">Objectivo do Treino</string>
+    <string name="tutorial_gym_1st">Mantenha-se informado com as ofertas da "icon%s".</string>
+    <string name="tutorial_gym_2st">Meu Ginásio</string>
+    <string name="tutorial_performance_1st">Veja os seus resultados em "icon%s".</string>
+    <string name="tutorial_performance_2st">Meu Desempenho</string>
+    <string name="tutorial_workout_1st">criar treino personalizado usando "icon%s"</string>
+    <string name="tutorial_workout_2st">Meu treinamento</string>
+    <string name="tutorial_body_1st">Examine suas métricas de fitness com o "icon%s".</string>
+    <string name="tutorial_body_2st">Dados do corpo</string>
+    <string name="tutorial_last_str">Baixe grautido o aplicativo CircleFit para acessar o conteúdo.Use o aplicativo CircleFit para rápido acesso ao equipamento de cardio.</string>
+
+    <!-- Fan -->
+    <string name="fan_title">Ventilador</string>
+    <string name="fan_info_off">DESLIGADO</string>
+    <string name="fan_info_50">Baixo</string>
+    <string name="fan_info_100">Alto</string>
+
+    <!-- New Add -->
+    <string name="select_language">Selecione o idioma</string>
+    <string name="birthday_day">datas</string>
+    <string name="emergency_note_FOR_M6">Colocar de volta o grampo do interruptor de parada de emergência</string>
+    <string name="Logout_confirm">Está saindo?</string>
+
+    <string name="WeekStr_1">Seg</string>
+    <string name="WeekStr_2">Ter</string>
+    <string name="WeekStr_3">Qua</string>
+    <string name="WeekStr_4">Qui</string>
+    <string name="WeekStr_5">Sex</string>
+    <string name="WeekStr_6">Sáb</string>
+    <string name="WeekStr_7">Dom</string>
+
+    <string name="month_1">Jan</string>
+    <string name="month_2">Fev</string>
+    <string name="month_3">Mar</string>
+    <string name="month_4">Abr</string>
+    <string name="month_5">Mai</string>
+    <string name="month_6">Jun</string>
+    <string name="month_7">Jul</string>
+    <string name="month_8">Ago</string>
+    <string name="month_9">Set</string>
+    <string name="month_10">Out</string>
+    <string name="month_11">Nov</string>
+    <string name="month_12">Dez</string>
+
+</resources>

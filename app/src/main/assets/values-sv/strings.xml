@@ -1,0 +1,608 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">information</string>
+
+    <string name="january">januari</string>
+    <string name="february">februari</string>
+    <string name="march">mars</string>
+    <string name="april">april</string>
+    <string name="may">maj</string>
+    <string name="june">juni</string>
+    <string name="july">juli</string>
+    <string name="august">augusti</string>
+    <string name="september">september</string>
+    <string name="october">oktober</string>
+    <string name="november">november</string>
+    <string name="december">december</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">Logga In</string>
+    <string name="log_in">Logga In</string>
+    <string name="login_msg">Logga in för att få alla funktioner</string>
+    <string name="training">Träning</string>
+    <string name="heart_rate_control">Pulskontroll</string>
+    <string name="hiit">HIIT</string>
+    <string name="physical_test">Fysisk Test</string>
+    <string name="target_train">Target Train</string>
+    <string name="my_performance">Mina Resultat</string>
+    <string name="body_manager">Body Manager</string>
+    <string name="my_gym">Mitt Gym</string>
+    <string name="my_workout">Mitt Träningspass</string>
+    <string name="quick_start">Snabbstart</string>
+    <string name="you_have_a_message">Du har ett meddelande</string>
+    <string name="settings">Inställning</string>
+    <string name="logout">Logga Ut</string>
+    <string name="log_out">Logga Ut</string>
+    <!-- Login -->
+    <string name="sign_up">Registrera Dig</string>
+    <string name="forgot_password">Glömt lösenordet</string>
+    <string name="quick_log_in_with">Snabbinloggning med CircleFit-app</string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">Aktivera Bluetooth på din mobila enhet.</string>
+    <string name="login_expand_2">Öppna CircleFit-appen.</string>
+    <string name="login_expand_3">Placera din mobila enhet nära nederdelen av konsolen. Parkoppling startar automatiskt.</string>
+    <string name="note">Notera:</string>
+    <string name="note_contents">Registrering från CircleFit-appen krävs innan du börjar snabbinloggningen. CircleFit är en Circle Fitness hälsoapp. Ladda ner den gratis på App Store/Google Play eller skanna QR-koden här nedanför.</string>
+    <string name="email">E-POSTADRESS</string>
+    <string name="password">LÖSENORD</string>
+    <string name="enter_your_account">Ange den e-postadress du använde när du registrerade dig så skickar vi ett lösenord till dig.</string>
+    <string name="send">Skicka</string>
+    <string name="email_sent">E-postmeddelandet har skickats</string>
+    <string name="ok">ok</string>
+    <string name="incorrect_email">Fel e-postadress</string>
+    <string name="not_a_valid_email_address">Ogiltig e-postadress.</string>
+    <string name="password_erroe">Lösenordet eller e-postadressen kändes inte igen. Ange en gång till.</string>
+    <string name="connect_problem">Problem med internetanslutningen. Försök igen.</string>
+    <string name="no_account_matches">Inga konto matchningar</string>
+    <string name="please_try_again">Försök igen.</string>
+    <string name="user_id_exist_1">Det finns redan ett konto med den angivna e-postadressen. </string>
+    <string name="user_id_exist_2"> Ange an annan e-postadress.</string>
+
+    <!-- Reg -->
+    <string name="registration">Registrering</string>
+    <string name="circlecloud_go_sign_up">CIRCLECLOUD GO-REGISTRERING</string>
+    <string name="account_exist">Det finns redan ett konto med den angivna e-postadressen. Ange an annan e-postadress.</string>
+    <string name="confirm_password">Bekräfta lösenord</string>
+    <string name="username">Användarnamn</string>
+    <string name="user_name">Användarnamn</string>
+    <string name="units">Enhet</string>
+    <string name="metric">Metersystemet</string>
+    <string name="imperial">Brittisk standard</string>
+    <string name="gender">Kön</string>
+    <string name="female">Kvinna</string>
+    <string name="male">Man</string>
+    <string name="height">Längd</string>
+    <string name="height_required">Längd krävs för korrekt kroppskompositionsanalys</string>
+    <string name="height_metric_error_msg">Ange ett värde mellan 130 och 220 cm</string>
+    <string name="height_imperial_error_msg">Ange ett värde mellan 4 ' 3" och 7 ' 3"</string>
+    <string name="date_of_birth">Födelsedatum</string>
+    <string name="date_of_birth_required">Födelsedatum krävs för korrekt kroppskompositionsanalys</string>
+    <string name="privacy_policy">Sekretesspolicy</string>
+    <string name="i_agree">Jag godkänner Sekretesspolicyn</string>
+    <string name="view_privacy_policy">VISA PRIVATPOLITIK</string>
+    <string name="privacy_policy_contents">Sekretess
+Circle Fitness, ett företag baserat i Taiwan R.O.C, fokuserar på design och tillverkning av träningsutrustning under namnet Circle Fitness™. När du registrerar dig som medlem och blir vår produktanvändare. Denna uttalande omfattar inte någon annan information som vi samlar in, inklusive men inte begränsat till, data som vi samlar in offline eller som vi tar emot via vår träningsutrustning eller mobilappar.
+Serverplatser.
+Vårt huvudkontor är i Taichung, Taiwan, R.O.C. Vi har våra servrar och bearbetar information i USA och andra länder. När du får tillgång till våra webbplatser så skickar du information till USA och andra länder.
+
+Information som vi samlar in.
+Information som du aktivt anger: När du registrerar ett konto eller skickar oss förfrågningar via träningsutrustning eller mobilapp, vi kan be dig att ange ditt namn, (Inget riktning namn krävs, ett alias rekommenderas), höjd, födelsedatum, e-postadress och lösenord.
+
+Information som vi samlar in passivt: Vi samlar även in information för datum och tid vid ditt besök, och träningsutrustning som använts, samt program och funktioner. Denna typ av information samlas in för att göra våra produkter och tjänster än mer användbara för dig.
+
+Kombinationer: Vi kanske kombinerar information som tagits emot via träningsutrustningen med information som vi tagit emot om dig från andra källor, t.ex. träningsresultat från din bärbara enhet eller träningsapp från tredje part.
+
+Hur informationen används.
+Data som samlas in av Circle Fitness används för att skapa en bättre och mer personanpassad träningsupplevelse för dig. Vi hyr inte ut, säljer eller delar på något sätt ut dina personuppgifter med tredje part, förutom vid följande:
+
+- Med din godkännelse.
+- Vi använder anknutna och icke-närstående tjänsteleverantörer över hela världen för att hjälpa oss tillhandahålla vår tjänst och driva vår affärsverksamhet under sekretessavtal.
+- Vi delar sammanställd användarstatistik som inte kan användas för att identifiera dig som person.
+Säkerhet för din information.
+Vi tillämpar organisatoriska och tekniska åtgärder för att säkerställa att åtkomst av din information är begränsad till personer som behöver det. Trots att vi har vidtagit åtgärder för att skydda dina personuppgifter, bör du vara medveten om att varken vi eller något annat företag kan eliminera säkerhetsrisker fullständigt.
+
+Kontakta oss.
+Vid frågor eller funderingar om denna sekretesspolicy, vänligen kontakta oss via e-postadressen: info@circlefitness.com eller via Internet på adressen: https:www.circlefitness.com
+Uppdateringar av sekretesspolicy.
+Det kan hända att vi uppdaterar denna policy då och då. När så sker ändrar vi ovanstående datum för senaste uppdatering, för att göra dig medveten om en ändring.
+Gäller från: 30 maj, 2018</string>
+    <string name="exit">Avsluta</string>
+    <string name="please_make_sure_your_passwords_match">Se till att dina lösenord överensstämmer med varandra.</string>
+    <string name="congratulations_lower">Grattis</string>
+    <string name="registration_done">REGISTRERING DIN!</string>
+    <string name="exit_description">REGISTRERING ÄR INTE FULLT, ÄR DU SÄKER AT DU ÖNSKAR EXIT?</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">DETTA ÄR EN CIRCLEKLOLO GO APP</string>
+    <string name="login_dialog_info_line_2">VAR VÄNLIG LOGGA IN FÖR ATT FORTSÄTTA</string>
+    <string name="initializing_quick_login">INITIALISERA QUICK LOGIN</string>
+    <string name="unable_to_connect">KAN INTE ANSLUTA!</string>
+    <string name="please_try_again_later"> Försök igen.</string>
+
+
+    <!-- Home -->
+    <string name="welcome">VÄLKOMMEN</string>
+    <string name="my_class_reminder">MINA LEKTIONER-PÅMINNELSE</string>
+    <string name="schedule_change">SCHEMAÄNDRING</string>
+    <string name="first_login_welcome">Välkommen till CircleCloud Go! Vi hoppas att du tycker att funktionerna hjälper dig i din träning. Njut av ett fantastiskt träningspass!</string>
+    <string name="there_is_a">Det finns en</string>
+    <string name="today_at">idag på</string>
+    <string name="tomorrow_at">imorgon på</string>
+    <string name="hi">Hej</string>
+    <string name="target_update">UPPDATERING AV MÅL</string>
+    <string name="home_msg_times_up_1">Du har nått slutet av måldagen för målet</string>
+    <string name="home_msg_times_up_2">Kontrollera dina framsteg i måltåg!</string>
+    <string name="home_msg_half_way_through_1">Grattis du är halvvägs genom målet</string>
+    <string name="home_msg_half_way_through_2">Se dina framsteg i måltåg!</string>
+    <string name="home_msg_reached_1">Grattis du har nått målet</string>
+    <string name="home_msg_reached_2">Se ditt resultat i måltåg!</string>
+    <string name="this_schedule_of">Schemat för</string>
+    <string name="has_been_changed_from">har ändrats från</string>
+    <string name="to">till</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">BULLETIN</string>
+    <string name="class_str">KLASS</string>
+    <string name="my_class">MIN LEKTION</string>
+    <string name="hot">het</string>
+    <string name="add_to_my_class">LÄGG TILL I MINA LEKTIONER</string>
+    <string name="added">TILLAGD</string>
+    <string name="remove_from_my_class">Ta bort från Mina Lektioner</string>
+    <string name="removed">Borttagen</string>
+    <string name="mygym_dialog_info">Mitt gym håller dig uppdaterad med de senaste nyheterna, lektionerna och erbjudandena från din anläggningar.</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">Skapa ditt konditionsmål.</string>
+    <string name="targer_dialog_info">Target Train är ett molnbaserat program som hjälper dig att sätta konditionsmål och följa dina framsteg varje minut via realtidsanslutning med CircleFit-hälsoappen.</string>
+    <string name="distance">Distans</string>
+    <string name="distance_60_rpm">Distans@60 RPM</string>
+    <string name="distance_80_rpm">Distans@80 RPM</string>
+    <string name="calories">Kalorier</string>
+    <string name="calories_60_rpm">Kalorier@60 RPM</string>
+    <string name="calories_80_rpm">Kalorier@80 RPM</string>
+    <string name="exercise_frequency">Träningsfrekvens</string>
+    <string name="weight">Weight</string>
+    <string name="weight_upper">WEIGHT</string>
+    <string name="bodyfat_percent">Kroppsfett</string>
+    <string name="days_left"> dagar kvar</string>
+    <string name="weeks_left">veckor kvar</string>
+    <string name="view_details">visa detaljer</string>
+    <string name="target">mål</string>
+    <string name="start">Starta</string>
+    <string name="create_a_new_target">skapa ett nytt mål</string>
+    <string name="target_distance">Distansmål    </string>
+    <string name="current_distance">Nuvarande Distans  </string>
+    <string name="target_days">Dagmålsättning    </string>
+    <string name="current_days">Nuvarande Antal Dagar    </string>
+    <string name="target_weight">Viktmål        </string>
+    <string name="current_weight">Nuvarande Vikt        </string>
+    <string name="input_weight">Ange vikt</string>
+    <string name="input_body_fat">Ange Kroppsfett %</string>
+    <string name="target_body_fat">Mål för Kroppsfett     </string>
+    <string name="current_body_fat">Nuvarande Kroppsfett %      </string>
+    <string name="current">Nuvarande</string>
+    <string name="target_days_weeks">Dag/Veckomålsättning     </string>
+    <string name="target_weeks">Veckomålsättning    </string>
+    <string name="current_week">Innevarande Vecka     </string>
+    <string name="achievement">prestation</string>
+    <string name="this_week">Den här veckan</string>
+    <string name="target_calories">Kalorimål</string>
+    <string name="current_calories">Nuvarande Kalorier</string>
+    <string name="days">dagar</string>
+    <string name="day">dagar</string>
+    <string name="week">vecka</string>
+    <string name="weeks">veckor</string>
+    <string name="choose_your_fitness_target">Välj ditt konditionsmål</string>
+    <string name="how_many_days_per_week">HUR MÅNGA DAGAR PER VECKA?</string>
+    <string name="dates">datum</string>
+    <string name="end_date">Slutdatum</string>
+    <string name="running">LÖPNING</string>
+    <string name="biking">CYKLING</string>
+    <string name="elliptical">ELLIPTISK</string>
+    <string name="all">ALLT</string>
+    <string name="select_exercise_type">VÄLJ TRÄNÍNGSTYP</string>
+    <string name="history_upper">Historik</string>
+    <string name="edit">Redigera</string>
+    <string name="done">gjort</string>
+    <string name="percent_loss">% förlust</string>
+    <string name="percent_gain">% vinst</string>
+    <string name="lb_loss">lb förlust</string>
+    <string name="lb_gain">lb vinst</string>
+    <string name="kg_loss">kg förlust</string>
+    <string name="kg_gain">kg vinst</string>
+    <string name="delete_description">ÄR DU SÄKER PÅ ATT DU VILL RADERA DET HÄR MÅLET?</string>
+    <string name="delete">Radera</string>
+    <string name="cancel">AVBRYT</string>
+    <string name="deleted">Radera</string>
+    <string name="close_description">ÄR DU SÄKER PÅ ATT DU VILL AVSLUTA DET HÄR MÅLET?</string>
+    <string name="end_now">SLUTA NU</string>
+    <string name="target_ended">målet slutade</string>
+    <string name="try_again_next_time">Försök igen nästa gång!</string>
+    <string name="super_str">Super!</string>
+    <string name="great">bra!</string>
+    <string name="good_try">Bra försök!</string>
+    <string name="congratulations">Grattis!</string>
+    <string name="you_reached_your_target_in_time">Du har uppnått ditt mål</string>
+    <string name="you_reached_your_target">Du har uppnått ditt mål</string>
+    <string name="half_way_through">Du är redan halvvägs!</string>
+    <string name="you_are_almost_there">Du är nästan där!</string>
+    <string name="continue_exclamation_mark">Fortsätt!</string>
+    <string name="continue_str">Fortsätt</string>
+    <string name="week_achieved">veckor uppnått</string>
+    <string name="target_end_title">Du har ingen tid kvar för att uppnå ditt mål! </string>
+    <string name="target_end_description">Vill du fortsätta och försöka att få en silverstjärna!?</string>
+    <string name="end">Sluta</string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">Skapa ditt eget träningspass</string>
+    <string name="create_a_new_workout">Skapa ditt eget träningspass</string>
+    <string name="workout_name">Träningspassets Namn</string>
+    <string name="preview">Förhandsvisning</string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">spara</string>
+    <string name="details">detaljer</string>
+    <string name="avg_speed">Genomsnitt Hastighet</string>
+    <string name="delete_interval_description">Är du säker på att du vill radera det här intervallet?</string>
+    <string name="delete_item_description">Är du säker på att du vill radera?</string>
+    <string name="yes_str">Ja</string>
+    <string name="no_str">Nej</string>
+    <string name="workout_has_not_been_saved">Träningspasset har inte sparats.</string>
+    <string name="are_you_sure_you_want_to_leave">Är du säker på att du vill avsluta?</string>
+    <string name="workout_info">I Mitt Träningspass kan du ställa in motstånd för varje intervall och skapa ditt eget träningspass. Tryck på "Skapa" för att börja anpassningen. Tre personliga träningspass kan skapas.</string>
+    <string name="workout_info_bk">I Mitt Träningspass kan du ställa in motstånd för varje intervall och skapa ditt eget träningspass. Tryck på "Skapa" för att börja anpassningen. Tre personliga träningspass kan skapas.</string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">Normal</string>
+    <string name="high">Hög</string>
+    <string name="advanced">Avancerat</string>
+    <string name="personal">Personlig</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">Namn</string>
+    <string name="edit_name">Redigera Namn</string>
+    <string name="sprint">Sprint</string>
+    <string name="recovery">Återhämtning</string>
+    <string name="sec">sec</string>
+    <string name="view">Visa</string>
+    <string name="skip">Hoppa över</string>
+    <string name="total_intervals">Sammanlagt Antal Intervaller</string>
+    <string name="intervals">Intervall </string>
+    <string name="duration_upper">Varaktighet</string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">HIIT (High Intensity Interval Training) ger korta perioder med höginstensitetsträning som alterneras med återhämtningsperioder med lägre intensitet för att förbättra dina resultat och bränna så många kalorier som möjligt.</string>
+    <string name="hiit_normal_info">Hastighet och lutning programmerade till moderat intensitet. Rekommenderas för nybörjare.</string>
+    <string name="hiit_high_info">Hastighet och lutning programmerade till hög intensitet. Erfarenhet rekommenderas.</string>
+    <string name="hiit_advanced_info">Hastighet och lutning programmerade till extrem intensitet. Endast för avancerade personer.</string>
+    <string name="hiit_personal_info">Skapa din egen HIIT. Tre personliga HIIT kan skapas.</string>
+    <string name="create_your_hiit_workout">Skapa ditt HIIT-träningspass</string>
+    <string name="hiit_delete_item_description">Är du säker på att du vill radera ?</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">Body Manager är ett kroppshanteringsprogram avsett att mäta och följa din kondition via Circle Fitness IBA/InBody 570 och CircleFit-hälsoappen.</string>
+    <string name="last_updated">Senast Uppdaterad</string>
+    <string name="no_data">Ingen data</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">Sammanlagd Mängd Vatten i Kroppen</string>
+    <string name="total_body_water_two">Sammanlagd Mängd Vatten i Kroppen</string>
+    <string name="visceral_fat_rating">VISCERAL FETTNIVÅ</string>
+    <string name="visceral_fat_rating_two">VISCERAL FETTNIVÅ</string>
+    <string name="bone_mass">Benmassa</string>
+    <string name="muscle_mass">Muskelmassa</string>
+    <string name="body_fat">Kroppsfett %</string>
+    <string name="intracellular_water">Intracellulärt Vatten</string>
+    <string name="extracellular_water">Extracellulärt Vatten</string>
+    <string name="protein">Protein</string>
+    <string name="mineral">Mineraler</string>
+    <string name="waist_hip_ratio">Midja-höftförhållande</string>
+    <string name="obesity_degree">Fetmanivå</string>
+    <string name="input">inmatning</string>
+    <string name="view_history">VISA HISTORIK</string>
+    <string name="history">History</string>
+    <string name="date">datum</string>
+    <string name="info_weight_subtitle">Vikt</string>
+    <string name="info_bodyfat_percent_subtitle">Kroppsfettprocentsatsen är andelen fett jämfört med sammanlagd kroppsvikt.</string>
+    <string name="info_bmi_subtitle">Ett standardiserat förhållande mellan vikt och längd som används som en allmän hälsoindikation.</string>
+    <string name="info_bmr_subtitle">Den dagliga miniminivån för energi eller kalorier som din kropp behöver när du är i vila (inklusive sova) för att fungera effektivt.</string>
+    <string name="info_total_body_water_subtitle">Sammanlagd mängd vatten i kroppen är den sammanlagda mängden vätska i en människas kropp uttryckt som en procentsats av deras vikt.</string>
+    <string name="info_visceral_fat_rating_subtitle">Det viscerala fettet ligger djupt nere i buken där det omger och skyddar de vitala organen.</string>
+    <string name="info_bone_mass_subtitle">Benmassa</string>
+    <string name="info_intracellular_water_subtitle">Intracellulärt Vatten</string>
+    <string name="info_extracellular_water_subtitle">Extracellulärt Vatten</string>
+    <string name="info_protein_subtitle">Protein</string>
+    <string name="info_mineral_subtitle">Mineraler</string>
+    <string name="info_waist_hip_ratio_subtitle">Midja-höftförhållande</string>
+    <string name="info_obesity_degree_subtitle">Fetmanivå</string>
+
+    <string name="info_weight">Vikt</string>
+    <string name="info_bodyfat_percent">Kroppsfettprocentsatsen är andelen fett jämfört med sammanlagd kroppsvikt.Kroppsfett är väsentligt för att bibehålla kroppstemperaturen, dämpa leder och skydda interna organ.För mycket fett kan skada din hälsa över en längre tid. Det har visats att en reducering av överskottsfett direkt minskar risken för vissa hälsoproblem, t.ex. högt blodtryck, hjärtsjukdomar, typ 2-diabetes och vissa former av cancer.För lite kroppsfett kan leda till benskörhet och, längre upp i åren, till oregelbundna mensperioder hos kvinnor och potentiell sterilitet.Det är viktigt att jämföra kroppsfettresultaten med intervallerna för hälsosamma mängder kroppsfett.</string>
+    <string name="info_bmi">Ett standardiserat förhållande mellan vikt och längd som används som en allmän hälsoindikation.</string>
+    <string name="info_bmr">Basal Metabolic Rate (BMR) är den dagliga miniminivån för energi eller kalorier som din kropp behöver när du vilar för att dina andningsorgan och cirkulationsorgan, nervsystemet, levern, njurarna och andra organ ska fungera effektivt.R</string>
+    <string name="info_total_body_water">Vatten spelar en avgörande roll i många av kroppens processer och finns i varje cell, vävnad och organ. Bevarandet av en hälsosam mängd vatten i kroppen ser till att kroppen fungerar på ett effektiv sätt och reducerar risken för åtföljande hälsoproblem.</string>
+    <string name="info_visceral_fat_rating">Visceralt fett (bukfett) är det fett som omger de vitala organen i bålen/magområdet.Höga nivåer av visceralt fett höjer risken för högt blodtryck, hjärtsjukdomar och typ 2-diabetes. En reducering av mängden visceralt fett kan stabilisera insulin aktion avsevärt och minska risken för diabetes och andra åtföljande sjukdomar.</string>
+    <string name="info_bone_mass">Benmassa</string>
+    <string name="info_intracellular_water">Intracellulärt Vatten</string>
+    <string name="info_extracellular_water">Extracellulärt Vatten</string>
+    <string name="info_protein">Protein</string>
+    <string name="info_mineral">Mineraler</string>
+    <string name="info_waist_hip_ratio">Midja-höftförhållande</string>
+    <string name="info_obesity_degree">Fetmanivå</string>
+    <string name="trunk">Bål</string>
+    <string name="left_arm">Vänstra armen</string>
+    <string name="right_arm">Högra armen</string>
+    <string name="left_leg">Vänstra benet</string>
+    <string name="right_leg">Högra benet</string>
+    <string name="underfat">Under</string>
+    <string name="healthy">Hälsa</string>
+    <string name="overfat">Över</string>
+    <string name="obese">Fet</string>
+    <string name="your_healthy_bone_mass">Din hälsosamma benmassa </string>
+    <string name="your_ideal_weight">Din ideal vikt</string>
+    <string name="your_health_waist_hip_ratio">Ditt hälsosamma midja-höftförhållande</string>
+    <string name="bd_infomation_title">Body Manager synkroniseras med Circle Fitness IBA eller InBody 570.</string>
+    <string name="bd_infomation_content">Fråga din anläggning om tillgänglighet.</string>
+    <string name="circle_fitness_iba">Circle Fitness IBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">Pulskontrollen bibehåller det antal hjärtslag per minut som du väljer och optimerar träningspasset genom att kontrollera träninghastigheten och intensiteten i konditionsutrustningen.</string>
+    <string name="fatburn">Fettförbränning</string>
+    <string name="aerobic">Aerobisk</string>
+    <string name="performance">Resultat</string>
+    <string name="customize">Anpassa</string>
+    <string name="years">År</string>
+    <string name="heart_rate">Puls</string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">Ställ in maxpuls till 65%. Det här programmet justerar intensiteten i enlighet med det för att hjälpa dig att nå din målpuls.</string>
+    <string name="hrc_info_aerobic">Ställ in maxpuls till 75%. Det här programmet justerar intensiteten i enlighet med det för att hjälpa dig att nå din målpuls.</string>
+    <string name="hrc_info_performance">Ställ in maxpuls till 85%. Det här programmet justerar intensiteten i enlighet med det för att hjälpa dig att nå din målpuls.</string>
+    <string name="hrc_info_customize">Ställ in en målpuls. Det här programmet justerar intensitetsnivån efter det för att hjälpa dig att nå ditt mål.</string>
+    <string name="age">Ålder</string>
+
+    <string name="age_range_error_msg">Ange ett värde mellan </string>
+    <string name="duration">Varaktighet</string>
+    <string name="profile">Profil</string>
+    <string name="change_password">Byt lösenord</string>
+    <string name="data_syncing">Datasynkronisering</string>
+    <string name="unit">Enhet</string>
+    <string name="old_password">Gammalt lösenord</string>
+    <string name="new_password">Nytt lösenord</string>
+    <string name="confirm_new_password">Bekräfta nytt lösenord</string>
+    <string name="password_changed">Lösenordet har ändrats</string>
+    <string name="old_password_incorrect">Fel gammalt lösenord</string>
+    <string name="new_password_incorrect">Se till att dina lösenord överensstämmer med varandra.</string>
+    <string name="month">MÅNAD</string>
+    <string name="year">ÅR</string>
+    <string name="fitness_apps">FITNESS-APP</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">BÄRBARA APPAR</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">Garmin-anslutning</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">Fysiska test innehåller olika standardkonditionsprogram som används av USA:s militär för att utvärdera idrottares aerobiska kapacitet och uthållighet.</string>
+    <string name="phy_gerkin_protocol_info">Detta program utvecklades ursprungligen för brandmän och används för att övervaka pulshastighet och upptäcka VO2-nivåer. Programmet avbryts automatiskt när du når 85 % av din toppuls.</string>
+    <string name="phy_cooper_test_info">Cooper-testet är ett distanserat konditionstest utvecklat för den amerikanska militären. Målet är att se hur långt man kan springa på 12 minuter. Hur långt kan du springa?</string>
+    <string name="phy_usmc_ptf_info">Marinkårens konditionstest är ett tidsmätt lopp på 4,8 km. Anta utmaningen och försök att avsluta loppet så snabbt du kan!</string>
+    <string name="phy_army_prt_info">Arméns fysiska förberedningstest är ett tidsmätt lopp på 3,2 km. Försök att avsluta loppet så snabbt som möjligt.</string>
+    <string name="phy_navy_prt_info">Flottans fysiska förberedningstest är ett tidsmätt lopp på 2,4 km. Försök att avsluta loppet så snabbt du kan!</string>
+    <string name="phy_usaf_ptf_info">Flygvapnets konditionstest är ett tidsmätt lopp på 2,4 km. Försök att avsluta loppet så snabbt du kan!</string>
+    <string name="phy_federal_law_info">Detta är ett tidsmätt lopp på 2,4 km. Försök att avsluta loppet så snabbt du kan!</string>
+    <string name="phy_vo2_info">VO2 max, maximalt syreintag, är en faktor som kan avgöra en idrottares kapacitet att utföra ett uthållighetsbaserat träningspass.</string>
+
+    <string name="manual">Manuell</string>
+    <string name="hill">Berg</string>
+    <string name="cardio">Kondition</string>
+    <string name="interval">Intervall</string>
+    <string name="strenght">Styrka</string>
+    <string name="rolling_hill">Böljande kullar</string>
+    <string name="incline">Lutning</string>
+    <string name="mountain_peak">Bergstoppar</string>
+    <string name="constant_watt">Konstant Wattförbrukning</string>
+    <string name="set_a_goal">SÄTT ETT MÅL</string>
+    <string name="select_goal">Välj mål</string>
+    <string name="tr_dialog_info">Vi erbjuder omfattande konditionsträningskurser som hjälper dig att förbättra din aerobiska kondition och tränar din kropp till att utstå ännu mer utmanande träningspass!</string>
+    <string name="tr_manual_info">Träna i ett tempo och en intensitet som passar dig.</string>
+    <string name="tr_hill_info">Utmana dig själv med det här bergklättringsprogrammet. Vi ses på toppen!</string>
+    <string name="tr_fatburn_info">Träna lågintensivt och låt din kropp leverera rikligt med syre till dina muskler och bränna mer fettreserver.</string>
+    <string name="tr_cardio_info">Bränn mer kalorier och förbättra konditionen med detta konditionsprogram.</string>
+    <string name="tr_strenght_info">Utmana dig själv med detta högintensiva träningspass.</string>
+    <string name="tr_interval_info">Vill du förbättra din uthållighet? Med det här intervallträningsprogrammet kan du göra det!</string>
+    <string name="tr_target_info">Välj ett visst mål att uppnå och satsa på det. Du grejar det!</string>
+    <string name="tr_rolling_hill_info">Utmana dig själv med intervaller av olika längd och höjd.</string>
+    <string name="tr_mountains_peak_info">Cykla i ett konstant uppförslut på denna simulerade utomhusbana.</string>
+    <string name="tr_incline_info">Cykla i ett konstant och kraftigt uppförslut på denna simulerade utomhusbana.</string>
+    <string name="tr_constant_watt_info">Vilket är ditt mål för wattförbrukning? Det här programmet justerar intensitetsnivå efter din tramphastighet för att hjälpa dig att nå ditt mål.</string>
+    <string name="level">Nivå</string>
+    <string name="easy">ENKEL</string>
+    <string name="medium">MEDIUM</string>
+    <string name="hard">SVÅR</string>
+    <string name="time">Tid</string>
+    <string name="stop">Stopp</string>
+    <string name="emergency">NÖDSTOPP</string>
+    <string name="emergency_note">Tryck på Nödstoppsknappen igen för att återställa</string>
+    <string name="error">Fel</string>
+    <string name="error_codes">Felkod:</string>
+    <string name="resume">Återuppta</string>
+    <string name="pause">Paus</string>
+    <string name="no_heart_rate_detect">Ingen hjärtfrekvens upptäckt. Vänligen sätt på bröstbältet.</string>
+    <string name="workout_will_stop_in">Träningspasset avslutas om %1$d:%2$02d</string>
+    <string name="heart_">Träningspasset avslutas om %1$d:%2$02d</string>
+    <string name="reset">Återställ om </string>
+    <string name="system_will_be_auto_reset">Systemet kommer automatiskt att återställas på grund av inaktivitet under de senaste två minuterna. </string>
+    <string name="press_continue">Tryck på “Återuppta” för att fortsätta.</string>
+    <string name="continue01">Fortsätt</string>
+    <string name="current_heart_rate">aktuell hjärtfrekvens</string>
+    <string name="maximum_heart_rate">85 % Maxpuls</string>
+    <string name="warm_up">Uppvärmning</string>
+    <string name="stage">Steg </string>
+    <string name="next">Nästa</string>
+    <string name="cool_donw">Avkylning</string>
+    <string name="time_required_60">Tid som krävs för att bli godkänd (60 poäng): x:xx</string>
+    <string name="remaining_time">Återstående Tid</string>
+    <string name="cardio_type">Konditionstyp</string>
+    <string name="pace">Tempo</string>
+    <string name="avg_pace">Genomsnitt Tempo</string>
+    <string name="best_pace">Bästa Tempo</string>
+    <string name="total_distance">Sammanlagd Varaktighet</string>
+    <string name="total_calories">Sammanlagt antal Kalorier</string>
+    <string name="avg_heart_rate">Genomsnitt Puls</string>
+    <string name="max_heart_rate">Maxpuls</string>
+    <string name="please_remember">Kom ihåg att logga ut innan du går.</string>
+    <string name="complete">SLUTFÖRT</string>
+    <string name="imcomplete">EJ SLUTFÖRT</string>
+    <string name="treadmill">Löpmaskin</string>
+    <string name="summary">sammanfattning</string>
+    <string name="very_good">Mycket Bra</string>
+    <string name="good">Bra</string>
+    <string name="average">Genomsnittligt</string>
+    <string name="bad">Dåligt</string>
+    <string name="very_bad">Mycket Dåligt</string>
+    <string name="normal">Normal</string>
+    <string name="score">Poäng</string>
+    <string name="low_risk">låg risk</string>
+    <string name="moderate_risk">måttlig risk</string>
+    <string name="high_risk">hög risk</string>
+    <string name="speed_decreases_to">hastighetsminskning till</string>
+    <string name="speed_increases_to">hastighetsökning till</string>
+    <string name="incline_decreases_to">lutningsnivån minskar till</string>
+    <string name="incline_increases_to">stigningen höjning till</string>
+    <string name="level_decreases_to">motståndsnivån minskar till</string>
+    <string name="level_increases_to">motståndsnivån ökar till</string>
+    <string name="resistance_level_decreases">Motståndet minskar till %1$.1f om 3 sekunder</string>
+    <string name="resistance_level_increases">Motståndet ökar till %1$.1f om 3 sekunder</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">enkel</string>
+    <string name="lap">lap</string>
+    <string name="speed">SPEED</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">tid</string>
+    <string name="target_time">måltid</string>
+    <string name="target_hr">mål hjärtfrekvens</string>
+    <string name="mets">METS</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>>
+
+    <!-- Performance -->
+    <string name="session1">SESSION</string>
+    <string name="performance_dialog_info">Visa dina träningsresultat från konditionsutrustningen, träningsapparna och bärbar konditionsutrustning. Jämför resultaten och fortsätt att utmana dig själv!</string>
+    <string name="other">ÖVRIGT</string>
+    <string name="avg_watt">Genomsnitt Watt(W)</string>
+    <string name="share">dela med sig</string>
+    <string name="add">Lägg till</string>
+    <string name="select_date">välj datum</string>
+    <string name="select_time">välj tid</string>
+    <string name="h">timme</string>
+    <string name="m">minuter</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">Nivå</string>
+    <string name="vo2_faster_to_keep">paddling snabbare för att hålla wattage på</string>
+    <string name="vo2_slowly_to_keep">paddling långsamt för att hålla wattage på</string>
+    <string name="target_watt">målwatt</string>
+    <string name="connection_lost">anslutning förlorad!</string>
+    <string name="data_upload_unsuccessful">datauppladdning misslyckad!</string>
+    <string name="data_not_uploaded_to_circlecloudgo">Data som inte laddades upp till circlecloudgo på grund av anslutning eller serverproblem!</string>
+    <string name="no_heart_rate_detected">Ingen hjärtfrekvens upptäckt. Sätt på bröstbältet eller lägg händerna på hjärtfrekvenssensorn.</string>
+    <string name="auto_speed_cool_down_disabled">Automatisk snabbnedkylning har inaktiverats</string>
+    <string name="auto_resistance_level_down_disabled">Automatisk snabbnedkylning har inaktiverats</string>
+    <string name="show_history_data">visa historikdata</string>
+    <string name="show_monthly_total">Visa månadsdata</string>
+    <string name="show_yearly_total">visa årliga data</string>
+    <string name="close">stänga</string>
+    <string name="account">Konto</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">Välkommen till CircleCloud GO, hälsohanteraren med de flesta funktionerna!</string>
+    <string name="tutorial_first_2st">Här är några tips om hur du kan komma igång.</string>
+    <string name="tutorial_target_1st">Ställ in konditionsmål med "icon%s".</string>
+    <string name="tutorial_target_2st">Target Train</string>
+    <string name="tutorial_gym_1st">Håll dig informerad med anläggningserbjudanden med "icon%s".</string>
+    <string name="tutorial_gym_2st">Mitt Gym</string>
+    <string name="tutorial_performance_1st">Mät dina resultat med "icon%s".</string>
+    <string name="tutorial_performance_2st">Mina Resultat</string>
+    <string name="tutorial_workout_1st">skapa personlig träning genom att använda "icon%s".</string>
+    <string name="tutorial_workout_2st">Mitt Träningspass</string>
+    <string name="tutorial_body_1st">Se dina konditionssiffror med "icon%s".</string>
+    <string name="tutorial_body_2st">Body Manager</string>
+    <string name="tutorial_last_str">Ladda ner den kostnadsfria CircleFit-appen för att komma åt allt innehåll.Använd CircleFit-appen för att utföra en snabbinloggning med konditionsutrustning.</string>
+
+    <!-- Fan -->
+    <string name="fan_title">Fläkt</string>
+    <string name="fan_info_off">Av</string>
+    <string name="fan_info_50">Låg</string>
+    <string name="fan_info_100">Hög</string>
+
+    <!-- New Add -->
+    <string name="select_language">Välj språk</string>
+    <string name="birthday_day">datum</string>
+    <string name="emergency_note_FOR_M6">Återställning av nödstoppsklämman startar om</string>
+    <string name="Logout_confirm">Är det slut?</string>
+
+    <string name="WeekStr_1">Mån</string>
+    <string name="WeekStr_2">Tis</string>
+    <string name="WeekStr_3">Ons</string>
+    <string name="WeekStr_4">Tors</string>
+    <string name="WeekStr_5">Fre</string>
+    <string name="WeekStr_6">Lör</string>
+    <string name="WeekStr_7">Sön</string>
+
+    <string name="month_1">Jan.</string>
+    <string name="month_2">Feb.</string>
+    <string name="month_3">Mars</string>
+    <string name="month_4">Apr.</string>
+    <string name="month_5">Maj</string>
+    <string name="month_6">Juni</string>
+    <string name="month_7">Juli</string>
+    <string name="month_8">Aug.</string>
+    <string name="month_9">Sep.</string>
+    <string name="month_10">Okt.</string>
+    <string name="month_11">Nov.</string>
+    <string name="month_12">Dec.</string>
+
+</resources>

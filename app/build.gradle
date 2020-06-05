@@ -1,0 +1,93 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        release {
+
+            storeFile file("../signature/platform.jks")
+            storePassword '27999929'
+            keyAlias 'platform'
+            keyPassword '27999929'
+        }
+
+        debug {
+
+            storeFile file("../signature/platform.jks")
+            storePassword '27999929'
+            keyAlias 'platform'
+            keyPassword '27999929'
+        }
+
+
+
+    }
+    compileSdkVersion 25
+    buildToolsVersion '28.0.3'
+
+    sourceSets.main.jniLibs.srcDirs = ['libs']
+
+    task nativeLibsToJar(type: Zip, description: "create a jar archive of the native libs") {
+        destinationDir file("$projectDir/libs")
+        baseName "Native_Libs"
+        extension "jar"
+        from fileTree(dir: "libs", include: "**/*.so")
+        into "lib"
+    }
+    tasks.withType(JavaCompile) {
+        compileTask -> compileTask.dependsOn(nativeLibsToJar)
+    }
+
+    defaultConfig {
+        applicationId "com.rtx.treadmill"
+        minSdkVersion 21
+        targetSdkVersion 25
+        versionCode 1
+        versionName "2.0.57"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+
+    lintOptions{
+        disable "ResourceType"
+        checkReleaseBuilds false
+        // Or, if you prefer, you can continue to check for errors in release builds,
+        // but continue the build even when errors are found:
+        abortOnError false
+    }
+
+    buildTypes {
+        release {
+            buildConfigField "boolean", "RUN_mode_TEST", "false"
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+
+
+        debug {
+            buildConfigField "boolean", "RUN_mode_TEST", "true"
+        }
+
+    }
+}   
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    androidTestImplementation('com.android.support.test.espresso:espresso-core:2.2.2', {
+        exclude group: 'com.android.support', module: 'support-annotations'
+    })
+    //noinspection GradleCompatible
+    implementation 'com.android.support:appcompat-v7:25.3.0'
+    //FB
+    implementation 'com.facebook.android:facebook-android-sdk:4.5.0'
+    //Tweets
+    implementation 'com.twitter.sdk.android:twitter:3.1.1'
+    implementation 'com.twitter.sdk.android:twitter-mopub:3.1.1'
+    implementation 'com.mopub.volley:mopub-volley:2.0.0'
+    //Weibo
+    implementation 'com.sina.weibo.sdk:core:4.1.4:openDefaultRelease@aar'
+
+    implementation 'com.github.JakeWharton:ViewPagerIndicator:2.4.1'
+
+    implementation 'com.android.support:support-v4:25.3.0'
+//    compile project(':MPChartLib')
+    testImplementation 'junit:junit:4.12'
+}

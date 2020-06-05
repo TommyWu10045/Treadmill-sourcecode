@@ -1,0 +1,608 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">Bilgileri</string>
+
+    <string name="january">Ocak</string>
+    <string name="february">Şubat</string>
+    <string name="march">Mart</string>
+    <string name="april">Nisan</string>
+    <string name="may">Mayıs</string>
+    <string name="june">Haziran</string>
+    <string name="july">Temmuz</string>
+    <string name="august">Ağustos</string>
+    <string name="september">Eylül</string>
+    <string name="october">Ekim</string>
+    <string name="november">Kasım</string>
+    <string name="december">Aralık</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">Giriş</string>
+    <string name="log_in">Giriş</string>
+    <string name="login_msg">Tüm özellikler için lütfen giriş yapınız</string>
+    <string name="training">Antreman</string>
+    <string name="heart_rate_control">Nabız Hızı Kontrolü</string>
+    <string name="hiit">HIIT</string>
+    <string name="physical_test">Fiziksel Test</string>
+    <string name="target_train">Antreman Hedefi</string>
+    <string name="my_performance">Performansım</string>
+    <string name="body_manager">Vücut Direktörü</string>
+    <string name="my_gym">Spor Salonum</string>
+    <string name="my_workout">Benim Antremanım</string>
+    <string name="quick_start">Hızlı Başlat</string>
+    <string name="you_have_a_message">Mesajınız var</string>
+    <string name="settings">Ayarlar</string>
+    <string name="logout">Çıkış Yap</string>
+    <string name="log_out">Çıkış Yap</string>
+    <!-- Login -->
+    <string name="sign_up">Kayıt Ol</string>
+    <string name="forgot_password">Şifreyi Unuttum</string>
+    <string name="quick_log_in_with">CircleFit app uygulaması ile hızlıca giriş yapın</string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">Aletinizdeki Bluetooth modunu açın.</string>
+    <string name="login_expand_2">CircleFit app uygulamasını açın.</string>
+    <string name="login_expand_3">Telefonunuzu konsolun alt sağ tarafına yaklaştırın.Eşleştirme otomatik olarak başlayacak.</string>
+    <string name="note">Not:</string>
+    <string name="note_contents">Quik Login modunu başlatmadan önce CircleFit app uygulamasından giriş yapılmalıdır. CircleFit Circle Fitness sağlıklı yaşam app uygulamasıdır. App Store/Google üzerinden ücretsiz indirebilir yada aşağıdaki QR kodunu taratabilirsiniz.</string>
+    <string name="email">EMAIL</string>
+    <string name="password">ŞIFRE</string>
+    <string name="enter_your_account">Kayıt olurken kullandığınız mail adresini girdiğiniz takdirde şifrenizi size göndereceğiz.</string>
+    <string name="send">Gönderildi</string>
+    <string name="email_sent">Email gönderildi.</string>
+    <string name="ok">tamam</string>
+    <string name="incorrect_email">Hatalı email</string>
+    <string name="not_a_valid_email_address">Email adresi geçerli değil.</string>
+    <string name="password_erroe">Şifre yada email tanımlanamadı. Lütfen tekrar giriniz.</string>
+    <string name="connect_problem">İnternet bağlantı problemi. Lütfen yeniden deneyiniz.</string>
+    <string name="no_account_matches">Hesap eşleşmiyor</string>
+    <string name="please_try_again">Lütfen yeniden deneyiniz.</string>
+    <string name="user_id_exist_1">Bu email ile oluşturulmuş ayrı bir hesap bulunmaktadır.</string>
+    <string name="user_id_exist_2">Lütfen başka bir mail adresi kullanınız.</string>
+
+    <!-- Reg -->
+    <string name="registration">Kayıt</string>
+    <string name="circlecloud_go_sign_up">CIRCLECLOUD GO KAYIT OL</string>
+    <string name="account_exist">Bu email ile oluşturulmuş ayrı bir hesap bulunmaktadır. Lütfen başka bir mail adresi kullanınız.</string>
+    <string name="confirm_password">Şifreyi Onaylayın</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="user_name">Kullanıcı adı</string>
+    <string name="units">Birim</string>
+    <string name="metric">Metrik</string>
+    <string name="imperial">Ingiliz ölçü birimleri</string>
+    <string name="gender">Cinsiyet</string>
+    <string name="female">Kadın</string>
+    <string name="male">Erkek</string>
+    <string name="height">Boy</string>
+    <string name="height_required">Doğru vücut bileşim ölçümü için boy bilgisi gerekmektedir.</string>
+    <string name="height_metric_error_msg">Lütfen 130 ile 220 cm arasında bir numara girin.</string>
+    <string name="height_imperial_error_msg">Lütfen 4 ' 3" ile 7 ' 3" arasında bir numara girin.</string>
+    <string name="date_of_birth">Doğum Tarihi</string>
+    <string name="date_of_birth_required">Doğru vücut bileşim ölçümü için doğum tarihi girilmelidir.</string>
+    <string name="privacy_policy">Gizlilik Politikası</string>
+    <string name="i_agree">Gizlilik politikasını kabul ediyorum.</string>
+    <string name="view_privacy_policy">GİZLİLİK POLİTİKASI</string>
+    <string name="privacy_policy_contents">Gizlilik
+Tayvan Çin Cumhuriyeti merkezli bir şirket olan Circle Fitness, Circle Fitness™ adı altında sağlık donanımı tasarımı ve üretimi konularına odaklanır. Üyemiz olarak kayıt yaptırdığınızda ve ürün kullanıcımız olduğunuzda. Bu bildirim, bunlarla sınırlı olmaksızın, çevrimdışı topladığımız veya sağlık donanımımız ya da mobil aygıt uygulamalarımız aracılığıyla aldığımız verileri de içermek üzere başka herhangi bir bilgiyi kapsamaz.
+Sunucu Konumları.
+Genel merkezimiz Taichung, Tayvan, Çin Cumhuriyeti'ndedir. Sunucularımızı ve işlem bilgilerini Amerika Birleşik Devletleri'nde ve diğer ülkelerde barındırırız. Sitelerimize eriştiğinizde, bilgileri Amerika Birleşik Devletleri'ne ve diğer ülkelere iletirsiniz.
+
+Topladığımız Bilgiler.
+Etkin biçimde sağladığınız bilgiler: Bir hesaba kaydolduğunuzda veya sağlık donanımı ya da mobil uygulama aracılığıyla bize istek gönderdiğinizde, adınızı (gerçek ad gerekli değildir, takma ad tercih edilir), boyunuzu, doğum tarihinizi, e-posta adresinizi ve şifrenizi sağlamanızı isteyebiliriz.
+
+Pasif olarak topladığımız bilgiler: Ziyaret tarihiniz ve saatinizin, kullandığınız sağlık donanımının yanı sıra programlar ve işlevlerle ilgili bilgi de toplarız. Bu tür bilgiler, ürünlerimizi ve hizmetlerimizi size daha yararlı hâle getirmek için toplanır.
+
+Birleştirmeler: Sağlık donanımı aracılığıyla edindiğimiz bilgileri, giyilebilir aygıtınızdan veya üçüncü taraflara ait sağlık uygulamasından antrenman özeti gibi diğer kaynaklardan hakkınızda aldığımız bilgilerle birleştirebiliriz.
+
+Bilgilerin kullanımı.
+Circle Fitness tarafından toplanan bilgiler, size daha iyi ve daha kişiselleştirilmiş bir sağlık deneyimi sunmak için kullanılır. Bireysel, kişisel bilgilerinizi aşağıdaki durumlar dışında üçüncü taraflara kiralamayız, satmayız veya başka bir şekilde paylaşmayız:
+
+- Sizin onayınızla.
+- Gizlilik anlaşmalarına tabi olmak üzere, dünyanın her yerinden, hizmetimizi sağlamamıza ve işimizi yürütmemize yardımcı olan bağlı ve bağımsız hizmet sağlayıcılardan yararlanırız.
+- Kimliğinizi belirlemek için kullanılamayacak birleştirilmiş kullanım istatistiklerini paylaşırız.
+Bilgilerinizin Güvenliği.
+Bilgilerinize erişimin, bilmesi gereken kişilerle sınırlanmasını sağlamak için kuruluşla ilgili ve teknik önlemleri uygularız. Kişisel bilgilerinizi korumaya yönelik adımları atsak bile, güvenlik tehlikelerini bizim veya herhangi bir şirketin tamamen ortadan kaldıramayacağını bilmelisiniz.
+
+İletişim.
+Bu gizlilik ilkesiyle ilgili sorularınız veya endişeleriniz olması durumunda, lütfen info@circlefitness.com e-posta adresi veya https:www.circlefitness.com Internet adresi aracılığıyla bizimle iletişime geçin.
+Gizlilik Bildirimi Güncellemeleri.
+Bu bildirimi ara sıra güncelleyebiliriz. Öyle bir durumda, değişiklik yaptığımızı bilmenizi sağlamak için yukarıdaki son güncellenme tarihini değiştireceğiz.
+Geçerlilik başlangıcı: 30 Mayıs 2018</string>
+    <string name="exit">Ayrıl</string>
+    <string name="please_make_sure_your_passwords_match">Lütfen şifrenizi kontrol edin.</string>
+    <string name="congratulations_lower">Tebrikler</string>
+    <string name="registration_done">KAYIT YAPILDI!</string>
+    <string name="exit_description">KAYIT TAMAMLANIYOR, ÇIKMAK İSTEDİĞİNİZDEN EMİN MİSİNİZ?</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">BU BİR CIRCLECLOUD GO APP IS</string>
+    <string name="login_dialog_info_line_2">DEVAM ETMEK İÇİN LÜTFEN GİRİŞ YAPINIZ</string>
+    <string name="initializing_quick_login">HIZLI GİRİŞ BAŞLATIYOR</string>
+    <string name="unable_to_connect">BAĞLANILAMIYOR!</string>
+    <string name="please_try_again_later"> Lütfen yeniden deneyiniz.</string>
+
+
+    <!-- Home -->
+    <string name="welcome">HOŞGELDİNİZ</string>
+    <string name="my_class_reminder">SINIF HATIRLATICIM</string>
+    <string name="schedule_change">PROGRAM DEĞİŞİMİ</string>
+    <string name="first_login_welcome">CircleCloud Go'ya hoşgeldiniz! Bu kısımdaki özelliklerin antremanınızda size yardımcı olacağını umarız!</string>
+    <string name="there_is_a">Var</string>
+    <string name="today_at">bugün</string>
+    <string name="tomorrow_at">yarın</string>
+    <string name="hi">Merhaba</string>
+    <string name="target_update">HEDEF GÜNCELLEME</string>
+    <string name="home_msg_times_up_1">Hedeflenen hedef günlerin sonuna ulaştınız</string>
+    <string name="home_msg_times_up_2">Hedef trende ilerlemeni kontrol et!</string>
+    <string name="home_msg_half_way_through_1">Tebrikler hedefin yarısıdır</string>
+    <string name="home_msg_half_way_through_2">Hedef trende ilerlemeni gör!</string>
+    <string name="home_msg_reached_1">Hedefe ulaştığınız için tebrikler</string>
+    <string name="home_msg_reached_2">Hedef trende sonucunu görün!</string>
+    <string name="this_schedule_of">Zamanlama</string>
+    <string name="has_been_changed_from">den değiştirildi</string>
+    <string name="to">için</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">BÜLTEN</string>
+    <string name="class_str">SINIF</string>
+    <string name="my_class">SINIFIM</string>
+    <string name="hot">ateşli</string>
+    <string name="add_to_my_class">SINIFIMA EKLE</string>
+    <string name="added">EKLENDİ</string>
+    <string name="remove_from_my_class">Sınıfımdan Çıkar</string>
+    <string name="removed">Çıkarıldı</string>
+    <string name="mygym_dialog_info">Benim Spor Salonum (gym) tesisinizden son haberleri, sınıfları ve fırsatları size düzenli olarak haber vermektedir.</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">Fitness hedefinizi oluşturun</string>
+    <string name="targer_dialog_info">Hedef antreman bulut tabanlı bir programdır. Bu programda fitness hedeflerinizi ve parkur gelişimini ayarlayıp gerçek zamanlı olarak CircleFite app uygulamasına bağlanabilirsiniz.</string>
+    <string name="distance">Mesafe</string>
+    <string name="distance_60_rpm">Uzaklık@60 RPM</string>
+    <string name="distance_80_rpm">Uzaklık@80 RPM</string>
+    <string name="calories">Kalori</string>
+    <string name="calories_60_rpm">Kalori@60 RPM</string>
+    <string name="calories_80_rpm">Kalori@80 RPM</string>
+    <string name="exercise_frequency">Antreman Sıklığı</string>
+    <string name="weight">Ağırlık</string>
+    <string name="weight_upper">Ağırlık</string>
+    <string name="bodyfat_percent">Vücut Yağı</string>
+    <string name="days_left">gün kaldı </string>
+    <string name="weeks_left">hafta kaldı</string>
+    <string name="view_details">detayları göster</string>
+    <string name="target">hedef</string>
+    <string name="start">Başla</string>
+    <string name="create_a_new_target">yeni bir hedef oluştur</string>
+    <string name="target_distance">Hedef Mesafe    </string>
+    <string name="current_distance">Şimdiki Mesafe  </string>
+    <string name="target_days">Hedef Günler   </string>
+    <string name="current_days">Şimdiki Günler    </string>
+    <string name="target_weight">Hedef Ağırlık     </string>
+    <string name="current_weight">Şimdiki Ağırlık     </string>
+    <string name="input_weight">Ağırlık Girişi</string>
+    <string name="input_body_fat">Yağ oranını girin %</string>
+    <string name="target_body_fat">Hedef yağ oranı %      </string>
+    <string name="current_body_fat">Şimdiki yağ oranı %     </string>
+    <string name="current">Şu anki</string>
+    <string name="target_days_weeks">Hedef Gün/Hafta    </string>
+    <string name="target_weeks">Hedef Hafta     </string>
+    <string name="current_week">Şu anki Hafta     </string>
+    <string name="achievement">başarı</string>
+    <string name="this_week">Bu hafta</string>
+    <string name="target_calories">Hedef Kalori</string>
+    <string name="current_calories">Şimdiki Kalori</string>
+    <string name="days">günler</string>
+    <string name="day">günler</string>
+    <string name="week">hafta</string>
+    <string name="weeks">haftalar</string>
+    <string name="choose_your_fitness_target">Fitness hedefinizi seçin</string>
+    <string name="how_many_days_per_week">HAFTADA KAÇ GÜN?</string>
+    <string name="dates">tarih</string>
+    <string name="end_date">Günü Sonlandır</string>
+    <string name="running">KOŞU</string>
+    <string name="biking">BİSİKLET</string>
+    <string name="elliptical">OVAL</string>
+    <string name="all">HERŞEY</string>
+    <string name="select_exercise_type">EGZERSİZ TİPİNİ SEÇİN</string>
+    <string name="history_upper">Tarih</string>
+    <string name="edit">Düzelt</string>
+    <string name="done">tamam</string>
+    <string name="percent_loss">%kayıp</string>
+    <string name="percent_gain">% kazanç</string>
+    <string name="lb_loss">lb kayıp</string>
+    <string name="lb_gain">lb kazanç</string>
+    <string name="kg_loss">kayıp kg</string>
+    <string name="kg_gain">kg kazanç</string>
+    <string name="delete_description">BU HEDEFİ SİLMEK İSTEDİĞİNİZE EMİN MİSİNİZ?</string>
+    <string name="delete">Sil</string>
+    <string name="cancel">İPTAL ET</string>
+    <string name="deleted">Sil</string>
+    <string name="close_description">BU HEDEFİ SONLANDIRMAK İSTEDİĞİNİZE EMİN MİSİNİZ?</string>
+    <string name="end_now">ŞİMDİ SONLANDIR</string>
+    <string name="target_ended">hedef bitti</string>
+    <string name="try_again_next_time">Başka zaman tekrar deneyin!</string>
+    <string name="super_str">Süper!</string>
+    <string name="great">harika!</string>
+    <string name="good_try">İyi denemeydi!</string>
+    <string name="congratulations">Tebrikler!</string>
+    <string name="you_reached_your_target_in_time">Hedefinize zamanında ulaştınız </string>
+    <string name="you_reached_your_target">Hedefinize zamanında ulaştınız </string>
+    <string name="half_way_through">Yarısına vardınız!</string>
+    <string name="you_are_almost_there">Varmak üzeresiniz!</string>
+    <string name="continue_exclamation_mark">Devam edin!</string>
+    <string name="continue_str">Devam edin</string>
+    <string name="week_achieved">hafta başarıldı</string>
+    <string name="target_end_title">Hedefine ulaşmak istediğiniz zaman doldu! </string>
+    <string name="target_end_description">Devam etmek ve Silver Star almak ister misiniz?</string>
+    <string name="end">Bitti</string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">Antremanını oluştur</string>
+    <string name="create_a_new_workout">Antremanını oluştur</string>
+    <string name="workout_name">Antreman İsmi</string>
+    <string name="preview">Ön gösterim</string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">kayıt etmek</string>
+    <string name="details">ayrıntılar</string>
+    <string name="avg_speed">Ortalama Hız</string>
+    <string name="delete_interval_description">Bu aralığı silmek istediğinizden emin misiniz?</string>
+    <string name="delete_item_description">Silmek istediğinize emin misiniz?</string>
+    <string name="yes_str">Evet</string>
+    <string name="no_str">Hayır</string>
+    <string name="workout_has_not_been_saved">Antreman kayıd edilmedi.</string>
+    <string name="are_you_sure_you_want_to_leave">Çıkış yapmak istediğinizden emin misiniz?</string>
+    <string name="workout_info">Benim Antremanım her aralık için kişisel antreman programınızda dayanma düzeyini ayarlamınıza olanak sağlar. 'Antremanınızı Oluşturun' tıklayın. 3 tane antreman programı oluşturabilirsiniz.</string>
+    <string name="workout_info_bk">Benim Antremanım her aralık için kişisel antreman programınızda dayanma düzeyini ayarlamınıza olanak sağlar. 'Antremanınızı Oluşturun' tıklayın. 3 tane antreman programı oluşturabilirsiniz.</string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">Normal</string>
+    <string name="high">Yüksek</string>
+    <string name="advanced">İleri seviye</string>
+    <string name="personal">Kişisel</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">İsim</string>
+    <string name="edit_name">İsmi Düzenle</string>
+    <string name="sprint">Sprint</string>
+    <string name="recovery">İstirahat</string>
+    <string name="sec">sec</string>
+    <string name="view">Göster</string>
+    <string name="skip">Atla</string>
+    <string name="total_intervals">Toplam Aralık</string>
+    <string name="intervals">Aralık</string>
+    <string name="duration_upper">Süre</string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">HIIT(Yüksek Yoğunluklu Aralıklı Antreman) egzersiz performansınızı artırmak ve mümkün olduğunca çok kalori yakmak için daha az istirahat periyoduyla dönüşümlü olarak kısa süreli yüksek yoğunluklu egzersiz sağlar.</string>
+    <string name="hiit_normal_info">Hız ve eğim orta seviyeye ayarlanmıştır.Yeni başlayanlar için tavsiye edilir.</string>
+    <string name="hiit_high_info">Hız ve eğim yüksek seviyeye ayarlanmıştır. Tecrübeli antrenör tavsiye edilmektedir.</string>
+    <string name="hiit_advanced_info">Hız ve eğim en ileri seviyeye ayarlanmıştır. Sadece İleri düzeyde antrenör kullanabilir.</string>
+    <string name="hiit_personal_info">Kişisel HITT oluşturun. 3 kişiye kadar HITT oluşturulabilir.</string>
+    <string name="create_your_hiit_workout">Kendi HIIT antremanını oluştur</string>
+    <string name="hiit_delete_item_description"> silmek istediğinizden emin misiniz?</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">Vücut direktörü Circle Fitness IBA/InBody 570 ve CircleFit sağlıklı yaşam app uygulamaları üzerinden vücudunuzun fitness durumunu ölçmek ve takip etmek için dizayn edilmiş ölçüm  programıdır.</string>
+    <string name="last_updated">Son güncelleme</string>
+    <string name="no_data">Veri yok</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">Toplam Vücut Suyu</string>
+    <string name="total_body_water_two">Toplam Vücut Suyu</string>
+    <string name="visceral_fat_rating">İÇ ORGAN YAĞ ORANI</string>
+    <string name="visceral_fat_rating_two">İÇ ORGAN YAĞ ORANI</string>
+    <string name="bone_mass">Kemik Kütlesi</string>
+    <string name="muscle_mass">Kas Kütlesi</string>
+    <string name="body_fat">Vücut Yağı %</string>
+    <string name="intracellular_water">Hücre Içindeki Su</string>
+    <string name="extracellular_water">Hücre Dışındaki Su</string>
+    <string name="protein">Protein</string>
+    <string name="mineral">Mineraller</string>
+    <string name="waist_hip_ratio">Bel-Kalça Oranı</string>
+    <string name="obesity_degree">Obezite Derecesi</string>
+    <string name="input">giriş</string>
+    <string name="view_history">TARİHİ GÖRÜNTÜLE</string>
+    <string name="history">Tarih</string>
+    <string name="date">tarih</string>
+    <string name="info_weight_subtitle">Ağırlık</string>
+    <string name="info_bodyfat_percent_subtitle">Vücut Yağ Yüzdesi yağın vücut ağırlığına olan oranıdır.</string>
+    <string name="info_bmi_subtitle">Vücut ağırlığının boya orantısı genel sağlığınız için önemli bir göstergedir.</string>
+    <string name="info_bmr_subtitle">Etkili bir şekilde çalışması için vücudunuzun istirahat halindeyken (uyku dahil) günlük minimum enerji veya kalori seviyesi.</string>
+    <string name="info_total_body_water_subtitle">Toplam Vücut Suyu yüzdesi, bir kişinin vücudundaki toplam sıvı miktarı, toplam ağırlığının bir yüzdesi olarak ifade edilir.</string>
+    <string name="info_visceral_fat_rating_subtitle">İç organ yağları karın bölgesinin altında toplanmış ve çevresi hayati organlarla çevrelenmiştir.</string>
+    <string name="info_bone_mass_subtitle">Kemik Kütlesi</string>
+    <string name="info_intracellular_water_subtitle">Hücre Içindeki Su</string>
+    <string name="info_extracellular_water_subtitle">Hücre Dışındaki Su</string>
+    <string name="info_protein_subtitle">Protein</string>
+    <string name="info_mineral_subtitle">Mineraller</string>
+    <string name="info_waist_hip_ratio_subtitle">Bel-Kalça Oranı</string>
+    <string name="info_obesity_degree_subtitle">Obezite Derecesi</string>
+
+    <string name="info_weight">Ağırlık</string>
+    <string name="info_bodyfat_percent">Vücut Yağ Yüzdesi yağın vücut ağırlığına olan oranıdır.Vücut Yağı vücudun sıcaklığını dengede tutar, eklemlerde destek oluşturur ve iç organları korur.Fazla yağ sağlınıza uzun dönemde zararlıdır. Vücut yağının fazla kısmının azaltılması yüksek tansiyon, kalp hastalıkları, tip 2 diabet ve bazı kanser vakalarının azalmasında önemli rol oynar.Vücut yağının biraz fazla olması gelecek yıllarda ozteoporoz oluşumuna, kadınlarda düzensiz adet görmeye ve kısırlığa sebep olabilir.Vücut yağ oranınızı kontrol etmek sağlığınız için oldukça önemlidir.</string>
+    <string name="info_bmi">Vücut ağırlığının boya orantısı genel sağlığınız için önemli bir göstergedir.</string>
+    <string name="info_bmr">Bazal Metabolik Hız (BMR), solunum ve dolaşım organlarınız, sinir sistemi, karaciğer, böbrekler ve diğer organların etkili bir şekilde çalışması için vücudunuzun istirahat ederken ihtiyaç duyduğu günlük minimum enerji veya kaloridir.</string>
+    <string name="info_total_body_water">Her hücre ve organda bulunan su vücut aktiviteleri ve vücudun işleyişi için hayati önem taşımaktadır. Toplam su yüzdesini sağlıklı bir oranda tutmak vücut fonksiyonlarının işleyişini sağlamakta ve oluşabilecek hastalık risklerini azaltılmaktadır.</string>
+    <string name="info_visceral_fat_rating">İç organ yağı (Karın Yağları) vücutta gövde ve mide bölgesindeki hayati organları çevrelemektedir.Fazla İç organ yağ oranı yüksek tansiyon kalp hastalıkları ve 2 tip diabet hastalığı için yüksek risk oluşturmaktadır.İç organ yağ oranlarının düşürülmesi insulin etkisini dengede tutarken diabet ve diğer ilişkisi olduğu hastalıkların oluşma riskini azaltmaktadır.</string>
+    <string name="info_bone_mass">Kemik Kütlesi</string>
+    <string name="info_intracellular_water">Hücre Içindeki Su</string>
+    <string name="info_extracellular_water">Hücre Dışındaki Su</string>
+    <string name="info_protein">Protein</string>
+    <string name="info_mineral">Mineraller</string>
+    <string name="info_waist_hip_ratio">Bel-Kalça Oranı</string>
+    <string name="info_obesity_degree">Obezite Derecesi</string>
+    <string name="trunk">Gövde/Beden</string>
+    <string name="left_arm">Sol Kol</string>
+    <string name="right_arm">Sağ Kol</string>
+    <string name="left_leg">Sol Bacak</string>
+    <string name="right_leg">Sağ Bacak</string>
+    <string name="underfat">Altında</string>
+    <string name="healthy">Sağlık</string>
+    <string name="overfat">Üzerinde</string>
+    <string name="obese">Obez</string>
+    <string name="your_healthy_bone_mass">Sağlık Kas kütleniz </string>
+    <string name="your_ideal_weight">Ideal kilo</string>
+    <string name="your_health_waist_hip_ratio">Sağlıklı bel-kalça oranınız</string>
+    <string name="bd_infomation_title">Vücut direktörü Circle Fitness IBA yada InBody 570 ile eşzamanlı çalışmaktadır.</string>
+    <string name="bd_infomation_content">Tesisinizle olan uygunluğunu kontrol ediniz.</string>
+    <string name="circle_fitness_iba">Circle Fitness IBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">Nabız Kontrolü, egzersiz performansınızı optimize etmek için egzersiz hızınızı ve kardiyo ekipmanınızın yoğunluğunu kontrol ederek nabız hızını seçtiğiniz dakika başına dengede tutar.</string>
+    <string name="fatburn">Yağ yakımı</string>
+    <string name="aerobic">Aerobik</string>
+    <string name="performance">Performans</string>
+    <string name="customize">Özelleştir</string>
+    <string name="years">Yıl</string>
+    <string name="heart_rate">Nabız Hızı</string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">Maksimum nabız hızını 65%'e ayarlayın. Bu program yoğunluğu ayarlayıp hedefinize ulaşmanızda size yardım edecek.</string>
+    <string name="hrc_info_aerobic">Maksimum nabız hızını 75%'e ayarlayın. Bu program yoğunluğu ayarlayıp hedefinize ulaşmanızda size yardım edecek.</string>
+    <string name="hrc_info_performance">Maksimum nabız hızını 85%'e ayarlayın. Bu program yoğunluğu ayarlayıp hedefinize ulaşmanızda size yardım edecek.</string>
+    <string name="hrc_info_customize">Hedef nabız hızını belirleyin. Bu program yoğunluğu ayarlayıp hedefinize ulaşmanızda size yardım edecek.</string>
+    <string name="age">Yaş</string>
+
+    <string name="age_range_error_msg">Lütfen  arası bir numara girin</string>
+    <string name="duration">Süre</string>
+    <string name="profile">Profil</string>
+    <string name="change_password">Şifreyi Değiştir</string>
+    <string name="data_syncing">Veri Senkronizasyonu</string>
+    <string name="unit">Birim</string>
+    <string name="old_password">Eski Şifre</string>
+    <string name="new_password">Yeni Şifre</string>
+    <string name="confirm_new_password">Yeni şifreyi onayla</string>
+    <string name="password_changed">Şifre değiştirildi</string>
+    <string name="old_password_incorrect">Eski şifre hatalı</string>
+    <string name="new_password_incorrect">Lütfen şifrenizi kontrol edin.</string>
+    <string name="month">AY</string>
+    <string name="year">YIL</string>
+    <string name="fitness_apps">FITNES APP</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">GIYILEBILIR APP</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">Garmin bağlantısı</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">Fiziki Test ABD ordusunda atletlerin aerobik kapasitelerini ve dayanıklılıklarını ölçmek için  uygulanan farklı standarlara sahip fitness programları içeren bir testtir.</string>
+    <string name="phy_gerkin_protocol_info">Bu program nabız hızını görüntülemek ve V02 seviyelerini saptamak için itfayecilere özel olarak dizayn edilmiştir. Bu program nabız hızı %85 seviyesine ulaştığı anda otomatik olarak sonlanacaktır.</string>
+    <string name="phy_cooper_test_info">Cooper testi ABD ordusu için dizayn edilmiş ayrı bir testtir. Bu testte hedef 12 dakika içerisinde ne kadar koşabileceğinizi görmek için yapılır. Siz ne kadar koşabilirsiniz?</string>
+    <string name="phy_usmc_ptf_info">Deniz kuvvetleri testi 3 millik (4.8 km) bir koşudur. Meydan okumaya başla ve olabildiğince hızlı koşarak tamamla.</string>
+    <string name="phy_army_prt_info">Ordu Fiziki Hazırlık Testi 2 millik (3.2 km) bir koşudur. En kısa sürede tamamlamaya çalışın.</string>
+    <string name="phy_navy_prt_info">Deniz Kuvvetleri Testi 1.5 mil (2.4 km) uzunluğunda bir koşudur. Bu antremanı olabildiğince hızlı bitirmeye çalışın.</string>
+    <string name="phy_usaf_ptf_info">Hava Kuvvetleri Testi 1.5 mil (2.4 km) uzunluğunda bir koşudur. Bu antremanı olabildiğince hızlı bitirmeye çalışın.</string>
+    <string name="phy_federal_law_info">1.5 mil (2.4 km) uzunluğunda bir koşudur. Bu antremanı olabildiğince hızlı bitirmeye çalışın.</string>
+    <string name="phy_vo2_info">V02 max yada maksimum oksijen alımı atletlerin dayanıklılık gerektiren antremanlarında kapasiteyi belirlemektedir.</string>
+
+    <string name="manual">Manuel</string>
+    <string name="hill">Yokuş</string>
+    <string name="cardio">Kardio</string>
+    <string name="interval">Aralık</string>
+    <string name="strenght">Kuvvet</string>
+    <string name="rolling_hill">Yokuşlu tepeler</string>
+    <string name="incline">Eğim</string>
+    <string name="mountain_peak">Dağ Zirveleri</string>
+    <string name="constant_watt">Sabit Vat</string>
+    <string name="set_a_goal">BİR HEDEF BELİRLEYİN</string>
+    <string name="select_goal">Hedef seç</string>
+    <string name="tr_dialog_info">Aerobik fitness ve antremanlarınızı geliştirmek için daha kapsamlı kardio kondisyon çalışmaları sunmaktayız!</string>
+    <string name="tr_manual_info">Size uygun adım ve yoğunlukta antreman yapınız.</string>
+    <string name="tr_hill_info">Bu yokuş programı ile kendinize meydan okuyun. Zirvede görüşürüz!</string>
+    <string name="tr_fatburn_info">Düşük yoğunlukta antreman yapmak kaslarınıza bol oksijen gönderir ve yağ yakımı daha fazla olur.</string>
+    <string name="tr_cardio_info">Bu programla daha fazla kalori yakın ve kondüsyonunuzu arttırın.</string>
+    <string name="tr_strenght_info">Bu yoğun programla kendinize meydan okuyun.</string>
+    <string name="tr_interval_info">Dayanıklılığınızı arttırmak ister misiniz? Bu aralıklı program ile istediğiniz hedefe varabilirsiniz!</string>
+    <string name="tr_target_info">Belirli bir hedef seçin ve onun için çabalayın. Yapabilirsin!</string>
+    <string name="tr_rolling_hill_info">Farklı aralık ve yükseklik ile kendinize meydan okuyun.</string>
+    <string name="tr_mountains_peak_info">Bu dış simülasyon parkuru ile sürekli yokuş yukarı bisiklet sürün.</string>
+    <string name="tr_incline_info">Bu dış parkur simülasyonunda aynı tempoda fakat yoğun eğimli olarak bisiklet sürün.</string>
+    <string name="tr_constant_watt_info">Hedef vat çıkışınız ne kadar? Bu program pedal hızınıza göre yoğunluk seviyenizi ayarlamakta ve hedefinize ulaşmanızda size yardımcı olmaktadır.</string>
+    <string name="level">Seviye</string>
+    <string name="easy">KOLAY</string>
+    <string name="medium">ORTA</string>
+    <string name="hard">ZOR</string>
+    <string name="time">Zaman</string>
+    <string name="stop">Durdur</string>
+    <string name="emergency">ACİL DURDUR</string>
+    <string name="emergency_note">Sıfırlamak için Acil Durum düğmesine tekrardan basınız</string>
+    <string name="error">Hata</string>
+    <string name="error_codes">Hata Kodu:</string>
+    <string name="resume">Geri al</string>
+    <string name="pause">Mola</string>
+    <string name="no_heart_rate_detect">Kalp atış hızı tespit edilmedi. Göğüs kemerini tak lütfen.</string>
+    <string name="workout_will_stop_in">Antreman %1$d:%2$02d içinde sonlanacak</string>
+    <string name="heart_">Antreman %1$d:%2$02d içinde sonlanacak</string>
+    <string name="reset">içinde sıfırla</string>
+    <string name="system_will_be_auto_reset">2 dakika içerisinde aktivite olmadığı için system otomatik olarak kapanacak.</string>
+    <string name="press_continue">Devam için Resume tuşuna basınız.</string>
+    <string name="continue01">Devam edin</string>
+    <string name="current_heart_rate">mevcut kalp atışı</string>
+    <string name="maximum_heart_rate">85% Maksimum Nabız Hızı</string>
+    <string name="warm_up">Isın</string>
+    <string name="stage">Seviye </string>
+    <string name="next">Sıradaki</string>
+    <string name="cool_donw">Soğuma</string>
+    <string name="time_required_60">Geçmek için gereken zaman (Puan 60): x:xx</string>
+    <string name="remaining_time">Kalan Zaman</string>
+    <string name="cardio_type">Kardio Türü</string>
+    <string name="pace">hız</string>
+    <string name="avg_pace">Ortalama Adım</string>
+    <string name="best_pace">En iyi hız</string>
+    <string name="total_distance">Toplam Uzaklık</string>
+    <string name="total_calories">Toplam Kalori</string>
+    <string name="avg_heart_rate">Ortalama Nabız Hızı</string>
+    <string name="max_heart_rate">Maksimum Nabız Hızı</string>
+    <string name="please_remember">Ayrılmadan önce lütfen çıkış yapınız.</string>
+    <string name="complete">TAMAMLANDI</string>
+    <string name="imcomplete">TAMAMLANMADI</string>
+    <string name="treadmill">Koşubandı</string>
+    <string name="summary">özet</string>
+    <string name="very_good">Çok İyi</string>
+    <string name="good">İyi</string>
+    <string name="average">Ortalama</string>
+    <string name="bad">Kötü</string>
+    <string name="very_bad">Çok Kötü</string>
+    <string name="normal">Normal</string>
+    <string name="score">Puan</string>
+    <string name="low_risk">Düşük risk</string>
+    <string name="moderate_risk">ılımlı risk</string>
+    <string name="high_risk">yüksek risk</string>
+    <string name="speed_decreases_to">hız düşüşü</string>
+    <string name="speed_increases_to">hız artışı</string>
+    <string name="incline_decreases_to">eğim seviyesi düşüş</string>
+    <string name="incline_increases_to">eğim seviyesi artış</string>
+    <string name="level_decreases_to">direnç seviyesi</string>
+    <string name="level_increases_to">direnç seviyesi artar</string>
+    <string name="resistance_level_decreases">Dayanıklılık seviyesi 3 saniye sonra %1$.1f düşecek</string>
+    <string name="resistance_level_increases">Dayanıklık seviyesi 3 saniye sonra %1$.1f çıkacak</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">basit</string>
+    <string name="lap">kucak</string>
+    <string name="speed">SPEED</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">zaman</string>
+    <string name="target_time">Hedef zamanı</string>
+    <string name="target_hr">hedef kalp atış hızı</string>
+    <string name="mets">METS</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>
+
+    <!-- Performance -->
+    <string name="session1">SEANS</string>
+    <string name="performance_dialog_info">Performansınızı kardio ekipmanından egseriz applerinden ve giyilebilir fitness aygıtlarından kontrol edebilirsiniz. Sonuçlarınızı karşılaştırın ve kendinize daha fazla meydan okuyun.</string>
+    <string name="other">DİĞER</string>
+    <string name="avg_watt">Ortalama Vat(V)</string>
+    <string name="share">pay</string>
+    <string name="add">Ekle</string>
+    <string name="select_date">tarih seç</string>
+    <string name="select_time">zaman seç</string>
+    <string name="h">saat</string>
+    <string name="m">dakika</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">Seviye</string>
+    <string name="vo2_faster_to_keep">vatörü tutmak için daha hızlı kürek çekmek</string>
+    <string name="vo2_slowly_to_keep">Watt'ı yavaş tutmak için yavaşça kürek çekmek</string>
+    <string name="target_watt">hedef watt</string>
+    <string name="connection_lost">bağlantı koptu!</string>
+    <string name="data_upload_unsuccessful">veri yükleme başarısız!</string>
+    <string name="data_not_uploaded_to_circlecloudgo">Bağlantı veya sunucu sorunu nedeniyle veriler circlecloudgo'ya yüklenmedi!</string>
+    <string name="no_heart_rate_detected">Kalp atış hızı tespit edilmedi. Lütfen göğüs kemerinizi takın veya ellerinizi kalp atış hızı sensörüne yerleştirin.</string>
+    <string name="auto_speed_cool_down_disabled">Otomatik hızlı soğuma iptal edilmiş</string>
+    <string name="auto_resistance_level_down_disabled">Otomatik hızlı soğuma iptal edilmiş</string>
+    <string name="show_history_data">geçmiş verilerini göster</string>
+    <string name="show_monthly_total">aylık verileri göster</string>
+    <string name="show_yearly_total">yıllık verileri göster</string>
+    <string name="close">kapat</string>
+    <string name="account">Hesap</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">En donanımlı sağlık antrenörü CircleCloud Go'ya hosşgeldiniz.</string>
+    <string name="tutorial_first_2st">Başlangıçta işinizi kolaylaştıracak bazı püf noktaları şunlar.</string>
+    <string name="tutorial_target_1st">Fitness hedefinizi "icon%s" ile ayarlayın.</string>
+    <string name="tutorial_target_2st">Antreman Hedefi</string>
+    <string name="tutorial_gym_1st">Benim "icon%s" ile avantajlar hakkında sürekli bağlantınız olsun.</string>
+    <string name="tutorial_gym_2st">Spor Salonum</string>
+    <string name="tutorial_performance_1st">Sonuçlarınızı Benim "icon%s" ile ölçün.</string>
+    <string name="tutorial_performance_2st">Performansım</string>
+    <string name="tutorial_workout_1st">kullanarak kişiselleştirilmiş egzersiz oluşturmak "icon%s"</string>
+    <string name="tutorial_workout_2st">Benim Antremanım</string>
+    <string name="tutorial_body_1st">Fitness metriğinizi "icon%s" ile test edin.</string>
+    <string name="tutorial_body_2st">Vücut Direktörü</string>
+    <string name="tutorial_last_str">Tüm içeriğe ulaşmak için Ücretsiz CircleFit app uygulamasını indirin.Kardio ekipmanı ile Quick Log (Hızlı Giriş) için CircleFit app uygulamasını kullanın.</string>
+
+    <!-- Fan -->
+    <string name="fan_title">Fan</string>
+    <string name="fan_info_off">Kapalı</string>
+    <string name="fan_info_50">Düşük</string>
+    <string name="fan_info_100">Yüksek</string>
+
+    <!-- New Add -->
+    <string name="select_language">Dil seçiniz</string>
+    <string name="birthday_day">tarih</string>
+    <string name="emergency_note_FOR_M6">Acil stop anahtarı kelepçesini geri koymak yeniden başlatılacak</string>
+    <string name="Logout_confirm">İstifa mı ediyor?</string>
+
+    <string name="WeekStr_1">Pzt</string>
+    <string name="WeekStr_2">Sal</string>
+    <string name="WeekStr_3">Çar</string>
+    <string name="WeekStr_4">Per</string>
+    <string name="WeekStr_5">Cum</string>
+    <string name="WeekStr_6">Cmt</string>
+    <string name="WeekStr_7">Paz</string>
+
+    <string name="month_1">Oca</string>
+    <string name="month_2">Şub</string>
+    <string name="month_3">Mar</string>
+    <string name="month_4">Nis</string>
+    <string name="month_5">May</string>
+    <string name="month_6">Haz</string>
+    <string name="month_7">Tem</string>
+    <string name="month_8">Ağu</string>
+    <string name="month_9">Eyl</string>
+    <string name="month_10">Eki</string>
+    <string name="month_11">Kas</string>
+    <string name="month_12">Ara</string>
+
+</resources>

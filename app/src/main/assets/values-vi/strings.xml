@@ -1,0 +1,608 @@
+<resources>
+    <string name="app_name">Treadmill</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="facebook_app_id">1432523243491441</string>
+
+    <!-- Common -->
+    <string name="kcal">kcal</string>
+    <string name="cm">cm</string>
+    <string name="inch">in</string>
+    <string name="title">Title</string>
+    <string name="contents">Contents</string>
+    <string name="km">km</string>
+    <string name="mi">mi</string>
+    <string name="kg">kg</string>
+    <string name="lb">lb</string>
+    <string name="information">thông tin tài khoản</string>
+
+    <string name="january">tháng Giêng</string>
+    <string name="february">Tháng hai</string>
+    <string name="march">Tháng ba</string>
+    <string name="april">Tháng tư</string>
+    <string name="may">Có thể</string>
+    <string name="june">Tháng sáu</string>
+    <string name="july">tháng bảy</string>
+    <string name="august">tháng Tám</string>
+    <string name="september">Tháng Chín</string>
+    <string name="october">Tháng Mười</string>
+    <string name="november">Tháng mười một</string>
+    <string name="december">Tháng mười hai</string>
+
+    <!-- Base -->
+    <string name="english">ENGLISH</string>
+    <string name="login">Đăng nhập</string>
+    <string name="log_in">Đăng nhập</string>
+    <string name="login_msg">Đăng nhập để trải nghiệm tất cả các Chức năng</string>
+    <string name="training">Huấn luyện</string>
+    <string name="heart_rate_control">Nhịp Tim</string>
+    <string name="hiit">HIIT</string>
+    <string name="physical_test">Kiểm tra thể chất</string>
+    <string name="target_train">Mục tiêu luyện tập</string>
+    <string name="my_performance">Hiệu suất luyện tập</string>
+    <string name="body_manager">Quản lý Sức khoẻ </string>
+    <string name="my_gym">Phòng tập của tôi</string>
+    <string name="my_workout">Bài tập của tôi</string>
+    <string name="quick_start">Khởi động nhanh</string>
+    <string name="you_have_a_message">Bạn có tin nhắn</string>
+    <string name="settings">Cài đặt</string>
+    <string name="logout">Đăng xuất</string>
+    <string name="log_out">Đăng xuất</string>
+    <!-- Login -->
+    <string name="sign_up">Đăng ký</string>
+    <string name="forgot_password">Quên Mật mã</string>
+    <string name="quick_log_in_with">Đăng nhập nhanh bằng CircleFit APP</string>
+    <string name="app">APP</string>
+    <string name="login_expand_1">Khởi động Bluetooth cuả di động</string>
+    <string name="login_expand_2">Mở CircleFit APP.</string>
+    <string name="login_expand_3">Hãy đặt thiết bị di động đến gần phiá dưới bên phải cuả Bàn điều khiển. Thiết bị sẽ tự động bắt đầu kết nối.</string>
+    <string name="note">Chú thích:</string>
+    <string name="note_contents">Đăng ký CircleFit APP để khởi động "Đăng nhập nhanh". CircleFit là ứng dụngtập luyện thể dục cuả Circle Fitness. Tải về miễn phí tại App Store/Google Play hay quét mã QR Code phía dưới.</string>
+    <string name="email">Hộp thư Email</string>
+    <string name="password">Mật khẩu</string>
+    <string name="enter_your_account">Nhập hộp thư email đã sử dụng khi đăng ký, chúng tôi sẽ gửi mật khẩu đến hộp thư cuả bạn.</string>
+    <string name="send">Gửi đi</string>
+    <string name="email_sent">Đã gửi email</string>
+    <string name="ok">được</string>
+    <string name="incorrect_email">Hộp thư email không chính xác.</string>
+    <string name="not_a_valid_email_address">Địa chỉ email không hợp lệ.</string>
+    <string name="password_erroe">Mật khẩu hay hộp thư email không được chấp nhận. Hãy nhập lại.</string>
+    <string name="connect_problem">Lỗi kết nối Internet. Hãy thử lại lần nửa.</string>
+    <string name="no_account_matches">Không có tài khoản phù hợp</string>
+    <string name="please_try_again"> Hãy thử lại lần nửa.</string>
+    <string name="user_id_exist_1">Đã có Tài khoản sử dụng hộp thư email này</string>
+    <string name="user_id_exist_2"> Hãy dùng địa chỉ hộp thư email khác.</string>
+
+    <!-- Reg -->
+    <string name="registration">Đăng ký</string>
+    <string name="circlecloud_go_sign_up">ĐĂNG KÝ CIRCLECLOUD GO</string>
+    <string name="account_exist">Đã có Tài khoản sử dụng hộp thư email này. Hãy dùng địa chỉ hộp thư email khác.</string>
+    <string name="confirm_password">Xác nhận Mật khẩu</string>
+    <string name="username">Tên người dùng</string>
+    <string name="user_name">Tên người dùng</string>
+    <string name="units">Đơn vị</string>
+    <string name="metric">Hệ mét</string>
+    <string name="imperial">Hệ Anh</string>
+    <string name="gender">Giới tính</string>
+    <string name="female">Nữ</string>
+    <string name="male">Nam</string>
+    <string name="height">Chiều cao</string>
+    <string name="height_required">"Chiều cao" cần thiết để có kết quả phân tích thành phần cơ thể chính xác.</string>
+    <string name="height_metric_error_msg">Hãy nhập số giá trị trong khoảng 130-220 cm.</string>
+    <string name="height_imperial_error_msg">Hãy nhập số giá trị trong khoảng  4 ' 3"-7 ' 3"</string>
+    <string name="date_of_birth">Ngày sinh</string>
+    <string name="date_of_birth_required">"Ngày sinh" cần thiết để có kết quả phân tích thành phần cơ thể chính xác.</string>
+    <string name="privacy_policy">Chính sách bảo mật</string>
+    <string name="i_agree">Tôi đồng ý các Điều khoản về Quyền bảo mật</string>
+    <string name="view_privacy_policy">XEM CHÍNH SÁCH RIÊNG TƯ</string>
+    <string name="privacy_policy_contents">Quyền riêng tư
+Circle Fitness, một công ty có trụ sở tại Đài Loan, chuyên thiết kế và sản xuất thiết bị tập luyện thể dục với thương hiệu Circle Fitness™. Khi bạn đăng ký là thành viên của chúng tôi và trở thành người dùng sản phẩm của chúng tôi. Tuyên bố này không áp dụng cho bất kỳ thông tin nào khác mà chúng tôi thu thập, bao gồm nhưng không giới hạn dữ liệu chúng tôi thu thập ngoại tuyến hoặc nhận được qua thiết bị tập luyện hoặc ứng dụng trên thiết bị di động.
+Địa điểm đặt máy chủ.
+Trụ sở chính của chúng tôi đặt tại Đài Trung, Đài Loan. Chúng tôi lưu trữ máy chủ và xử lý thông tin ở Mỹ và các quốc gia khác. Khi bạn truy cập các trang của chúng tôi, bạn truyền thông tin đến Mỹ và các quốc gia khác.
+
+Thông tin chúng tôi thu thập.
+Thông tin bạn chủ động cung cấp: Khi bạn đăng ký tài khoản hoặc gửi yêu cầu cho chúng tôi thông qua thiết bị tập luyện hoặc ứng dụng di động, chúng tôi có thể yêu cầu bạn cung cấp tên, (Không bắt buộc cung cấp tên thật, ưu tiên sử dụng biệt danh), chiều cao, ngày sinh, địa chỉ email và mật khẩu.
+
+Thông tin chúng tôi thu thập một cách thụ động. Chúng tôi cũng thu thập thông tin về ngày giờ bạn truy cập và thiết bị tập luyện cũng như các chương trình và chức năng bạn đã sử dụng. Loại thông tin này được thu thập để giúp sản phẩm và dịch vụ của chúng tôi trở nên hữu ích hơn cho bạn.
+
+Kết hợp: Chúng tôi có thể kết hợp thông tin chúng tôi nhận được thông qua thiết bị tập luyện với thông tin chúng tôi nhận được về bạn từ các nguồn khác, ví dụ: Tóm tắt tập luyện từ thiết bị đeo hoặc biểu mẫu ứng dụng tập luyện của bên thứ ba.
+
+Sử dụng thông tin
+Dữ liệu Circle Fitness thu thập được sử dụng để tạo trải nghiệm tập luyện tốt hơn và cá nhân hóa hơn cho bạn. Chúng tôi không cho thuê, bán hoặc chia sẻ thông tin cá nhân của bạn với bên thứ ba, trừ trường hợp sau đây:
+
+- Khi có sự đồng ý của bạn.
+- Chúng tôi sử dụng các nhà cung cấp dịch vụ liên kết và không liên kết trên khắp thế giới để giúp chúng tôi cung cấp dịch vụ và điều hành hoạt động kinh doanh theo các thỏa thuận bảo mật.
+- Chúng tôi chia sẻ số liệu thống kê sử dụng đã tổng hợp và không thể sử dụng để nhận dạng cá nhân bạn.
+Bảo mật thông tin của bạn.
+Chúng tôi áp dụng các biện pháp tổ chức và kỹ thuật để đảm bảo hạn chế quyền truy cập thông tin của bạn cho những người thực sự cần biết. Mặc dù chúng tôi thực hiện các bước để bảo vệ thông tin cá nhân của bạn, bạn cũng cần biết rằng chúng tôi và bất kỳ công ty nào khác đều không thể loại bỏ hoàn toàn các rủi ro về bảo mật.
+
+Liên hệ với chúng tôi.
+Nếu bạn có bất kỳ câu hỏi hoặc thắc mắc nào về chính sách quyền riêng tư này, vui lòng liên hệ với chúng tôi theo địa chỉ info@circlefitness.com hoặc qua Internet tại địa chỉ https:www.circlefitness.com
+Cập nhật Tuyên bố Quyền riêng tư.
+Chúng tôi có thể cập nhật Tuyên bố này theo thời gian. Khi cập nhật, chúng tôi sẽ thay đổi ngày cập nhật mới nhất ở trên để bạn biết rằng chúng tôi đã thay đổi.
+Hiệu lực: Ngày 30/05/2018</string>
+    <string name="exit">Thoát ra</string>
+    <string name="please_make_sure_your_passwords_match">Hãy xác định mật khẩu phù hợp.</string>
+    <string name="congratulations_lower">Chúc mừng</string>
+    <string name="registration_done">ĐĂNG KÝ XONG!</string>
+    <string name="exit_description">ĐĂNG KÝ KHÔNG HOÀN THÀNH, BẠN CÓ CHẮC BẠN MUỐN XIN?</string>
+
+    <!-- Login -->
+    <string name="login_dialog_info_line_1">ĐÂY LÀ MỘT ỨNG DỤNG CIRCLECLOUD GO</string>
+    <string name="login_dialog_info_line_2">LÀM ƠN ĐĂNG NHẬP ĐỂ TIẾP TỤC</string>
+    <string name="initializing_quick_login">ĐĂNG NHẬP NHANH LOGIN</string>
+    <string name="unable_to_connect">KHÔNG THỂ KẾT NỐI!</string>
+    <string name="please_try_again_later">Hãy thử lại lần nửa.</string>
+
+
+    <!-- Home -->
+    <string name="welcome"> CHÀO MỪNG</string>
+    <string name="my_class_reminder">NHẮC NHỞ LỚP HỌC</string>
+    <string name="schedule_change">KẾ HOẠCH THAY ĐỔI</string>
+    <string name="first_login_welcome"> Chào mừng đến với CircleCloud Go! Chúng tôi hy vọng bạn có thể tìm được tính năng trợ giúp cho việc luyện tập của mình. Hãy tận hưởng và có một thời gian tuyệt vời!</string>
+    <string name="there_is_a">Đây là một</string>
+    <string name="today_at">hôm nay tại</string>
+    <string name="tomorrow_at">ngày mai tại</string>
+    <string name="hi">Chào</string>
+    <string name="target_update">MỤC TIÊU CẬP NHẬT</string>
+    <string name="home_msg_times_up_1">Bạn đã đạt đến cuối ngày mục tiêu cho mục tiêu</string>
+    <string name="home_msg_times_up_2">Kiểm tra tiến trình của bạn trong Target Train!</string>
+    <string name="home_msg_half_way_through_1">Xin chúc mừng bạn là một nửa thông qua mục tiêu</string>
+    <string name="home_msg_half_way_through_2">Xem tiến bộ của bạn trong tàu mục tiêu!</string>
+    <string name="home_msg_reached_1">Xin chúc mừng bạn đã đạt được mục tiêu</string>
+    <string name="home_msg_reached_2">Xem kết quả của bạn trong tàu mục tiêu!</string>
+    <string name="this_schedule_of">Lịch trình của</string>
+    <string name="has_been_changed_from">đã được thay đổi từ</string>
+    <string name="to">đến</string>
+
+    <!-- My Gym -->
+    <string name="bulletin">Bản tin thông báo</string>
+    <string name="class_str">Các lớp học</string>
+    <string name="my_class">Lớp học của tôi</string>
+    <string name="hot">Phổ biến</string>
+    <string name="add_to_my_class">THÊM VÀO TRONG LỚP HỌC CỦA TÔI</string>
+    <string name="added">ĐÃ THÊM VÀO</string>
+    <string name="remove_from_my_class">Xoá bỏ bên trong lớp học cuả tôi</string>
+    <string name="removed">Đã xoá bỏ</string>
+    <string name="mygym_dialog_info">Gym của tôi thông báo thông tin mới nhất, các lớp học và các ưu đãi của Phòng tập.</string>
+
+    <!-- Target Train -->
+    <string name="create_your_fitness_target">Đặt Mục tiêu tập luyện của bạn</string>
+    <string name="targer_dialog_info">Mục tiêu huấn luyện là chương trình lưu trên cloud, có thể kết nối lập tức với ứng dụng thể dục CircleFit.</string>
+    <string name="distance">Khoảng cách</string>
+    <string name="distance_60_rpm">Khoảng cách@60 RPM</string>
+    <string name="distance_80_rpm">Khoảng cách@80 RPM</string>
+    <string name="calories">Calories</string>
+    <string name="calories_60_rpm">Calories@60 RPM</string>
+    <string name="calories_80_rpm">Calories@80 RPM</string>
+    <string name="exercise_frequency">Tần số tập luyện</string>
+    <string name="weight">Cân nặng</string>
+    <string name="weight_upper">Cân nặng</string>
+    <string name="bodyfat_percent">Mỡ cơ thể</string>
+    <string name="days_left">Còn ngày</string>
+    <string name="weeks_left">tuần còn lại</string>
+    <string name="view_details">xem chi tiết</string>
+    <string name="target">Mục tiêu</string>
+    <string name="start">Bắt đầu</string>
+    <string name="create_a_new_target">tạo mục tiêu mới</string>
+    <string name="target_distance">Mục tiêu khoảng cách     </string>
+    <string name="current_distance">Khoảng cách hiện tại      </string>
+    <string name="target_days">Mục tiêu số Ngày   </string>
+    <string name="current_days">Số ngày hiện tại     </string>
+    <string name="target_weight">Mục tiêu Cân nặng        </string>
+    <string name="current_weight">Cân nặng hiện tại         </string>
+    <string name="input_weight">Nhập Cân nặng</string>
+    <string name="input_body_fat">Nhập mỡ cơ thể %</string>
+    <string name="target_body_fat">Mục tiêu Mỡ cơ thể %     </string>
+    <string name="current_body_fat">Mỡ cơ thể hiện tại %      </string>
+    <string name="current">Hiện tại</string>
+    <string name="target_days_weeks">Mục tiêu Số Ngày / Số Tuần    </string>
+    <string name="target_weeks">Mục tiêu Số Tuần    </string>
+    <string name="current_week">Số Tuần hiện tại     </string>
+    <string name="achievement">thành tích</string>
+    <string name="this_week">Tuần này</string>
+    <string name="target_calories">Mục tiêu Calories</string>
+    <string name="current_calories">Calories hiện tại</string>
+    <string name="days">ngày</string>
+    <string name="day">ngày</string>
+    <string name="week">tuần</string>
+    <string name="weeks">tuần</string>
+    <string name="choose_your_fitness_target">Chọn Mục tiêu tập luyện của bạn</string>
+    <string name="how_many_days_per_week">MỖI TUẦN MẤY NGÀY?</string>
+    <string name="dates">ngày</string>
+    <string name="end_date">Ngày kết thúc</string>
+    <string name="running">CHẠY BỘ</string>
+    <string name="biking">ĐẠP XE</string>
+    <string name="elliptical">MÁY HINH ELIP</string>
+    <string name="all">TOÀN BỘ̣</string>
+    <string name="select_exercise_type">Chọn loại hình tập luyện</string>
+    <string name="history_upper">Lịch sử</string>
+    <string name="edit">Chỉnh sửa</string>
+    <string name="done">làm xong</string>
+    <string name="percent_loss">% mất</string>
+    <string name="percent_gain">% thu được</string>
+    <string name="lb_loss">lb mất</string>
+    <string name="lb_gain">lb thu được</string>
+    <string name="kg_loss">kg mất</string>
+    <string name="kg_gain">kg thu được</string>
+    <string name="delete_description">BẠN CÓ CHẮC CHẮN MUỐN XÓA BỎ MỤC TIÊU NÀY HAY KHÔNG?</string>
+    <string name="delete">Xóa bỏ</string>
+    <string name="cancel">Hũy bỏ</string>
+    <string name="deleted">Xóa bỏ</string>
+    <string name="close_description">BẠN CÓ CHẮC CHẮN MUỐN KẾT THÚC MỤC TIÊU NÀY HAY KHÔNG?</string>
+    <string name="end_now">LẬP TỨC KẾT THÚC</string>
+    <string name="target_ended">Đã kết thúc mục tiêu</string>
+    <string name="try_again_next_time">Hãy thử lại lần sau!</string>
+    <string name="super_str">Siêu!</string>
+    <string name="great">tuyệt quá</string>
+    <string name="good_try">Đã cố gắng!</string>
+    <string name="congratulations">Chúc mừng! </string>
+    <string name="you_reached_your_target_in_time">Bạn đã hoàn thành mục tiêu theo thời gian</string>
+    <string name="you_reached_your_target">Bạn đã hoàn thành mục tiêu theo thời gian</string>
+    <string name="half_way_through">Bạn đã đạt được nửa chặn đường!</string>
+    <string name="you_are_almost_there">Gần đến rồi!</string>
+    <string name="continue_exclamation_mark">Tiếp tục!</string>
+    <string name="continue_str">Tiếp tục</string>
+    <string name="week_achieved"> Tuần hoàn thành</string>
+    <string name="target_end_title">Bạn đã không đủ thời gian hoàn thành Mục tiêu! </string>
+    <string name="target_end_description">Bạn có muốn tiếp tục thử để đạt được 1 ngôi Sao Bạc hay không?</string>
+    <string name="end">Kết thúc</string>
+
+    <!-- MyWorkout -->
+    <string name="create_your_workout">Thiết lập bài tập của bạn</string>
+    <string name="create_a_new_workout">Thiết lập bài tập của bạn</string>
+    <string name="workout_name">Tên bài tập</string>
+    <string name="preview">Xem trước</string>
+    <string name="kph_lower">kph</string>
+    <string name="mph_lower">mph</string>
+    <string name="save">tiết kiệm</string>
+    <string name="details">chi tiết</string>
+    <string name="avg_speed">Tốc độ bình quân</string>
+    <string name="delete_interval_description">Bạn có chắc chắn muốn xóa khoảng thời gian này không?</string>
+    <string name="delete_item_description">Bạn có chắc muốn xóa?</string>
+    <string name="yes_str">Đúng</string>
+    <string name="no_str">Sai</string>
+    <string name="workout_has_not_been_saved">Bài luyện tập chưa được lưu. </string>
+    <string name="are_you_sure_you_want_to_leave">Bạn có chắc chắn muốn thoát ra?</string>
+    <string name="workout_info">Bài tập cuả tôi cho bạn điều chỉnh cường độ lực cản về khoảng cách mỗi loại tập luyện, để bạn có thể kế hoạch việc tập luyện cuả bản thân. Nhấn "Thiết lập bài tập của bạn" để bắt đầu thiết lập. Nhiều nhất chỉ có thể thiết lập 3 kế hoạch tập luyện.</string>
+    <string name="workout_info_bk">Bài tập cuả tôi cho bạn điều chỉnh cường độ lực cản về khoảng cách mỗi loại tập luyện, để bạn có thể kế hoạch việc tập luyện cuả bản thân. Nhấn "Thiết lập bài tập của bạn" để bắt đầu thiết lập. Nhiều nhất chỉ có thể thiết lập 3 kế hoạch tập luyện.</string>
+
+    <!-- Hiit -->
+    <string name="normal_upper">Thông thường</string>
+    <string name="high">Cao</string>
+    <string name="advanced">Nâng cao</string>
+    <string name="personal">Cá nhân</string>
+    <string name="a">A</string>
+    <string name="b">B</string>
+    <string name="c">C</string>
+    <string name="d">D</string>
+    <string name="e">E</string>
+    <string name="f">F</string>
+    <string name="name">Tên</string>
+    <string name="edit_name">Chỉnh sửa tên</string>
+    <string name="sprint">Chạy nước rút</string>
+    <string name="recovery">Phục hồi</string>
+    <string name="sec">sec</string>
+    <string name="view">Xem</string>
+    <string name="skip">Bỏ qua</string>
+    <string name="total_intervals">Tổng khoảng cách thời gian</string>
+    <string name="intervals">Khoảng cách </string>
+    <string name="duration_upper">Thời gian duy trì</string>
+    <string name="speed_upper">SPEED</string>
+    <string name="incline_upper">INCLINE</string>
+    <string name="hiit_info">HIIT (Lớp huấn luyện cách khoảng Cường độ cao) nhằm làm tiến bộ việc tập luyện cuả bạn, cố gắng đốt cháy mỡ cơ thể thông qua các hoạt động xen kẽ gữa cường độ cao và cường độ thấp trong giai đoạn phục hồi.</string>
+    <string name="hiit_normal_info">Tốc độ và Lên dốc được lập trình với cường độ thấp. Dành cho người mới bắt đầu tập.</string>
+    <string name="hiit_high_info">Tốc độ và Lên dốc được lập trình với cường độ cao. Dành cho Huấn luyện viên lâu năm sử dụng.</string>
+    <string name="hiit_advanced_info">Tốc độ và Lên dốc chỉ Cường độ cực cao. Chỉ  thích hợp sử dụng cho Huấn luyện viên cấp cao.</string>
+    <string name="hiit_personal_info">Thiết lập bài tập HIIT dành cho riêng bạn. Tối đa chỉ có thể thiết lập 3 bài tập HIIT cá nhân.</string>
+    <string name="create_your_hiit_workout">Thiết lập bài tập HIIT cuả bạn</string>
+    <string name="hiit_delete_item_description">Bạn có chắc chắn xóa bỏ ?</string>
+
+    <!-- bodymanage -->
+    <string name="bodymanager_dialog_info">Tổng quản Sức khoẻ là phần mềm quản lý thể chất được thiết kế để kỉểm tra theo dõi việc tập luyện ứng dụng cho các thiết bị Circle Fitness IBA/InBody 570 và ứng dụng thể dục CircleFit.</string>
+    <string name="last_updated">Cập nhật lần trước</string>
+    <string name="no_data">Không tư liệu</string>
+    <string name="bmi">BMI</string>
+    <string name="bmr">BMR</string>
+    <string name="total_body_water">Tổng hàm lượng nước trong cơ thể</string>
+    <string name="total_body_water_two">Tổng hàm lượng nước trong cơ thể</string>
+    <string name="visceral_fat_rating">CHỈ SỐ MỠ NỘI TẠNG</string>
+    <string name="visceral_fat_rating_two">CHỈ SỐ MỠ NỘI TẠNG</string>
+    <string name="bone_mass">Mật độ xương</string>
+    <string name="muscle_mass">Lượng cơ bắp</string>
+    <string name="body_fat">Mỡ cơ thể %</string>
+    <string name="intracellular_water">Nước trong Nội bào</string>
+    <string name="extracellular_water">Nước trong Ngoại bào</string>
+    <string name="protein">Chất đạm</string>
+    <string name="mineral">Chất khoáng</string>
+    <string name="waist_hip_ratio">Tỷ lệ eo hông</string>
+    <string name="obesity_degree">Mức độ béo phì</string>
+    <string name="input">đầu vào</string>
+    <string name="view_history">XEM LỊCH SỬ</string>
+    <string name="history">Lịch sử</string>
+    <string name="date">ngày</string>
+    <string name="info_weight_subtitle">Cân nặng</string>
+    <string name="info_bodyfat_percent_subtitle">Tỷ lệ mỡ cơ thể là tỷ lệ chất béo so với trọng lượng toàn thân.</string>
+    <string name="info_bmi_subtitle">Tỷ lệ so sánh giữa Tiêu chuẩn Chiều cao và Cân nặng, được dùng làm căn cứ cho chỉ tiêu sức khoẻ thông thường.</string>
+    <string name="info_bmr_subtitle">Mức năng lượng hoặc calo tối thiểu hàng ngày mà cơ thể bạn cần khi nghỉ ngơi (bao gồm cả ngủ) để hoạt động hiệu quả.</string>
+    <string name="info_total_body_water_subtitle">Tổng hàm lượng nước trong cơ thể là tổng lượng chất lỏng trong cơ thể cuả 1 người được thể hiện dưới dạng phần trăm cuả tổng trọng lượng toàn thân.</string>
+    <string name="info_visceral_fat_rating_subtitle">Vị trí mỡ bên trong nội tạng nằm sâu trong lòng bụng, bao bộc xung quanh , bảo vệ các cơ quan quan trọng.</string>
+    <string name="info_bone_mass_subtitle">Mật độ xương</string>
+    <string name="info_intracellular_water_subtitle">Nước trong Nội bào</string>
+    <string name="info_extracellular_water_subtitle">Nước trong Ngoại bào</string>
+    <string name="info_protein_subtitle">Chất đạm</string>
+    <string name="info_mineral_subtitle">Chất khoáng</string>
+    <string name="info_waist_hip_ratio_subtitle">Tỷ lệ eo hông</string>
+    <string name="info_obesity_degree_subtitle">Mức độ béo phì</string>
+
+    <string name="info_weight">Cân nặng</string>
+    <string name="info_bodyfat_percent">Mỡ cơ thể là thành phần không thể thiếu cần thiết để duy trì nhiệt độ cho cơ thể, làm mềm xương khớp và bảo vệ các cơ quan bên trong.Nếu mỡ quá nhiểu sẽ làm hại sức khoẻ lâu dài cuả bạn. Đã có báo cáo chứng thực là giảm lượng chất béo dư thừa trong cơ thể có thể trực tiếp giảm nguy cơ mắc một số bệnh nguy hiểm, như: cao huyết áp, bệnh tim mạch, bệnh tiểu đường loại 2 và một số bệnh ung thư.Nếu mỡ cơ thể quá ít có thể dẫn đến loãng xương ở tuổi về già, phụ nữ rối loạn kinh kỳ có thể dẫn đến vô sinh.Đối chiếu kết quả Mỡ cơ thể cuả bạn có nằm trong phạm vi bình thường là việc tương đối quan trọng.</string>
+    <string name="info_bmi">Tỷ lệ so sánh giữa Tiêu chuẩn Chiều cao và Cân nặng, được dùng làm căn cứ cho chỉ tiêu sức khoẻ thông thường.</string>
+    <string name="info_bmr">Tỷ lệ trao đổi chất cơ bản (BMR) là mức năng lượng hoặc calo tối thiểu hàng ngày mà cơ thể bạn cần khi nghỉ ngơi, để các cơ quan hô hấp và tuần hoàn, hệ thần kinh, gan, thận và các cơ quan khác hoạt động hiệu quả.</string>
+    <string name="info_total_body_water">Thành phần nước đóng vai trò quan trọng trong  các quá trình cuả cơ thể, các tế bào, tổ chức và cơ quan bên trong đều có thành phần nước. Việc duy trì tốt phần trăm tổng hàm lượng nước trong cơ thể, có thể giúp các chức năng trong cơ thể hoạt động hiệu quả, hạ thấp nguy cơ hình thành các vấn đề nguy hiểm đến sức khoẻ.</string>
+    <string name="info_visceral_fat_rating">Mỡ bên trong nội tạng (Mỡ bụng) là chất béo bao bộc xung quanh các cơ quan quan trọng trục thân/ dạ dầy.Tỷ lệ mỡ bên trong nội tạng quá nhiều là nguy cơ cao dẫn đến các bệnh cao huyết áp, bệnh tim mạch, bệnh tiểu đường loại 2. Giảm tỷ lệ mỡ trong nội tạng có thể ổn định tác dụng cuả kháng sinh insulin, làm giảm nguy cơ bệnh tiểu đường và các bệnh khác có liên quan.</string>
+    <string name="info_bone_mass">Mật độ xương</string>
+    <string name="info_intracellular_water">Nước trong Nội bào</string>
+    <string name="info_extracellular_water">Nước trong Ngoại bào</string>
+    <string name="info_protein">Chất đạm</string>
+    <string name="info_mineral">Chất khoáng</string>
+    <string name="info_waist_hip_ratio">Tỷ lệ eo hông</string>
+    <string name="info_obesity_degree">Mức độ béo phì</string>
+    <string name="trunk">Trục thân</string>
+    <string name="left_arm">Cánh tay trái</string>
+    <string name="right_arm">Cánh tay phải</string>
+    <string name="left_leg">Chân trái</string>
+    <string name="right_leg">Chân phải</string>
+    <string name="underfat">Không đủ</string>
+    <string name="healthy">Sức khoẻ</string>
+    <string name="overfat">Quá liều</string>
+    <string name="obese">Béo phì</string>
+    <string name="your_healthy_bone_mass">Mật độ xương tiêu chuẩn cuả bạn là </string>
+    <string name="your_ideal_weight">Trọng lượng lý tưởng của bạn</string>
+    <string name="your_health_waist_hip_ratio">Tỷ lệ eo hông chuẩn của bạn</string>
+    <string name="bd_infomation_title">Tổng quản Sức khoẻ sẽ hoạt động đồng bộ với Circle Fitness IBA hay InBody 570.</string>
+    <string name="bd_infomation_content">Kiểm tra xem thiết bị của bạn có hoạt động bình thường hay không.</string>
+    <string name="circle_fitness_iba">Circle Fitness IBA</string>
+    <string name="inbody_570">InBody 570</string>
+
+    <!-- HeartRate -->
+    <string name="hrc_dialog_info">Sử dụng chương trình "Tập điều chỉnh nhịp tim", có thể duy trì nhịp đập cuả mỗi phút mà bạn đã lựa chọn, khống chế tốc độ hoạt động và cường độ hoạt động cuả thiết bị Tim phổi để đạt đến biểu hiện vận động tốt nhất.</string>
+    <string name="fatburn">Đốt cháy mỡ cơ thể</string>
+    <string name="aerobic">Thể dục Aerobic</string>
+    <string name="performance">Biểu hiện</string>
+    <string name="customize">Tùy chỉnh</string>
+    <string name="years">Năm</string>
+    <string name="heart_rate">Nhịp tim</string>
+    <string name="bpm">Bpm</string>
+    <string name="min">Min</string>
+    <string name="hrc_info_fatburn">Cài đặt Nhịp tim giới hạn cao nhất 65%. Chương trình này sẽ điều chỉnh cường độ thích hợp, giúp bạn đạt đến Mục tiêu nhịp tim.</string>
+    <string name="hrc_info_aerobic">Cài đặt Nhịp tim giới hạn cao nhất 75%. Chương trình này sẽ điều chỉnh cường độ thích hợp, giúp bạn đạt đến Mục tiêu nhịp tim.</string>
+    <string name="hrc_info_performance">Cài đặt Nhịp tim giới hạn trên là 85%. Chương trình này sẽ điều chỉnh cường độ thích hợp, giúp bạn đạt đến Mục tiêu nhịp tim.</string>
+    <string name="hrc_info_customize">Cài đặt Mục tiêu Nhịp tim. Chương trình này sẽ điều chỉnh cường độ thích hợp, giúp bạn đạt đến mục tiêu bạn muốn.</string>
+    <string name="age">Tuổi</string>
+
+    <string name="age_range_error_msg">Hãy nhập số giá trị trong khoảng giữa từ </string>
+    <string name="duration">Thời gian duy trì</string>
+    <string name="profile">Tư liệu Cá Nhân</string>
+    <string name="change_password">Thay đổi mật khẩu</string>
+    <string name="data_syncing">Đồng bộ dữ liệu</string>
+    <string name="unit">Đơn vị</string>
+    <string name="old_password">Mật khẩu cũ</string>
+    <string name="new_password">Mật khẩu mới</string>
+    <string name="confirm_new_password">Xác nhận mật khẩu mới</string>
+    <string name="password_changed">Mật khẩu đã thay đổi</string>
+    <string name="old_password_incorrect">Mật khẩu cũ không chính xác</string>
+    <string name="new_password_incorrect">Hãy xác định mật khẩu phù hợp.</string>
+    <string name="month">Tháng</string>
+    <string name="year">Năm</string>
+    <string name="fitness_apps">Ứng dụng thể dục</string>
+    <string name="nike_plus">Nike+</string>
+    <string name="runkeeper">Runkeeper</string>
+    <string name="google_fit">Google Fit</string>
+    <string name="mymap">MyMap</string>
+    <string name="map_my_run">MapMyRun</string>
+    <string name="map_my_walk">MapMyWalk</string>
+    <string name="map_my_ride">MapMyRide</string>
+    <string name="wearable_apps">Ứng dụng của vòng tay thông minh</string>
+    <string name="fitbit">Fitbit</string>
+    <string name="jawbone">Jawbone</string>
+    <string name="garmin">Garmin</string>
+    <string name="on">ON</string>
+    <string name="off">OFF</string>
+    <string name="garmin_connect">Garmin kết nối</string>
+
+    <string name="gerkin_protocol">GERKIN PROTOCOL</string>
+    <string name="gerkin_test">GERKIN TEST</string>
+    <string name="cooper_test">COOPER TEST</string>
+    <string name="usmc_ptf">USMC PFT</string>
+    <string name="army_prt">ARMY PRT</string>
+    <string name="navy_prt">NAVY PRT</string>
+    <string name="usaf_ptf">USAF PRT</string>
+    <string name="federal_law">FEDERAL LAW</string>
+    <string name="vo2">VO2 MAX</string>
+    <string name="phy_dialog_info">Đo kiểm tra thể chất bao gồm các loại chương trình thể dục tập luyện tiêu chuẩn được ứng dụng để bình phẩm chức năng Tim phổi và Sức chịu đựng cuả các vận động viên quân đội Mỹ.</string>
+    <string name="phy_gerkin_protocol_info">Chương trình này ban đầu được thiết kế dành cho Nhân viên chữa cháy, dùng để kiểm tra nhịp tim, đồng thời đo nồng độ khí VO2. Khi bạn đạt đến mức giới hạn trên nhịp tim 85%, chương trình này sẽ tự động dừng lại.</string>
+    <string name="phy_cooper_test_info">Đo kiểm tra COOPER là thiết kế chủ yếu cho lính Mỹ, lấy khoảng cách vận động để đo chức năng cơ thể. Mục tiêu là để xem 1 người trong vòng 12 phút có thể chạy xa bao nhiêu.</string>
+    <string name="phy_usmc_ptf_info">Đo kiểm tra thể chất Hải quân là chạy bộ 3 dặm tính giờ. Với thử thách này, bạn chạy hết đoạn đường này càng nhanh càng tốt!</string>
+    <string name="phy_army_prt_info">Đo kiểm tra Huấn luyện thể chất Lục quân là chạy bộ 2 dặm tính giờ. Bạn cần chạy hết đoạn đường này càng nhanh càng tốt.</string>
+    <string name="phy_navy_prt_info">Kiểm tra thể chất Hải quân là chạy bộ 1.5 dặm tính giờ. Bạn cần chạy hết đoạn đường này càng nhanh càng tốt!</string>
+    <string name="phy_usaf_ptf_info">Kiểm tra thể chất Không quân là chạy bộ 1.5 dặm tính giờ. Bạn cần chạy hết đoạn đường này càng nhanh càng tốt!</string>
+    <string name="phy_federal_law_info">Là chạy bộ 1.5 dặm tính giờ. Bạn cần chạy hết đoạn đường này càng nhanh càng tốt!</string>
+    <string name="phy_vo2_info">Giá trị VO2 lớn nhất hay còn gọi là lượng khí oxy hít vào lớn nhất, là một trong số các nhân tố có thể phản đoán Sức chịu đựng cuả họ khi vận động viên tiến hành tập luyện Sức chịu đựng.</string>
+
+    <string name="manual">Hướng dẫn</string>
+    <string name="hill">Leo núi</string>
+    <string name="cardio">Luyện tập cardio - tập nhịp tim</string>
+    <string name="interval">Độ bền</string>
+    <string name="strenght">Cường độ</string>
+    <string name="rolling_hill">Leo núi</string>
+    <string name="incline">Dốc</string>
+    <string name="mountain_peak">Đỉnh núi</string>
+    <string name="constant_watt">Công suất (Watt) ổn định</string>
+    <string name="set_a_goal">THIẾT LẬP MỤC TIÊU</string>
+    <string name="select_goal">Chọn mục tiêu</string>
+    <string name="tr_dialog_info">Chúng tôi cung cấp khoá học Điều tiết chức năng Tim Phổi toàn diện, giúp tăng cường thể dục aerobic, huấn luyện sức chịu đựng cuả cơ thể, để mang đến bài tập có tính thử thách cao hơn!</string>
+    <string name="tr_manual_info">Hãy tập luyện theo Tốc độ và Cường độ phù hợp với bạn</string>
+    <string name="tr_hill_info">Lựa chọn chương trình Leo núi này để thử thách bản thân. Hẹn gặp trên đỉnh núi!</string>
+    <string name="tr_fatburn_info">Vận động với cường độ thấp, cơ thể có thể cung cấp lượng lớn dưỡng khí cho cơ bắp, để đốt cháy lượng mỡ tồn đọng trong cơ thể.</string>
+    <string name="tr_cardio_info">Đốt cháy lượng calories nhiều hơn, sử dụng chương trình này tăng cường việc điều tiết chức năng Tim Phổi.</string>
+    <string name="tr_strenght_info">Thử thách bản thân với hình thức vận động cường độ cao này.</string>
+    <string name="tr_interval_info">Bạn muốn gia tăng sức chịu đựng? Hình thức huấn luyện cách khoảng này có thể giúp bạn!</string>
+    <string name="tr_target_info">Hãy đặt Mục tiêu chỉ định cần đạt được, tiến hành luyện tập theo mục tiêu. Bạn có thể làm được!</string>
+    <string name="tr_rolling_hill_info">Dùng các hình thức vận động cách khoảng về cự ly và độ cao để thử thách bản thân.</string>
+    <string name="tr_mountains_peak_info">Sử dụng hình thức mô phỏng lối đi ngoài trời  chạy xe đạp lên dốc trên quãng đường nghiêng liên tục.</string>
+    <string name="tr_incline_info">Sử dụng hình thức mô phỏng lối đi ngoài trời, chạy xe đạp trên quãng đường ổn định và lên dốc liên tục.</string>
+    <string name="tr_constant_watt_info">Số công suất (Watt) đầu ra theo mục tiêu cuả bạn là bao nhiêu? Chương trình này sẽ điều chỉnh cường độ theo tốc độ đạp bàn đạp cuả bạn, giúp bạn đạt được mục tiêu.</string>
+    <string name="level">Cường độ</string>
+    <string name="easy">Mức độ thấp</string>
+    <string name="medium">Mức trung bình</string>
+    <string name="hard">Mức độ cao</string>
+    <string name="time">Thời gian</string>
+    <string name="stop">Dừng lại</string>
+    <string name="emergency">NGƯNG KHẨN CẤP</string>
+    <string name="emergency_note">Nhấn nút Ngưng khẩn cấp để thiết lập lại</string>
+    <string name="error">Bị lỗi</string>
+    <string name="error_codes">Mã số lỗi:</string>
+    <string name="resume">Tiếp tục</string>
+    <string name="pause">Tạm dừng</string>
+    <string name="no_heart_rate_detect">Không phát hiện nhịp tim. Xin vui lòng đặt trên vành đai ngực của bạn.</string>
+    <string name="workout_will_stop_in">Tập luyện thể dục dừng lại lúc %1$d:%2$02d</string>
+    <string name="heart_">Tập luyện thể dục dừng lại lúc %1$d:%2$02d</string>
+    <string name="reset">Cài đặt lại lúc </string>
+    <string name="system_will_be_auto_reset">Hệ thống sẽ tự khởi động khi không được vận hành trong 2 phút. </string>
+    <string name="press_continue">Nhấn Tiếp tục để tiếp tục.</string>
+    <string name="continue01">Tiếp tục</string>
+    <string name="current_heart_rate">nhịp tim hiện tại</string>
+    <string name="maximum_heart_rate">Nhịp tim cao nhất 85%</string>
+    <string name="warm_up">Khởi động cơ thể</string>
+    <string name="stage">Giai đoạn </string>
+    <string name="next">Bước kế tiếp</string>
+    <string name="cool_donw">Chậm lại</string>
+    <string name="time_required_60">Thời gian cần thiết để thông qua (Điểm số 60): x:xx</string>
+    <string name="remaining_time">Thời gian còn lại</string>
+    <string name="cardio_type">Loại hình chức năng Tim Phổi</string>
+    <string name="pace">Tốc độ chạy </string>
+    <string name="avg_pace">Tốc độ chạy bình quân</string>
+    <string name="best_pace">Tốc độ chạy tốt nhất</string>
+    <string name="total_distance">Tổng khoảng cách</string>
+    <string name="total_calories">Tổng Calories</string>
+    <string name="avg_heart_rate">Nhịp tim bình quân</string>
+    <string name="max_heart_rate">Nhịp tim cao nhất</string>
+    <string name="please_remember">Hãy nhớ thoát ra trước khi rời khỏi.</string>
+    <string name="complete">HOÀN THÀNH</string>
+    <string name="imcomplete">CHƯA HOÀN THÀNH</string>
+    <string name="treadmill">Máy chạy bộ</string>
+    <string name="summary">tóm lược</string>
+    <string name="very_good">Rất tốt</string>
+    <string name="good">Tốt</string>
+    <string name="average">Trung bình</string>
+    <string name="bad">Yếu</string>
+    <string name="very_bad">Rất yếu</string>
+    <string name="normal">Thông thường</string>
+    <string name="score">Điểm số</string>
+    <string name="low_risk">nguy cơ thấp</string>
+    <string name="moderate_risk">rủi ro vừa phải</string>
+    <string name="high_risk">rủi ro cao</string>
+    <string name="speed_decreases_to">giảm tốc độ xuống</string>
+    <string name="speed_increases_to">tăng tốc độ lên</string>
+    <string name="incline_decreases_to">mức độ nghiêng giảm xuống</string>
+    <string name="incline_increases_to">mức độ nghiêng tăng lên</string>
+    <string name="level_decreases_to">mức kháng cự giảm xuống</string>
+    <string name="level_increases_to">mức độ kháng tăng lên</string>
+    <string name="resistance_level_decreases">Cường độ lực cản sẽ giảm xuống đến %1$.1f trong 3 giây tới</string>
+    <string name="resistance_level_increases">Cường độ lực cản sẽ tăng lên đến %1$.1f trong 3 giây tới</string>
+    <string name="kph">KPH</string>
+    <string name="mph">MPH</string>
+    <string name="seconds">SECONDS</string>
+    <string name="in">IN</string>
+    <string name="simple">đơn giản</string>
+    <string name="lap">lòng</string>
+    <string name="speed">SPEEḌ</string>
+    <string name="calories_hour">CAL/HR.</string>
+    <string name="ellipse_time">thời gian</string>
+    <string name="target_time">thời gian mục tiêu</string>
+    <string name="target_hr">mục tiêu nhịp tim</string>
+    <string name="mets">METS</string>
+    <string name="rpm">RPM</string>
+    <string name="avg_rpm">AVG. RPM</string>
+    <string name="max_rpm">MAX. RPM</string>
+
+    <!-- Performance -->
+    <string name="session1">BÀI TẬP</string>
+    <string name="performance_dialog_info">Theo dõi hiệu suất tập luyện của bạn trên Các thiết bị tập luyện tim (cardio), ứng dụng luyện tập và các thiết bị tập luyện dạng đeo. So sánh kết quả tập luyện và thử thách bản thân.</string>
+    <string name="other">KHÁC</string>
+    <string name="avg_watt">Số Watt bình quân(W)</string>
+    <string name="share">chia sẻ</string>
+    <string name="add">Thêm vào</string>
+    <string name="select_date">chọn ngày</string>
+    <string name="select_time">chọn thời gian</string>
+    <string name="h">giờ</string>
+    <string name="m">phút</string>
+    <string name="watt">watt</string>
+    <string name="resistance_level">Cường độ</string>
+    <string name="vo2_faster_to_keep">paddling nhanh hơn để giữ cho công suất tại</string>
+    <string name="vo2_slowly_to_keep">paddling từ từ để giữ cho công suất tại</string>
+    <string name="target_watt">watt mục tiêu</string>
+    <string name="connection_lost">kết nối bị mất!</string>
+    <string name="data_upload_unsuccessful">tải lên dữ liệu không thành công!</string>
+    <string name="data_not_uploaded_to_circlecloudgo">Dữ liệu không được tải lên circlecloudgo do sự cố kết nối hoặc máy chủ!</string>
+    <string name="no_heart_rate_detected">Không phát hiện nhịp tim. Vui lòng đặt trên vành đai ngực của bạn hoặc đặt bàn tay của bạn trên cảm biến nhịp tim.</string>
+    <string name="auto_speed_cool_down_disabled">Tự động giảm Tốc độ đã không thể sử dụng</string>
+    <string name="auto_resistance_level_down_disabled">Tự động giảm Tốc độ đã không thể sử dụng</string>
+    <string name="show_history_data">hiển thị dữ liệu lịch sử</string>
+    <string name="show_monthly_total">hiển thị dữ liệu hàng tháng</string>
+    <string name="show_yearly_total">hiển thị dữ liệu hàng năm</string>
+    <string name="close">gần</string>
+    <string name="account">Tài khoản</string>
+
+
+    <!-- Tutorial -->
+    <string name="tutorial_first_1st">Chào mừng đến với CircleCloud Go, là ứng dụng quản lý sức khỏe đầy đủ nhất!</string>
+    <string name="tutorial_first_2st">Đây là vài gợi ý cho bạn bắt đầu.</string>
+    <string name="tutorial_target_1st">Cài đặt mục tiêu tập luyện bằng cách sử dụng Mục tiêu huấn luyện "icon%s"</string>
+    <string name="tutorial_target_2st">Mục tiêu luyện tập</string>
+    <string name="tutorial_gym_1st">Tiếp nhận các thông tin Ưu đãi cuả phòng tập bằng cách sử dụng "icon%s"</string>
+    <string name="tutorial_gym_2st">Phòng tập của tôi</string>
+    <string name="tutorial_performance_1st">Đo kết quả bằng cách sử dụng "icon%s" của tôi!</string>
+    <string name="tutorial_performance_2st">Hiệu suất luyện tập</string>
+    <string name="tutorial_workout_1st">tạo bài tập được cá nhân hóa bằng cách sử dụng "icon%s"</string>
+    <string name="tutorial_workout_2st">Bài tập của tôi</string>
+    <string name="tutorial_body_1st">Kiểm tra chỉ số luyện tập của bạn bằng cách sử dụng Tổng "icon%s"</string>
+    <string name="tutorial_body_2st">Quản lý Sức khoẻ </string>
+    <string name="tutorial_last_str">Tải miễn phí ứng dụng CircleFit để lưu lại tất cả nội dung.Dùng ứng dụng CircleFit để đăng nhập nhanh với Thiết bị tập luyện tim (cardio).</string>
+
+    <!-- Fan -->
+    <string name="fan_title">Quạt</string>
+    <string name="fan_info_off">Đóng</string>
+    <string name="fan_info_50">Thấp</string>
+    <string name="fan_info_100">Cao</string>
+
+    <!-- New Add -->
+    <string name="select_language">Chọn ngôn ngữ</string>
+    <string name="birthday_day">ngày</string>
+    <string name="emergency_note_FOR_M6">Đặt lại kẹp công tắc dừng khẩn cấp sẽ khởi động lại</string>
+    <string name="Logout_confirm">Có bỏ được không?</string>
+
+    <string name="WeekStr_1">Th2</string>
+    <string name="WeekStr_2">Th3</string>
+    <string name="WeekStr_3">Th4</string>
+    <string name="WeekStr_4">Th5</string>
+    <string name="WeekStr_5">Th6</string>
+    <string name="WeekStr_6">Th7</string>
+    <string name="WeekStr_7">CN</string>
+
+    <string name="month_1">Thg1</string>
+    <string name="month_2">Thg2</string>
+    <string name="month_3">Thg3</string>
+    <string name="month_4">Thg4</string>
+    <string name="month_5">Thg5</string>
+    <string name="month_6">Thg6</string>
+    <string name="month_7">Thg7</string>
+    <string name="month_8">Thg8</string>
+    <string name="month_9">Thg9</string>
+    <string name="month_10">Thg10</string>
+    <string name="month_11">Thg11</string>
+    <string name="month_12">Thg12</string>
+
+</resources>
