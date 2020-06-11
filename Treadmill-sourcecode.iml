@@ -3,7 +3,7 @@
   <component name="FacetManager">
     <facet type="java-gradle" name="Java-Gradle">
       <configuration>
-        <option name="BUILD_FOLDER_PATH" value="c:/users/tommymac/Documents/Alois_SignKey_8_inch" />
+        <option name="BUILD_FOLDER_PATH" value="$MODULE_DIR$/../SignKey_8_inch" />
         <option name="BUILDABLE" value="false" />
       </configuration>
     </facet>

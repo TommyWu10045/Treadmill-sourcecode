@@ -17,7 +17,8 @@ allprojects {
     repositories {
         jcenter()
         google()
-        buildDir = "c:/users/tommymac/Documents/Alois_SignKey_8_inch"
+       // buildDir = "c:/users/tommymac/Documents/Alois_SignKey_8_inch"
+        buildDir = "D:/Work_AREA/SignKey_8_inch"
         //Weibo
         maven { url "https://dl.bintray.com/thelasterstar/maven/" }
     }
