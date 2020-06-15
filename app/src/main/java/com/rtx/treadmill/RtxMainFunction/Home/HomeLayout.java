@@ -684,6 +684,11 @@ public class HomeLayout extends Rtx_BaseLayout {
 
         MyLog.d("---clickLogout");
         mMainActivity.mMainProcTreadmill.homeProc.vSetNextState(HomeState.PROC_LOGOUT);
+
+        //fix cann't logout issus by Tommy 20200615
+        mMainActivity.mMainProcTreadmill.vSetNextState(MainState.PROC_HOME);
+
+
     }
 
     private void vMainChangePage(MainState state)

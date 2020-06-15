@@ -360,7 +360,7 @@ public class Main02LayoutE extends Rtx_BaseLayoutE {
         int iLoop;
         String sdata;
 
-        sdata = "0";
+        sdata =  Consts.IBA_Zero;  // 20200615 Tommy
         for(iLoop = 0; iLoop < imax; iLoop++) {
             t_data[iLoop].setText(sdata, BodyManagerFunc.s_get_bodymanage_unit(mContext, istr_list[iLoop]));
         }

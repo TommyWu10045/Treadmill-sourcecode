@@ -24,6 +24,7 @@ import com.rtx.treadmill.RtxView.RtxImageView;
 import com.rtx.treadmill.RtxView.RtxTextView;
 import com.utils.Consts;
 import com.utils.MyLog;
+import com.utils.MyUtils;
 
 /**
  * Created by chasechang on 3/22/17.
@@ -289,7 +290,15 @@ public class Main02LayoutE extends Rtx_BaseLayoutE {
             }
             t_data[iLoop].setGap(igap);
             t_data[iLoop].setPaint(Common.Font.Relay_Black, idata_color, fsize, Common.Font.Relay_BlackItalic, Common.Color.bd_word_blue, fsize_unit);
-            t_data[iLoop].setText(sdata, BodyManagerFunc.s_get_bodymanage_unit(mContext, istr_list[iLoop]));
+          //  t_data[iLoop].setText(sdata, BodyManagerFunc.s_get_bodymanage_unit(mContext, istr_list[iLoop]));
+
+            MyLog.d("sdata===>"+sdata);
+            String v_sdata = sdata;
+            if(MyUtils.str2double(v_sdata)==0){
+                v_sdata=" ";
+            }
+            t_data[iLoop].setText(v_sdata, BodyManagerFunc.s_get_bodymanage_unit(mContext, istr_list[iLoop]));
+
 
             ix_temp = ix + ix_shift;
             iy_temp = iy + ih;
@@ -379,7 +388,7 @@ public class Main02LayoutE extends Rtx_BaseLayoutE {
         int iLoop;
         String sdata;
 
-        sdata = "0";
+        sdata =  Consts.IBA_Zero;  // 20200615 Tommy
         for(iLoop = 0; iLoop < imax; iLoop++) {
             t_data[iLoop].setText(sdata, BodyManagerFunc.s_get_bodymanage_unit(mContext, istr_list[iLoop]));
         }
@@ -389,10 +398,19 @@ public class Main02LayoutE extends Rtx_BaseLayoutE {
     {
         if(iedit_mode == 0)
         {
+
+            if( mMainActivity.mMainProcTreadmill.bodymanagerProc.mhaveChangeData){
+                i_edit_cancel.setVisibility(VISIBLE);
+            }else{
+                i_edit_cancel.setVisibility(INVISIBLE);
+            }
+
+
             v_icon_HandtoArrow();
         }
         else if(iedit_mode == 1)
         {
+            i_edit_cancel.setVisibility(INVISIBLE);
             v_icon_ArrowtoHand();
         }
 
@@ -402,6 +420,7 @@ public class Main02LayoutE extends Rtx_BaseLayoutE {
         }
         else
         {
+            i_edit_cancel.setVisibility(INVISIBLE);
             i_edit_pen.setVisibility(INVISIBLE);
         }
 
@@ -500,7 +519,11 @@ public class Main02LayoutE extends Rtx_BaseLayoutE {
         int iLoop;
 
         i_edit_pen.setImageResource(R.drawable.bd_edit_done);
-        i_edit_cancel.setVisibility(VISIBLE);
+        if( mMainActivity.mMainProcTreadmill.bodymanagerProc.mhaveChangeData){
+            i_edit_cancel.setVisibility(VISIBLE);
+        }else{
+            i_edit_cancel.setVisibility(INVISIBLE);
+        }
         for(iLoop = 0; iLoop < imax; iLoop++) {
             if(BodyManagerFunc.is_edit(mContext, istr_list[iLoop])) {
                 i_edit[iLoop].setImageResource(R.drawable.bd_edit_hand);
@@ -537,6 +560,8 @@ public class Main02LayoutE extends Rtx_BaseLayoutE {
 
     private void vEditPen_cancel_icon() {
         iedit_mode = 0;
+        mMainActivity.mMainProcTreadmill.bodymanagerProc.vSet_Edit_mode(iedit_mode);
+        mMainActivity.mMainProcTreadmill.bodymanagerProc.mhaveChangeData=false;
         v_icon_HandtoArrow();
         CloudDataStruct.BodyIndexData_05.v_BodyIndex_Undo();
 

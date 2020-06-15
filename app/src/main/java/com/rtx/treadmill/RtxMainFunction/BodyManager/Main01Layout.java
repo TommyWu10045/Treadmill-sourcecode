@@ -22,6 +22,7 @@ import com.rtx.treadmill.RtxView.RtxDoubleStringView;
 import com.rtx.treadmill.RtxView.RtxImageView;
 import com.rtx.treadmill.RtxView.RtxTextView;
 import com.utils.MyLog;
+import com.utils.MyUtils;
 
 import static com.retonix.circlecloud.Cloud_05_DB_BDY_IDX_REC.Input.fTAL_BDY_WAT;
 import static com.retonix.circlecloud.Cloud_05_DB_BDY_IDX_REC.Input.fVCL_FAT_RTG;
@@ -271,7 +272,19 @@ public class Main01Layout extends Rtx_BaseLayout {
             }
             t_data[iLoop].setGap(igap);
             t_data[iLoop].setPaint(Common.Font.Relay_Black, idata_color, fsize, Common.Font.Relay_BlackItalic, Common.Color.bd_word_blue, fsize_unit);
-            t_data[iLoop].setText(sdata, BodyManagerFunc.s_get_bodymanage_unit(mContext, istr_list[iLoop]));
+
+
+          //  t_data[iLoop].setText(sdata, BodyManagerFunc.s_get_bodymanage_unit(mContext, istr_list[iLoop]));
+
+            MyLog.d("sdata===>"+sdata);
+            String v_sdata = sdata;
+            if(MyUtils.str2double(v_sdata)==0){
+                v_sdata=" ";
+            }
+            t_data[iLoop].setText(v_sdata, BodyManagerFunc.s_get_bodymanage_unit(mContext, istr_list[iLoop]));
+
+
+
             ix_temp = ix + 40;//By Alan
             iy_temp = iy + ih;
             iw_temp = 260;//By Alan
@@ -419,6 +432,7 @@ public class Main01Layout extends Rtx_BaseLayout {
         i_bodyfat.setVisibility(INVISIBLE);
         t_bodyfat.setVisibility(INVISIBLE);
         i_edit_pen.setImageResource(R.drawable.bd_edit_done);
+
         if( mMainActivity.mMainProcTreadmill.bodymanagerProc.mhaveChangeData){
             i_edit_cancel.setVisibility(VISIBLE);
         }else{
@@ -455,6 +469,8 @@ public class Main01Layout extends Rtx_BaseLayout {
 
     private void vEditPen_cancel_icon() {
         iedit_mode = 0;
+        mMainActivity.mMainProcTreadmill.bodymanagerProc.vSet_Edit_mode(iedit_mode);
+        mMainActivity.mMainProcTreadmill.bodymanagerProc.mhaveChangeData=false;
         v_icon_HandtoArrow();
         CloudDataStruct.BodyIndexData_05.v_BodyIndex_Undo();
 
